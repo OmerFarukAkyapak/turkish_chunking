@@ -1,0 +1,4632 @@
+# text = Bir varmış, bir yokmuş.
+1	Bir	B-NP
+2	varmış	B-VP
+3	,	O
+4	bir	B-NP
+5	yokmuş	B-VP
+6	.	O
+
+# text = Evvel zaman içinde bir Keloğlan varmış.
+1	Evvel	B-ADVP
+2	zaman	I-ADVP
+3	içinde	I-ADVP
+4	bir	B-NP
+5	Keloğlan	I-NP
+6	varmış	B-VP
+7	.	O
+
+# text = İhtiyar ve yoksul annesi, bu biricik oğlunu "Keloğlum, keleş oğlum" diye severmiş.
+1	İhtiyar	B-ADJP
+2	ve	I-ADJP
+3	yoksul	I-ADJP
+4	annesi	B-NP
+5	,	O
+6	bu	B-NP
+7	biricik	I-NP
+8	oğlunu	I-NP
+9	"	O
+10	Keloğlum	B-NP
+11	,	O
+12	keleş	B-NP
+13	oğlum	I-NP
+14	"	O
+15	diye	B-ADVP
+16	severmiş	B-VP
+17	.	O
+
+# text = Günlerden bir gün Keloğlan annesinden izin alıp balık tutmaya gitmiş.
+1	Günlerden	B-ADVP
+2	bir	I-ADVP
+3	gün	I-ADVP
+4	Keloğlan	B-NP
+5	annesinden	B-NP
+6	izin	B-NP
+7	alıp	B-VP
+8	balık	B-NP
+9	tutmaya	B-VP
+10	gitmiş	I-VP
+11	.	O
+
+# text = Belki bir kaç balık yakalarım.
+1	Belki	B-ADVP
+2	bir	B-NP
+3	kaç	I-NP
+4	balık	I-NP
+5	yakalarım	B-VP
+6	.	O
+
+# text = Aç karnımızı doyururuz" diye düşünüyormuş.
+1	Aç	B-ADJP
+2	karnımızı	B-NP
+3	doyururuz	B-VP
+4	"	O
+5	diye	B-ADVP
+6	düşünüyormuş	B-VP
+7	.	O
+
+# text = ırmağın kenarına gelip oltasını salmış.
+1	ırmağın	B-NP
+2	kenarına	I-NP
+3	gelip	B-VP
+4	oltasını	B-NP
+5	salmış	B-VP
+6	.	O
+
+# text = Öğleye doğru kocaman bir balık tutmuş.
+1	Öğleye	B-ADVP
+2	doğru	I-ADVP
+3	kocaman	B-ADJP
+4	bir	B-NP
+5	balık	I-NP
+6	tutmuş	B-VP
+7	.	O
+
+# text = Pulları gümüş gibi parlak, gözleri cam gibi aydınlık, güzel mi güzel bir balıkmış bu...
+1	Pulları	B-NP
+2	gümüş	B-NP
+3	gibi	I-NP
+4	parlak	B-ADJP
+5	,	O
+6	gözleri	B-NP
+7	cam	B-NP
+8	gibi	I-NP
+9	aydınlık	B-ADJP
+10	,	O
+11	güzel	B-ADJP
+12	mi	I-ADJP
+13	güzel	I-ADJP
+14	bir	B-NP
+15	balıkmış	I-NP
+16	bu	I-NP
+17	...	O
+
+# text = Keloğlan balığın pullarını kazımış, karnını yarıp temizlemek istemiş.
+1	Keloğlan	B-NP
+2	balığın	B-NP
+3	pullarını	I-NP
+4	kazımış	B-VP
+5	,	O
+6	karnını	B-NP
+7	yarıp	B-VP
+8	temizlemek	I-VP
+9	istemiş	I-VP
+10	.	O
+
+# text = Balığın karnı içinde kocaman bir tas durmuyor mu?
+1	Balığın	B-NP
+2	karnı	I-NP
+3	içinde	B-ADVP
+4	kocaman	B-ADJP
+5	bir	B-NP
+6	tas	I-NP
+7	durmuyor	B-VP
+8	mu	I-VP
+9	?	O
+
+# text = Keloğlan bir sevinmiş, bir sevinmiş ki sormayın.
+1	Keloğlan	B-NP
+2	bir	B-ADVP
+3	sevinmiş	B-VP
+4	,	O
+5	bir	B-ADVP
+6	sevinmiş	B-VP
+7	ki	O
+8	sormayın	B-VP
+9	.	O
+
+# text = "Hem balığı götürürüm anama, hem tası" demiş.
+1	"	O
+2	Hem	B-ADVP
+3	balığı	B-NP
+4	götürürüm	B-VP
+5	anama	B-NP
+6	,	O
+7	hem	B-ADVP
+8	tası	B-NP
+9	"	O
+10	demiş	B-VP
+11	.	O
+
+# text = Tası su ile doldurup balığı yıkamak istemiş.
+1	Tası	B-NP
+2	su	B-NP
+3	ile	I-NP
+4	doldurup	B-VP
+5	balığı	B-NP
+6	yıkamak	B-VP
+7	istemiş	I-VP
+8	.	O
+
+# text = Birden inanılmayacak bir şey olmuş.
+1	Birden	B-ADVP
+2	inanılmayacak	B-ADJP
+3	bir	B-NP
+4	şey	I-NP
+5	olmuş	B-VP
+6	.	O
+
+# text = Tastan boşalttığı sular altın olarak akıyormuş yere.
+1	Tastan	B-NP
+2	boşalttığı	I-NP
+3	sular	I-NP
+4	altın	B-NP
+5	olarak	B-ADVP
+6	akıyormuş	B-VP
+7	yere	B-NP
+8	.	O
+
+# text = Bir kaç kere denemiş, hep altın akıyormuş tastan.
+1	Bir	B-NP
+2	kaç	I-NP
+3	kere	I-NP
+4	denemiş	B-VP
+5	,	O
+6	hep	B-ADVP
+7	altın	B-NP
+8	akıyormuş	B-VP
+9	tastan	B-NP
+10	.	O
+
+# text = "Bu, sihirli bir tas galiba.
+1	"	O
+2	Bu	B-NP
+3	,	O
+4	sihirli	B-ADJP
+5	bir	B-NP
+6	tas	I-NP
+7	galiba	B-ADVP
+8	.	O
+
+# text = Hemen anama haber vereyim" demiş.
+1	Hemen	B-ADVP
+2	anama	B-NP
+3	haber	I-NP
+4	vereyim	B-VP
+5	"	O
+6	demiş	B-VP
+7	.	O
+
+# text = Sihirli tasa küpler dolusu suyu doldurup doldurup boşaltmış.
+1	Sihirli	B-ADJP
+2	tasa	B-NP
+3	küpler	B-NP
+4	dolusu	I-NP
+5	suyu	I-NP
+6	doldurup	B-VP
+7	doldurup	I-VP
+8	boşaltmış	I-VP
+9	.	O
+
+# text = Suyu boşalan küplere de altınları biriktirmiş.
+1	Suyu	B-NP
+2	boşalan	I-NP
+3	küplere	I-NP
+4	de	B-ADVP
+5	altınları	B-NP
+6	biriktirmiş	B-VP
+7	.	O
+
+# text = Artık ülke hükümdarı bile onun yanında fakir sayılırmış...
+1	Artık	B-ADVP
+2	ülke	B-NP
+3	hükümdarı	I-NP
+4	bile	B-ADVP
+5	onun	B-NP
+6	yanında	I-NP
+7	fakir	B-ADJP
+8	sayılırmış	B-VP
+9	...	O
+
+# text = Keloğlan günler sonra büyük bir saray yaptırıp oraya taşınmış.
+1	Keloğlan	B-NP
+2	günler	B-ADVP
+3	sonra	I-ADVP
+4	büyük	B-ADJP
+5	bir	B-NP
+6	saray	I-NP
+7	yaptırıp	B-VP
+8	oraya	B-ADVP
+9	taşınmış	B-VP
+10	.	O
+
+# text = Sevdiği ve istediği her şeyi alıyor, en güzel yemekleri yiyormuş.
+1	Sevdiği	B-NP
+2	ve	I-NP
+3	istediği	I-NP
+4	her	I-NP
+5	şeyi	I-NP
+6	alıyor	B-VP
+7	,	O
+8	en	B-ADJP
+9	güzel	I-ADJP
+10	yemekleri	B-NP
+11	yiyormuş	B-VP
+12	.	O
+
+# text = Sonunda altınlarının çokluğu onu şımartmaya başlamış.
+1	Sonunda	B-ADVP
+2	altınlarının	B-NP
+3	çokluğu	I-NP
+4	onu	B-NP
+5	şımartmaya	B-VP
+6	başlamış	I-VP
+7	.	O
+
+# text = Gereksiz masraflara, lüzumsuz harcamalara girişmiş.
+1	Gereksiz	B-ADJP
+2	masraflara	B-NP
+3	,	O
+4	lüzumsuz	B-ADJP
+5	harcamalara	B-NP
+6	girişmiş	B-VP
+7	.	O
+
+# text = "Oğlum bu işin sonu kötü olabilir" diye öğüt vermeye çalışan anasını bile dinlememiş.
+1	"	O
+2	Oğlum	B-NP
+3	bu	B-NP
+4	işin	I-NP
+5	sonu	I-NP
+6	kötü	B-ADJP
+7	olabilir	B-VP
+8	"	O
+9	diye	B-ADVP
+10	öğüt	B-NP
+11	vermeye	B-VP
+12	çalışan	I-VP
+13	anasını	B-NP
+14	bile	B-ADVP
+15	dinlememiş	B-VP
+16	.	O
+
+# text = "Sihirli tas elimde, ne istersem yapabilirim..." diyormuş.
+1	"	O
+2	Sihirli	B-ADJP
+3	tas	B-NP
+4	elimde	B-NP
+5	,	O
+6	ne	B-NP
+7	istersem	B-VP
+8	yapabilirim	I-VP
+9	...	O
+10	"	O
+11	diyormuş	B-VP
+12	.	O
+
+# text = Keloğlan'ın böyle kendini beğenmesi, şımarması ve hırsa kapılması, insanların ona duyduğu sevgiyi azaltmış.
+1	Keloğlan'ın	B-NP
+2	böyle	B-ADVP
+3	kendini	B-NP
+4	beğenmesi	B-VP
+5	,	O
+6	şımarması	B-VP
+7	ve	O
+8	hırsa	B-NP
+9	kapılması	B-VP
+10	,	O
+11	insanların	B-NP
+12	ona	I-NP
+13	duyduğu	I-NP
+14	sevgiyi	I-NP
+15	azaltmış	B-VP
+16	.	O
+
+# text = Herkes "Eski hali bundan daha iyiydi.
+1	Herkes	B-NP
+2	"	O
+3	Eski	B-ADJP
+4	hali	B-NP
+5	bundan	B-NP
+6	daha	B-ADVP
+7	iyiydi	B-VP
+8	.	O
+
+# text = Gözünü hırs bürüdü Keloğlan'ın" demeye başlamış.
+1	Gözünü	B-NP
+2	hırs	B-NP
+3	bürüdü	B-VP
+4	Keloğlan'ın	B-NP
+5	"	O
+6	demeye	B-VP
+7	başlamış	I-VP
+8	.	O
+
+# text = Keloğlan bir gün daha çok altın elde etmek için, sihirli tasını eline alıp ırmağın kenarına gelmiş.
+1	Keloğlan	B-NP
+2	bir	B-ADVP
+3	gün	I-ADVP
+4	daha	B-ADVP
+5	çok	I-ADVP
+6	altın	B-NP
+7	elde	B-NP
+8	etmek	B-VP
+9	için	O
+10	,	O
+11	sihirli	B-ADJP
+12	tasını	B-NP
+13	eline	I-NP
+14	alıp	B-VP
+15	ırmağın	B-NP
+16	kenarına	I-NP
+17	gelmiş	B-VP
+18	.	O
+
+# text = "Suyu tükenecek değil ya, bir saray da buraya yaptırayım.
+1	"	O
+2	Suyu	B-NP
+3	tükenecek	B-VP
+4	değil	B-ADJP
+5	ya	B-ADVP
+6	,	O
+7	bir	B-NP
+8	saray	I-NP
+9	da	B-ADVP
+10	buraya	B-ADVP
+11	yaptırayım	B-VP
+12	.	O
+
+# text = Gurur ve kibirle tasını suya daldırmış.
+1	Gurur	B-NP
+2	ve	I-NP
+3	kibirle	I-NP
+4	tasını	B-NP
+5	suya	B-NP
+6	daldırmış	B-VP
+7	.	O
+
+# text = Kıyıda biriken altınlar hırsını artırıyormuş.
+1	Kıyıda	B-ADVP
+2	biriken	B-ADJP
+3	altınlar	B-NP
+4	hırsını	B-NP
+5	artırıyormuş	B-VP
+6	.	O
+
+# text = Daha hızlı daha hızlı daldırmaya başlamış tası.
+1	Daha	B-ADVP
+2	hızlı	I-ADVP
+3	daha	B-ADVP
+4	hızlı	I-ADVP
+5	daldırmaya	B-VP
+6	başlamış	I-VP
+7	tası	B-NP
+8	.	O
+
+# text = Artık altınlardan başka bir şey düşünmüyormuş.
+1	Artık	B-ADVP
+2	altınlardan	B-NP
+3	başka	B-ADJP
+4	bir	B-NP
+5	şey	I-NP
+6	düşünmüyormuş	B-VP
+7	.	O
+
+# text = Birden tas elinden kayıp suya düşmüş.
+1	Birden	B-ADVP
+2	tas	B-NP
+3	elinden	I-NP
+4	kayıp	B-VP
+5	suya	B-NP
+6	düşmüş	B-VP
+7	.	O
+
+# text = Keloğlan onu tutmak için eğilince kendisi de ırmağa yuvarlanmış.
+1	Keloğlan	B-NP
+2	onu	B-NP
+3	tutmak	B-VP
+4	için	O
+5	eğilince	B-VP
+6	kendisi	B-NP
+7	de	B-ADVP
+8	ırmağa	B-NP
+9	yuvarlanmış	B-VP
+10	.	O
+
+# text = Yüzme bilmediği için hızla akan ırmakta nerdeyse boğulacakmış.
+1	Yüzme	B-NP
+2	bilmediği	B-VP
+3	için	O
+4	hızla	B-ADVP
+5	akan	B-ADJP
+6	ırmakta	B-NP
+7	nerdeyse	B-ADVP
+8	boğulacakmış	B-VP
+9	.	O
+
+# text = Kendisi suda çırpınıp dururken,biriktirdiği altınları da hırsızlar çalıp götürmüşler.
+1	Kendisi	B-NP
+2	suda	B-NP
+3	çırpınıp	B-VP
+4	dururken	I-VP
+5	,	O
+6	biriktirdiği	B-ADJP
+7	altınları	B-NP
+8	da	B-ADVP
+9	hırsızlar	B-NP
+10	çalıp	B-VP
+11	götürmüşler	I-VP
+12	.	O
+
+# text = Artık tası bulmanın da imkanı kalmadığından ağlaya ağlaya annesinin yanına dönmüş.
+1	Artık	B-ADVP
+2	tası	B-NP
+3	bulmanın	B-VP
+4	da	B-ADVP
+5	imkanı	B-NP
+6	kalmadığından	B-VP
+7	ağlaya	B-ADVP
+8	ağlaya	I-ADVP
+9	annesinin	B-NP
+10	yanına	I-NP
+11	dönmüş	B-VP
+12	.	O
+
+# text = Yaşlı kadın: - Üzülme yavrum, demiş.
+1	Yaşlı	B-ADJP
+2	kadın	B-NP
+3	:	O
+4	-	O
+5	Üzülme	B-VP
+6	yavrum	B-NP
+7	,	O
+8	demiş	B-VP
+9	.	O
+
+# text = Zaten, sen o tası alnının teri, elinin emeği ile kazanmamıştın.
+1	Zaten	B-ADVP
+2	,	O
+3	sen	B-NP
+4	o	B-NP
+5	tası	I-NP
+6	alnının	B-NP
+7	teri	I-NP
+8	,	O
+9	elinin	B-NP
+10	emeği	I-NP
+11	ile	I-NP
+12	kazanmamıştın	B-VP
+13	.	O
+
+# text = Üstelik zenginlik seni iyice şımartmıştı.
+1	Üstelik	B-ADVP
+2	zenginlik	B-NP
+3	seni	B-NP
+4	iyice	B-ADVP
+5	şımartmıştı	B-VP
+6	.	O
+
+# text = Hiç olmazsa kendini başkalarından üstün görme hastalığından kurtulursun." Keloğlan bu sözlerle teselli bulmuş.
+1	Hiç	B-ADVP
+2	olmazsa	I-ADVP
+3	kendini	B-NP
+4	başkalarından	B-NP
+5	üstün	B-ADJP
+6	görme	B-VP
+7	hastalığından	B-NP
+8	kurtulursun	B-VP
+9	.	O
+10	"	O
+11	Keloğlan	B-NP
+12	bu	I-NP
+13	sözlerle	I-NP
+14	teselli	B-NP
+15	bulmuş	B-VP
+16	.	O
+
+# text = O günden sonra da Sihirli Tası bir daha hiç anmamış...
+1	O	B-NP
+2	günden	I-NP
+3	sonra	B-ADVP
+4	da	B-ADVP
+5	Sihirli	B-ADJP
+6	Tası	B-NP
+7	bir	B-ADVP
+8	daha	I-ADVP
+9	hiç	I-ADVP
+10	anmamış	B-VP
+11	...	O
+
+# text = Hikaye Oku; Bu hikaye bana bir iki sene evvel Amerikalı bir doktor tarafından anlatıldı.
+1	Hikaye	B-NP
+2	Oku	B-VP
+3	;	O
+4	Bu	B-NP
+5	hikaye	I-NP
+6	bana	B-NP
+7	bir	B-NP
+8	iki	I-NP
+9	sene	I-NP
+10	evvel	B-ADVP
+11	Amerikalı	B-ADJP
+12	bir	B-NP
+13	doktor	I-NP
+14	tarafından	I-NP
+15	anlatıldı	B-VP
+16	.	O
+
+# text = Ona Floransa’ya giden Amerikan ekspresinde rastladım.
+1	Ona	B-NP
+2	Floransa’ya	B-NP
+3	giden	B-ADJP
+4	Amerikan	B-ADJP
+5	ekspresinde	B-NP
+6	rastladım	B-VP
+7	.	O
+
+# text = Şehri ondan iyi taradığımdan kendisine küçük bir yardımım dokunabileceğini söyledim.
+1	Şehri	B-NP
+2	ondan	B-NP
+3	iyi	B-ADVP
+4	taradığımdan	B-VP
+5	kendisine	B-NP
+6	küçük	B-ADJP
+7	bir	B-NP
+8	yardımım	I-NP
+9	dokunabileceğini	B-VP
+10	söyledim	I-VP
+11	.	O
+
+# text = Teşekkürü, beni akşam yemeğine davet oldu.
+1	Teşekkürü	B-NP
+2	,	O
+3	beni	B-NP
+4	akşam	B-NP
+5	yemeğine	I-NP
+6	davet	B-NP
+7	oldu	B-VP
+8	.	O
+
+# text = Bir şişe şampanyayı birlikte bitirirken birbirimize daha da büyük bir sempati ile bağlandık.
+1	Bir	B-NP
+2	şişe	I-NP
+3	şampanyayı	I-NP
+4	birlikte	B-ADVP
+5	bitirirken	B-VP
+6	birbirimize	B-NP
+7	daha	B-ADVP
+8	da	I-ADVP
+9	büyük	B-ADJP
+10	bir	B-NP
+11	sempati	I-NP
+12	ile	I-NP
+13	bağlandık	B-VP
+14	.	O
+
+# text = Ama ikinci şişe şampanyayı bitirdiğimizde, bana harikulade cazip bir arkadaş olarak görünmeye başladı.
+1	Ama	O
+2	ikinci	B-ADJP
+3	şişe	B-NP
+4	şampanyayı	I-NP
+5	bitirdiğimizde	B-VP
+6	,	O
+7	bana	B-NP
+8	harikulade	B-ADJP
+9	cazip	I-ADJP
+10	bir	B-NP
+11	arkadaş	I-NP
+12	olarak	B-ADVP
+13	görünmeye	B-VP
+14	başladı	I-VP
+15	.	O
+
+# text = Doktor bana mesleği ile ilgili meraklı fıkralar anlattı.
+1	Doktor	B-NP
+2	bana	B-NP
+3	mesleği	B-NP
+4	ile	I-NP
+5	ilgili	I-NP
+6	meraklı	B-ADJP
+7	fıkralar	B-NP
+8	anlattı	B-VP
+9	.	O
+
+# text = İnsan vücudu denen beşeri makineyi ölümün çeşitli oyunlarla akıl almaz yönlere sürükleyip bir oyuncak haline getirdiğini belirtti.
+1	İnsan	B-NP
+2	vücudu	I-NP
+3	denen	I-NP
+4	beşeri	B-ADJP
+5	makineyi	B-NP
+6	ölümün	B-NP
+7	çeşitli	B-ADJP
+8	oyunlarla	B-NP
+9	akıl	B-NP
+10	almaz	I-NP
+11	yönlere	I-NP
+12	sürükleyip	B-VP
+13	bir	B-NP
+14	oyuncak	I-NP
+15	haline	I-NP
+16	getirdiğini	B-VP
+17	belirtti	I-VP
+18	.	O
+
+# text = Sakin bir sesle konuşurken mikrobiyoloji profesörümü hatırlıyordum… Okul senelerimi yeniden yaşatıyordu bana.
+1	Sakin	B-ADJP
+2	bir	B-NP
+3	sesle	I-NP
+4	konuşurken	B-VP
+5	mikrobiyoloji	B-NP
+6	profesörümü	I-NP
+7	hatırlıyordum	B-VP
+8	…	O
+9	Okul	B-NP
+10	senelerimi	I-NP
+11	yeniden	B-ADVP
+12	yaşatıyordu	B-VP
+13	bana	B-NP
+14	.	O
+
+# text = Kendimi mikroskobun üzerine eğilmiş, bütün dikkatini küçük şeylere vermiş bir öğrenci gibi hissediyordum.
+1	Kendimi	B-NP
+2	mikroskobun	B-NP
+3	üzerine	I-NP
+4	eğilmiş	B-ADJP
+5	,	O
+6	bütün	B-NP
+7	dikkatini	I-NP
+8	küçük	B-ADJP
+9	şeylere	B-NP
+10	vermiş	B-VP
+11	bir	B-NP
+12	öğrenci	I-NP
+13	gibi	B-ADVP
+14	hissediyordum	B-VP
+15	.	O
+
+# text = Bazıları öylesine akıl almaz değişikliklerdeydi ki, benzerine ancak bir iki eski kitapta rastlayabildim.
+1	Bazıları	B-NP
+2	öylesine	B-ADVP
+3	akıl	B-NP
+4	almaz	I-NP
+5	değişikliklerdeydi	B-VP
+6	ki	O
+7	,	O
+8	benzerine	B-NP
+9	ancak	B-ADVP
+10	bir	B-NP
+11	iki	I-NP
+12	eski	B-ADJP
+13	kitapta	B-NP
+14	rastlayabildim	B-VP
+15	.	O
+
+# text = Belki de doktorların böyle şeylere rastlaması olağan üstü bir şey değildir diye düşünüyorsunuzdur değil mi?
+1	Belki	B-ADVP
+2	de	I-ADVP
+3	doktorların	B-NP
+4	böyle	B-ADVP
+5	şeylere	B-NP
+6	rastlaması	B-VP
+7	olağan	B-ADJP
+8	üstü	I-ADJP
+9	bir	B-NP
+10	şey	I-NP
+11	değildir	B-VP
+12	diye	B-ADVP
+13	düşünüyorsunuzdur	B-VP
+14	değil	B-ADJP
+15	mi	I-ADJP
+16	?	O
+
+# text = Ama değil… Hele biri var ki, nasıl söyleyeyim, ayıpla karışık bir anlama sarılıp olduğundan, herkese anlatmaya bile sıkılırım.
+1	Ama	O
+2	değil	B-ADJP
+3	…	O
+4	Hele	B-ADVP
+5	biri	B-NP
+6	var	B-VP
+7	ki	O
+8	,	O
+9	nasıl	B-ADVP
+10	söyleyeyim	B-VP
+11	,	O
+12	ayıpla	B-NP
+13	karışık	B-ADJP
+14	bir	B-NP
+15	anlama	I-NP
+16	sarılıp	B-VP
+17	olduğundan	I-VP
+18	,	O
+19	herkese	B-NP
+20	anlatmaya	B-VP
+21	bile	B-ADVP
+22	sıkılırım	B-VP
+23	.	O
+
+# text = Ama onu bu gece size açıklayacağım.
+1	Ama	O
+2	onu	B-NP
+3	bu	B-NP
+4	gece	I-NP
+5	size	B-NP
+6	açıklayacağım	B-VP
+7	.	O
+
+# text = Gördüklerinize biraz olsun mantıki bir izah şekli verip, içinize kuvvet dolduracak olan ilmî açıklamaları hiç bir kitapta bulamazsınız, işte o zaman derin bir şekilde sarsılırsınız.
+1	Gördüklerinize	B-NP
+2	biraz	B-ADVP
+3	olsun	I-ADVP
+4	mantıki	B-ADJP
+5	bir	B-NP
+6	izah	I-NP
+7	şekli	I-NP
+8	verip	B-VP
+9	,	O
+10	içinize	B-NP
+11	kuvvet	B-NP
+12	dolduracak	B-VP
+13	olan	I-VP
+14	ilmî	B-ADJP
+15	açıklamaları	B-NP
+16	hiç	B-ADVP
+17	bir	I-ADVP
+18	kitapta	B-NP
+19	bulamazsınız	B-VP
+20	,	O
+21	işte	B-ADVP
+22	o	B-NP
+23	zaman	I-NP
+24	derin	B-ADJP
+25	bir	B-NP
+26	şekilde	I-NP
+27	sarsılırsınız	B-VP
+28	.	O
+
+# text = Çocukluğumuzun beraber geçtiği Hunter isminde bir arkadaşım vardı.
+1	Çocukluğumuzun	B-NP
+2	beraber	B-ADVP
+3	geçtiği	B-VP
+4	Hunter	B-NP
+5	isminde	I-NP
+6	bir	I-NP
+7	arkadaşım	I-NP
+8	vardı	B-VP
+9	.	O
+
+# text = Senelerce Filadelfia’nın kenar mahallerinin birinde bir arada yaşadık.
+1	Senelerce	B-ADVP
+2	Filadelfia’nın	B-NP
+3	kenar	I-NP
+4	mahallerinin	I-NP
+5	birinde	I-NP
+6	bir	B-ADVP
+7	arada	I-ADVP
+8	yaşadık	B-VP
+9	.	O
+
+# text = Hayvanları sevme ve bazı böcekleri koleksiyon yapma merakı ikimize de aynı zamanda gelmişti.
+1	Hayvanları	B-NP
+2	sevme	B-VP
+3	ve	O
+4	bazı	B-NP
+5	böcekleri	I-NP
+6	koleksiyon	B-NP
+7	yapma	B-VP
+8	merakı	B-NP
+9	ikimize	B-NP
+10	de	B-ADVP
+11	aynı	B-ADJP
+12	zamanda	B-NP
+13	gelmişti	B-VP
+14	.	O
+
+# text = Hunter’lerin bahçelerinde kullanılmayan bir ambar vardı.
+1	Hunter’lerin	B-NP
+2	bahçelerinde	I-NP
+3	kullanılmayan	B-ADJP
+4	bir	B-NP
+5	ambar	I-NP
+6	vardı	B-VP
+7	.	O
+
+# text = Fare kapanlarımızı, tavşan kafeslerimizi oraya yerleştirirdik.
+1	Fare	B-NP
+2	kapanlarımızı	I-NP
+3	,	O
+4	tavşan	B-NP
+5	kafeslerimizi	I-NP
+6	oraya	B-ADVP
+7	yerleştirirdik	B-VP
+8	.	O
+
+# text = Bazı zamanlar sepetlerimiz çeşit çeşit hayvanlarla dolardı.
+1	Bazı	B-NP
+2	zamanlar	I-NP
+3	sepetlerimiz	B-NP
+4	çeşit	B-ADJP
+5	çeşit	I-ADJP
+6	hayvanlarla	B-NP
+7	dolardı	B-VP
+8	.	O
+
+# text = Biriktirmeye başladığımız hayvanlar gün geçtikçe artmaktaydı.
+1	Biriktirmeye	B-VP
+2	başladığımız	I-VP
+3	hayvanlar	B-NP
+4	gün	B-ADVP
+5	geçtikçe	I-ADVP
+6	artmaktaydı	B-VP
+7	.	O
+
+# text = Kafeslerimiz ve sepetlerimiz ağzına kadar dolmuştu.
+1	Kafeslerimiz	B-NP
+2	ve	I-NP
+3	sepetlerimiz	I-NP
+4	ağzına	B-ADVP
+5	kadar	I-ADVP
+6	dolmuştu	B-VP
+7	.	O
+
+# text = Tabiî, bunlarda garip olan bir taraf yoktu.
+1	Tabiî	B-ADVP
+2	,	O
+3	bunlarda	B-NP
+4	garip	B-ADJP
+5	olan	I-ADJP
+6	bir	B-NP
+7	taraf	I-NP
+8	yoktu	B-VP
+9	.	O
+
+# text = Bütün çocuklar, hayvanları kendilerine alıştırma ve sevme devresini geçirirler.
+1	Bütün	B-NP
+2	çocuklar	I-NP
+3	,	O
+4	hayvanları	B-NP
+5	kendilerine	B-NP
+6	alıştırma	B-VP
+7	ve	O
+8	sevme	B-VP
+9	devresini	B-NP
+10	geçirirler	B-VP
+11	.	O
+
+# text = Garip olan şudur ki, Hunter bu devreden hiç çıkmadı.
+1	Garip	B-ADJP
+2	olan	I-ADJP
+3	şudur	B-VP
+4	ki	O
+5	,	O
+6	Hunter	B-NP
+7	bu	B-NP
+8	devreden	I-NP
+9	hiç	B-ADVP
+10	çıkmadı	B-VP
+11	.	O
+
+# text = Onun hayvanlara karşı olan aşırı sevgisi ömrü, boyunca devam etti.
+1	Onun	B-NP
+2	hayvanlara	I-NP
+3	karşı	I-NP
+4	olan	I-NP
+5	aşırı	B-ADJP
+6	sevgisi	B-NP
+7	ömrü	B-NP
+8	,	O
+9	boyunca	B-ADVP
+10	devam	B-VP
+11	etti	I-VP
+12	.	O
+
+# text = Ben kısa pantolunu çıkararak uzun pantolon giymeye, sigara içmeye ve kızlarla arkadaşlık etmeye başlamıştım ama, Hunter hayvanlardan başka şeylerle ilgilenmiyordu hala.
+1	Ben	B-NP
+2	kısa	B-ADJP
+3	pantolunu	B-NP
+4	çıkararak	B-VP
+5	uzun	B-ADJP
+6	pantolon	B-NP
+7	giymeye	B-VP
+8	,	O
+9	sigara	B-NP
+10	içmeye	B-VP
+11	ve	O
+12	kızlarla	B-NP
+13	arkadaşlık	B-NP
+14	etmeye	B-VP
+15	başlamıştım	I-VP
+16	ama	O
+17	,	O
+18	Hunter	B-NP
+19	hayvanlardan	B-NP
+20	başka	B-ADJP
+21	şeylerle	B-NP
+22	ilgilenmiyordu	B-VP
+23	hala	B-ADVP
+24	.	O
+
+# text = Bizi birbirimize bağlayan müşterek zevklerimiz ortadan kalkınca, arkadaşlığımızda bozuldu.
+1	Bizi	B-NP
+2	birbirimize	B-NP
+3	bağlayan	B-ADJP
+4	müşterek	B-ADJP
+5	zevklerimiz	B-NP
+6	ortadan	B-ADVP
+7	kalkınca	B-VP
+8	,	O
+9	arkadaşlığımızda	B-NP
+10	bozuldu	B-VP
+11	.	O
+
+# text = İkimizde ayrı yönlerde, yolumuza devam ettik.
+1	İkimizde	B-NP
+2	ayrı	B-ADJP
+3	yönlerde	B-NP
+4	,	O
+5	yolumuza	B-NP
+6	devam	B-VP
+7	ettik	I-VP
+8	.	O
+
+# text = Hunter o sıralarda yılan koleksiyonu yapmaya başlamıştı.
+1	Hunter	B-NP
+2	o	B-NP
+3	sıralarda	I-NP
+4	yılan	B-NP
+5	koleksiyonu	I-NP
+6	yapmaya	B-VP
+7	başlamıştı	I-VP
+8	.	O
+
+# text = Yine büyük bir hasır sepet içinde çeşit çeşit örümcekleri besliyordu ki, bu örümcekler durmadan birbirlerini yiyorlardı.
+1	Yine	B-ADVP
+2	büyük	B-ADJP
+3	bir	B-NP
+4	hasır	I-NP
+5	sepet	I-NP
+6	içinde	B-ADVP
+7	çeşit	B-ADJP
+8	çeşit	I-ADJP
+9	örümcekleri	B-NP
+10	besliyordu	B-VP
+11	ki	O
+12	,	O
+13	bu	B-NP
+14	örümcekler	I-NP
+15	durmadan	B-ADVP
+16	birbirlerini	B-NP
+17	yiyorlardı	B-VP
+18	.	O
+
+# text = Hayatımız böylece sürer giderken, ben kızlar peşinden koşmaktan bıktım, yeniden onun dostluğunda sakin ve dinlendirici bir yön bularak ona döndüm.
+1	Hayatımız	B-NP
+2	böylece	B-ADVP
+3	sürer	B-VP
+4	giderken	I-VP
+5	,	O
+6	ben	B-NP
+7	kızlar	B-NP
+8	peşinden	I-NP
+9	koşmaktan	B-VP
+10	bıktım	B-VP
+11	,	O
+12	yeniden	B-ADVP
+13	onun	B-NP
+14	dostluğunda	I-NP
+15	sakin	B-ADJP
+16	ve	I-ADJP
+17	dinlendirici	I-ADJP
+18	bir	B-NP
+19	yön	I-NP
+20	bularak	B-VP
+21	ona	B-NP
+22	döndüm	B-VP
+23	.	O
+
+# text = Onu delikanlılık çağında bir kıza bile başını çevirip baktığını hatırlamıyorum.
+1	Onu	B-NP
+2	delikanlılık	B-NP
+3	çağında	I-NP
+4	bir	B-NP
+5	kıza	I-NP
+6	bile	B-ADVP
+7	başını	B-NP
+8	çevirip	B-VP
+9	baktığını	I-VP
+10	hatırlamıyorum	B-VP
+11	.	O
+
+# text = Bununla beraber ara sıra bir bara gidip içmeyi hoşnutlukla kabul ederdi.
+1	Bununla	B-ADVP
+2	beraber	I-ADVP
+3	ara	B-ADVP
+4	sıra	I-ADVP
+5	bir	B-NP
+6	bara	I-NP
+7	gidip	B-VP
+8	içmeyi	I-VP
+9	hoşnutlukla	B-ADVP
+10	kabul	B-VP
+11	ederdi	I-VP
+12	.	O
+
+# text = Maki cinsi bir maymun satın alıncaya kadar garip huyları fazla göze batmadı.
+1	Maki	B-NP
+2	cinsi	I-NP
+3	bir	I-NP
+4	maymun	I-NP
+5	satın	B-VP
+6	alıncaya	I-VP
+7	kadar	O
+8	garip	B-ADJP
+9	huyları	B-NP
+10	fazla	B-ADVP
+11	göze	B-NP
+12	batmadı	B-VP
+13	.	O
+
+# text = Zaman zaman içinde, kalbur saman içinde..
+1	Zaman	B-ADVP
+2	zaman	I-ADVP
+3	içinde	I-ADVP
+4	,	O
+5	kalbur	B-NP
+6	saman	I-NP
+7	içinde	I-NP
+8	..	O
+
+# text = Çok eskilerde zengin mi zengin bir tüccar yaşarmış.
+1	Çok	B-ADVP
+2	eskilerde	I-ADVP
+3	zengin	B-ADJP
+4	mi	I-ADJP
+5	zengin	I-ADJP
+6	bir	B-NP
+7	tüccar	I-NP
+8	yaşarmış	B-VP
+9	.	O
+
+# text = Bu tüccarın üç kızı varmış.
+1	Bu	B-NP
+2	tüccarın	I-NP
+3	üç	I-NP
+4	kızı	I-NP
+5	varmış	B-VP
+6	.	O
+
+# text = Tüccarın iki kızı kendilerinden başka bir şey görmezlermiş ve bu yüzden de çok bencillermiş.
+1	Tüccarın	B-NP
+2	iki	I-NP
+3	kızı	I-NP
+4	kendilerinden	B-NP
+5	başka	B-ADJP
+6	bir	B-NP
+7	şey	I-NP
+8	görmezlermiş	B-VP
+9	ve	O
+10	bu	B-NP
+11	yüzden	I-NP
+12	de	B-ADVP
+13	çok	B-ADVP
+14	bencillermiş	B-VP
+15	.	O
+
+# text = Fakat küçük kızının hem adı, hem kendi, hem de huyu ‘Güzel’ imiş.
+1	Fakat	O
+2	küçük	B-ADJP
+3	kızının	B-NP
+4	hem	B-ADVP
+5	adı	B-NP
+6	,	O
+7	hem	B-ADVP
+8	kendi	B-NP
+9	,	O
+10	hem	B-ADVP
+11	de	I-ADVP
+12	huyu	B-NP
+13	‘	O
+14	Güzel	B-NP
+15	’	O
+16	imiş	B-VP
+17	.	O
+
+# text = Zengin mi zengin olan tüccar, bir gün gemisinin şiddetli bir fırtına sonucu battığı haberini almış.
+1	Zengin	B-ADJP
+2	mi	I-ADJP
+3	zengin	I-ADJP
+4	olan	I-ADJP
+5	tüccar	B-NP
+6	,	O
+7	bir	B-ADVP
+8	gün	I-ADVP
+9	gemisinin	B-NP
+10	şiddetli	B-ADJP
+11	bir	B-NP
+12	fırtına	I-NP
+13	sonucu	I-NP
+14	battığı	B-VP
+15	haberini	B-NP
+16	almış	B-VP
+17	.	O
+
+# text = Acınası adamın bütün varı yoğu, zenginliği bir gecede elinden gitmiş.
+1	Acınası	B-ADJP
+2	adamın	B-NP
+3	bütün	B-NP
+4	varı	I-NP
+5	yoğu	I-NP
+6	,	O
+7	zenginliği	B-NP
+8	bir	B-ADVP
+9	gecede	I-ADVP
+10	elinden	B-NP
+11	gitmiş	B-VP
+12	.	O
+
+# text = Zenginlik günleri bitmiş ve küçük bir kasabaya, küçük bir eve yerleşmişler.
+1	Zenginlik	B-NP
+2	günleri	I-NP
+3	bitmiş	B-VP
+4	ve	O
+5	küçük	B-ADJP
+6	bir	B-NP
+7	kasabaya	I-NP
+8	,	O
+9	küçük	B-ADJP
+10	bir	B-NP
+11	eve	I-NP
+12	yerleşmişler	B-VP
+13	.	O
+
+# text = Bencil olan ilk iki kardeş bu durumdan hiç hoşlanmadıkları gibi bir de bütün işi sevgi dolu, iyi kalpli olan Güzel’in başına yıkmışlar.
+1	Bencil	B-ADJP
+2	olan	I-ADJP
+3	ilk	B-ADJP
+4	iki	B-NP
+5	kardeş	I-NP
+6	bu	B-NP
+7	durumdan	I-NP
+8	hiç	B-ADVP
+9	hoşlanmadıkları	B-VP
+10	gibi	O
+11	bir	B-ADVP
+12	de	I-ADVP
+13	bütün	B-NP
+14	işi	I-NP
+15	sevgi	B-NP
+16	dolu	I-NP
+17	,	O
+18	iyi	B-ADJP
+19	kalpli	I-ADJP
+20	olan	I-ADJP
+21	Güzel’in	B-NP
+22	başına	I-NP
+23	yıkmışlar	B-VP
+24	.	O
+
+# text = Yiyip, içip yatan kız kardeşler, Güzel’e de kötü davranıyorlarmış.
+1	Yiyip	B-VP
+2	,	O
+3	içip	B-VP
+4	yatan	I-VP
+5	kız	B-NP
+6	kardeşler	I-NP
+7	,	O
+8	Güzel’e	B-NP
+9	de	B-ADVP
+10	kötü	B-ADVP
+11	davranıyorlarmış	B-VP
+12	.	O
+
+# text = Sonra bir gün, zavallı tüccar; fırtınada kaybolan gemilerinden bir tanesinin limana yanaştığını öğrenmiş.
+1	Sonra	B-ADVP
+2	bir	I-ADVP
+3	gün	I-ADVP
+4	,	O
+5	zavallı	B-ADJP
+6	tüccar	B-NP
+7	;	O
+8	fırtınada	B-NP
+9	kaybolan	B-ADJP
+10	gemilerinden	B-NP
+11	bir	B-NP
+12	tanesinin	I-NP
+13	limana	B-NP
+14	yanaştığını	B-VP
+15	öğrenmiş	B-VP
+16	.	O
+
+# text = Kızlarına da ne istediklerini sormuş.
+1	Kızlarına	B-NP
+2	da	B-ADVP
+3	ne	B-NP
+4	istediklerini	B-VP
+5	sormuş	B-VP
+6	.	O
+
+# text = Bencil olan kız kardeşler hemen - Elbise ve mücevher isteriz, demişler.
+1	Bencil	B-ADJP
+2	olan	I-ADJP
+3	kız	B-NP
+4	kardeşler	I-NP
+5	hemen	B-ADVP
+6	-	O
+7	Elbise	B-NP
+8	ve	I-NP
+9	mücevher	I-NP
+10	isteriz	B-VP
+11	,	O
+12	demişler	B-VP
+13	.	O
+
+# text = - Sen ne istersin Güzel?, demiş tüccar.
+1	-	O
+2	Sen	B-NP
+3	ne	B-NP
+4	istersin	B-VP
+5	Güzel	B-NP
+6	?	O
+7	,	O
+8	demiş	B-VP
+9	tüccar	B-NP
+10	.	O
+
+# text = O yeter bana, demiş Güzel.
+1	O	B-NP
+2	yeter	B-VP
+3	bana	B-NP
+4	,	O
+5	demiş	B-VP
+6	Güzel	B-NP
+7	.	O
+
+# text = Kayıp gemiden biraz para kalmış.
+1	Kayıp	B-ADJP
+2	gemiden	B-NP
+3	biraz	B-NP
+4	para	I-NP
+5	kalmış	B-VP
+6	.	O
+
+# text = Onları da dolandırıcılara kaptırınca hali perişan, eve doğru yola koyulmuş.
+1	Onları	B-NP
+2	da	B-ADVP
+3	dolandırıcılara	B-NP
+4	kaptırınca	B-VP
+5	hali	B-NP
+6	perişan	B-ADJP
+7	,	O
+8	eve	B-NP
+9	doğru	B-ADVP
+10	yola	B-NP
+11	koyulmuş	B-VP
+12	.	O
+
+# text = Bir ormana vardığında akşamın karanlığı bastırmış.
+1	Bir	B-NP
+2	ormana	I-NP
+3	vardığında	B-VP
+4	akşamın	B-NP
+5	karanlığı	I-NP
+6	bastırmış	B-VP
+7	.	O
+
+# text = Kış ayı olduğu için hava çok soğukmuş.
+1	Kış	B-NP
+2	ayı	I-NP
+3	olduğu	B-VP
+4	için	O
+5	hava	B-NP
+6	çok	B-ADVP
+7	soğukmuş	B-VP
+8	.	O
+
+# text = Hem ormanın karanlığı hem de havanın soğukluğu tüccarın daha fazla ilerlemesine izin vermiyormuş.
+1	Hem	B-ADVP
+2	ormanın	B-NP
+3	karanlığı	I-NP
+4	hem	B-ADVP
+5	de	I-ADVP
+6	havanın	B-NP
+7	soğukluğu	I-NP
+8	tüccarın	B-NP
+9	daha	B-ADVP
+10	fazla	I-ADVP
+11	ilerlemesine	B-VP
+12	izin	B-NP
+13	vermiyormuş	B-VP
+14	.	O
+
+# text = Atıyla birlikte karlara bata bata giden tüccar, birden ışıkları yanan çok güzel ve gösterişli bir şato görmüş.
+1	Atıyla	B-NP
+2	birlikte	I-NP
+3	karlara	B-NP
+4	bata	B-ADVP
+5	bata	I-ADVP
+6	giden	B-ADJP
+7	tüccar	B-NP
+8	,	O
+9	birden	B-ADVP
+10	ışıkları	B-NP
+11	yanan	B-ADJP
+12	çok	B-ADVP
+13	güzel	B-ADJP
+14	ve	I-ADJP
+15	gösterişli	I-ADJP
+16	bir	B-NP
+17	şato	I-NP
+18	görmüş	B-VP
+19	.	O
+
+# text = Çünkü bütün ışıklar yanıyor, şömineler yanıyor fakat kimsecikler pencerelerde görünmüyormuş.
+1	Çünkü	O
+2	bütün	B-NP
+3	ışıklar	I-NP
+4	yanıyor	B-VP
+5	,	O
+6	şömineler	B-NP
+7	yanıyor	B-VP
+8	fakat	O
+9	kimsecikler	B-NP
+10	pencerelerde	B-NP
+11	görünmüyormuş	B-VP
+12	.	O
+
+# text = Şatodan hiç ses de gelmiyormuş.
+1	Şatodan	B-NP
+2	hiç	B-ADVP
+3	ses	B-NP
+4	de	B-ADVP
+5	gelmiyormuş	B-VP
+6	.	O
+
+# text = Tüccar bu şatoda biraz soluklanmaya, geceyi burada geçirmenin iyi olacağını düşünerek atını ahıra bağlamış ve şatonun kapısına doğru gitmiş.
+1	Tüccar	B-NP
+2	bu	B-NP
+3	şatoda	I-NP
+4	biraz	B-ADVP
+5	soluklanmaya	B-VP
+6	,	O
+7	geceyi	B-NP
+8	burada	B-ADVP
+9	geçirmenin	B-VP
+10	iyi	B-ADJP
+11	olacağını	B-VP
+12	düşünerek	I-VP
+13	atını	B-NP
+14	ahıra	B-NP
+15	bağlamış	B-VP
+16	ve	O
+17	şatonun	B-NP
+18	kapısına	I-NP
+19	doğru	B-ADVP
+20	gitmiş	B-VP
+21	.	O
+
+# text = Tüccar içeri girip seslenmiş fakat sesine cevap veren kimse olmamış.
+1	Tüccar	B-NP
+2	içeri	B-ADVP
+3	girip	B-VP
+4	seslenmiş	I-VP
+5	fakat	O
+6	sesine	B-NP
+7	cevap	B-NP
+8	veren	B-ADJP
+9	kimse	B-NP
+10	olmamış	B-VP
+11	.	O
+
+# text = O da masada gördüğü yemeği yiyip hemen bir yatakta uyuyakalmış.
+1	O	B-NP
+2	da	B-ADVP
+3	masada	B-NP
+4	gördüğü	B-ADJP
+5	yemeği	B-NP
+6	yiyip	B-VP
+7	hemen	B-ADVP
+8	bir	B-NP
+9	yatakta	I-NP
+10	uyuyakalmış	B-VP
+11	.	O
+
+# text = Sabah neşe ile uyanmış ve yanı başında kendisi için bırakılan temiz kıyafetler bulmuş.
+1	Sabah	B-ADVP
+2	neşe	B-NP
+3	ile	I-NP
+4	uyanmış	B-VP
+5	ve	O
+6	yanı	B-NP
+7	başında	I-NP
+8	kendisi	B-NP
+9	için	O
+10	bırakılan	B-ADJP
+11	temiz	B-ADJP
+12	kıyafetler	B-NP
+13	bulmuş	B-VP
+14	.	O
+
+# text = Salonda da onun için hazırlanmış yine çok güzel bir kahvaltı varmış.
+1	Salonda	B-NP
+2	da	B-ADVP
+3	onun	B-NP
+4	için	O
+5	hazırlanmış	B-ADJP
+6	yine	B-ADVP
+7	çok	B-ADVP
+8	güzel	B-ADJP
+9	bir	B-NP
+10	kahvaltı	I-NP
+11	varmış	B-VP
+12	.	O
+
+# text = Tüccar bu olanları normal bir şeye bağlayamamış ve: - Bu şato bana acıyan bir varlığa ait sanırım, keşke ona bir teşekkür edebilsem!, diye düşünmüş.
+1	Tüccar	B-NP
+2	bu	B-NP
+3	olanları	I-NP
+4	normal	B-ADJP
+5	bir	B-NP
+6	şeye	I-NP
+7	bağlayamamış	B-VP
+8	ve	O
+9	:	O
+10	-	O
+11	Bu	B-NP
+12	şato	I-NP
+13	bana	B-NP
+14	acıyan	B-ADJP
+15	bir	B-NP
+16	varlığa	I-NP
+17	ait	B-ADJP
+18	sanırım	B-VP
+19	,	O
+20	keşke	B-ADVP
+21	ona	B-NP
+22	bir	B-NP
+23	teşekkür	I-NP
+24	edebilsem	B-VP
+25	!	O
+26	,	O
+27	diye	B-ADVP
+28	düşünmüş	B-VP
+29	.	O
+
+# text = Şatodan ayrılacağı sırada aklına Güzel’in istediği gül gelmiş ve şatonun bahçesinde de çok güzel güller olduğunu görmüş.
+1	Şatodan	B-NP
+2	ayrılacağı	B-VP
+3	sırada	B-NP
+4	aklına	B-NP
+5	Güzel’in	B-NP
+6	istediği	B-ADJP
+7	gül	B-NP
+8	gelmiş	B-VP
+9	ve	O
+10	şatonun	B-NP
+11	bahçesinde	I-NP
+12	de	B-ADVP
+13	çok	B-ADVP
+14	güzel	B-ADJP
+15	güller	B-NP
+16	olduğunu	B-VP
+17	görmüş	B-VP
+18	.	O
+
+# text = Birini koparmış ve ortalık korkutucu bir kükreme ile inlemiş.
+1	Birini	B-NP
+2	koparmış	B-VP
+3	ve	O
+4	ortalık	B-NP
+5	korkutucu	B-ADJP
+6	bir	B-NP
+7	kükreme	I-NP
+8	ile	I-NP
+9	inlemiş	B-VP
+10	.	O
+
+# text = Tüccarın karşısına çok korkutucu bir canavar çıkmış.
+1	Tüccarın	B-NP
+2	karşısına	I-NP
+3	çok	B-ADVP
+4	korkutucu	B-ADJP
+5	bir	B-NP
+6	canavar	I-NP
+7	çıkmış	B-VP
+8	.	O
+
+# text = Tüccar haliyle çok korkmuş ve bayılacak gibi olmuş.
+1	Tüccar	B-NP
+2	haliyle	B-ADVP
+3	çok	B-ADVP
+4	korkmuş	B-VP
+5	ve	O
+6	bayılacak	B-VP
+7	gibi	B-ADVP
+8	olmuş	I-VP
+9	.	O
+
+# text = Canavar konuşmuş: - Sen ne kıymet bilmez bir adamsın.
+1	Canavar	B-NP
+2	konuşmuş	B-VP
+3	:	O
+4	-	O
+5	Sen	B-NP
+6	ne	B-ADVP
+7	kıymet	B-NP
+8	bilmez	I-NP
+9	bir	B-NP
+10	adamsın	I-NP
+11	.	O
+
+# text = Sana yemek verdim, güzel yataklarda yatırdım.
+1	Sana	B-NP
+2	yemek	B-NP
+3	verdim	B-VP
+4	,	O
+5	güzel	B-ADJP
+6	yataklarda	B-NP
+7	yatırdım	B-VP
+8	.	O
+
+# text = Sen ise sana yaptığım iyiliklerin karşılığı olarak benim güllerimi çalıyorsun!
+1	Sen	B-NP
+2	ise	B-ADVP
+3	sana	B-NP
+4	yaptığım	B-ADJP
+5	iyiliklerin	B-NP
+6	karşılığı	I-NP
+7	olarak	B-ADVP
+8	benim	B-NP
+9	güllerimi	I-NP
+10	çalıyorsun	B-VP
+11	!	O
+
+# text = Şimdi ölmeyi hak ettin!, demiş.
+1	Şimdi	B-ADVP
+2	ölmeyi	B-VP
+3	hak	I-VP
+4	ettin	I-VP
+5	!	O
+6	,	O
+7	demiş	B-VP
+8	.	O
+
+# text = Tüccar korkuyla, dizleri titreyerek diz çökmüş ve konuşmuş: - Kızlarımdan biri gül istemişti, ona götürmek istedim efendim, demiş.
+1	Tüccar	B-NP
+2	korkuyla	B-ADVP
+3	,	O
+4	dizleri	B-NP
+5	titreyerek	B-VP
+6	diz	B-NP
+7	çökmüş	B-VP
+8	ve	O
+9	konuşmuş	B-VP
+10	:	O
+11	-	O
+12	Kızlarımdan	B-NP
+13	biri	I-NP
+14	gül	B-NP
+15	istemişti	B-VP
+16	,	O
+17	ona	B-NP
+18	götürmek	B-VP
+19	istedim	I-VP
+20	efendim	B-NP
+21	,	O
+22	demiş	B-VP
+23	.	O
+
+# text = Canavar bu sözlere çok kızmış: -Ben bir canavarım, efendi falan değilim, demiş.
+1	Canavar	B-NP
+2	bu	B-NP
+3	sözlere	I-NP
+4	çok	B-ADVP
+5	kızmış	B-VP
+6	:	O
+7	-	O
+8	Ben	B-NP
+9	bir	B-NP
+10	canavarım	I-NP
+11	,	O
+12	efendi	B-NP
+13	falan	I-NP
+14	değilim	B-VP
+15	,	O
+16	demiş	B-VP
+17	.	O
+
+# text = Daha sonra Canavar, tüccara bir şart koşmuş.
+1	Daha	B-ADVP
+2	sonra	I-ADVP
+3	Canavar	B-NP
+4	,	O
+5	tüccara	B-NP
+6	bir	B-NP
+7	şart	I-NP
+8	koşmuş	B-VP
+9	.	O
+
+# text = Eğer bu şart yerine getirilir ise onu üç ay içinde öldüreceğini söylemiş.
+1	Eğer	O
+2	bu	B-NP
+3	şart	I-NP
+4	yerine	B-NP
+5	getirilir	B-VP
+6	ise	O
+7	onu	B-NP
+8	üç	B-NP
+9	ay	I-NP
+10	içinde	I-NP
+11	öldüreceğini	B-VP
+12	söylemiş	B-VP
+13	.	O
+
+# text = Canavarın şartı; tüccarın kızlarından birinin gelip onunla birlikte bu şatoda yaşamasıymış.
+1	Canavarın	B-NP
+2	şartı	I-NP
+3	;	O
+4	tüccarın	B-NP
+5	kızlarından	I-NP
+6	birinin	I-NP
+7	gelip	B-VP
+8	onunla	B-NP
+9	birlikte	I-NP
+10	bu	B-NP
+11	şatoda	I-NP
+12	yaşamasıymış	B-VP
+13	.	O
+
+# text = Tüccar, atına atlayıp yola koyulmuş.
+1	Tüccar	B-NP
+2	,	O
+3	atına	B-NP
+4	atlayıp	B-VP
+5	yola	B-NP
+6	koyulmuş	B-VP
+7	.	O
+
+# text = Eve geldiğinde, bencil kızları babalarının onlara mücevher ve elbise getirmediğini görünce çok sinirlenmişler.
+1	Eve	B-NP
+2	geldiğinde	B-VP
+3	,	O
+4	bencil	B-ADJP
+5	kızları	B-NP
+6	babalarının	B-NP
+7	onlara	B-NP
+8	mücevher	B-NP
+9	ve	I-NP
+10	elbise	I-NP
+11	getirmediğini	B-VP
+12	görünce	B-VP
+13	çok	B-ADVP
+14	sinirlenmişler	B-VP
+15	.	O
+
+# text = Tüccar, kızlarına yaşadığı korkunç macerayı anlatırken iki bencil kız kardeş de hiç oralı olmamış.
+1	Tüccar	B-NP
+2	,	O
+3	kızlarına	B-NP
+4	yaşadığı	B-ADJP
+5	korkunç	B-ADJP
+6	macerayı	B-NP
+7	anlatırken	B-VP
+8	iki	B-NP
+9	bencil	B-ADJP
+10	kız	B-NP
+11	kardeş	I-NP
+12	de	B-ADVP
+13	hiç	B-ADVP
+14	oralı	B-ADJP
+15	olmamış	B-VP
+16	.	O
+
+# text = Fakat Güzel, babasının durumuna çok üzülmüş ve konuşmuş: - Baba, senin başına bu korkutucu olay benim yüzümden geldi.
+1	Fakat	O
+2	Güzel	B-NP
+3	,	O
+4	babasının	B-NP
+5	durumuna	I-NP
+6	çok	B-ADVP
+7	üzülmüş	B-VP
+8	ve	O
+9	konuşmuş	B-VP
+10	:	O
+11	-	O
+12	Baba	B-NP
+13	,	O
+14	senin	B-NP
+15	başına	I-NP
+16	bu	B-NP
+17	korkutucu	B-ADJP
+18	olay	B-NP
+19	benim	B-NP
+20	yüzümden	I-NP
+21	geldi	B-VP
+22	.	O
+
+# text = İzin ver Canavar ile yaşamaya ben gideyim, demiş.
+1	İzin	B-NP
+2	ver	B-VP
+3	Canavar	B-NP
+4	ile	I-NP
+5	yaşamaya	B-VP
+6	ben	B-NP
+7	gideyim	B-VP
+8	,	O
+9	demiş	B-VP
+10	.	O
+
+# text = Kız kardeşleri de hemen onu onaylamışlar ve: - Senin suçun, tabi ki sen gideceksin, demişler.
+1	Kız	B-NP
+2	kardeşleri	I-NP
+3	de	B-ADVP
+4	hemen	B-ADVP
+5	onu	B-NP
+6	onaylamışlar	B-VP
+7	ve	O
+8	:	O
+9	-	O
+10	Senin	B-NP
+11	suçun	I-NP
+12	,	O
+13	tabi	B-ADVP
+14	ki	I-ADVP
+15	sen	B-NP
+16	gideceksin	B-VP
+17	,	O
+18	demişler	B-VP
+19	.	O
+
+# text = Üç ay geçtikten sonra ihtiyar tüccar, şatoya Güzel ile birlikte gitmiş.
+1	Üç	B-NP
+2	ay	I-NP
+3	geçtikten	B-VP
+4	sonra	I-VP
+5	ihtiyar	B-ADJP
+6	tüccar	B-NP
+7	,	O
+8	şatoya	B-NP
+9	Güzel	B-NP
+10	ile	I-NP
+11	birlikte	I-NP
+12	gitmiş	B-VP
+13	.	O
+
+# text = Şato çok güzel, diye düşünmüş Güzel.
+1	Şato	B-NP
+2	çok	B-ADVP
+3	güzel	B-ADJP
+4	,	O
+5	diye	B-ADVP
+6	düşünmüş	B-VP
+7	Güzel	B-NP
+8	.	O
+
+# text = Sofra hazırmış ve masaya oturup yemek yemişler.
+1	Sofra	B-NP
+2	hazırmış	B-VP
+3	ve	O
+4	masaya	B-NP
+5	oturup	B-VP
+6	yemek	B-NP
+7	yemişler	B-VP
+8	.	O
+
+# text = Yemek bittikten sonra Canavar meydan açıkmış.
+1	Yemek	B-NP
+2	bittikten	B-VP
+3	sonra	I-VP
+4	Canavar	B-NP
+5	meydan	B-NP
+6	açıkmış	B-VP
+7	.	O
+
+# text = Güzel, Canavar’ı görünce dizlerinin bağının çözüldüğünü ve titremeye başladığını hissetmiş.
+1	Güzel	B-NP
+2	,	O
+3	Canavar’ı	B-NP
+4	görünce	B-VP
+5	dizlerinin	B-NP
+6	bağının	I-NP
+7	çözüldüğünü	B-VP
+8	ve	O
+9	titremeye	B-VP
+10	başladığını	I-VP
+11	hissetmiş	B-VP
+12	.	O
+
+# text = Canavar, babasının anlattığından daha korkunçmuş!
+1	Canavar	B-NP
+2	,	O
+3	babasının	B-NP
+4	anlattığından	B-VP
+5	daha	B-ADVP
+6	korkunçmuş	B-VP
+7	!	O
+
+# text = - Buraya kendi isteğinle geldin öyle değil mi?, diye sormuş Güzel’e.
+1	-	O
+2	Buraya	B-ADVP
+3	kendi	B-NP
+4	isteğinle	I-NP
+5	geldin	B-VP
+6	öyle	B-ADVP
+7	değil	B-ADJP
+8	mi	I-ADJP
+9	?	O
+10	,	O
+11	diye	B-ADVP
+12	sormuş	B-VP
+13	Güzel’e	B-NP
+14	.	O
+
+# text = - Evet, isteğimle geldim, demiş Güzel.
+1	-	O
+2	Evet	B-ADVP
+3	,	O
+4	isteğimle	B-NP
+5	geldim	B-VP
+6	,	O
+7	demiş	B-VP
+8	Güzel	B-NP
+9	.	O
+
+# text = - Öyleyse baban yarın sabah buradan gidecek ve bir daha asla buraya gelmeyecek, demiş Canavar.
+1	-	O
+2	Öyleyse	B-ADVP
+3	baban	B-NP
+4	yarın	B-ADVP
+5	sabah	I-ADVP
+6	buradan	B-ADVP
+7	gidecek	B-VP
+8	ve	O
+9	bir	B-ADVP
+10	daha	I-ADVP
+11	asla	I-ADVP
+12	buraya	B-ADVP
+13	gelmeyecek	B-VP
+14	,	O
+15	demiş	B-VP
+16	Canavar	B-NP
+17	.	O
+
+# text = Güzel, sabah olunca çok üzülmüş.
+1	Güzel	B-NP
+2	,	O
+3	sabah	B-ADVP
+4	olunca	B-VP
+5	çok	B-ADVP
+6	üzülmüş	B-VP
+7	.	O
+
+# text = Çünkü babası artık gitmiş ve bir daha da onu göremeyecekmiş.
+1	Çünkü	O
+2	babası	B-NP
+3	artık	B-ADVP
+4	gitmiş	B-VP
+5	ve	O
+6	bir	B-ADVP
+7	daha	I-ADVP
+8	da	I-ADVP
+9	onu	B-NP
+10	göremeyecekmiş	B-VP
+11	.	O
+
+# text = Bir süre ağlamış, fakat gördüğü rüyayı hatırlayınca biraz olsun yatışmış.
+1	Bir	B-NP
+2	süre	I-NP
+3	ağlamış	B-VP
+4	,	O
+5	fakat	O
+6	gördüğü	B-ADJP
+7	rüyayı	B-NP
+8	hatırlayınca	B-VP
+9	biraz	B-ADVP
+10	olsun	I-ADVP
+11	yatışmış	B-VP
+12	.	O
+
+# text = Rüyasına gelen peri, ‘gösterdiği bu cesaretin karşılıksız kalmayacağını söylemiş ve onu böylece umutlu biri haline getirmiş.
+1	Rüyasına	B-NP
+2	gelen	B-ADJP
+3	peri	B-NP
+4	,	O
+5	‘	O
+6	gösterdiği	B-ADJP
+7	bu	B-NP
+8	cesaretin	I-NP
+9	karşılıksız	B-ADJP
+10	kalmayacağını	B-VP
+11	söylemiş	B-VP
+12	ve	O
+13	onu	B-NP
+14	böylece	B-ADVP
+15	umutlu	B-ADJP
+16	biri	B-NP
+17	haline	I-NP
+18	getirmiş	B-VP
+19	.	O
+
+# text = Güzel, ‘bu yaşama alışırım belki’ diye düşünmüş ve etrafı keşfe çıkmış.
+1	Güzel	B-NP
+2	,	O
+3	‘	O
+4	bu	B-NP
+5	yaşama	I-NP
+6	alışırım	B-VP
+7	belki	B-ADVP
+8	’	O
+9	diye	B-ADVP
+10	düşünmüş	B-VP
+11	ve	O
+12	etrafı	B-NP
+13	keşfe	B-VP
+14	çıkmış	I-VP
+15	.	O
+
+# text = Bahçede dolaşmış, güllerin olduğu tarafa gelince içini biraz üzüntü kaplamış.
+1	Bahçede	B-NP
+2	dolaşmış	B-VP
+3	,	O
+4	güllerin	B-NP
+5	olduğu	B-ADJP
+6	tarafa	B-NP
+7	gelince	B-VP
+8	içini	B-NP
+9	biraz	B-ADVP
+10	üzüntü	B-NP
+11	kaplamış	B-VP
+12	.	O
+
+# text = Daha sonra şatonun içini gezerken çok şaşırmış.
+1	Daha	B-ADVP
+2	sonra	I-ADVP
+3	şatonun	B-NP
+4	içini	I-NP
+5	gezerken	B-VP
+6	çok	B-ADVP
+7	şaşırmış	B-VP
+8	.	O
+
+# text = Çünkü bir odanın kapısında kendi adı yazıyormuş.
+1	Çünkü	O
+2	bir	B-NP
+3	odanın	I-NP
+4	kapısında	I-NP
+5	kendi	B-NP
+6	adı	I-NP
+7	yazıyormuş	B-VP
+8	.	O
+
+# text = Kapıyı açıp içeri bakınca, odanın tam da kendi istediği gibi döşenmiş olduğunu görmüş.
+1	Kapıyı	B-NP
+2	açıp	B-VP
+3	içeri	B-ADVP
+4	bakınca	B-VP
+5	,	O
+6	odanın	B-NP
+7	tam	B-ADVP
+8	da	I-ADVP
+9	kendi	B-NP
+10	istediği	I-NP
+11	gibi	B-ADVP
+12	döşenmiş	B-VP
+13	olduğunu	I-VP
+14	görmüş	B-VP
+15	.	O
+
+# text = Çok mutlu olmuş, oda kitaplar ve müzik aletleri ile doluymuş.
+1	Çok	B-ADVP
+2	mutlu	B-ADJP
+3	olmuş	B-VP
+4	,	O
+5	oda	B-NP
+6	kitaplar	I-NP
+7	ve	I-NP
+8	müzik	I-NP
+9	aletleri	I-NP
+10	ile	I-NP
+11	doluymuş	B-VP
+12	.	O
+
+# text = Bunları görünce Canavar’ın düşündüğü gibi kötü biri olmadığına kanaat getirmiş.
+1	Bunları	B-NP
+2	görünce	B-VP
+3	Canavar’ın	B-NP
+4	düşündüğü	B-ADJP
+5	gibi	B-ADVP
+6	kötü	B-ADJP
+7	biri	B-NP
+8	olmadığına	B-VP
+9	kanaat	B-NP
+10	getirmiş	B-VP
+11	.	O
+
+# text = Çünkü kötü biri neden birinin odasını rahat etmesi için düzenlesin ki?
+1	Çünkü	O
+2	kötü	B-ADJP
+3	biri	B-NP
+4	neden	B-ADVP
+5	birinin	B-NP
+6	odasını	I-NP
+7	rahat	B-ADJP
+8	etmesi	B-VP
+9	için	O
+10	düzenlesin	B-VP
+11	ki	O
+12	?	O
+
+# text = Sonra üzerinde altın yaldızla ‘sevgili kraliçem, her zaman emrinizdeyim.’ yazan bir kitabı eline almış.
+1	Sonra	B-ADVP
+2	üzerinde	B-NP
+3	altın	B-NP
+4	yaldızla	I-NP
+5	‘	O
+6	sevgili	B-ADJP
+7	kraliçem	B-NP
+8	,	O
+9	her	B-ADVP
+10	zaman	I-ADVP
+11	emrinizdeyim	B-VP
+12	.	O
+13	’	O
+14	yazan	B-ADJP
+15	bir	B-NP
+16	kitabı	I-NP
+17	eline	I-NP
+18	almış	B-VP
+19	.	O
+
+# text = Güzel yüksek sesle, ‘keşke babamı şu anda görebilsem’ demiş ve odanın ucundaki bir aynada babasının görüntüsü belirmiş.
+1	Güzel	B-NP
+2	yüksek	B-ADJP
+3	sesle	B-NP
+4	,	O
+5	‘	O
+6	keşke	B-ADVP
+7	babamı	B-NP
+8	şu	B-NP
+9	anda	I-NP
+10	görebilsem	B-VP
+11	’	O
+12	demiş	B-VP
+13	ve	O
+14	odanın	B-NP
+15	ucundaki	I-NP
+16	bir	B-NP
+17	aynada	I-NP
+18	babasının	B-NP
+19	görüntüsü	I-NP
+20	belirmiş	B-VP
+21	.	O
+
+# text = Güzel, yalnızlığını ve ev hasretini biraz olsun böylelikle unutmuş.
+1	Güzel	B-NP
+2	,	O
+3	yalnızlığını	B-NP
+4	ve	I-NP
+5	ev	I-NP
+6	hasretini	I-NP
+7	biraz	B-ADVP
+8	olsun	I-ADVP
+9	böylelikle	B-ADVP
+10	unutmuş	B-VP
+11	.	O
+
+# text = Akşam yemek yerken, Canavar’ı görmüş ve Canavar, Güzel’e; - Güzel, seni izlemem için bana izin verir misin?’ demiş.
+1	Akşam	B-ADVP
+2	yemek	B-NP
+3	yerken	B-VP
+4	,	O
+5	Canavar’ı	B-NP
+6	görmüş	B-VP
+7	ve	O
+8	Canavar	B-NP
+9	,	O
+10	Güzel’e	B-NP
+11	;	O
+12	-	O
+13	Güzel	B-NP
+14	,	O
+15	seni	B-NP
+16	izlemem	B-VP
+17	için	O
+18	bana	B-NP
+19	izin	B-NP
+20	verir	B-VP
+21	misin	I-VP
+22	?	O
+23	’	O
+24	demiş	B-VP
+25	.	O
+
+# text = Güzel; - Sahibi sizsiniz buranın, demiş.
+1	Güzel	B-NP
+2	;	O
+3	-	O
+4	Sahibi	B-NP
+5	sizsiniz	B-VP
+6	buranın	B-NP
+7	,	O
+8	demiş	B-VP
+9	.	O
+
+# text = Canavar; - Hayır, şato her zaman senin emrindedir.
+1	Canavar	B-NP
+2	;	O
+3	-	O
+4	Hayır	B-ADVP
+5	,	O
+6	şato	B-NP
+7	her	B-ADVP
+8	zaman	I-ADVP
+9	senin	B-NP
+10	emrindedir	B-VP
+11	.	O
+
+# text = İstersen ben şu anda bile gidebilirim!
+1	İstersen	B-VP
+2	ben	B-NP
+3	şu	B-NP
+4	anda	I-NP
+5	bile	B-ADVP
+6	gidebilirim	B-VP
+7	!	O
+
+# text = Canavar bunları söyledikten sonra biraz duraklamış ve Güzel’e; - Sana bir şey soracağım, benim çok mu çirkin olduğumu düşünüyorsun?
+1	Canavar	B-NP
+2	bunları	B-NP
+3	söyledikten	B-VP
+4	sonra	I-VP
+5	biraz	B-ADVP
+6	duraklamış	B-VP
+7	ve	O
+8	Güzel’e	B-NP
+9	;	O
+10	-	O
+11	Sana	B-NP
+12	bir	B-NP
+13	şey	I-NP
+14	soracağım	B-VP
+15	,	O
+16	benim	B-NP
+17	çok	B-ADVP
+18	mu	B-ADVP
+19	çirkin	B-ADJP
+20	olduğumu	B-VP
+21	düşünüyorsun	B-VP
+22	?	O
+
+# text = Güzel biraz afallamış ve ne diyeceğini bilememiş.
+1	Güzel	B-NP
+2	biraz	B-ADVP
+3	afallamış	B-VP
+4	ve	O
+5	ne	B-NP
+6	diyeceğini	B-VP
+7	bilememiş	B-VP
+8	.	O
+
+# text = Fakat sonra; - Bu nasıl söylenir bilmiyorum ama evet, çirkin buluyorum, demiş.
+1	Fakat	O
+2	sonra	B-ADVP
+3	;	O
+4	-	O
+5	Bu	B-NP
+6	nasıl	B-ADVP
+7	söylenir	B-VP
+8	bilmiyorum	B-VP
+9	ama	O
+10	evet	B-ADVP
+11	,	O
+12	çirkin	B-ADJP
+13	buluyorum	B-VP
+14	,	O
+15	demiş	B-VP
+16	.	O
+
+# text = Bu sırada da Canavar ona evlenme teklif etmiş ve Güzel de bu teklifi kabul edemeyeceğini dile getirmiş.
+1	Bu	B-NP
+2	sırada	I-NP
+3	da	B-ADVP
+4	Canavar	B-NP
+5	ona	B-NP
+6	evlenme	B-NP
+7	teklif	B-NP
+8	etmiş	B-VP
+9	ve	O
+10	Güzel	B-NP
+11	de	B-ADVP
+12	bu	B-NP
+13	teklifi	I-NP
+14	kabul	B-VP
+15	edemeyeceğini	I-VP
+16	dile	B-NP
+17	getirmiş	B-VP
+18	.	O
+
+# text = Canavar bunu duyduktan sonra öyle bir iç çekmiş ki, bütün şatoda bu ses yankılanmış.
+1	Canavar	B-NP
+2	bunu	B-NP
+3	duyduktan	B-VP
+4	sonra	I-VP
+5	öyle	B-ADVP
+6	bir	B-NP
+7	iç	I-NP
+8	çekmiş	B-VP
+9	ki	O
+10	,	O
+11	bütün	B-NP
+12	şatoda	I-NP
+13	bu	B-NP
+14	ses	I-NP
+15	yankılanmış	B-VP
+16	.	O
+
+# text = Artık her gece, saat 9 olduğunda Canavar, Güzel ile konuşmak için onun yanına gidermiş.
+1	Artık	B-ADVP
+2	her	B-ADVP
+3	gece	I-ADVP
+4	,	O
+5	saat	B-NP
+6	9	I-NP
+7	olduğunda	B-VP
+8	Canavar	B-NP
+9	,	O
+10	Güzel	B-NP
+11	ile	I-NP
+12	konuşmak	B-VP
+13	için	O
+14	onun	B-NP
+15	yanına	I-NP
+16	gidermiş	B-VP
+17	.	O
+
+# text = Güzel de gün geçtikçe, Canavar’a her gün biraz daha alıştığını düşünmüş.
+1	Güzel	B-NP
+2	de	B-ADVP
+3	gün	B-ADVP
+4	geçtikçe	I-ADVP
+5	,	O
+6	Canavar’a	B-NP
+7	her	B-ADVP
+8	gün	I-ADVP
+9	biraz	B-ADVP
+10	daha	I-ADVP
+11	alıştığını	B-VP
+12	düşünmüş	B-VP
+13	.	O
+
+# text = Bazı zamanlar geç kaldığında onu merak etmeye bile başlarmış.
+1	Bazı	B-NP
+2	zamanlar	I-NP
+3	geç	B-ADVP
+4	kaldığında	B-VP
+5	onu	B-NP
+6	merak	B-NP
+7	etmeye	B-VP
+8	bile	B-ADVP
+9	başlarmış	I-VP
+10	.	O
+
+# text = İçinden; - Keşke bu kadar çirkin olmasaydı, keşke..
+1	İçinden	B-ADVP
+2	;	O
+3	-	O
+4	Keşke	B-ADVP
+5	bu	B-NP
+6	kadar	I-NP
+7	çirkin	B-ADJP
+8	olmasaydı	B-VP
+9	,	O
+10	keşke	B-ADVP
+11	..	O
+
+# text = Bir de hep evlenme teklifi etmesi yok mu, ah ah!
+1	Bir	B-ADVP
+2	de	I-ADVP
+3	hep	I-ADVP
+4	evlenme	B-NP
+5	teklifi	I-NP
+6	etmesi	B-VP
+7	yok	B-VP
+8	mu	I-VP
+9	,	O
+10	ah	B-ADVP
+11	ah	I-ADVP
+12	!	O
+
+# text = Diye kendi kendine sitem ediyormuş.
+1	Diye	B-ADVP
+2	kendi	B-NP
+3	kendine	I-NP
+4	sitem	B-NP
+5	ediyormuş	B-VP
+6	.	O
+
+# text = Canavar hep güzelden, onu terk edip gitmesini istemediğini söylüyormuş.
+1	Canavar	B-NP
+2	hep	B-ADVP
+3	güzelden	B-NP
+4	,	O
+5	onu	B-NP
+6	terk	B-VP
+7	edip	I-VP
+8	gitmesini	I-VP
+9	istemediğini	I-VP
+10	söylüyormuş	B-VP
+11	.	O
+
+# text = Böylece, Güzel’den ona bu anlamda söz vermesini istemiş.
+1	Böylece	B-ADVP
+2	,	O
+3	Güzel’den	B-NP
+4	ona	B-NP
+5	bu	B-NP
+6	anlamda	I-NP
+7	söz	B-NP
+8	vermesini	B-VP
+9	istemiş	B-VP
+10	.	O
+
+# text = Günler birbirinin aynı olarak böyle geçmiş.
+1	Günler	B-NP
+2	birbirinin	B-NP
+3	aynı	B-ADJP
+4	olarak	B-ADVP
+5	böyle	B-ADVP
+6	geçmiş	B-VP
+7	.	O
+
+# text = Tam üç ay böyle geçmiş derken Güzel, bir gün aynadan babasını izlediği sırada kötü durumda olduğunu ve hasta olduğunu görmüş.
+1	Tam	B-ADVP
+2	üç	B-NP
+3	ay	I-NP
+4	böyle	B-ADVP
+5	geçmiş	B-VP
+6	derken	I-VP
+7	Güzel	B-NP
+8	,	O
+9	bir	B-ADVP
+10	gün	I-ADVP
+11	aynadan	B-NP
+12	babasını	B-NP
+13	izlediği	B-ADJP
+14	sırada	B-NP
+15	kötü	B-ADJP
+16	durumda	B-NP
+17	olduğunu	B-VP
+18	ve	O
+19	hasta	B-ADJP
+20	olduğunu	B-VP
+21	görmüş	B-VP
+22	.	O
+
+# text = Eve gitmeyi kafasına koymuş ve Canavar’a bu isteğini dile getirmiş.
+1	Eve	B-NP
+2	gitmeyi	B-VP
+3	kafasına	B-NP
+4	koymuş	B-VP
+5	ve	O
+6	Canavar’a	B-NP
+7	bu	B-NP
+8	isteğini	I-NP
+9	dile	B-NP
+10	getirmiş	B-VP
+11	.	O
+
+# text = Canavar, Güzel’in gidebileceğini söylemiş fakat geri dönmezse de kederinden öleceğini de söylemeyi ihmal etmemiş.
+1	Canavar	B-NP
+2	,	O
+3	Güzel’in	B-NP
+4	gidebileceğini	B-VP
+5	söylemiş	B-VP
+6	fakat	O
+7	geri	B-ADVP
+8	dönmezse	B-VP
+9	de	B-ADVP
+10	kederinden	B-NP
+11	öleceğini	B-VP
+12	de	B-ADVP
+13	söylemeyi	B-VP
+14	ihmal	B-NP
+15	etmemiş	B-VP
+16	.	O
+
+# text = Devamında ise şunları söylemiş: - Elbette gidebilirsin Güzel, fakat korkuyorum ki babanın yanında kalmak istersin ve buraya dönmeyeceksin..
+1	Devamında	B-ADVP
+2	ise	I-ADVP
+3	şunları	B-NP
+4	söylemiş	B-VP
+5	:	O
+6	-	O
+7	Elbette	B-ADVP
+8	gidebilirsin	B-VP
+9	Güzel	B-NP
+10	,	O
+11	fakat	O
+12	korkuyorum	B-VP
+13	ki	O
+14	babanın	B-NP
+15	yanında	I-NP
+16	kalmak	B-VP
+17	istersin	I-VP
+18	ve	O
+19	buraya	B-ADVP
+20	dönmeyeceksin	B-VP
+21	..	O
+
+# text = Ama eğer fikrini değiştirirsen de yüzüğünü yatağının yanındaki sehpaya koyarsan sabah gözlerini bu şatoda açarsın, demiş.
+1	Ama	O
+2	eğer	O
+3	fikrini	B-NP
+4	değiştirirsen	B-VP
+5	de	B-ADVP
+6	yüzüğünü	B-NP
+7	yatağının	B-NP
+8	yanındaki	I-NP
+9	sehpaya	I-NP
+10	koyarsan	B-VP
+11	sabah	B-ADVP
+12	gözlerini	B-NP
+13	bu	B-NP
+14	şatoda	I-NP
+15	açarsın	B-VP
+16	,	O
+17	demiş	B-VP
+18	.	O
+
+# text = Güzel, bir hafta sonra döneceğine söz vermiş.
+1	Güzel	B-NP
+2	,	O
+3	bir	B-NP
+4	hafta	I-NP
+5	sonra	B-ADVP
+6	döneceğine	B-VP
+7	söz	B-NP
+8	vermiş	B-VP
+9	.	O
+
+# text = Ertesi gün Güzel, babasının evinde başlamış güne.
+1	Ertesi	B-ADVP
+2	gün	I-ADVP
+3	Güzel	B-NP
+4	,	O
+5	babasının	B-NP
+6	evinde	I-NP
+7	başlamış	B-VP
+8	güne	B-NP
+9	.	O
+
+# text = Babası onu görünce çok sevinmiş ve kendisini daha iyi hissetmiş.
+1	Babası	B-NP
+2	onu	B-NP
+3	görünce	B-VP
+4	çok	B-ADVP
+5	sevinmiş	B-VP
+6	ve	O
+7	kendisini	B-NP
+8	daha	B-ADVP
+9	iyi	B-ADJP
+10	hissetmiş	B-VP
+11	.	O
+
+# text = O gün, evlenmiş olan kız kardeşleri de babalarını ziyarete gelmişler ve Güzel’i evde görünce çok kıskanmışlar.
+1	O	B-NP
+2	gün	I-NP
+3	,	O
+4	evlenmiş	B-ADJP
+5	olan	I-ADJP
+6	kız	B-NP
+7	kardeşleri	I-NP
+8	de	B-ADVP
+9	babalarını	B-NP
+10	ziyarete	B-VP
+11	gelmişler	I-VP
+12	ve	O
+13	Güzel’i	B-NP
+14	evde	B-NP
+15	görünce	B-VP
+16	çok	B-ADVP
+17	kıskanmışlar	B-VP
+18	.	O
+
+# text = Bunun üzerinde bir kardeşi diğerine: -Beni dinle, Güzel’e bir oyun oynayalım ve o burada bir haftadan daha fazla kalsın.
+1	Bunun	B-NP
+2	üzerinde	I-NP
+3	bir	B-NP
+4	kardeşi	I-NP
+5	diğerine	B-NP
+6	:	O
+7	-	O
+8	Beni	B-NP
+9	dinle	B-VP
+10	,	O
+11	Güzel’e	B-NP
+12	bir	B-NP
+13	oyun	I-NP
+14	oynayalım	B-VP
+15	ve	O
+16	o	B-NP
+17	burada	B-ADVP
+18	bir	B-NP
+19	haftadan	I-NP
+20	daha	B-ADVP
+21	fazla	I-ADVP
+22	kalsın	B-VP
+23	.	O
+
+# text = Belki böylece Canavar sinirlenir ve gelip onu öldürür, demiş.
+1	Belki	B-ADVP
+2	böylece	I-ADVP
+3	Canavar	B-NP
+4	sinirlenir	B-VP
+5	ve	O
+6	gelip	B-VP
+7	onu	B-NP
+8	öldürür	I-VP
+9	,	O
+10	demiş	B-VP
+11	.	O
+
+# text = Bu nedenle de Güzel’in karşısına ağlayarak çıkmışlar ve ondan ayrılmak istemediklerini, biraz daha kalmasını istediklerini söylemişler.
+1	Bu	B-NP
+2	nedenle	I-NP
+3	de	B-ADVP
+4	Güzel’in	B-NP
+5	karşısına	I-NP
+6	ağlayarak	B-VP
+7	çıkmışlar	I-VP
+8	ve	O
+9	ondan	B-NP
+10	ayrılmak	B-VP
+11	istemediklerini	I-VP
+12	,	O
+13	biraz	B-ADVP
+14	daha	I-ADVP
+15	kalmasını	B-VP
+16	istediklerini	I-VP
+17	söylemişler	B-VP
+18	.	O
+
+# text = Böylece Güzel, bir hafta daha fazla kalmaya söz vermiş.
+1	Böylece	B-ADVP
+2	Güzel	B-NP
+3	,	O
+4	bir	B-NP
+5	hafta	I-NP
+6	daha	B-ADVP
+7	fazla	I-ADVP
+8	kalmaya	B-VP
+9	söz	B-NP
+10	vermiş	B-VP
+11	.	O
+
+# text = Bunun üzerinden çok geçmeden Güzel, Canavar’ı çok özlediğini fark etmiş.
+1	Bunun	B-NP
+2	üzerinden	I-NP
+3	çok	B-ADVP
+4	geçmeden	B-VP
+5	Güzel	B-NP
+6	,	O
+7	Canavar’ı	B-NP
+8	çok	B-ADVP
+9	özlediğini	B-VP
+10	fark	B-NP
+11	etmiş	B-VP
+12	.	O
+
+# text = Gece uyurken gördüğü rüya da onun bu hissini daha da artırmış.
+1	Gece	B-ADVP
+2	uyurken	B-VP
+3	gördüğü	B-ADJP
+4	rüya	B-NP
+5	da	B-ADVP
+6	onun	B-NP
+7	bu	B-NP
+8	hissini	I-NP
+9	daha	B-ADVP
+10	da	I-ADVP
+11	artırmış	B-VP
+12	.	O
+
+# text = Güzel, rüyasında Canavar’ın şatonun bahçesinde cansız bir şekilde yattığını görmüş.
+1	Güzel	B-NP
+2	,	O
+3	rüyasında	B-NP
+4	Canavar’ın	B-NP
+5	şatonun	I-NP
+6	bahçesinde	I-NP
+7	cansız	B-ADJP
+8	bir	B-NP
+9	şekilde	I-NP
+10	yattığını	B-VP
+11	görmüş	B-VP
+12	.	O
+
+# text = Uyanınca çok üzülmüş ve kendini acımasız olmakla suçlamış.
+1	Uyanınca	B-VP
+2	çok	B-ADVP
+3	üzülmüş	B-VP
+4	ve	O
+5	kendini	B-NP
+6	acımasız	B-ADJP
+7	olmakla	B-VP
+8	suçlamış	B-VP
+9	.	O
+
+# text = Hemen yüzüğünü sehpanın üzerine bırakmış ve sabah şatoda gözlerini açmış.
+1	Hemen	B-ADVP
+2	yüzüğünü	B-NP
+3	sehpanın	B-NP
+4	üzerine	I-NP
+5	bırakmış	B-VP
+6	ve	O
+7	sabah	B-ADVP
+8	şatoda	B-NP
+9	gözlerini	B-NP
+10	açmış	B-VP
+11	.	O
+
+# text = Akşam olunca Canavar’ın saat 9’da geleceğini düşünerek odasında beklemeye başlamış.
+1	Akşam	B-ADVP
+2	olunca	B-VP
+3	Canavar’ın	B-NP
+4	saat	B-NP
+5	9’da	I-NP
+6	geleceğini	B-VP
+7	düşünerek	I-VP
+8	odasında	B-NP
+9	beklemeye	B-VP
+10	başlamış	I-VP
+11	.	O
+
+# text = Saat 9 olmuş fakat Canavar gelmemiş.
+1	Saat	B-NP
+2	9	I-NP
+3	olmuş	B-VP
+4	fakat	O
+5	Canavar	B-NP
+6	gelmemiş	B-VP
+7	.	O
+
+# text = Saat 9’u geçmiş Canavar yine gelmemiş.
+1	Saat	B-NP
+2	9’u	I-NP
+3	geçmiş	B-VP
+4	Canavar	B-NP
+5	yine	B-ADVP
+6	gelmemiş	B-VP
+7	.	O
+
+# text = Birden korka korka bahçeye doğru koşmuş.
+1	Birden	B-ADVP
+2	korka	I-ADVP
+3	korka	I-ADVP
+4	bahçeye	B-NP
+5	doğru	B-ADVP
+6	koşmuş	B-VP
+7	.	O
+
+# text = Orada Canavar’ın boylu boyunca yerde yattığını görünce çok üzülmüş ve: - Ben onun ölümüne sebep oldum, diye düşünmeye başlamış.
+1	Orada	B-ADVP
+2	Canavar’ın	B-NP
+3	boylu	B-ADJP
+4	boyunca	I-ADJP
+5	yerde	B-NP
+6	yattığını	B-VP
+7	görünce	B-VP
+8	çok	B-ADVP
+9	üzülmüş	B-VP
+10	ve	O
+11	:	O
+12	-	O
+13	Ben	B-NP
+14	onun	B-NP
+15	ölümüne	I-NP
+16	sebep	B-NP
+17	oldum	B-VP
+18	,	O
+19	diye	B-ADVP
+20	düşünmeye	B-VP
+21	başlamış	I-VP
+22	.	O
+
+# text = Hemen Canavar’ın yanına gitmiş ve kalbinin hala attığını görünce derin bir nefes almış.
+1	Hemen	B-ADVP
+2	Canavar’ın	B-NP
+3	yanına	I-NP
+4	gitmiş	B-VP
+5	ve	O
+6	kalbinin	B-NP
+7	hala	B-ADVP
+8	attığını	B-VP
+9	görünce	B-VP
+10	derin	B-ADJP
+11	bir	B-NP
+12	nefes	I-NP
+13	almış	B-VP
+14	.	O
+
+# text = Canavar konuşmuş: - Gittiğinde artık dönmeyeceğini düşündüm ve hiçbir şey yiyemedim, hiçbir şey içemedim.
+1	Canavar	B-NP
+2	konuşmuş	B-VP
+3	:	O
+4	-	O
+5	Gittiğinde	B-VP
+6	artık	B-ADVP
+7	dönmeyeceğini	B-VP
+8	düşündüm	B-VP
+9	ve	O
+10	hiçbir	B-NP
+11	şey	I-NP
+12	yiyemedim	B-VP
+13	,	O
+14	hiçbir	B-NP
+15	şey	I-NP
+16	içemedim	B-VP
+17	.	O
+
+# text = Kendimi çok kötü hissettim bu yüzden de ölmeye hazırlandım’ demiş Canavar güçsüz bir sesle.
+1	Kendimi	B-NP
+2	çok	B-ADVP
+3	kötü	B-ADJP
+4	hissettim	B-VP
+5	bu	B-NP
+6	yüzden	I-NP
+7	de	B-ADVP
+8	ölmeye	B-VP
+9	hazırlandım	I-VP
+10	’	O
+11	demiş	B-VP
+12	Canavar	B-NP
+13	güçsüz	B-ADJP
+14	bir	B-NP
+15	sesle	I-NP
+16	.	O
+
+# text = Güzel; - Canavar, ben seni seviyorum ve seninle evlenmek istiyorum!
+1	Güzel	B-NP
+2	;	O
+3	-	O
+4	Canavar	B-NP
+5	,	O
+6	ben	B-NP
+7	seni	B-NP
+8	seviyorum	B-VP
+9	ve	O
+10	seninle	B-NP
+11	evlenmek	B-VP
+12	istiyorum	I-VP
+13	!	O
+
+# text = Güzel’in bunları söylediği sırada şatoda çok garip şeyler olmaya başlamış.
+1	Güzel’in	B-NP
+2	bunları	B-NP
+3	söylediği	B-ADJP
+4	sırada	B-NP
+5	şatoda	B-NP
+6	çok	B-ADVP
+7	garip	B-ADJP
+8	şeyler	B-NP
+9	olmaya	B-VP
+10	başlamış	I-VP
+11	.	O
+
+# text = Etraf ışıltılarla ve güzellikler ile dolmuş.
+1	Etraf	B-NP
+2	ışıltılarla	I-NP
+3	ve	I-NP
+4	güzellikler	I-NP
+5	ile	I-NP
+6	dolmuş	B-VP
+7	.	O
+
+# text = Bu ışıltıdan gözleri kamaşan Güzel, etrafı aramış fakat Canavar’ın yattığı yerde kimsenin olmadığını görmüş.
+1	Bu	B-NP
+2	ışıltıdan	I-NP
+3	gözleri	B-NP
+4	kamaşan	B-ADJP
+5	Güzel	B-NP
+6	,	O
+7	etrafı	B-NP
+8	aramış	B-VP
+9	fakat	O
+10	Canavar’ın	B-NP
+11	yattığı	B-ADJP
+12	yerde	B-NP
+13	kimsenin	B-NP
+14	olmadığını	B-VP
+15	görmüş	B-VP
+16	.	O
+
+# text = Onun yerinde ayakta duran yakışıklı mı yakışıklı, genç mi genç bir prens duruyormuş.
+1	Onun	B-NP
+2	yerinde	I-NP
+3	ayakta	B-ADVP
+4	duran	B-ADJP
+5	yakışıklı	B-ADJP
+6	mı	I-ADJP
+7	yakışıklı	I-ADJP
+8	,	O
+9	genç	B-ADJP
+10	mi	I-ADJP
+11	genç	I-ADJP
+12	bir	B-NP
+13	prens	I-NP
+14	duruyormuş	B-VP
+15	.	O
+
+# text = Güzel, bu yakışıklı prensi karşısında görünce çok şaşırmış.
+1	Güzel	B-NP
+2	,	O
+3	bu	B-NP
+4	yakışıklı	B-ADJP
+5	prensi	B-NP
+6	karşısında	B-NP
+7	görünce	B-VP
+8	çok	B-ADVP
+9	şaşırmış	B-VP
+10	.	O
+
+# text = Fakat sonra ağlayarak: - Ben Canavar’ı istiyorum, o nereye gitti?, demiş.
+1	Fakat	O
+2	sonra	B-ADVP
+3	ağlayarak	B-VP
+4	:	O
+5	-	O
+6	Ben	B-NP
+7	Canavar’ı	B-NP
+8	istiyorum	B-VP
+9	,	O
+10	o	B-NP
+11	nereye	B-ADVP
+12	gitti	B-VP
+13	?	O
+14	,	O
+15	demiş	B-VP
+16	.	O
+
+# text = Prens ayağa kalkarak: - O Canavar bendim, Güzel.
+1	Prens	B-NP
+2	ayağa	B-NP
+3	kalkarak	B-VP
+4	:	O
+5	-	O
+6	O	B-NP
+7	Canavar	I-NP
+8	bendim	B-VP
+9	,	O
+10	Güzel	B-NP
+11	.	O
+
+# text = Kötü olan bir peri beni bu bedene hapsetmiş ve yüzüne bakılamayacak kadar çirkin biri yapmıştı.
+1	Kötü	B-ADJP
+2	olan	I-ADJP
+3	bir	B-NP
+4	peri	I-NP
+5	beni	B-NP
+6	bu	B-NP
+7	bedene	I-NP
+8	hapsetmiş	B-VP
+9	ve	O
+10	yüzüne	B-NP
+11	bakılamayacak	B-VP
+12	kadar	O
+13	çirkin	B-ADJP
+14	biri	B-NP
+15	yapmıştı	B-VP
+16	.	O
+
+# text = Eğer sen benimle evlenmek istediğini dile getirmeseydin ben ömrümün sonuna kadar o bedende hapis kalacaktım.
+1	Eğer	O
+2	sen	B-NP
+3	benimle	B-NP
+4	evlenmek	B-VP
+5	istediğini	I-VP
+6	dile	B-NP
+7	getirmeseydin	B-VP
+8	ben	B-NP
+9	ömrümün	B-NP
+10	sonuna	I-NP
+11	kadar	I-NP
+12	o	B-NP
+13	bedende	I-NP
+14	hapis	B-ADJP
+15	kalacaktım	B-VP
+16	.	O
+
+# text = Daha sonra beraber şatoya gitmişler.
+1	Daha	B-ADVP
+2	sonra	I-ADVP
+3	beraber	B-ADVP
+4	şatoya	B-NP
+5	gitmişler	B-VP
+6	.	O
+
+# text = Güzel şatoda, babasını görünce çok şaşırmış.
+1	Güzel	B-NP
+2	şatoda	B-NP
+3	,	O
+4	babasını	B-NP
+5	görünce	B-VP
+6	çok	B-ADVP
+7	şaşırmış	B-VP
+8	.	O
+
+# text = Babasının yanında ise rüyasında gördüğü iyi peri ile karşılaşmış.
+1	Babasının	B-NP
+2	yanında	I-NP
+3	ise	B-ADVP
+4	rüyasında	B-NP
+5	gördüğü	B-ADJP
+6	iyi	B-ADJP
+7	peri	B-NP
+8	ile	I-NP
+9	karşılaşmış	B-VP
+10	.	O
+
+# text = Peri Güzel’e: - Bak, babana karşı gösterdiğin fedakarlığın ve cesaretin ödülünü aldın, demiş.
+1	Peri	B-NP
+2	Güzel’e	B-NP
+3	:	O
+4	-	O
+5	Bak	B-VP
+6	,	O
+7	babana	B-NP
+8	karşı	O
+9	gösterdiğin	B-ADJP
+10	fedakarlığın	B-NP
+11	ve	I-NP
+12	cesaretin	I-NP
+13	ödülünü	I-NP
+14	aldın	B-VP
+15	,	O
+16	demiş	B-VP
+17	.	O
+
+# text = Daha sonra Peri, elindeki sihirli değneği sallamış ve bir anda herkes, Prens’in şatosunda bulmuşlar kendilerini.
+1	Daha	B-ADVP
+2	sonra	I-ADVP
+3	Peri	B-NP
+4	,	O
+5	elindeki	B-ADJP
+6	sihirli	B-ADJP
+7	değneği	B-NP
+8	sallamış	B-VP
+9	ve	O
+10	bir	B-ADVP
+11	anda	I-ADVP
+12	herkes	B-NP
+13	,	O
+14	Prens’in	B-NP
+15	şatosunda	I-NP
+16	bulmuşlar	B-VP
+17	kendilerini	B-NP
+18	.	O
+
+# text = Şatoda olan halk, Prens’i alkışlarla selamlamışlar.
+1	Şatoda	B-NP
+2	olan	B-ADJP
+3	halk	B-NP
+4	,	O
+5	Prens’i	B-NP
+6	alkışlarla	B-NP
+7	selamlamışlar	B-VP
+8	.	O
+
+# text = Bunun üzerinden çok fazla bir zaman geçmeden de Prens ve Canavar evlenmişler.
+1	Bunun	B-NP
+2	üzerinden	I-NP
+3	çok	B-ADVP
+4	fazla	I-ADVP
+5	bir	B-NP
+6	zaman	I-NP
+7	geçmeden	B-VP
+8	de	B-ADVP
+9	Prens	B-NP
+10	ve	I-NP
+11	Canavar	I-NP
+12	evlenmişler	B-VP
+13	.	O
+
+# text = Böylece dünyanın da gelmiş geçmiş en mutlu çifti olmuşlar.
+1	Böylece	B-ADVP
+2	dünyanın	B-NP
+3	da	B-ADVP
+4	gelmiş	B-ADJP
+5	geçmiş	I-ADJP
+6	en	B-ADVP
+7	mutlu	B-ADJP
+8	çifti	B-NP
+9	olmuşlar	B-VP
+10	.	O
+
+# text = Kısa süre sonra Ayhan ve Kadir birlikte geldiler ve onları Dilek izledi.
+1	Kısa	B-ADJP
+2	süre	B-NP
+3	sonra	B-ADVP
+4	Ayhan	B-NP
+5	ve	I-NP
+6	Kadir	I-NP
+7	birlikte	B-ADVP
+8	geldiler	B-VP
+9	ve	O
+10	onları	B-NP
+11	Dilek	B-NP
+12	izledi	B-VP
+13	.	O
+
+# text = Beni şaşırtmayarak yine en son gelen kişi olan Tufan soluk soluğa masamıza yaklaştı ve kendisine bir yer bulup oturduktan sonra, bizi yaklaşık yirmi dakika bekletmiş olduğu için hepimizden özür diledi.
+1	Beni	B-NP
+2	şaşırtmayarak	B-VP
+3	yine	B-ADVP
+4	en	B-ADVP
+5	son	B-ADJP
+6	gelen	B-ADJP
+7	kişi	B-NP
+8	olan	B-ADJP
+9	Tufan	B-NP
+10	soluk	B-ADVP
+11	soluğa	I-ADVP
+12	masamıza	B-NP
+13	yaklaştı	B-VP
+14	ve	O
+15	kendisine	B-NP
+16	bir	B-NP
+17	yer	I-NP
+18	bulup	B-VP
+19	oturduktan	I-VP
+20	sonra	I-VP
+21	,	O
+22	bizi	B-NP
+23	yaklaşık	B-ADVP
+24	yirmi	B-NP
+25	dakika	I-NP
+26	bekletmiş	B-VP
+27	olduğu	I-VP
+28	için	O
+29	hepimizden	B-NP
+30	özür	B-NP
+31	diledi	B-VP
+32	.	O
+
+# text = Masadaki herkes birbirine hal hatır sorarken, garson gelip siparişlerimizi not etmeye başladı.
+1	Masadaki	B-ADJP
+2	herkes	B-NP
+3	birbirine	B-NP
+4	hal	B-NP
+5	hatır	I-NP
+6	sorarken	B-VP
+7	,	O
+8	garson	B-NP
+9	gelip	B-VP
+10	siparişlerimizi	B-NP
+11	not	B-NP
+12	etmeye	B-VP
+13	başladı	I-VP
+14	.	O
+
+# text = Kadir garsona “Ben alabalık alayım.” derken, gerek konuşmasıyla gerek hal ve hareketleriyle, panik atak nöbeti geçiren birinden farksızdı.
+1	Kadir	B-NP
+2	garsona	B-NP
+3	“	O
+4	Ben	B-NP
+5	alabalık	B-NP
+6	alayım	B-VP
+7	.	O
+8	”	O
+9	derken	B-VP
+10	,	O
+11	gerek	O
+12	konuşmasıyla	B-NP
+13	gerek	O
+14	hal	B-NP
+15	ve	I-NP
+16	hareketleriyle	I-NP
+17	,	O
+18	panik	B-NP
+19	atak	I-NP
+20	nöbeti	I-NP
+21	geçiren	B-ADJP
+22	birinden	B-NP
+23	farksızdı	B-VP
+24	.	O
+
+# text = Ayhan karışık ızgara, Vahdet ise sac kavurma istedi.
+1	Ayhan	B-NP
+2	karışık	B-ADJP
+3	ızgara	B-NP
+4	,	O
+5	Vahdet	B-NP
+6	ise	B-ADVP
+7	sac	B-NP
+8	kavurma	I-NP
+9	istedi	B-VP
+10	.	O
+
+# text = Tufan ayılabilmek için olsa gerek, sadece bir fincan kahveyle yetindi.
+1	Tufan	B-NP
+2	ayılabilmek	B-VP
+3	için	O
+4	olsa	B-VP
+5	gerek	I-VP
+6	,	O
+7	sadece	B-ADVP
+8	bir	B-NP
+9	fincan	I-NP
+10	kahveyle	I-NP
+11	yetindi	B-VP
+12	.	O
+
+# text = O kısacık kaçamak bakışı esnasında gözlerinde sorgulayıcı ve tehdit edici bir ifade görmüştüm.
+1	O	B-NP
+2	kısacık	B-ADJP
+3	kaçamak	B-ADJP
+4	bakışı	B-NP
+5	esnasında	I-NP
+6	gözlerinde	B-NP
+7	sorgulayıcı	B-ADJP
+8	ve	I-ADJP
+9	tehdit	I-ADJP
+10	edici	I-ADJP
+11	bir	B-NP
+12	ifade	I-NP
+13	görmüştüm	B-VP
+14	.	O
+
+# text = Dilek az önceki davranışımı muhtemelen bir zamanlar ortak zevkleri paylaştığımız bir çift olduğumuzu ima etme çabası olarak görmüştü; fakat bu durum benim için gayri ihtiyari gelişmiş bir olaydı.
+1	Dilek	B-NP
+2	az	B-ADVP
+3	önceki	I-ADVP
+4	davranışımı	B-NP
+5	muhtemelen	B-ADVP
+6	bir	B-ADVP
+7	zamanlar	I-ADVP
+8	ortak	B-ADJP
+9	zevkleri	B-NP
+10	paylaştığımız	B-ADJP
+11	bir	B-NP
+12	çift	I-NP
+13	olduğumuzu	B-VP
+14	ima	B-NP
+15	etme	B-VP
+16	çabası	B-NP
+17	olarak	B-ADVP
+18	görmüştü	B-VP
+19	;	O
+20	fakat	O
+21	bu	B-NP
+22	durum	I-NP
+23	benim	B-NP
+24	için	O
+25	gayri	B-ADJP
+26	ihtiyari	I-ADJP
+27	gelişmiş	B-ADJP
+28	bir	B-NP
+29	olaydı	I-NP
+30	.	O
+
+# text = Bu belki sadece eski bir alışkanlıktan ibaretti; belki de bilinçaltımın derinliklerinden bir anda çıkıp gelmiş olan, eski mutlu günlere duyulan bir özlemin işaretçisiydi.
+1	Bu	B-NP
+2	belki	B-ADVP
+3	sadece	B-ADVP
+4	eski	B-ADJP
+5	bir	B-NP
+6	alışkanlıktan	I-NP
+7	ibaretti	B-VP
+8	;	O
+9	belki	B-ADVP
+10	de	I-ADVP
+11	bilinçaltımın	B-NP
+12	derinliklerinden	I-NP
+13	bir	B-ADVP
+14	anda	I-ADVP
+15	çıkıp	B-VP
+16	gelmiş	I-VP
+17	olan	B-ADJP
+18	,	O
+19	eski	B-ADJP
+20	mutlu	B-ADJP
+21	günlere	B-NP
+22	duyulan	B-ADJP
+23	bir	B-NP
+24	özlemin	I-NP
+25	işaretçisiydi	B-VP
+26	.	O
+
+# text = Ayhan'ın bu sorusuyla masadaki herkes üzerime dikkat kesilip ne söyleyeceğimi bekledi.
+1	Ayhan'ın	B-NP
+2	bu	B-NP
+3	sorusuyla	I-NP
+4	masadaki	B-ADJP
+5	herkes	B-NP
+6	üzerime	B-NP
+7	dikkat	B-NP
+8	kesilip	B-VP
+9	ne	B-NP
+10	söyleyeceğimi	B-VP
+11	bekledi	B-VP
+12	.	O
+
+# text = Üç Muz Rotası mı?” diyerek konuşmamı böldü Vahdet bu esnada.
+1	Üç	B-NP
+2	Muz	I-NP
+3	Rotası	I-NP
+4	mı	O
+5	?	O
+6	”	O
+7	diyerek	B-VP
+8	konuşmamı	B-NP
+9	böldü	B-VP
+10	Vahdet	B-NP
+11	bu	B-NP
+12	esnada	I-NP
+13	.	O
+
+# text = Tufan, içerken genzine kaçırdığı suyu, öksürerek ağzından dışarı püskürttü.
+1	Tufan	B-NP
+2	,	O
+3	içerken	B-VP
+4	genzine	B-NP
+5	kaçırdığı	B-ADJP
+6	suyu	B-NP
+7	,	O
+8	öksürerek	B-VP
+9	ağzından	B-NP
+10	dışarı	B-ADVP
+11	püskürttü	B-VP
+12	.	O
+
+# text = Dilek bile Üç Muz Rotası ismini duyduğunda, elindeki kaşığı düşürecek kadar dehşete kapılmıştı.
+1	Dilek	B-NP
+2	bile	B-ADVP
+3	Üç	B-NP
+4	Muz	I-NP
+5	Rotası	I-NP
+6	ismini	I-NP
+7	duyduğunda	B-VP
+8	,	O
+9	elindeki	B-ADJP
+10	kaşığı	B-NP
+11	düşürecek	B-VP
+12	kadar	O
+13	dehşete	B-NP
+14	kapılmıştı	B-VP
+15	.	O
+
+# text = “Ama...” diye konuşmama devam ettim, “ama dağ evinde tanıştığım bir adam bu kararımdan en azından şimdilik vazgeçmeme neden oldu.
+1	“	O
+2	Ama	B-ADVP
+3	...	O
+4	”	O
+5	diye	B-ADVP
+6	konuşmama	B-NP
+7	devam	B-NP
+8	ettim	B-VP
+9	,	O
+10	“	O
+11	ama	O
+12	dağ	B-NP
+13	evinde	I-NP
+14	tanıştığım	B-ADJP
+15	bir	B-NP
+16	adam	I-NP
+17	bu	B-NP
+18	kararımdan	I-NP
+19	en	B-ADVP
+20	azından	I-ADVP
+21	şimdilik	I-ADVP
+22	vazgeçmeme	B-VP
+23	neden	B-NP
+24	oldu	B-VP
+25	.	O
+
+# text = Sabah erken saatlerde uyanıp kahvaltı için restorana inmiştim.
+1	Sabah	B-ADVP
+2	erken	I-ADVP
+3	saatlerde	I-ADVP
+4	uyanıp	B-VP
+5	kahvaltı	B-NP
+6	için	O
+7	restorana	B-NP
+8	inmiştim	B-VP
+9	.	O
+
+# text = Havanın ağarmaya başladığı saatlerdi ve restoran bomboştu ya da ben öyle sanmıştım, çünkü kahvaltımı yapmaya daha yeni başlamıştım ki hemen arkamda duyduğum bir ses yerimden sıçramama neden olmuştu.
+1	Havanın	B-NP
+2	ağarmaya	B-VP
+3	başladığı	I-VP
+4	saatlerdi	B-VP
+5	ve	O
+6	restoran	B-NP
+7	bomboştu	B-VP
+8	ya	O
+9	da	O
+10	ben	B-NP
+11	öyle	B-ADVP
+12	sanmıştım	B-VP
+13	,	O
+14	çünkü	O
+15	kahvaltımı	B-NP
+16	yapmaya	B-VP
+17	daha	B-ADVP
+18	yeni	I-ADVP
+19	başlamıştım	B-VP
+20	ki	O
+21	hemen	B-ADVP
+22	arkamda	B-NP
+23	duyduğum	B-ADJP
+24	bir	B-NP
+25	ses	I-NP
+26	yerimden	B-NP
+27	sıçramama	B-VP
+28	neden	B-NP
+29	olmuştu	B-VP
+30	.	O
+
+# text = Başımı arkama çevirdiğimde, bu sesin sahibi olan tuhaf görünüşlü adamı gördüm.
+1	Başımı	B-NP
+2	arkama	B-NP
+3	çevirdiğimde	B-VP
+4	,	O
+5	bu	B-NP
+6	sesin	I-NP
+7	sahibi	I-NP
+8	olan	B-ADJP
+9	tuhaf	B-ADJP
+10	görünüşlü	I-ADJP
+11	adamı	B-NP
+12	gördüm	B-VP
+13	.	O
+
+# text = Tepemde öylece dikilmiş duruyordu ve gerek görünüşüyle gerek davranışlarıyla sanki bulunduğu mekan ve zamana ait değilmiş gibi bir hali vardı.
+1	Tepemde	B-NP
+2	öylece	B-ADVP
+3	dikilmiş	B-VP
+4	duruyordu	I-VP
+5	ve	O
+6	gerek	O
+7	görünüşüyle	B-NP
+8	gerek	O
+9	davranışlarıyla	B-NP
+10	sanki	B-ADVP
+11	bulunduğu	B-ADJP
+12	mekan	B-NP
+13	ve	I-NP
+14	zamana	I-NP
+15	ait	B-ADJP
+16	değilmiş	B-VP
+17	gibi	B-ADVP
+18	bir	B-NP
+19	hali	I-NP
+20	vardı	B-VP
+21	.	O
+
+# text = Yani orada ona bakarken kendimi sanki tamamlanmış mükemmel bir yapbozun uyumsuz bir parçasına bakıyormuşum gibi hissettim.
+1	Yani	B-ADVP
+2	orada	B-ADVP
+3	ona	B-NP
+4	bakarken	B-VP
+5	kendimi	B-NP
+6	sanki	B-ADVP
+7	tamamlanmış	B-ADJP
+8	mükemmel	B-ADJP
+9	bir	B-NP
+10	yapbozun	I-NP
+11	uyumsuz	B-ADJP
+12	bir	B-NP
+13	parçasına	I-NP
+14	bakıyormuşum	B-VP
+15	gibi	B-ADVP
+16	hissettim	B-VP
+17	.	O
+
+# text = Bana tepeden bakan o kapkara bakışlarında insanı rahatsız eden ve umutsuzluğa sürükleyen garip bir ifade vardı.
+1	Bana	B-NP
+2	tepeden	B-ADVP
+3	bakan	B-ADJP
+4	o	B-NP
+5	kapkara	B-ADJP
+6	bakışlarında	B-NP
+7	insanı	B-NP
+8	rahatsız	B-ADJP
+9	eden	I-ADJP
+10	ve	I-ADJP
+11	umutsuzluğa	B-NP
+12	sürükleyen	I-ADJP
+13	garip	B-ADJP
+14	bir	B-NP
+15	ifade	I-NP
+16	vardı	B-VP
+17	.	O
+
+# text = Siyah saçları özenle geriye taranıp kafasına briyantinle iyice yapıştırılmıştı.
+1	Siyah	B-ADJP
+2	saçları	B-NP
+3	özenle	B-ADVP
+4	geriye	B-ADVP
+5	taranıp	B-VP
+6	kafasına	B-NP
+7	briyantinle	B-NP
+8	iyice	B-ADVP
+9	yapıştırılmıştı	B-VP
+10	.	O
+
+# text = Güneş altında yanmış gibi görünen teninin rengi sanki bronzdan çok mora yaklaşan bir tondaydı.
+1	Güneş	B-NP
+2	altında	I-NP
+3	yanmış	B-ADJP
+4	gibi	B-ADVP
+5	görünen	B-ADJP
+6	teninin	B-NP
+7	rengi	I-NP
+8	sanki	B-ADVP
+9	bronzdan	B-NP
+10	çok	B-ADVP
+11	mora	B-NP
+12	yaklaşan	B-ADJP
+13	bir	B-NP
+14	tondaydı	B-VP
+15	.	O
+
+# text = Ucunda bir tutam sakalın sarktığı çıkık çenesinin ve elmacık kemiklerinin keskin hatlar çizdiği uzun yüzünün ortasında duran kemerli kocaman burnu ona yırtıcı ve tehlikeli bir tabiat katıyordu.
+1	Ucunda	B-NP
+2	bir	B-NP
+3	tutam	I-NP
+4	sakalın	I-NP
+5	sarktığı	B-ADJP
+6	çıkık	B-ADJP
+7	çenesinin	B-NP
+8	ve	I-NP
+9	elmacık	B-NP
+10	kemiklerinin	I-NP
+11	keskin	B-ADJP
+12	hatlar	B-NP
+13	çizdiği	B-ADJP
+14	uzun	B-ADJP
+15	yüzünün	B-NP
+16	ortasında	I-NP
+17	duran	B-ADJP
+18	kemerli	B-ADJP
+19	kocaman	B-ADJP
+20	burnu	B-NP
+21	ona	B-NP
+22	yırtıcı	B-ADJP
+23	ve	I-ADJP
+24	tehlikeli	I-ADJP
+25	bir	B-NP
+26	tabiat	I-NP
+27	katıyordu	B-VP
+28	.	O
+
+# text = Siyah takım elbisesine ve tozsuz, parlak deri ayakkabılarına bakınca, onun bizim gibilerin yıllardır aşındırdığı yolların yolcusu olmadığını tahmin etmek hiç de zor değildi.
+1	Siyah	B-ADJP
+2	takım	B-NP
+3	elbisesine	I-NP
+4	ve	I-NP
+5	tozsuz	B-ADJP
+6	,	O
+7	parlak	B-ADJP
+8	deri	B-NP
+9	ayakkabılarına	I-NP
+10	bakınca	B-VP
+11	,	O
+12	onun	B-NP
+13	bizim	B-NP
+14	gibilerin	I-NP
+15	yıllardır	B-ADVP
+16	aşındırdığı	B-ADJP
+17	yolların	B-NP
+18	yolcusu	I-NP
+19	olmadığını	B-VP
+20	tahmin	B-NP
+21	etmek	B-VP
+22	hiç	B-ADVP
+23	de	I-ADVP
+24	zor	B-ADJP
+25	değildi	B-VP
+26	.	O
+
+# text = 'Tabi, neden olmasın?” diye karşılık verdim yüzüme yalancı bir gülümseme yerleştirerek.
+1	'	O
+2	Tabi	B-ADVP
+3	,	O
+4	neden	B-ADVP
+5	olmasın	B-VP
+6	?	O
+7	”	O
+8	diye	B-ADVP
+9	karşılık	B-NP
+10	verdim	B-VP
+11	yüzüme	B-NP
+12	yalancı	B-ADJP
+13	bir	B-NP
+14	gülümseme	I-NP
+15	yerleştirerek	B-VP
+16	.	O
+
+# text = Adam ellerini ovuşturduktan sonra, tıpkı seğirten bir fare gibi, ayak parmaklarının üzerinde, hızlı adımlarla masanın diğer tarafına yürüdü ve karşımda duran sandalyeyi nazikçe çekerek oturdu.
+1	Adam	B-NP
+2	ellerini	B-NP
+3	ovuşturduktan	B-VP
+4	sonra	I-VP
+5	,	O
+6	tıpkı	B-ADVP
+7	seğirten	B-ADJP
+8	bir	B-NP
+9	fare	I-NP
+10	gibi	B-ADVP
+11	,	O
+12	ayak	B-NP
+13	parmaklarının	I-NP
+14	üzerinde	I-NP
+15	,	O
+16	hızlı	B-ADJP
+17	adımlarla	B-NP
+18	masanın	B-NP
+19	diğer	B-ADJP
+20	tarafına	B-NP
+21	yürüdü	B-VP
+22	ve	O
+23	karşımda	B-NP
+24	duran	B-ADJP
+25	sandalyeyi	B-NP
+26	nazikçe	B-ADVP
+27	çekerek	B-VP
+28	oturdu	I-VP
+29	.	O
+
+# text = “Biliyoruz, çünkü sizinle çalışmak istiyoruz.” diye cevap verdi adam ve sonra “Ama maalesef bu konuyu size burada açıklayamam.” diye ekledi.
+1	“	O
+2	Biliyoruz	B-VP
+3	,	O
+4	çünkü	O
+5	sizinle	B-NP
+6	çalışmak	B-VP
+7	istiyoruz	I-VP
+8	.	O
+9	”	O
+10	diye	B-ADVP
+11	cevap	B-NP
+12	verdi	B-VP
+13	adam	B-NP
+14	ve	O
+15	sonra	B-ADVP
+16	“	O
+17	Ama	O
+18	maalesef	B-ADVP
+19	bu	B-NP
+20	konuyu	I-NP
+21	size	B-NP
+22	burada	B-ADVP
+23	açıklayamam	B-VP
+24	.	O
+25	”	O
+26	diye	B-ADVP
+27	ekledi	B-VP
+28	.	O
+
+# text = Sonra adam ne tepki vereceğimi gözlemlemeye çalışıyormuş gibi gözlerini gözlerime dikti ve kemikli, kocaman ellerini masanın üzerinde birbirine kavuşturup, uzun tırnaklarını birbirine vurarak beklemeye başladı.
+1	Sonra	B-ADVP
+2	adam	B-NP
+3	ne	B-NP
+4	tepki	I-NP
+5	vereceğimi	B-VP
+6	gözlemlemeye	I-VP
+7	çalışıyormuş	B-VP
+8	gibi	B-ADVP
+9	gözlerini	B-NP
+10	gözlerime	B-NP
+11	dikti	B-VP
+12	ve	O
+13	kemikli	B-ADJP
+14	,	O
+15	kocaman	B-ADJP
+16	ellerini	B-NP
+17	masanın	B-NP
+18	üzerinde	I-NP
+19	birbirine	B-NP
+20	kavuşturup	B-VP
+21	,	O
+22	uzun	B-ADJP
+23	tırnaklarını	B-NP
+24	birbirine	B-NP
+25	vurarak	B-VP
+26	beklemeye	B-VP
+27	başladı	I-VP
+28	.	O
+
+# text = ‘Peki nerede açıklamayı düşünüyorsunuz?’ diye sorduğumda, adam ‘Sizinle küçük bir yolculuğa çıkmamız gerekecek Görkem Bey.’ diye cevap verdi.
+1	‘	O
+2	Peki	B-ADVP
+3	nerede	B-ADVP
+4	açıklamayı	B-NP
+5	düşünüyorsunuz	B-VP
+6	?	O
+7	’	O
+8	diye	B-ADVP
+9	sorduğumda	B-VP
+10	,	O
+11	adam	B-NP
+12	‘	O
+13	Sizinle	B-NP
+14	küçük	B-ADJP
+15	bir	B-NP
+16	yolculuğa	I-NP
+17	çıkmamız	B-VP
+18	gerekecek	I-VP
+19	Görkem	B-NP
+20	Bey	I-NP
+21	.	O
+22	’	O
+23	diye	B-ADVP
+24	cevap	B-NP
+25	verdi	B-VP
+26	.	O
+
+# text = ‘Size az önce de söylediğim gibi, birazdan başlamam gereken bir tırmanışım var Dilaver Bey.' diye karşılık verdim.
+1	‘	O
+2	Size	B-NP
+3	az	B-ADVP
+4	önce	I-ADVP
+5	de	I-ADVP
+6	söylediğim	B-ADJP
+7	gibi	B-ADVP
+8	,	O
+9	birazdan	B-ADVP
+10	başlamam	B-VP
+11	gereken	B-ADJP
+12	bir	B-NP
+13	tırmanışım	I-NP
+14	var	B-VP
+15	Dilaver	B-NP
+16	Bey	I-NP
+17	.	O
+18	'	O
+19	diye	B-ADVP
+20	karşılık	B-NP
+21	verdim	B-VP
+22	.	O
+
+# text = Adamın tüm bu gizemli konuşmaları içimi ürpertmişti, ama içten içe merakımın kamçılandığını da hissetmiyor değildim.
+1	Adamın	B-NP
+2	tüm	B-NP
+3	bu	I-NP
+4	gizemli	B-ADJP
+5	konuşmaları	B-NP
+6	içimi	B-NP
+7	ürpertmişti	B-VP
+8	,	O
+9	ama	O
+10	içten	B-ADVP
+11	içe	I-ADVP
+12	merakımın	B-NP
+13	kamçılandığını	B-VP
+14	da	B-ADVP
+15	hissetmiyor	B-VP
+16	değildim	I-VP
+17	.	O
+
+# text = Birlikte restorandan çıkıp lobiye vardığımızda Dilaver, orada oturmakta olan dört adama bir baş hareketi yaptıktan sonra adamlar yerlerinden fırlayıp dışarı koştular.
+1	Birlikte	B-ADVP
+2	restorandan	B-NP
+3	çıkıp	B-VP
+4	lobiye	B-NP
+5	vardığımızda	B-VP
+6	Dilaver	B-NP
+7	,	O
+8	orada	B-ADVP
+9	oturmakta	B-VP
+10	olan	B-ADJP
+11	dört	B-NP
+12	adama	I-NP
+13	bir	B-NP
+14	baş	I-NP
+15	hareketi	I-NP
+16	yaptıktan	B-VP
+17	sonra	I-VP
+18	adamlar	B-NP
+19	yerlerinden	B-NP
+20	fırlayıp	B-VP
+21	dışarı	B-ADVP
+22	koştular	I-VP
+23	.	O
+
+# text = Yolculuğumuz boyunca yanımda oturan bu Dilaver denen adam felsefi, ahlaki ve toplumsal konulara değindi ama nereye niçin gidiyor olduğumuzla ilgili tek bir kelime bile söylemedi.
+1	Yolculuğumuz	B-NP
+2	boyunca	I-NP
+3	yanımda	B-NP
+4	oturan	B-ADJP
+5	bu	B-NP
+6	Dilaver	I-NP
+7	denen	I-NP
+8	adam	I-NP
+9	felsefi	B-ADJP
+10	,	O
+11	ahlaki	B-ADJP
+12	ve	I-ADJP
+13	toplumsal	I-ADJP
+14	konulara	B-NP
+15	değindi	B-VP
+16	ama	O
+17	nereye	B-ADVP
+18	niçin	B-ADVP
+19	gidiyor	B-VP
+20	olduğumuzla	I-VP
+21	ilgili	B-ADJP
+22	tek	B-NP
+23	bir	I-NP
+24	kelime	I-NP
+25	bile	B-ADVP
+26	söylemedi	B-VP
+27	.	O
+
+# text = Aslında adam sıkıcı birisi sayılmazdı ama etrafına yaydığı o mide bulandırıcı duman kokusu onu katlanılmaz kılıyordu.
+1	Aslında	B-ADVP
+2	adam	B-NP
+3	sıkıcı	B-ADJP
+4	birisi	B-NP
+5	sayılmazdı	B-VP
+6	ama	O
+7	etrafına	B-NP
+8	yaydığı	B-ADJP
+9	o	B-NP
+10	mide	B-NP
+11	bulandırıcı	I-NP
+12	duman	I-NP
+13	kokusu	I-NP
+14	onu	B-NP
+15	katlanılmaz	B-ADJP
+16	kılıyordu	B-VP
+17	.	O
+
+# text = Bu işkenceye yaklaşık elli dakika tahammül ettikten sonra araç yavaşlayıp durdu ve 'İşte geldik.’ dedi Dilaver.
+1	Bu	B-NP
+2	işkenceye	I-NP
+3	yaklaşık	B-ADVP
+4	elli	B-NP
+5	dakika	I-NP
+6	tahammül	B-NP
+7	ettikten	B-VP
+8	sonra	I-VP
+9	araç	B-NP
+10	yavaşlayıp	B-VP
+11	durdu	I-VP
+12	ve	O
+13	'	O
+14	İşte	B-ADVP
+15	geldik	B-VP
+16	.	O
+17	’	O
+18	dedi	B-VP
+19	Dilaver	B-NP
+20	.	O
+
+# text = Ben bunları söylerken masadaki herkes canından bezmiş gibi bir yüz ifadesiyle beni dinliyordu ya da dinliyormuş gibi görünüyordu.
+1	Ben	B-NP
+2	bunları	B-NP
+3	söylerken	B-VP
+4	masadaki	B-ADJP
+5	herkes	B-NP
+6	canından	B-NP
+7	bezmiş	B-ADJP
+8	gibi	B-ADVP
+9	bir	B-NP
+10	yüz	I-NP
+11	ifadesiyle	I-NP
+12	beni	B-NP
+13	dinliyordu	B-VP
+14	ya	O
+15	da	O
+16	dinliyormuş	B-VP
+17	gibi	B-ADVP
+18	görünüyordu	B-VP
+19	.	O
+
+# text = Tufan ağzı açık bir şekilde sızmak üzere, bir dirseğini masanın üzerine koyup, yanağını avucunun içine dayamıştı.
+1	Tufan	B-NP
+2	ağzı	B-NP
+3	açık	B-ADJP
+4	bir	B-NP
+5	şekilde	I-NP
+6	sızmak	B-VP
+7	üzere	I-VP
+8	,	O
+9	bir	B-NP
+10	dirseğini	I-NP
+11	masanın	B-NP
+12	üzerine	I-NP
+13	koyup	B-VP
+14	,	O
+15	yanağını	B-NP
+16	avucunun	B-NP
+17	içine	I-NP
+18	dayamıştı	B-VP
+19	.	O
+
+# text = Ayhan parmaklarını bir bulaşık telini andıran saçlarının içinde gezdirerek, dikkatini bana vermeye çalışıyordu ve bunu yaparken oldukça zorlanıyormuş gibi görünüyordu.
+1	Ayhan	B-NP
+2	parmaklarını	B-NP
+3	bir	B-NP
+4	bulaşık	I-NP
+5	telini	I-NP
+6	andıran	B-ADJP
+7	saçlarının	B-NP
+8	içinde	I-NP
+9	gezdirerek	B-VP
+10	,	O
+11	dikkatini	B-NP
+12	bana	B-NP
+13	vermeye	B-VP
+14	çalışıyordu	I-VP
+15	ve	O
+16	bunu	B-NP
+17	yaparken	B-VP
+18	oldukça	B-ADVP
+19	zorlanıyormuş	B-VP
+20	gibi	B-ADVP
+21	görünüyordu	B-VP
+22	.	O
+
+# text = Dilek ise çantasından çıkarmış olduğu cep aynasının yardımıyla makyajını kontrol edecek kadar konudan kopmuş görünüyordu; ama neyse ki altı milyon liradan bahsettiğimde masadaki herkesin keyfi yerine geldi.
+1	Dilek	B-NP
+2	ise	B-ADVP
+3	çantasından	B-NP
+4	çıkarmış	B-ADJP
+5	olduğu	I-ADJP
+6	cep	B-NP
+7	aynasının	I-NP
+8	yardımıyla	I-NP
+9	makyajını	B-NP
+10	kontrol	B-NP
+11	edecek	B-VP
+12	kadar	O
+13	konudan	B-NP
+14	kopmuş	B-ADJP
+15	görünüyordu	B-VP
+16	;	O
+17	ama	O
+18	neyse	B-ADVP
+19	ki	I-ADVP
+20	altı	B-NP
+21	milyon	I-NP
+22	liradan	I-NP
+23	bahsettiğimde	B-VP
+24	masadaki	B-ADJP
+25	herkesin	B-NP
+26	keyfi	I-NP
+27	yerine	I-NP
+28	geldi	B-VP
+29	.	O
+
+# text = O esnada Kadir “Kendisi de bir kaz kafalı olduğu için olabilir mi?” diyerek araya girdi.
+1	O	B-NP
+2	esnada	I-NP
+3	Kadir	B-NP
+4	“	O
+5	Kendisi	B-NP
+6	de	B-ADVP
+7	bir	B-NP
+8	kaz	I-NP
+9	kafalı	I-NP
+10	olduğu	B-VP
+11	için	O
+12	olabilir	B-VP
+13	mi	I-VP
+14	?	O
+15	”	O
+16	diyerek	B-VP
+17	araya	B-NP
+18	girdi	B-VP
+19	.	O
+
+# text = “Çiçeğin içerdiği zehri tıp alanında kullanmayı planlıyorlarmış.” diye cevap verdim ona.
+1	“	O
+2	Çiçeğin	B-NP
+3	içerdiği	B-ADJP
+4	zehri	B-NP
+5	tıp	B-NP
+6	alanında	I-NP
+7	kullanmayı	B-VP
+8	planlıyorlarmış	I-VP
+9	.	O
+10	”	O
+11	diye	B-ADVP
+12	cevap	B-NP
+13	verdim	B-VP
+14	ona	B-NP
+15	.	O
+
+# text = “Evet,” diye cevap verdim ve “ anladığım kadarıyla adam bu altı gün konusunda oldukça kuralcı.” diye ekledim.
+1	“	O
+2	Evet	B-ADVP
+3	,	O
+4	”	O
+5	diye	B-ADVP
+6	cevap	B-NP
+7	verdim	B-VP
+8	ve	O
+9	“	O
+10	anladığım	B-ADJP
+11	kadarıyla	B-NP
+12	adam	B-NP
+13	bu	B-NP
+14	altı	I-NP
+15	gün	I-NP
+16	konusunda	I-NP
+17	oldukça	B-ADVP
+18	kuralcı	B-ADJP
+19	.	O
+20	”	O
+21	diye	B-ADVP
+22	ekledim	B-VP
+23	.	O
+
+# text = “Neden yedi ya da beş değil de altı gün acaba?” diye kendi kendine mırıldandı Dilek.
+1	“	O
+2	Neden	B-ADVP
+3	yedi	B-NP
+4	ya	O
+5	da	O
+6	beş	B-NP
+7	değil	B-ADJP
+8	de	O
+9	altı	B-NP
+10	gün	I-NP
+11	acaba	B-ADVP
+12	?	O
+13	”	O
+14	diye	B-ADVP
+15	kendi	B-NP
+16	kendine	I-NP
+17	mırıldandı	B-VP
+18	Dilek	B-NP
+19	.	O
+
+# text = “Belki de tam olarak bu şekilde olmuştur.” dedim ve sonra “Ama size şu kadarını söyleyebilirim ki özellikle altı kişilik bir ekip oluşturma amacı gütmemiştim.” diye ekledim.
+1	“	O
+2	Belki	B-ADVP
+3	de	I-ADVP
+4	tam	B-ADVP
+5	olarak	I-ADVP
+6	bu	B-NP
+7	şekilde	I-NP
+8	olmuştur	B-VP
+9	.	O
+10	”	O
+11	dedim	B-VP
+12	ve	O
+13	sonra	B-ADVP
+14	“	O
+15	Ama	O
+16	size	B-NP
+17	şu	B-NP
+18	kadarını	I-NP
+19	söyleyebilirim	B-VP
+20	ki	O
+21	özellikle	B-ADVP
+22	altı	B-NP
+23	kişilik	I-NP
+24	bir	I-NP
+25	ekip	I-NP
+26	oluşturma	B-VP
+27	amacı	B-NP
+28	gütmemiştim	B-VP
+29	.	O
+30	”	O
+31	diye	B-ADVP
+32	ekledim	B-VP
+33	.	O
+
+# text = Bu sorumum ardından herkesin suspus olup birbirine bakmasından anlaşıldığı kadarıyla masadaki herkes söz konusu parayı almak için can atıyordu.
+1	Bu	B-NP
+2	sorumum	I-NP
+3	ardından	I-NP
+4	herkesin	B-NP
+5	suspus	B-ADJP
+6	olup	B-VP
+7	birbirine	B-NP
+8	bakmasından	B-VP
+9	anlaşıldığı	B-ADJP
+10	kadarıyla	B-NP
+11	masadaki	B-ADJP
+12	herkes	B-NP
+13	söz	B-NP
+14	konusu	I-NP
+15	parayı	I-NP
+16	almak	B-VP
+17	için	O
+18	can	B-NP
+19	atıyordu	B-VP
+20	.	O
+
+# text = Faruk Bey, Nurcan’ın malikaneden kovulmasından bir iki gün sonra onun kovulmasına içerlemiş, bu yüzden de annesiyle yine tartışmıştı.
+1	Faruk	B-NP
+2	Bey	I-NP
+3	,	O
+4	Nurcan’ın	B-NP
+5	malikaneden	B-NP
+6	kovulmasından	B-VP
+7	bir	B-NP
+8	iki	I-NP
+9	gün	I-NP
+10	sonra	B-ADVP
+11	onun	B-NP
+12	kovulmasına	B-VP
+13	içerlemiş	B-VP
+14	,	O
+15	bu	B-NP
+16	yüzden	I-NP
+17	de	B-ADVP
+18	annesiyle	B-NP
+19	yine	B-ADVP
+20	tartışmıştı	B-VP
+21	.	O
+
+# text = Annesi onun bu tavırları karşısında hiçbir ses çıkarmamış, sadece Allah Teala’dan onun hidayete ermesi için dua etmişti.
+1	Annesi	B-NP
+2	onun	B-NP
+3	bu	B-NP
+4	tavırları	I-NP
+5	karşısında	I-NP
+6	hiçbir	B-NP
+7	ses	I-NP
+8	çıkarmamış	B-VP
+9	,	O
+10	sadece	B-ADVP
+11	Allah	B-NP
+12	Teala’dan	I-NP
+13	onun	B-NP
+14	hidayete	B-NP
+15	ermesi	B-VP
+16	için	O
+17	dua	B-NP
+18	etmişti	B-VP
+19	.	O
+
+# text = Sen bize annenin başı açık, şık giyimli, mini etek giyen, partiden partiye giden biri olarak tanıtmadın mı?
+1	Sen	B-NP
+2	bize	B-NP
+3	annenin	B-NP
+4	başı	B-NP
+5	açık	B-ADJP
+6	,	O
+7	şık	B-ADJP
+8	giyimli	I-ADJP
+9	,	O
+10	mini	B-ADJP
+11	etek	B-NP
+12	giyen	B-ADJP
+13	,	O
+14	partiden	B-NP
+15	partiye	I-NP
+16	giden	B-ADJP
+17	biri	B-NP
+18	olarak	B-ADVP
+19	tanıtmadın	B-VP
+20	mı	I-VP
+21	?	O
+
+# text = Hem sen, bizim evde başı örtülü biri çalışamaz diye tanıtmadın mı?’ dedi sinirle.
+1	Hem	B-ADVP
+2	sen	B-NP
+3	,	O
+4	bizim	B-NP
+5	evde	B-NP
+6	başı	B-NP
+7	örtülü	B-ADJP
+8	biri	B-NP
+9	çalışamaz	B-VP
+10	diye	B-ADVP
+11	tanıtmadın	B-VP
+12	mı	I-VP
+13	?	O
+14	’	O
+15	dedi	B-VP
+16	sinirle	B-ADVP
+17	.	O
+
+# text = ‘Senin doğru söyleyip söylemediğini anlamak için, dün sizin evin önlerinde araştırma yaptım.
+1	‘	O
+2	Senin	B-NP
+3	doğru	B-ADJP
+4	söyleyip	B-VP
+5	söylemediğini	I-VP
+6	anlamak	B-VP
+7	için	O
+8	,	O
+9	dün	B-ADVP
+10	sizin	B-NP
+11	evin	I-NP
+12	önlerinde	I-NP
+13	araştırma	B-NP
+14	yaptım	B-VP
+15	.	O
+
+# text = Araştırmam sonunda annenin başörtülü olduğunu öğrendim.
+1	Araştırmam	B-NP
+2	sonunda	I-NP
+3	annenin	B-NP
+4	başörtülü	B-ADJP
+5	olduğunu	B-VP
+6	öğrendim	B-VP
+7	.	O
+
+# text = Ayrıca yanınızda birde annen gibi başı örtülü biri çalışıyormuş.
+1	Ayrıca	B-ADVP
+2	yanınızda	B-NP
+3	birde	B-ADVP
+4	annen	B-NP
+5	gibi	B-ADVP
+6	başı	B-NP
+7	örtülü	B-ADJP
+8	biri	B-NP
+9	çalışıyormuş	B-VP
+10	.	O
+
+# text = Üstelik sizin evinizin önünde araştırma yaparken az kalsın yakalanıyordum’ dedi ve Faruk’un yakasına yapışıp ona hızlıca bir tokat attı.
+1	Üstelik	B-ADVP
+2	sizin	B-NP
+3	evinizin	I-NP
+4	önünde	I-NP
+5	araştırma	B-NP
+6	yaparken	B-VP
+7	az	B-ADVP
+8	kalsın	I-ADVP
+9	yakalanıyordum	B-VP
+10	’	O
+11	dedi	B-VP
+12	ve	O
+13	Faruk’un	B-NP
+14	yakasına	I-NP
+15	yapışıp	B-VP
+16	ona	B-NP
+17	hızlıca	B-ADVP
+18	bir	B-NP
+19	tokat	I-NP
+20	attı	B-VP
+21	.	O
+
+# text = ‘Annenin başını açtırmadan ve o hizmetçiyi evden kovdurmadan bir daha yanımıza gelme’ dedi ve gülerek arkadaşlarının yanına döndü.
+1	‘	O
+2	Annenin	B-NP
+3	başını	I-NP
+4	açtırmadan	B-VP
+5	ve	O
+6	o	B-NP
+7	hizmetçiyi	I-NP
+8	evden	B-NP
+9	kovdurmadan	B-VP
+10	bir	B-ADVP
+11	daha	I-ADVP
+12	yanımıza	B-NP
+13	gelme	B-VP
+14	’	O
+15	dedi	B-VP
+16	ve	O
+17	gülerek	B-VP
+18	arkadaşlarının	B-NP
+19	yanına	I-NP
+20	döndü	B-VP
+21	.	O
+
+# text = Kaya’nın yaptıklarına hepsi gülerken içlerinden sadece Kaya’nın nişanlısı Hülya gülmüyor, sadece içi acıyordu.
+1	Kaya’nın	B-NP
+2	yaptıklarına	I-NP
+3	hepsi	B-NP
+4	gülerken	B-VP
+5	içlerinden	B-NP
+6	sadece	B-ADVP
+7	Kaya’nın	B-NP
+8	nişanlısı	I-NP
+9	Hülya	I-NP
+10	gülmüyor	B-VP
+11	,	O
+12	sadece	B-ADVP
+13	içi	B-NP
+14	acıyordu	B-VP
+15	.	O
+
+# text = Onu başı örtülü olduğunu bildiğin halde nasıl işe alırsın.
+1	Onu	B-NP
+2	başı	B-NP
+3	örtülü	B-ADJP
+4	olduğunu	B-VP
+5	bildiğin	B-ADJP
+6	halde	B-NP
+7	nasıl	B-ADVP
+8	işe	B-NP
+9	alırsın	B-VP
+10	.	O
+
+# text = Bu çağda nasıl bağnazlık böyle, o başörtüsü dedikleri şey ortaçağdan kalma bir gelenek.
+1	Bu	B-NP
+2	çağda	I-NP
+3	nasıl	B-ADVP
+4	bağnazlık	B-NP
+5	böyle	B-ADVP
+6	,	O
+7	o	B-NP
+8	başörtüsü	I-NP
+9	dedikleri	B-ADJP
+10	şey	B-NP
+11	ortaçağdan	B-NP
+12	kalma	B-ADJP
+13	bir	B-NP
+14	gelenek	I-NP
+15	.	O
+
+# text = Onların yüzünden arkadaşlarım arasında küçük düşüyorum’ dedikten sonra arabayı çalıştırarak gaza bastı.
+1	Onların	B-NP
+2	yüzünden	I-NP
+3	arkadaşlarım	B-NP
+4	arasında	I-NP
+5	küçük	B-ADJP
+6	düşüyorum	B-VP
+7	’	O
+8	dedikten	B-VP
+9	sonra	I-VP
+10	arabayı	B-NP
+11	çalıştırarak	B-VP
+12	gaza	B-NP
+13	bastı	B-VP
+14	.	O
+
+# text = Annesine ve Fatma’ya öyle kızmıştı ki, gözü hiçbir şey görmüyor, ne kadar hızla gittiğini göremiyordu.
+1	Annesine	B-NP
+2	ve	I-NP
+3	Fatma’ya	I-NP
+4	öyle	B-ADVP
+5	kızmıştı	B-VP
+6	ki	O
+7	,	O
+8	gözü	B-NP
+9	hiçbir	B-NP
+10	şey	I-NP
+11	görmüyor	B-VP
+12	,	O
+13	ne	B-ADVP
+14	kadar	I-ADVP
+15	hızla	B-ADVP
+16	gittiğini	B-VP
+17	göremiyordu	B-VP
+18	.	O
+
+# text = O hızla giderken aniden karşısına kamyon çıktı.
+1	O	B-NP
+2	hızla	I-NP
+3	giderken	B-VP
+4	aniden	B-ADVP
+5	karşısına	B-NP
+6	kamyon	B-NP
+7	çıktı	B-VP
+8	.	O
+
+# text = Ondan kurtulmak isterken kontrolünü kaybetti.
+1	Ondan	B-NP
+2	kurtulmak	B-VP
+3	isterken	I-VP
+4	kontrolünü	B-NP
+5	kaybetti	B-VP
+6	.	O
+
+# text = Araba taklalar atıp ağaca çarparak durdu.
+1	Araba	B-NP
+2	taklalar	B-NP
+3	atıp	B-VP
+4	ağaca	B-NP
+5	çarparak	B-VP
+6	durdu	I-VP
+7	.	O
+
+# text = Onun kaza yaptığını gören herkes etrafına toplanmış.
+1	Onun	B-NP
+2	kaza	B-NP
+3	yaptığını	B-VP
+4	gören	B-ADJP
+5	herkes	B-NP
+6	etrafına	B-NP
+7	toplanmış	B-VP
+8	.	O
+
+# text = ‘Vah vah! Daha genç çocuk’ diyor birbirlerine bakıyorlardı.
+1	‘	O
+2	Vah	B-ADVP
+3	vah	I-ADVP
+4	!	O
+5	Daha	B-ADVP
+6	genç	B-ADJP
+7	çocuk	B-NP
+8	’	O
+9	diyor	B-VP
+10	birbirlerine	B-NP
+11	bakıyorlardı	B-VP
+12	.	O
+
+# text = Birbirleriyle konuşan o kalabalık arasında birisi akıl edip ambulansı aramış, ambulans çoktan yola çıkmıştı.
+1	Birbirleriyle	B-NP
+2	konuşan	B-ADJP
+3	o	B-NP
+4	kalabalık	I-NP
+5	arasında	I-NP
+6	birisi	B-NP
+7	akıl	B-NP
+8	edip	B-VP
+9	ambulansı	B-NP
+10	aramış	B-VP
+11	,	O
+12	ambulans	B-NP
+13	çoktan	B-ADVP
+14	yola	B-NP
+15	çıkmıştı	B-VP
+16	.	O
+
+# text = Ambulans geldiğinde onu ağır yaralı bir halde arabadan çıkarmaya çalışıyorlar, bir taraftan da meraklı kalabalığı uzaklaştırmaya çalışıyorlardı.
+1	Ambulans	B-NP
+2	geldiğinde	B-VP
+3	onu	B-NP
+4	ağır	B-ADJP
+5	yaralı	B-ADJP
+6	bir	B-NP
+7	halde	I-NP
+8	arabadan	B-NP
+9	çıkarmaya	B-VP
+10	çalışıyorlardı	I-VP
+11	,	O
+12	bir	B-ADVP
+13	taraftan	I-ADVP
+14	da	I-ADVP
+15	meraklı	B-ADJP
+16	kalabalığı	B-NP
+17	uzaklaştırmaya	B-VP
+18	çalışıyorlardı	I-VP
+19	.	O
+
+# text = En yakın arkadaşı o kadar üzgün, o kadar kırgınmış ki bu kendisini geçiştiren cevap karşısında daha da kırılmış ve üzülmüş.
+1	En	B-ADVP
+2	yakın	B-ADJP
+3	arkadaşı	B-NP
+4	o	B-ADVP
+5	kadar	I-ADVP
+6	üzgün	B-ADJP
+7	,	O
+8	o	B-ADVP
+9	kadar	I-ADVP
+10	kırgınmış	B-ADJP
+11	ki	O
+12	bu	B-NP
+13	kendisini	B-NP
+14	geçiştiren	B-ADJP
+15	cevap	B-NP
+16	karşısında	I-NP
+17	daha	B-ADVP
+18	da	I-ADVP
+19	kırılmış	B-VP
+20	ve	O
+21	üzülmüş	B-VP
+22	.	O
+
+# text = Kendisini oldukça değersiz hissetmiş ve arkadaşına bir ders vermeye karar vermiş.
+1	Kendisini	B-NP
+2	oldukça	B-ADVP
+3	değersiz	B-ADJP
+4	hissetmiş	B-VP
+5	ve	O
+6	arkadaşına	B-NP
+7	bir	B-NP
+8	ders	I-NP
+9	vermeye	B-VP
+10	karar	B-NP
+11	vermiş	B-VP
+12	.	O
+
+# text = Arkadaşına onu affettiğini söylemiş ve ertesi gün en sevdikleri parkta buluşmak için sözleşmişler.
+1	Arkadaşına	B-NP
+2	onu	B-NP
+3	affettiğini	B-VP
+4	söylemiş	B-VP
+5	ve	O
+6	ertesi	B-ADVP
+7	gün	I-ADVP
+8	en	B-ADVP
+9	sevdikleri	B-ADJP
+10	parkta	B-NP
+11	buluşmak	B-VP
+12	için	O
+13	sözleşmişler	B-VP
+14	.	O
+
+# text = Özür dilemeyi bilmeyen çocuk parka gitmiş arkadaşını beklemeye başlamış.
+1	Özür	B-NP
+2	dilemeyi	B-VP
+3	bilmeyen	B-ADJP
+4	çocuk	B-NP
+5	parka	B-NP
+6	gitmiş	B-VP
+7	arkadaşını	B-NP
+8	beklemeye	B-VP
+9	başlamış	I-VP
+10	.	O
+
+# text = -Çok abartıyorsun, demiş arkadaşı ve kendisini hiç umursamadan yoluna devam etmiş.
+1	-	O
+2	Çok	B-ADVP
+3	abartıyorsun	B-VP
+4	,	O
+5	demiş	B-VP
+6	arkadaşı	B-NP
+7	ve	O
+8	kendisini	B-NP
+9	hiç	B-ADVP
+10	umursamadan	B-VP
+11	yoluna	B-NP
+12	devam	B-NP
+13	etmiş	B-VP
+14	.	O
+
+# text = Özür dilemeyi bilmeyen çocuk arkadaşı ile top oynamak istemiş.
+1	Özür	B-NP
+2	dilemeyi	B-VP
+3	bilmeyen	B-ADJP
+4	çocuk	B-NP
+5	arkadaşı	B-NP
+6	ile	I-NP
+7	top	B-NP
+8	oynamak	B-VP
+9	istemiş	I-VP
+10	.	O
+
+# text = Arkadaşı bu teklifi kabul etmiş ama küçük bir işi olduğunu söyleyerek ondan kendisini beklemesini rica ederek parktan uzaklaşmış.
+1	Arkadaşı	B-NP
+2	bu	B-NP
+3	teklifi	I-NP
+4	kabul	B-VP
+5	etmiş	I-VP
+6	ama	O
+7	küçük	B-ADJP
+8	bir	B-NP
+9	işi	I-NP
+10	olduğunu	B-VP
+11	söyleyerek	B-VP
+12	ondan	B-NP
+13	kendisini	B-NP
+14	beklemesini	B-VP
+15	rica	B-NP
+16	ederek	B-VP
+17	parktan	B-NP
+18	uzaklaşmış	B-VP
+19	.	O
+
+# text = Özür dilemeyi bilmeyen çocuk arkadaşını beklemiş, beklemiş.
+1	Özür	B-NP
+2	dilemeyi	B-VP
+3	bilmeyen	B-ADJP
+4	çocuk	B-NP
+5	arkadaşını	B-NP
+6	beklemiş	B-VP
+7	,	O
+8	beklemiş	B-VP
+9	.	O
+
+# text = Yine ne gelen olmuş ne de giden.
+1	Yine	B-ADVP
+2	ne	O
+3	gelen	B-ADJP
+4	olmuş	B-VP
+5	ne	O
+6	de	O
+7	giden	B-ADJP
+8	.	O
+
+# text = O da mecburen bir süre sonra evine dönmüş.
+1	O	B-NP
+2	da	B-ADVP
+3	mecburen	B-ADVP
+4	bir	B-NP
+5	süre	I-NP
+6	sonra	B-ADVP
+7	evine	B-NP
+8	dönmüş	B-VP
+9	.	O
+
+# text = Kalbi kırılmış, canı bu duruma çok sıkılmış.
+1	Kalbi	B-NP
+2	kırılmış	B-VP
+3	,	O
+4	canı	B-NP
+5	bu	B-NP
+6	duruma	I-NP
+7	çok	B-ADVP
+8	sıkılmış	B-VP
+9	.	O
+
+# text = -Sen bugüne kadar yaptığın yanlışlardan dolayı hiç özür diledin mi ki şimdi özür bekliyorsun?
+1	-	O
+2	Sen	B-NP
+3	bugüne	B-ADVP
+4	kadar	I-ADVP
+5	yaptığın	B-ADJP
+6	yanlışlardan	B-NP
+7	dolayı	I-NP
+8	hiç	B-ADVP
+9	özür	B-NP
+10	diledin	B-VP
+11	mi	I-VP
+12	ki	O
+13	şimdi	B-ADVP
+14	özür	B-NP
+15	bekliyorsun	B-VP
+16	?	O
+
+# text = Hayatta paylaşmak, fedakarlık, saygı, sevgi gibi çok özel değerler vardır.
+1	Hayatta	B-ADVP
+2	paylaşmak	B-VP
+3	,	O
+4	fedakarlık	B-NP
+5	,	O
+6	saygı	B-NP
+7	,	O
+8	sevgi	B-NP
+9	gibi	O
+10	çok	B-ADVP
+11	özel	B-ADJP
+12	değerler	B-NP
+13	vardır	B-VP
+14	.	O
+
+# text = Ama şunu unutmamak lazım ki bunların hepsi karşılıklıdır.
+1	Ama	O
+2	şunu	B-NP
+3	unutmamak	B-VP
+4	lazım	B-ADJP
+5	ki	O
+6	bunların	B-NP
+7	hepsi	I-NP
+8	karşılıklıdır	B-VP
+9	.	O
+
+# text = İyi ilişkilerin olmasını istiyorsan emek harcamalısın, karşındaki kişiyi önemsemelisin.
+1	İyi	B-ADJP
+2	ilişkilerin	B-NP
+3	olmasını	B-VP
+4	istiyorsan	I-VP
+5	emek	B-NP
+6	harcamalısın	B-VP
+7	,	O
+8	karşındaki	B-ADJP
+9	kişiyi	B-NP
+10	önemsemelisin	B-VP
+11	.	O
+
+# text = Onun duygularına değer vermeli ve her şeyden önemlisi incittiğin kalbi onarmak için çaba göstermelisin.
+1	Onun	B-NP
+2	duygularına	I-NP
+3	değer	B-NP
+4	vermeli	B-VP
+5	ve	O
+6	her	B-NP
+7	şeyden	I-NP
+8	önemlisi	I-NP
+9	incittiğin	B-ADJP
+10	kalbi	B-NP
+11	onarmak	B-VP
+12	için	O
+13	çaba	B-NP
+14	göstermelisin	B-VP
+15	.	O
+
+# text = Ben sana ayna tuttum arkadaşım.
+1	Ben	B-NP
+2	sana	B-NP
+3	ayna	B-NP
+4	tuttum	B-VP
+5	arkadaşım	B-NP
+6	.	O

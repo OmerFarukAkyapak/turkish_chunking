@@ -1,0 +1,55 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "accuracy": 0.7731829573934837,
+      "weighted_precision": 0.7694423619748927,
+      "weighted_recall": 0.7731829573934837,
+      "weighted_f1": 0.7684255163828198,
+      "train_sentence_count": 240,
+      "test_sentence_count": 60
+    },
+    {
+      "fold": 2,
+      "accuracy": 0.8055555555555556,
+      "weighted_precision": 0.8048636580906964,
+      "weighted_recall": 0.8055555555555556,
+      "weighted_f1": 0.8038931065376882,
+      "train_sentence_count": 240,
+      "test_sentence_count": 60
+    },
+    {
+      "fold": 3,
+      "accuracy": 0.8396334478808706,
+      "weighted_precision": 0.8428171915885869,
+      "weighted_recall": 0.8396334478808706,
+      "weighted_f1": 0.8378883146358044,
+      "train_sentence_count": 240,
+      "test_sentence_count": 60
+    },
+    {
+      "fold": 4,
+      "accuracy": 0.770595690747782,
+      "weighted_precision": 0.7752991951148726,
+      "weighted_recall": 0.770595690747782,
+      "weighted_f1": 0.7703516558804772,
+      "train_sentence_count": 240,
+      "test_sentence_count": 60
+    },
+    {
+      "fold": 5,
+      "accuracy": 0.793854033290653,
+      "weighted_precision": 0.7961588726666753,
+      "weighted_recall": 0.793854033290653,
+      "weighted_f1": 0.7942132610779151,
+      "train_sentence_count": 240,
+      "test_sentence_count": 60
+    }
+  ],
+  "average": {
+    "accuracy": 0.796564336973669,
+    "weighted_precision": 0.7977162558871449,
+    "weighted_recall": 0.796564336973669,
+    "weighted_f1": 0.794954370902941
+  }
+}

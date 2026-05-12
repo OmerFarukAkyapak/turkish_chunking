@@ -1,0 +1,3400 @@
+============================================================
+BATCH 1/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Bir varmış, bir yokmuş.
+Evvel zaman içinde bir Keloğlan varmış.
+İhtiyar ve yoksul annesi, bu biricik oğlunu "Keloğlum, keleş oğlum" diye severmiş.
+Günlerden bir gün Keloğlan annesinden izin alıp balık tutmaya gitmiş.
+Belki bir kaç balık yakalarım.
+Aç karnımızı doyururuz" diye düşünüyormuş.
+irmağın kenarına gelip oltasını salmış.
+Öğleye doğru kocaman bir balık tutmuş.
+Pulları gümüş gibi parlak, gözleri cam gibi aydınlık, güzel mi güzel bir balıkmış bu...
+Keloğlan balığın pullarını kazımış, karnını yarıp temizlemek istemiş.
+
+============================================================
+BATCH 2/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Balığın karnı içinde kocaman bir tas durmuyor mu?
+Keloğlan bir sevinmiş, bir sevinmiş ki sormayın.
+"Hem balığı götürürüm anama, hem tası" demiş.
+Tası su ile doldurup balığı yıkamak istemiş.
+Birden inanılmayacak bir şey olmuş.
+Tastan boşalttığı sular altın olarak akıyormuş yere.
+Bir kaç kere denemiş, hep altın akıyormuş tastan.
+"Bu, sihirli bir tas galiba.
+Hemen anama haber vereyim" demiş.
+Sihirli tasa küpler dolusu suyu doldurup doldurup boşaltmış.
+
+============================================================
+BATCH 3/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Suyu boşalan küplere de altınları biriktirmiş.
+Artık ülke hükümdarı bile onun yanında fakir sayılırmış...
+Keloğlan günler sonra büyük bir saray yaptırıp oraya taşınmış.
+Sevdiği ve istediği her şeyi alıyor, en güzel yemekleri yiyormuş.
+Sonunda altınlarının çokluğu onu şımartmaya başlamış.
+Gereksiz masraflara, lüzumsuz harcamalara girişmiş.
+"Oğlum bu işin sonu kötü olabilir" diye öğüt vermeye çalışan anasını bile dinlememiş.
+"Sihirli tas elimde, ne istersem yapabilirim..." diyormuş.
+Keloğlan'ın böyle kendini beğenmesi, şımarması ve hırsa kapılması, insanların ona duyduğu sevgiyi azaltmış.
+Herkes "Eski hali bundan daha iyiydi.
+
+============================================================
+BATCH 4/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Gözünü hırs bürüdü Keloğlan'ın" demeye başlamış.
+Keloğlan bir gün daha çok altın elde etmek için, sihirli tasını eline alıp ırmağın kenarına gelmiş.
+"Suyu tükenecek değil ya, bir saray da buraya yaptırayım.
+Gurur ve kibirle tasını suya daldırmış.
+Kıyıda biriken altınlar hırsını artırıyormuş.
+Daha hızlı daha hızlı daldırmaya başlamış tası.
+Artık altınlardan başka bir şey düşünmüyormuş.
+Birden tas elinden kayıp suya düşmüş.
+Keloğlan onu tutmak için eğilince kendisi de ırmağa yuvarlanmış.
+Yüzme bilmediği için hızla akan ırmakta nerdeyse boğulacakmış.
+
+============================================================
+BATCH 5/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Kendisi suda çırpınıp dururken,biriktirdiği altınları da hırsızlar çalıp götürmüşler.
+Artık tası bulmanın da imkanı kalmadığından ağlaya ağlaya annesinin yanına dönmüş.
+Yaşlı kadın: - Üzülme yavrum, demiş.
+Zaten, sen o tası alnının teri, elinin emeği ile kazanmamıştın.
+Üstelik zenginlik seni iyice şımartmıştı.
+Hiç olmazsa kendini başkalarından üstün görme hastalığından kurtulursun." Keloğlan bu sözlerle teselli bulmuş.
+O günden sonra da Sihirli Tası bir daha hiç anmamış...
+Hikaye Oku; Bu hikaye bana bir iki sene evvel Amerikalı bir doktor tarafından anlatıldı.
+Ona Floransa’ya giden Amerikan ekspresinde rastladım.
+Şehri ondan iyi taradığımdan kendisine küçük bir yardımım dokunabileceğini söyledim.
+
+============================================================
+BATCH 6/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Teşekkürü, beni akşam yemeğine davet oldu.
+Bir şişe şampanyayı birlikte bitirirken birbirimize daha da büyük bir sempati ile bağlandık.
+Ama ikinci şişe şampanyayı bitirdiğimizde, bana harikulade cazip bir arkadaş olarak görünmeye başladı.
+Doktor bana mesleği ile ilgili meraklı fıkralar anlattı.
+İnsan vücudu denen beşeri makineyi ölümün çeşitli oyunlarla akıl almaz yönlere sürükleyip bir oyuncak haline getirdiğini belirtti.
+Sakin bir sesle konuşurken mikrobiyoloji profesörümü hatırlıyordum… Okul senelerimi yeniden yaşatıyordu bana.
+Kendimi mikroskobun üzerine eğilmiş, bütün dikkatini küçük şeylere vermiş bir öğrenci gibi hissediyordum.
+Bazıları öylesine akıl almaz değişikliklerdeydi ki, benzerine ancak bir iki eski kitapta rastlayabildim.
+Belki de doktorların böyle şeylere rastlaması olağan üstü bir şey değildir diye düşünüyorsunuzdur değil mi?
+Ama değil… Hele biri var ki, nasıl söyleyeyim, ayıpla karışık bir anlama sarılıp olduğundan, herkese anlatmaya bile sıkılırım.
+
+============================================================
+BATCH 7/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Ama onu bu gece size açıklayacağım.
+Gördüklerinize biraz olsun mantıki bir izah şekli verip, içinize kuvvet dolduracak olan ilmî açıklamaları hiç bir kitapta bulamazsınız, işte o zaman derin bir şekilde sarsılırsınız.
+Çocukluğumuzun beraber geçtiği Hunter isminde bir arkadaşım vardı.
+Senelerce Filadelfia’nın kenar mahallerinin birinde bir arada yaşadık.
+Hayvanları sevme ve bazı böcekleri koleksiyon yapma merakı ikimize de aynı zamanda gelmişti.
+Hunter’lerin bahçelerinde kullanılmayan bir ambar vardı.
+Fare kapanlarımızı, tavşan kafeslerimizi oraya yerleştirirdik.
+Bazı zamanlar sepetlerimiz çeşit çeşit hayvanlarla dolardı.
+Biriktirmeye başladığımız hayvanlar gün geçtikçe artmaktaydı.
+Kafeslerimiz ve sepetlerimiz ağzına kadar dolmuştu.
+
+============================================================
+BATCH 8/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Tabiî, bunlarda garip olan bir taraf yoktu.
+Bütün çocuklar, hayvanları kendilerine alıştırma ve sevme devresini geçirirler.
+Garip olan şudur ki, Hunter bu devreden hiç çıkmadı.
+Onun hayvanlara karşı olan aşırı sevgisi ömrü, boyunca devam etti.
+Ben kısa pantolunu çıkararak uzun pantolon giymeye, sigara içmeye ve kızlarla arkadaşlık etmeye başlamıştım ama, Hunter hayvanlardan başka şeylerle ilgilenmiyordu hala.
+Bizi birbirimize bağlayan müşterek zevklerimiz ortadan kalkınca, arkadaşlığımızda bozuldu.
+İkimizde ayrı yönlerde, yolumuza devam ettik.
+Hunter o sıralarda yılan koleksiyonu yapmaya başlamıştı.
+Yine büyük bir hasır sepet içinde çeşit çeşit örümcekleri besliyordu ki, bu örümcekler durmadan birbirlerini yiyorlardı.
+Hayatımız böylece sürer giderken, ben kızlar peşinden koşmaktan bıktım, yeniden onun dostluğunda sakin ve dinlendirici bir yön bularak ona döndüm.
+
+============================================================
+BATCH 9/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Onu delikanlılık çağında bir kıza bile başını çevirip baktığını hatırlamıyorum.
+Bununla beraber ara sıra bir bara gidip içmeyi hoşnutlukla kabul ederdi.
+Maki cinsi bir maymun satın alıncaya kadar garip huyları fazla göze batmadı.
+Zaman zaman içinde, kalbur saman içinde..
+Çok eskilerde zengin mi zengin bir tüccar yaşarmış.
+Bu tüccarın üç kızı varmış.
+Tüccarın iki kızı kendilerinden başka bir şey görmezlermiş ve bu yüzden de çok bencillermiş.
+Fakat küçük kızının hem adı, hem kendi, hem de huyu ‘Güzel’ imiş.
+Zengin mi zengin olan tüccar, bir gün gemisinin şiddetli bir fırtına sonucu battığı haberini almış.
+Acınası adamın bütün varı yoğu, zenginliği bir gecede elinden gitmiş.
+
+============================================================
+BATCH 10/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Zenginlik günleri bitmiş ve küçük bir kasabaya, küçük bir eve yerleşmişler.
+Bencil olan ilk iki kardeş bu durumdan hiç hoşlanmadıkları gibi bir de bütün işi sevgi dolu, iyi kalpli olan Güzel’in başına yıkmışlar.
+Yiyip, içip yatan kız kardeşler, Güzel’e de kötü davranıyorlarmış.
+Sonra bir gün, zavallı tüccar; fırtınada kaybolan gemilerinden bir tanesinin limana yanaştığını öğrenmiş.
+Kızlarına da ne istediklerini sormuş.
+Bencil olan kız kardeşler hemen - Elbise ve mücevher isteriz, demişler.
+- Sen ne istersin Güzel?, demiş tüccar.
+O yeter bana, demiş Güzel.
+Kayıp gemiden biraz para kalmış.
+Onları da dolandırıcılara kaptırınca hali perişan, eve doğru yola koyulmuş.
+
+============================================================
+BATCH 11/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Bir ormana vardığında akşamın karanlığı bastırmış.
+Kış ayı olduğu için hava çok soğukmuş.
+Hem ormanın karanlığı hem de havanın soğukluğu tüccarın daha fazla ilerlemesine izin vermiyormuş.
+Atıyla birlikte karlara bata bata giden tüccar, birden ışıkları yanan çok güzel ve gösterişli bir şato görmüş.
+Çünkü bütün ışıklar yanıyor, şömineler yanıyor fakat kimsecikler pencerelerde görünmüyormuş.
+Şatodan hiç ses de gelmiyormuş.
+Tüccar bu şatoda biraz soluklanmaya, geceyi burada geçirmenin iyi olacağını düşünerek atını ahıra bağlamış ve şatonun kapısına doğru gitmiş.
+Tüccar içeri girip seslenmiş fakat sesine cevap veren kimse olmamış.
+O da masada gördüğü yemeği yiyip hemen bir yatakta uyuyakalmış.
+Sabah neşe ile uyanmış ve yanı başında kendisi için bırakılan temiz kıyafetler bulmuş.
+
+============================================================
+BATCH 12/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Salonda da onun için hazırlanmış yine çok güzel bir kahvaltı varmış.
+Tüccar bu olanları normal bir şeye bağlayamamış ve: - Bu şato bana acıyan bir varlığa ait sanırım, keşke ona bir teşekkür edebilsem!, diye düşünmüş.
+Şatodan ayrılacağı sırada aklına Güzel’in istediği gül gelmiş ve şatonun bahçesinde de çok güzel güller olduğunu görmüş.
+Birini koparmış ve ortalık korkutucu bir kükreme ile inlemiş.
+Tüccarın karşısına çok korkutucu bir canavar çıkmış.
+Tüccar haliyle çok korkmuş ve bayılacak gibi olmuş.
+Canavar konuşmuş: - Sen ne kıymet bilmez bir adamsın.
+Sana yemek verdim, güzel yataklarda yatırdım.
+Sen ise sana yaptığım iyiliklerin karşılığı olarak benim güllerimi çalıyorsun!
+Şimdi ölmeyi hak ettin!, demiş.
+
+============================================================
+BATCH 13/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Tüccar korkuyla, dizleri titreyerek diz çökmüş ve konuşmuş: - Kızlarımdan biri gül istemişti, ona götürmek istedim efendim, demiş.
+Canavar bu sözlere çok kızmış: -Ben bir canavarım, efendi falan değilim, demiş.
+Daha sonra Canavar, tüccara bir şart koşmuş.
+Eğer bu şart yerine getirilir ise onu üç ay içinde öldüreceğini söylemiş.
+Canavarın şartı; tüccarın kızlarından birinin gelip onunla birlikte bu şatoda yaşamasıymış.
+Tüccar, atına atlayıp yola koyulmuş.
+Eve geldiğinde, bencil kızları babalarının onlara mücevher ve elbise getirmediğini görünce çok sinirlenmişler.
+Tüccar, kızlarına yaşadığı korkunç macerayı anlatırken iki bencil kız kardeş de hiç oralı olmamış.
+Fakat Güzel, babasının durumuna çok üzülmüş ve konuşmuş: - Baba, senin başına bu korkutucu olay benim yüzümden geldi.
+İzin ver Canavar ile yaşamaya ben gideyim, demiş.
+
+============================================================
+BATCH 14/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Kız kardeşleri de hemen onu onaylamışlar ve: - Senin suçun, tabi ki sen gideceksin, demişler.
+Üç ay geçtikten sonra ihtiyar tüccar, şatoya Güzel ile birlikte gitmiş.
+Şato çok güzel, diye düşünmüş Güzel.
+Sofra hazırmış ve masaya oturup yemek yemişler.
+Yemek bittikten sonra Canavar meydan açıkmış.
+Güzel, Canavar’ı görünce dizlerinin bağının çözüldüğünü ve titremeye başladığını hissetmiş.
+Canavar, babasının anlattığından daha korkunçmuş!
+- Buraya kendi isteğinle geldin öyle değil mi?, diye sormuş Güzel’e.
+- Evet, isteğimle geldim, demiş Güzel.
+- Öyleyse baban yarın sabah buradan gidecek ve bir daha asla buraya gelmeyecek, demiş Canavar.
+
+============================================================
+BATCH 15/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Güzel, sabah olunca çok üzülmüş.
+Çünkü babası artık gitmiş ve bir daha da onu göremeyecekmiş.
+Bir süre ağlamış, fakat gördüğü rüyayı hatırlayınca biraz olsun yatışmış.
+Rüyasına gelen peri, ‘gösterdiği bu cesaretin karşılıksız kalmayacağını söylemiş ve onu böylece umutlu biri haline getirmiş.
+Güzel, ‘bu yaşama alışırım belki’ diye düşünmüş ve etrafı keşfe çıkmış.
+Bahçede dolaşmış, güllerin olduğu tarafa gelince içini biraz üzüntü kaplamış.
+Daha sonra şatonun içini gezerken çok şaşırmış.
+Çünkü bir odanın kapısında kendi adı yazıyormuş.
+Kapıyı açıp içeri bakınca, odanın tam da kendi istediği gibi döşenmiş olduğunu görmüş.
+Çok mutlu olmuş, oda kitaplar ve müzik aletleri ile doluymuş.
+
+============================================================
+BATCH 16/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Bunları görünce Canavar’ın düşündüğü gibi kötü biri olmadığına kanaat getirmiş.
+Çünkü kötü biri neden birinin odasını rahat etmesi için düzenlesin ki?
+Sonra üzerinde altın yaldızla ‘sevgili kraliçem, her zaman emrinizdeyim.’ yazan bir kitabı eline almış.
+Güzel yüksek sesle, ‘keşke babamı şu anda görebilsem’ demiş ve odanın ucundaki bir aynada babasının görüntüsü belirmiş.
+Güzel, yalnızlığını ve ev hasretini biraz olsun böylelikle unutmuş.
+Akşam yemek yerken, Canavar’ı görmüş ve Canavar, Güzel’e; - Güzel, seni izlemem için bana izin verir misin?’ demiş.
+Güzel; - Sahibi sizsiniz buranın, demiş.
+Canavar; - Hayır, şato her zaman senin emrindedir.
+İstersen ben şu anda bile gidebilirim!
+Canavar bunları söyledikten sonra biraz duraklamış ve Güzel’e; - Sana bir şey soracağım, benim çok mu çirkin olduğumu düşünüyorsun?
+
+============================================================
+BATCH 17/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Güzel biraz afallamış ve ne diyeceğini bilememiş.
+Fakat sonra; - Bu nasıl söylenir bilmiyorum ama evet, çirkin buluyorum, demiş.
+Bu sırada da Canavar ona evlenme teklif etmiş ve Güzel de bu teklifi kabul edemeyeceğini dile getirmiş.
+Canavar bunu duyduktan sonra öyle bir iç çekmiş ki, bütün şatoda bu ses yankılanmış.
+Artık her gece, saat 9 olduğunda Canavar, Güzel ile konuşmak için onun yanına gidermiş.
+Güzel de gün geçtikçe, Canavar’a her gün biraz daha alıştığını düşünmüş.
+Bazı zamanlar geç kaldığında onu merak etmeye bile başlarmış.
+İçinden; - Keşke bu kadar çirkin olmasaydı, keşke..
+Bir de hep evlenme teklifi etmesi yok mu, ah ah!
+Diye kendi kendine sitem ediyormuş.
+
+============================================================
+BATCH 18/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Canavar hep güzelden, onu terk edip gitmesini istemediğini söylüyormuş.
+Böylece, Güzel’den ona bu anlamda söz vermesini istemiş.
+Günler birbirinin aynı olarak böyle geçmiş.
+Tam üç ay böyle geçmiş derken Güzel, bir gün aynadan babasını izlediği sırada kötü durumda olduğunu ve hasta olduğunu görmüş.
+Eve gitmeyi kafasına koymuş ve Canavar’a bu isteğini dile getirmiş.
+Canavar, Güzel’in gidebileceğini söylemiş fakat geri dönmezse de kederinden öleceğini de söylemeyi ihmal etmemiş.
+Devamında ise şunları söylemiş: - Elbette gidebilirsin Güzel, fakat korkuyorum ki babanın yanında kalmak istersin ve buraya dönmeyeceksin..
+Ama eğer fikrini değiştirirsen de yüzüğünü yatağının yanındaki sehpaya koyarsan sabah gözlerini bu şatoda açarsın, demiş.
+Güzel, bir hafta sonra döneceğine söz vermiş.
+Ertesi gün Güzel, babasının evinde başlamış güne.
+
+============================================================
+BATCH 19/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Babası onu görünce çok sevinmiş ve kendisini daha iyi hissetmiş.
+O gün, evlenmiş olan kız kardeşleri de babalarını ziyarete gelmişler ve Güzel’i evde görünce çok kıskanmışlar.
+Bunun üzerinde bir kardeşi diğerine: -Beni dinle, Güzel’e bir oyun oynayalım ve o burada bir haftadan daha fazla kalsın.
+Belki böylece Canavar sinirlenir ve gelip onu öldürür, demiş.
+Bu nedenle de Güzel’in karşısına ağlayarak çıkmışlar ve ondan ayrılmak istemediklerini, biraz daha kalmasını istediklerini söylemişler.
+Böylece Güzel, bir hafta daha fazla kalmaya söz vermiş.
+Bunun üzerinden çok geçmeden Güzel, Canavar’ı çok özlediğini fark etmiş.
+Gece uyurken gördüğü rüya da onun bu hissini daha da artırmış.
+Güzel, rüyasında Canavar’ın şatonun bahçesinde cansız bir şekilde yattığını görmüş.
+Uyanınca çok üzülmüş ve kendini acımasız olmakla suçlamış.
+
+============================================================
+BATCH 20/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Hemen yüzüğünü sehpanın üzerine bırakmış ve sabah şatoda gözlerini açmış.
+Akşam olunca Canavar’ın saat 9’da geleceğini düşünerek odasında beklemeye başlamış.
+Saat 9 olmuş fakat Canavar gelmemiş.
+Saat 9’u geçmiş Canavar yine gelmemiş.
+Birden korka korka bahçeye doğru koşmuş.
+Orada Canavar’ın boylu boyunca yerde yattığını görünce çok üzülmüş ve: - Ben onun ölümüne sebep oldum, diye düşünmeye başlamış.
+Hemen Canavar’ın yanına gitmiş ve kalbinin hala attığını görünce derin bir nefes almış.
+Canavar konuşmuş: - Gittiğinde artık dönmeyeceğini düşündüm ve hiçbir şey yiyemedim, hiçbir şey içemedim.
+Kendimi çok kötü hissettim bu yüzden de ölmeye hazırlandım’ demiş Canavar güçsüz bir sesle.
+Güzel; - Canavar, ben seni seviyorum ve seninle evlenmek istiyorum!
+
+============================================================
+BATCH 21/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Güzel’in bunları söylediği sırada şatoda çok garip şeyler olmaya başlamış.
+Etraf ışıltılarla ve güzellikler ile dolmuş.
+Bu ışıltıdan gözleri kamaşan Güzel, etrafı aramış fakat Canavar’ın yattığı yerde kimsenin olmadığını görmüş.
+Onun yerinde ayakta duran yakışıklı mı yakışıklı, genç mi genç bir prens duruyormuş.
+Güzel, bu yakışıklı prensi karşısında görünce çok şaşırmış.
+Fakat sonra ağlayarak: - Ben Canavar’ı istiyorum, o nereye gitti?, demiş.
+Prens ayağa kalkarak: - O Canavar bendim, Güzel.
+Kötü olan bir peri beni bu bedene hapsetmiş ve yüzüne bakılamayacak kadar çirkin biri yapmıştı.
+Eğer sen benimle evlenmek istediğini dile getirmeseydin ben ömrümün sonuna kadar o bedende hapis kalacaktım.
+Daha sonra beraber şatoya gitmişler.
+
+============================================================
+BATCH 22/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Güzel şatoda, babasını görünce çok şaşırmış.
+Babasının yanında ise rüyasında gördüğü iyi peri ile karşılaşmış.
+Peri Güzel’e: - Bak, babana karşı gösterdiğin fedakarlığın ve cesaretin ödülünü aldın, demiş.
+Daha sonra Peri, elindeki sihirli değneği sallamış ve bir anda herkes, Prens’in şatosunda bulmuşlar kendilerini.
+Şatoda olan halk, Prens’i alkışlarla selamlamışlar.
+Bunun üzerinden çok fazla bir zaman geçmeden de Prens ve Canavar evlenmişler.
+Böylece dünyanın da gelmiş geçmiş en mutlu çifti olmuşlar.
+Kısa süre sonra Ayhan ve Kadir birlikte geldiler ve onları Dilek izledi.
+Beni şaşırtmayarak yine en son gelen kişi olan Tufan soluk soluğa masamıza yaklaştı ve kendisine bir yer bulup oturduktan sonra, bizi yaklaşık yirmi dakika bekletmiş olduğu için hepimizden özür diledi.
+Masadaki herkes birbirine hal hatır sorarken, garson gelip siparişlerimizi not etmeye başladı.
+
+============================================================
+BATCH 23/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Kadir garsona “Ben alabalık alayım.” derken, gerek konuşmasıyla gerek hal ve hareketleriyle, panik atak nöbeti geçiren birinden farksızdı.
+Ayhan karışık ızgara, Vahdet ise sac kavurma istedi.
+Tufan ayılabilmek için olsa gerek, sadece bir fincan kahveyle yetindi.
+O kısacık kaçamak bakışı esnasında gözlerinde sorgulayıcı ve tehdit edici bir ifade görmüştüm.
+Dilek az önceki davranışımı muhtemelen bir zamanlar ortak zevkleri paylaştığımız bir çift olduğumuzu ima etme çabası olarak görmüştü; fakat bu durum benim için gayri ihtiyari gelişmiş bir olaydı.
+Bu belki sadece eski bir alışkanlıktan ibaretti; belki de bilinçaltımın derinliklerinden bir anda çıkıp gelmiş olan, eski mutlu günlere duyulan bir özlemin işaretçisiydi.
+Ayhan'ın bu sorusuyla masadaki herkes üzerime dikkat kesilip ne söyleyeceğimi bekledi.
+Üç Muz Rotası mı?” diyerek konuşmamı böldü Vahdet bu esnada.
+Tufan, içerken genzine kaçırdığı suyu, öksürerek ağzından dışarı püskürttü.
+Dilek bile Üç Muz Rotası ismini duyduğunda, elindeki kaşığı düşürecek kadar dehşete kapılmıştı.
+
+============================================================
+BATCH 24/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+“Ama...” diye konuşmama devam ettim, “ama dağ evinde tanıştığım bir adam bu kararımdan en azından şimdilik vazgeçmeme neden oldu.
+Sabah erken saatlerde uyanıp kahvaltı için restorana inmiştim.
+Havanın ağarmaya başladığı saatlerdi ve restoran bomboştu ya da ben öyle sanmıştım, çünkü kahvaltımı yapmaya daha yeni başlamıştım ki hemen arkamda duyduğum bir ses yerimden sıçramama neden olmuştu.
+Başımı arkama çevirdiğimde, bu sesin sahibi olan tuhaf görünüşlü adamı gördüm.
+Tepemde öylece dikilmiş duruyordu ve gerek görünüşüyle gerek davranışlarıyla sanki bulunduğu mekan ve zamana ait değilmiş gibi bir hali vardı.
+Yani orada ona bakarken kendimi sanki tamamlanmış mükemmel bir yapbozun uyumsuz bir parçasına bakıyormuşum gibi hissettim.
+Bana tepeden bakan o kapkara bakışlarında insanı rahatsız eden ve umutsuzluğa sürükleyen garip bir ifade vardı.
+Siyah saçları özenle geriye taranıp kafasına briyantinle iyice yapıştırılmıştı.
+Güneş altında yanmış gibi görünen teninin rengi sanki bronzdan çok mora yaklaşan bir tondaydı.
+Ucunda bir tutam sakalın sarktığı çıkık çenesinin ve elmacık kemiklerinin keskin hatlar çizdiği uzun yüzünün ortasında duran kemerli kocaman burnu ona yırtıcı ve tehlikeli bir tabiat katıyordu.
+
+============================================================
+BATCH 25/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Siyah takım elbisesine ve tozsuz, parlak deri ayakkabılarına bakınca, onun bizim gibilerin yıllardır aşındırdığı yolların yolcusu olmadığını tahmin etmek hiç de zor değildi.
+'Tabi, neden olmasın?” diye karşılık verdim yüzüme yalancı bir gülümseme yerleştirerek.
+Adam ellerini ovuşturduktan sonra, tıpkı seğirten bir fare gibi, ayak parmaklarının üzerinde, hızlı adımlarla masanın diğer tarafına yürüdü ve karşımda duran sandalyeyi nazikçe çekerek oturdu.
+“Biliyoruz, çünkü sizinle çalışmak istiyoruz.” diye cevap verdi adam ve sonra “Ama maalesef bu konuyu size burada açıklayamam.” diye ekledi.
+Sonra adam ne tepki vereceğimi gözlemlemeye çalışıyormuş gibi gözlerini gözlerime dikti ve kemikli, kocaman ellerini masanın üzerinde birbirine kavuşturup, uzun tırnaklarını birbirine vurarak beklemeye başladı.
+‘Peki nerede açıklamayı düşünüyorsunuz?’ diye sorduğumda, adam ‘Sizinle küçük bir yolculuğa çıkmamız gerekecek Görkem Bey.’ diye cevap verdi.
+‘Size az önce de söylediğim gibi, birazdan başlamam gereken bir tırmanışım var Dilaver Bey.' diye karşılık verdim.
+Adamın tüm bu gizemli konuşmaları içimi ürpertmişti, ama içten içe merakımın kamçılandığını da hissetmiyor değildim.
+Birlikte restorandan çıkıp lobiye vardığımızda Dilaver, orada oturmakta olan dört adama bir baş hareketi yaptıktan sonra adamlar yerlerinden fırlayıp dışarı koştular.
+Yolculuğumuz boyunca yanımda oturan bu Dilaver denen adam felsefi, ahlaki ve toplumsal konulara değindi ama nereye niçin gidiyor olduğumuzla ilgili tek bir kelime bile söylemedi.
+
+============================================================
+BATCH 26/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Aslında adam sıkıcı birisi sayılmazdı ama etrafına yaydığı o mide bulandırıcı duman kokusu onu katlanılmaz kılıyordu.
+Bu işkenceye yaklaşık elli dakika tahammül ettikten sonra araç yavaşlayıp durdu ve 'İşte geldik.’ dedi Dilaver.
+Ben bunları söylerken masadaki herkes canından bezmiş gibi bir yüz ifadesiyle beni dinliyordu ya da dinliyormuş gibi görünüyordu.
+Tufan ağzı açık bir şekilde sızmak üzere, bir dirseğini masanın üzerine koyup, yanağını avucunun içine dayamıştı.
+Ayhan parmaklarını bir bulaşık telini andıran saçlarının içinde gezdirerek, dikkatini bana vermeye çalışıyordu ve bunu yaparken oldukça zorlanıyormuş gibi görünüyordu.
+Dilek ise çantasından çıkarmış olduğu cep aynasının yardımıyla makyajını kontrol edecek kadar konudan kopmuş görünüyordu; ama neyse ki altı milyon liradan bahsettiğimde masadaki herkesin keyfi yerine geldi.
+O esnada Kadir “Kendisi de bir kaz kafalı olduğu için olabilir mi?” diyerek araya girdi.
+“Çiçeğin içerdiği zehri tıp alanında kullanmayı planlıyorlarmış.” diye cevap verdim ona.
+“Evet,” diye cevap verdim ve “ anladığım kadarıyla adam bu altı gün konusunda oldukça kuralcı.” diye ekledim.
+“Neden yedi ya da beş değil de altı gün acaba?” diye kendi kendine mırıldandı Dilek.
+
+============================================================
+BATCH 27/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+“Belki de tam olarak bu şekilde olmuştur.” dedim ve sonra “Ama size şu kadarını söyleyebilirim ki özellikle altı kişilik bir ekip oluşturma amacı gütmemiştim.” diye ekledim.
+Bu sorumum ardından herkesin suspus olup birbirine bakmasından anlaşıldığı kadarıyla masadaki herkes söz konusu parayı almak için can atıyordu.
+Faruk Bey, Nurcan’ın malikaneden kovulmasından bir iki gün sonra onun kovulmasına içerlemiş, bu yüzden de annesiyle yine tartışmıştı.
+Annesi onun bu tavırları karşısında hiçbir ses çıkarmamış, sadece Allah Teala’dan onun hidayete ermesi için dua etmişti.
+Sen bize annenin başı açık, şık giyimli, mini etek giyen, partiden partiye giden biri olarak tanıtmadın mı?
+Hem sen, bizim evde başı örtülü biri çalışamaz diye tanıtmadın mı?’ dedi sinirle.
+‘Senin doğru söyleyip söylemediğini anlamak için, dün sizin evin önlerinde araştırma yaptım.
+Araştırmam sonunda annenin başörtülü olduğunu öğrendim.
+Ayrıca yanınızda birde annen gibi başı örtülü biri çalışıyormuş.
+Üstelik sizin evinizin önünde araştırma yaparken az kalsın yakalanıyordum’ dedi ve Faruk’un yakasına yapışıp ona hızlıca bir tokat attı.
+
+============================================================
+BATCH 28/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+‘Annenin başını açtırmadan ve o hizmetçiyi evden kovdurmadan bir daha yanımıza gelme’ dedi ve gülerek arkadaşlarının yanına döndü.
+Kaya’nın yaptıklarına hepsi gülerken içlerinden sadece Kaya’nın nişanlısı Hülya gülmüyor, sadece içi acıyordu.
+Onu başı örtülü olduğunu bildiğin halde nasıl işe alırsın.
+Bu çağda nasıl bağnazlık böyle, o başörtüsü dedikleri şey ortaçağdan kalma bir gelenek.
+Onların yüzünden arkadaşlarım arasında küçük düşüyorum’ dedikten sonra arabayı çalıştırarak gaza bastı.
+Annesine ve Fatma’ya öyle kızmıştı ki, gözü hiçbir şey görmüyor, ne kadar hızla gittiğini göremiyordu.
+O hızla giderken aniden karşısına kamyon çıktı.
+Ondan kurtulmak isterken kontrolünü kaybetti.
+Araba taklalar atıp ağaca çarparak durdu.
+Onun kaza yaptığını gören herkes etrafına toplanmış ‘vah vah!
+
+============================================================
+BATCH 29/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Daha genç çocuk’ diyor birbirlerine bakıyorlardı.
+Birbirleriyle konuşan o kalabalık arasında birisi akıl edip ambulansı aramış, ambulans çoktan yola çıkmıştı.
+Ambulans geldiğinde onu ağır yaralı bir halde arabadan çıkarmaya çalışıyorlar, bir taraftan da meraklı kalabalığı uzaklaştırmaya çalışıyorlardı.
+En yakın arkadaşı o kadar üzgün, o kadar kırgınmış ki bu kendisini geçiştiren cevap karşısında daha da kırılmış ve üzülmüş.
+Kendisini oldukça değersiz hissetmiş ve arkadaşına bir ders vermeye karar vermiş.
+Arkadaşına onu affettiğini söylemiş ve ertesi gün en sevdikleri parkta buluşmak için sözleşmişler.
+Özür dilemeyi bilmeyen çocuk parka gitmiş arkadaşını beklemeye başlamış.
+-Çok abartıyorsun, demiş arkadaşı ve kendisini hiç umursamadan yoluna devam etmiş.
+Özür dilemeyi bilmeyen çocuk arkadaşı ile top oynamak istemiş.
+Arkadaşı bu teklifi kabul etmiş ama küçük bir işi olduğunu söyleyerek ondan kendisini beklemesini rica ederek parktan uzaklaşmış.
+
+============================================================
+BATCH 30/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Özür dilemeyi bilmeyen çocuk arkadaşını beklemiş, beklemiş.
+Yine ne gelen olmuş ne de giden.
+O da mecburen bir süre sonra evine dönmüş.
+Kalbi kırılmış, canı bu duruma çok sıkılmış.
+-Sen bugüne kadar yaptığın yanlışlardan dolayı hiç özür diledin mi ki şimdi özür bekliyorsun?
+Hayatta paylaşmak, fedakarlık, saygı, sevgi gibi çok özel değerler vardır.
+Ama şunu unutmamak lazım ki bunların hepsi karşılıklıdır.
+İyi ilişkilerin olmasını istiyorsan emek harcamalısın, karşındaki kişiyi önemsemelisin.
+Onun duygularına değer vermeli ve her şeyden önemlisi incittiğin kalbi onarmak için çaba göstermelisin.
+Ben sana ayna tuttum arkadaşım.
+
+============================================================
+BATCH 31/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Allah'ın kulu çokmuş.
+Anacığımla pişirir, yeriz.
+Bir de ne görsün!
+Keloğlan çok şaşırmış.
+Evlerine koşmuş.
+Kendisine hizmetçiler tutmuş.
+"Sihirli tas elimde, ne istersem yapabilirim..."
+diyormuş.
+" demiş.
+Binbir güçlükle kenara çıkmış.
+
+============================================================
+BATCH 32/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Başına gelenleri anlatmış.
+- Üzülme yavrum, demiş.
+Hay'dan gelen Hû'ya gider.
+Böylesi daha iyi oldu.
+Hiç olmazsa kendini başkalarından üstün görme hastalığından kurtulursun."
+Keloğlan bu sözlerle teselli bulmuş.
+Anasına hak vermiş.
+Çok sevindi.
+Sakin bir sesle konuşurken mikrobiyoloji profesörümü hatırlıyordum…
+Okul senelerimi yeniden yaşatıyordu bana.
+
+============================================================
+BATCH 33/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Garip şeyler gördüm, dedi.
+Çok garip.
+Ama değil…
+Hele biri var ki, nasıl söyleyeyim, ayıpla karışık bir anlama sarılıp olduğundan, herkese anlatmaya bile sıkılırım.
+Yılanları cam kavanozlara koyuyordu.
+Hunter hayvanlarına sadık kalmıştı.
+Yola çıkmak için hazırlanmış.
+- Elbise ve mücevher isteriz, demişler.
+- Bir gül isterim.
+Tüccar yola koyulmuş.
+
+============================================================
+BATCH 34/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Bu şato çok tuhafmış.
+Kapı aralıkmış.
+- Bu şato bana acıyan bir varlığa ait sanırım, keşke ona bir teşekkür edebilsem!, diye düşünmüş.
+- Sen ne kıymet bilmez bir adamsın.
+Ben senin hayatını kurtardım.
+Yeni giysiler verdim.
+- Kızlarımdan biri gül istemişti, ona götürmek istedim efendim, demiş.
+-Ben bir canavarım, efendi falan değilim, demiş.
+- Baba, senin başına bu korkutucu olay benim yüzümden geldi.
+- Senin suçun, tabi ki sen gideceksin, demişler.
+
+============================================================
+BATCH 35/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Sonra üzerinde altın yaldızla ‘sevgili kraliçem, her zaman emrinizdeyim.’
+yazan bir kitabı eline almış.
+- Güzel, seni izlemem için bana izin verir misin?’
+demiş.
+- Sahibi sizsiniz buranın, demiş.
+- Hayır, şato her zaman senin emrindedir.
+- Sana bir şey soracağım, benim çok mu çirkin olduğumu düşünüyorsun?
+- Bu nasıl söylenir bilmiyorum ama evet, çirkin buluyorum, demiş.
+Güzel, yemek yemeyi bitirmiş.
+- Keşke bu kadar çirkin olmasaydı, keşke..
+
+============================================================
+BATCH 36/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+- Elbette gidebilirsin Güzel, fakat korkuyorum ki babanın yanında kalmak istersin ve buraya dönmeyeceksin..
+-Beni dinle, Güzel’e bir oyun oynayalım ve o burada bir haftadan daha fazla kalsın.
+Güzel artık endişelenmeye başlamış.
+- Ben onun ölümüne sebep oldum, diye düşünmeye başlamış.
+Canavar’a sarılmış.
+- Gittiğinde artık dönmeyeceğini düşündüm ve hiçbir şey yiyemedim, hiçbir şey içemedim.
+- Canavar, ben seni seviyorum ve seninle evlenmek istiyorum!
+- Ben Canavar’ı istiyorum, o nereye gitti?, demiş.
+- O Canavar bendim, Güzel.
+Teşekkür ederim Güzel!, demiş.
+
+============================================================
+BATCH 37/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+- Bak, babana karşı gösterdiğin fedakarlığın ve cesaretin ödülünü aldın, demiş.
+Yerin yüzlerce metre altındaki o bunaltıcı mezarda bulunduğum sırada hissetmiş olduğum iç sıkıntısının etkisinden midir bilmem, o akşam terastaki masalardan birine oturmayı tercih ettim ve beklerken, izlediğim şehrin ışıklarının karmaşası karşında, aklımdaki gelecek planlarını belli bir düzene oturtmaya çalıştım.
+İlk gelen Vahdet oldu ve karşımda duran sandalyeyi çekip oturarak, böyle bir yemek davetinin aklıma nereden estiğini öğrenmeye çalıştı; fakat herkes gelmeden önce bunun nedenini açıklamamaya kararlıydım ve bu yüzden de onu büyük bir çabayla, diğerleri gelene kadar oyalamaya çalıştım.
+Kızarmış yüzünde sürekli değişip duran anlamsız ifadelerine, konuşmakta güçlük çekmesine ve bizlere boş boş bakan baygın gözlerine bakılacak olursa buraya gelebilmek için bir içki masasındaki heyecanlı bir sohbeti yarıda bırakmak zorunda kalmış olması kuvvetle muhtemeldi.
+Kadir garsona “Ben alabalık alayım.”
+derken, gerek konuşmasıyla gerek hal ve hareketleriyle, panik atak nöbeti geçiren birinden farksızdı.
+Dilek kaşarlı mantarlı güveç sipariş ettikten hemen sonra “Ben de aynısından istiyorum.”
+dedim ve bu sözlerim, masanın bana en uzak köşesinden bir çift bal rengi bakışın gözlerime bir saniyeliğine yönelmesine neden oldu.
+“Ne?
+Üç Muz Rotası mı?”
+
+============================================================
+BATCH 38/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+diyerek konuşmamı böldü Vahdet bu esnada.
+Şaşkınlıktan koca ağzı bir karış açık şekilde öylece kalakalmış olan Kadir'in önüne, biraz sonra garson içi sac kavurmayla dolu tavayı koydu ve ancak bundan dolayı çıkan takırtı, Kadir’i tekrar ağzını kapatmasını akıl edebileceği kadar kendine getirdi.
+“Ama...”
+diye konuşmama devam ettim, “ama dağ evinde tanıştığım bir adam bu kararımdan en azından şimdilik vazgeçmeme neden oldu.
+'Tabi, neden olmasın?”
+diye karşılık verdim yüzüme yalancı bir gülümseme yerleştirerek.
+Mümkün olduğunca umursamaz ve rahat görünmeye çalışıyordum ama sanırım o an bunu sağlamada pek başarılı olamadım, çünkü bu garip adamın benimle bir derdi olduğu artık gün gibi ortadaydı ve bu da beni adamakıllı huzursuz etmeye başlamıştı.
+Kaba vücut hatlarının iriliği ile kendini nazik göstermeye gayret ettiği davranışları birbiriyle aleni bir tezat oluşturuyordu; öyle ki o an yüzümdeki sahte gülümseme benim üzerimde ne kadar eğreti duruyorsa, bu adamın nezaketi de kendi üzerinde o kadar eğreti duruyordu.
+Adamın üzerine yoğun bir sigara kokusunun sinmiş olduğunu, ancak o karşıma oturacak kadar bana yaklaştıktan sonra fark ettim ve bu koku o kadar yoğundu ki eğer onu arazide, tırmanış kıyafetleri içinde görmüş olsaydım, onun yanan kocaman bir kamp ateşinin başında saatler geçirmiş olduğunu sanırdım.
+“Biliyoruz, çünkü sizinle çalışmak istiyoruz.”
+
+============================================================
+BATCH 39/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+diye cevap verdi adam ve sonra “Ama maalesef bu konuyu size burada açıklayamam.”
+diye ekledi.
+‘Peki nerede açıklamayı düşünüyorsunuz?’
+diye sorduğumda, adam ‘Sizinle küçük bir yolculuğa çıkmamız gerekecek Görkem Bey.’
+diye cevap verdi.
+‘Size az önce de söylediğim gibi, birazdan başlamam gereken bir tırmanışım var Dilaver Bey.'
+diye karşılık verdim.
+Az sonra biz de dağ evinin önüne çıktığımızda siyah renkli iki lüks araç kapının önüne yanaştı ve bir anda nerden ortaya çıktığını anlayamadığım eciş bücüş bir adam arkadaki aracın arka kapısını açarken, Dilaver 'Buyurun Görkem Bey.’
+dedi.
+Bu işkenceye yaklaşık elli dakika tahammül ettikten sonra araç yavaşlayıp durdu ve 'İşte geldik.’
+
+============================================================
+BATCH 40/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+dedi Dilaver.
+Ben bu meblağı telaffuz eder etmez, Tufan kanatlı bir hayvanın sesini işitmiş bir tilki gibi heyecanla sıçrayıp kulaklarını dikti; Ayhan’ın o ana kadar yarı baygın bakan gözleri bir anda yuvalarından fırlayacak gibi oldu; Dilek ise şak diye katladığı cep aynasının üzerinden gözlerimin içine bakarken, gözlerinde, onunla ilk buluştuğumuz günkü ışıltılar yanıp sönüyordu.
+O esnada Kadir “Kendisi de bir kaz kafalı olduğu için olabilir mi?”
+diyerek araya girdi.
+Bunun üzerine Vahdet gıdaklayan bir tavuk gibi kıkırdadı, Tufan ise anıran bir eşek gibi kahkahalar attı; ama Ayhan onları çok geçmeden susturmayı başardı ve bana bu bitkinin neden bu kadar önemli olduğunu sordu.
+“Çiçeğin içerdiği zehri tıp alanında kullanmayı planlıyorlarmış.”
+diye cevap verdim ona.
+“Evet,” diye cevap verdim ve “ anladığım kadarıyla adam bu altı gün konusunda oldukça kuralcı.”
+diye ekledim.
+“Neden yedi ya da beş değil de altı gün acaba?”
+
+============================================================
+BATCH 41/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+diye kendi kendine mırıldandı Dilek.
+“İş hayatındaki insanlar için zamanın ne kadar önemli olduğunu bilmiyormuşsun gibi konuşuyorsun.”
+diye ona karşılık verdi Vahdet ve daha sonra bana dönüp “Keşke şu enayiye on kişilik bir ekip kuracağını söyleseydin de on milyon lirayı aramızda bölüşseydik.”
+“Belki de tam olarak bu şekilde olmuştur.”
+dedim ve sonra “Ama size şu kadarını söyleyebilirim ki özellikle altı kişilik bir ekip oluşturma amacı gütmemiştim.”
+“Her halükarda bu çok ilginç bir durum.”
+dedi Tufan başını masadan kaldırıp yüzünü eliyle ovuşturarak ve sonra, zaten açmakta güçlük çektiği gözlerini yumup bir eliyle parmak hesabı yaparak “Altı gün, altı milyon, altı kişi.”
+diye sözlerine devam etti.
+‘Demek istediğim belli.
+Hem sen, bizim evde başı örtülü biri çalışamaz diye tanıtmadın mı?’
+
+============================================================
+BATCH 42/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+dedi sinirle.
+‘Ah!
+Anne ah!
+Bana bunu nasıl yaparsın.
+Üstelik annemde onlardan takıyor.
+Ertesi gün parkta karşılaşıvermişler.
+Sense o aynada kendini gördün.
+Sen bana kırılmadın sen kendine kırıldın çünkü senin davranışların yol açtı bu duruma.
+Böyle davrandığın için önce kendinden özür dilemelisin.
+Duydukları karşısında sarsılan çocuk, önce kendinden sonra da arkadaşından bugüne kadarki tavırları yüzünden özür dilemiş ve çok önemli bir şeyi öğrenmiş: Özür dilemeyi bilmek insanların kendilerine duydukları saygıdan gelir.
+
+============================================================
+BATCH 43/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Bundan sonraki hayatında da yanlış yaptığı zaman özür dilemekten hiç ama hiç çekinmemiş.
+Daha fazla masal okumak isterseniz La Fontaine Masalları kategorimizi inceleyebilirsiniz.
+Dini Hikayeler: Merv şehri Kadısı'nın dünyalar güzeli bir kızı vardı.
+Yüzü güneş gibi parlayan, ceylan bakışlı bir dilber...
+Kaşlarının, güzellikte bir başka benzeri bulunmaz, yüzü o güzel saçlarının altında parıl parıl parlar, boyu selvi...
+Bu güzel kızın namı ülkenin dört bir köşesine yayılır.
+Devletin ileri gelen bütün zengin, makam ve mevki sahibi kimseleri ona talip olur.
+Merv Kadısı olan babası ise biricik kızını hiç kimselere layık göremez.
+Kadı'nın "Mübarek" adında bağ ve bahçe işlerine bakan bir kölesi vardır.
+Şehre geleli iki ay olmasına rağmen Mübarek, bahçeye baştan başa farklı bir görünüm kazandırır, ekinler ve meyveler olgunlaşmaya başlar, toprağa bolluk ve bereket gelir.
+
+============================================================
+BATCH 44/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Bir gün efendisi Mübarek'ten üzüm ister.
+Çarçabuk üzüm toplayıp efendisine sunan Mübarek'in ikram ettiği üzümler, bağın en diri salkımları olmasına rağmen henüz tam olgunlaşmamıştır.
+Başka bir üzüm getirmesi istenir.
+Mübarek'in getirdiği üzümler bir türlü Kadı'yı tatmin etmez.
+"Bahçede o kadar üzüm varken niçin böyle ekşi üzümleri koparıp getiriyorsun?"
+diye kızar.
+"Efendim, ekşisini tatlısını bilmiyorum!"
+der Mübarek.
+Bağ sahibi Kadı, "Sübhanallah!
+İki aydır bağdasın, daha hangi üzümün ekşi, hangisinin tatlı olduğunu bilmiyorsun" diye çıkışır.
+
+============================================================
+BATCH 45/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+"Siz benden bağınızdaki meyvelerin muhafazasını istediniz, yememi söylemedikçe alıp yemem" der köle.
+"Efendim!
+Bu nasıl söz?
+Sizin kerimenize naz etmek ne haddime!
+Lakin Kadı'sınız.
+Ola ki kızınız şüpheli bir şey yemiştir.
+Şüpheden uzak olmak için bu zamana kadar bekledim ve ona helal yemek yedirdim.
+Ola ki, Allah-u Teala bize salih bir evlat verir.
+Bundan başka düşüncem yoktur.""...
+Bunu söyler söylemez arka koltuklardan birine geçmesini söyledim.
+
+============================================================
+BATCH 46/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Perondan çıkmamıza 5 dakika kalmıştı.
+Adamın biri geldi, sinirli bir şekilde aynı kızı sordu.
+Bende ne yapacağımı anlamadım, ama doğru olduğunu düşünüp, "ilerdeki yazıhanelere gitti," dedim.
+Adam koşarak oraya doğru gitti.
+Ankara'ya gelmiştik artık.
+Ona sordum: "Ne yapacaksın, kimin kimsen var mı?
+burda," diye.
+Yanında telefonu bile yoktu.
+Ankara da gidecek bir yeri yoktu.
+Ona beklemesini söyledim.
+
+============================================================
+BATCH 47/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Yolcular inince, otobüsü temizledikten sonra onu eve getirdim.
+Benim de pek kimsem yoktu.
+Babamla birlikte yaşıyoruz.
+O'da uzun yol şoförü.
+Evde değildi.
+Beraber 2-3 ay yaşadık.
+Bizim evden biriydi sanki.
+Çok mutluyduk.
+Hem okula gidiyordum, hem iş haberi gelince işe çıkıyordum.
+Elif evde takılıyordu.
+
+============================================================
+BATCH 48/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Bir gün biri gelir de, bir şey yapar diye çok korkuyordum.
+O ise bütün korkularından arınmıştı.
+Yine birgün işe gitmiştim.
+Bursa'dan döndüm eve geldim beni yine sıcak karşıladı, yanağımdan öpmüştü.
+Ben bunu yapamayacak kadar çekingendim.
+Kapı çaldı babam sandım, hemen açtım.
+3 ay önce otogarda gördüğüm o adam karşımdaydı.
+Elif ise arkamda duruyordu.
+Silahını çekti bana küfürler savurup duruyordu.....
+Beni parmak ile göstermenize neden olacak tek bir özelliğim bile yok.
+
+============================================================
+BATCH 49/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Olmasını da istemem.
+Sıradan okullarda, sıradan öğrenciler gibi okudum.
+Ne çok başarılı oldum, ne de çok başarısız.
+Çizgimi hiç bozmadım.
+Üniversite bittikten sonra, iş ararken polislik sınavlarına girdim, ortalama bir derece ile kabul edildim ve sonra gene ortalama bir başarı ile polis oldum.
+Sıradan bir ilçenin, sıradan bir karakoluna, sıradan bir memur olarak atandım.
+Gündüzleri sıradan evrak işleri yaparım, bazı geceler devriyeye çıkarım.
+Bir kaç alkolik, iki üç serseri ya da bazen bir iki esrarkeş enseleriz.
+Hiçbir zaman kişisel bakmam olaya.
+Bu insanlara ne empati beslerim, ne de kin.
+
+============================================================
+BATCH 50/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Onlar benim için sadece ay sonunda cüzdanıma yansıyacak ekstra puanlardır.
+Sıradan gecelerimin, ufak sürprizleri.
+Ertesi günün evrakları.
+İş bulduktan sonra evlendim.
+Evliliğim bile kişisel bir durum olmadı benim için.
+Evlenmem gerektiği için evlendim.
+Neden evlenmem gerektiğini sorgulamak benim işim değil.
+Düzen böyle, herkes evlenir ve yuva kurar.
+Bir öğleden sonra, belediye zabıtaları bizden destek istediler.
+Semtimizin sıradanlığını bozan bir çöp evi boşaltmak isterken, ev sahibinin direnişi ile karşılaşmışlar.
+
+============================================================
+BATCH 51/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Aslında bu tür olaylara karışmayı hiç istemem.
+Evraklar ne kadar sıkıcı olsalar da, evini çöp yığınları ile dolduran istifçiler kadar sorun çıkarmazlar.
+Ancak çoğu memur yıllık tatilde olduğundan, istifçinin evini boşaltmaları için zabıtalara yardıma gitmek zorunda kaldım.
+Eve istiflenmiş çöplerin kokusunu genellikle sokağın başından bile alabilirsiniz.
+Psikiyatrlar, istifçiliğin nedenini takıntı olarak açıklarlar.
+Bu insanlar, tam anlamı ile deli değillerdir.
+Sadece, “birgün işe yarar” düşüncesiyle hiçbir şeyi atmayan insanlardır.
+Bir süre sonra takıntıları ilerler ve yolda gördükleri çöplerin bile işe yarayabileceğini düşünürler.
+Psikiyatrlar bu insanlara deli demez, ben ise zırdeli derim.
+Onlar için, rengi sararmış eski bir evrak, yarısı yanmış bir pet şişe gibi materyaller bile kullanışlı olabilirler.
+
+============================================================
+BATCH 52/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Gördüğümün, duyduğumun aksine, bu evden ağır bir koku yükselmiyordu.
+Dairenin kapısına geldiğimde, iki zabıtanın kendi aralarında pis pis güldüklerini gördüm.
+Kendilerine çeki düzen vermeleri için bir süre onlara dik dik baktım.
+Onlar da kendilerine çeki düzen verdiler.
+Kişisel bir durum değil bu, sıradan bir hiyerarşi gösterisi sadece.
+Durumun ne olduğunu sorduğumda, kendim görmem gerektiğini söylediler.
+İçeri girdim.
+Çoğu çöp evde, her yer dağınık olur.
+Çöpler sadece onları istifleyenin anlayabileceği, tek bir kişinin bilebileceği düzende yerleşmiş olurlar.
+Geri kalanlar için sadece kaos olarak görülecek bir düzen.
+
+============================================================
+BATCH 53/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Bu evde ise, en bakar kör belli bir düzen olduğunu fark ederdi.
+Sayısız nesnenin her biri el yapımı raflara özenle dizilmiş vaziyette duruyordu.
+Bir düzen içinde olduklarını görüyordum, ancak düzeni anladığımı iddia edemem.
+Eminim, istifçi için şu bıçağın, bu küreğin yanında olmasının bir anlamı vardı.
+Her duvara monte edilmiş raflardan, tüm boşluklara yerleştirilmiş katlı sehpalardan dolayı adım atmak bile zordu.
+Yolları dar ve labirent gibi olan bir mağarada yürümeye benziyordu.
+Evin içinde yolumu kaybetmeden istifçiyi aramaya çalışıyordum.
+Sonunda, içerisinde hiçbir eşyanın olmadığı bir oda da, çırılçıplak vaziyette onu buldum.
+Bağdaş kurmuş, yere bakarak oturan istifçi kadındı.
+Zabıtaların neden pis pis güldüklerini o zaman anladım.
+
+============================================================
+BATCH 54/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Odaya girmeden bir süre kapıda kalakaldım.
+Hayatımda gördüğüm en ilginç manzaraydı.
+Ne yapacağıma karar vermem zaman aldı.
+Duyup duymadığını bile emin değildim.
+Kadın sanki bizim dünyamızdan değil gibi davranıyordu.
+Gözleri gözlerimde, öylece duruyordu.
+Sanki bir şeyler arar ya da okur gibi...
+Bakışları üzerimde bir ağırlık oluşturdu.
+Tarif edemeyeceğim bir rahatsızlık veriyordu.
+Sanki çıplak olan o değil de, benmişim gibi hissetmeye başladım.
+
+============================================================
+BATCH 55/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+İstemsizce bir dürtü ile, elim belimdeki silahıma doğru gitti.
+İşte o zaman bakışlarını üzerimden çekti.
+Çıplak olduğunun ya da benim orada olduğumun farkında değil gibiydi..
+Yanımdan geçerken onu durdurmak istedim, ama nasıl tutacağımı bilemediğimden yapamadım.
+Yanımdan, bana değecek kadar yakınımdan geçip labirent gibi dizili sehpa ve raflarına arasına daldı.
+Bir anlık duraksamadan sonra onu takip etmeye çalıştım.
+Sanki eşyalar ona yol açıyor da, benim önümü kapıyorlar gibiydi.
+O ne kadar rahat adımlıyorsa yolu, ben o kadar zorlanıyorum.
+Göz ucuyla onu takip ettiğimden sürekli bir şeylere çarpayazıyordum.
+Tam onu kaybettiğimi sandığımda, tekrar önümde belirdi.
+
+============================================================
+BATCH 56/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Elinde bir kartvizit var.
+Kartvizite bakılırsa, istifçimiz bir avukattı.
+En azından bir zamanlar öyleymiş.
+"Haklarımı biliyorum", dedi.
+"Ben bir deli değilim ve bu ev bana ait.
+İstersen beni hastaneye götür, sonuç değişmeyecek.
+Sadece eşyaları attığınız için seni ve kapıdaki iki salağı dava ederim.
+Bir dava ile uğraşmak istemezsin, değil mi?"
+Her ne kadar zırdeli de olsa, kadın haklıydı.
+Dava ile uğraşmak istemezdim.
+
+============================================================
+BATCH 57/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Açıkçası, ne yapmam gerektiği hakkındaki kanuni prosedürü de zerre bilmiyordum.
+Kadın bir dava açarsa bunu kazanacağından emin görünüyordu.
+Ne yapmam gerek?
+Sanırım buradan hemen gitmem benim sade hayatımın bekası için en uygunu olacaktı.
+Kadına komşularından bir daha şikayet gelirse, bu sefer eşyalar ile birlikte gideceğimiz tehdidinde bulunup oradan ayrıldım.
+Kişisel bir tehdit değildi bu, sadece yapılması gereken bir güç gösterisiydi.
+Kuyruğu dik tutma çabasıydı.
+Kadın sadece gülümseyerek karşılık verdi.
+Dar yolda bana sürtünerek arkama geçti ve boş odaya doğru adımladı.
+Bende çıkışa doğru yolumu aradım.
+
+============================================================
+BATCH 58/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Arkamdan "geri geleceksin" diye seslendi.
+"Bir şikayet alamadan geri geleceksin".
+Kapıda bekleyen iki zabıta ne yapacağımızı sordu.
+Şikayetin kimden geldiği bilinmiyordu.
+Bu durumda sadece apartman sakinlerini gezip şikayetlerini savcılığa iletmeleri gerektiğini söyleyebilirdik.
+Elimizde bir boşaltma emri olmadan yapabileceğimiz hiçbir şey yoktu.
+Zabıtalara kapı kapı gezip durumu komşulara anlatmalarını söyledim.
+Apartmandan çıkıp karakola dönmek için yola koyuldum.
+Bu olay sadece bir anı olacaktı.
+Tüm sıradan insanların başlarından en az bir kere böyle ilginç bir olay geçer.
+
+============================================================
+BATCH 59/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Her dost sohbetinde anlatılır.
+Çokça anlatılır.
+O kadar ki, bir çöp evin boş odasında çırılçıplak bağdaş kurmuş kadın hikayesi bile, sıradan ve sıkıcı bir hale gelir.
+Bence, olması gerekende budur.
+Mesainin geri kalanını her gün geçirdiğim gibi evrak işlerini yaparak geçirdim.
+Dün gece bir bıçakla yaralama olmuş, savcılığa sevk edilecek bir serseri vardı.
+Benim için sadece evrak vardı.
+Adamın biri karısını haşat etmiş, benim için evrak vardı.
+Liseliler kız kavgasında birbirlerine fena girmişlerdi, dükkan camları falan hep kırılmış, evrak falan yoktu, olur öyle, biri gider olayı tatlıya bağlardı.
+Asker kaçağı yakalanmış, evrak vardı.
+
+============================================================
+BATCH 60/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Eve döndüğümde artık ne evrak vardı, ne de çırılçıplak deli bir avukat.
+Kapıdan içeriye girerken, geride kalan gün benim için dışarıda kalırdı.
+Nasıl geçti hayatım günün?
+Nasıl geçsin, aynı aynı aynı...
+Karım bana hayatım diye seslenirdi.
+Gerçekten hayatı falan olduğum yoktu tabii, Görücü usulü evlendik biz.
+Kişisel bir şey yok ortada.
+Arkadaşlarından duymuştur bu hitabı.
+Bana hayatım diyerek, aramızda gerçek bir sevgi varmış gibi yapıyordu.
+Başka türlü katlanamazdı ki insan, sevgisiz bir evliliğe.
+
+============================================================
+BATCH 61/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Şikayetçi değilimdim.
+Karımı kendimce seviyorumdum, o da beni kendince seviyordu.
+İki tane kızımız vardı ya işte.
+Bizi birbirimize sonsuza kadar bağlayacak bir bağ.
+Fazlasına ihtiyacımız yoktu.
+Zaten fazlası olamaz da.
+Aşk meşk gelirdi ve geçerdi.
+Kadınla erkek arasında ki en önemli bağ, çocuklarıdır.
+Günün ilginç olayını karıma anlattım.
+Kadının ne kadar deli olduğunu, rahatsız edici bakışlarını anlattım.
+
+============================================================
+BATCH 62/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Evin sadece onun anlayabileceği bir düzeni olduğunu söyledim.
+Çırılçıplak olduğunu...
+İlgisini çeken sadece çıplaklık oldu.
+Ne kadının bakışları, ne de işini gayet iyi bilir gibi görünen bir avukat olması karımı onun çıplaklığı kadar ilgilendirmedi.
+Kadını beğenmiş miydim?
+Beğendim mi?
+Kırklı yaşlarında, çöküşe geçmeye hazır bir kadın vücudu desem, on yıl sonra karım ile büyük bir sorunum olabilirdi.
+Beğendim desem, şimdiden bir sorunum olurdu.
+Dikkat etmedim desem, şu andan başlayan ve mezara kadar gidecek bir sorunum olurdu.
+Sorunu ertelemeyi seçiyorum, yaşlı ve buruşmuş olduğunu söylüyorum.
+
+============================================================
+BATCH 63/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Yaşlanınca onu da beğenmezmişim.
+Sanki o gün çok beğeniyordum da.
+İki tane çocuk doğurmuş sıradan bir kadın karım.
+Çocuklar doğduktan sonra aldığı kiloları vermek için garip diyetler yapan bir manken değil.
+Onunla birlikte olmak için, libidoya ihtiyacım yok.
+Zaten üçüncü bir çocuk istediğimizden doğal olarak bunu yapmak zorundayız.
+Benimde otuzlarına gelmiş normal bir erkekten farkım yok.
+Metabolizma yavaşladığı için, göbeğim vücudun geri kalanından yavaş yavaş bağımsız bir hale geliyor.
+Tüm gün oturarak çalışmam bu duruma karşı bir önlem değil.
+Saçlarımdaki yavaş dökülme, önlem almadığım sürece hızlanarak artacak.
+
+============================================================
+BATCH 64/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Neden önlem alayım ki?
+Benim babam da, dedem de keldi.
+Sokağa çıkın, biraz dolanın, gördüğünüz insanların pek çoğunun bana benzediğini fark edeceksiniz.
+Sonra salak bir seyyar film satıcısının başı zabıtalar ile biraz belaya girdi.
+Belediye seçimleri sonrası, belediye el değiştirir, yeni başkan kendi tanıdıklarından ve onların tanıdıklarından yeni bir ekip kurar.
+Seyyar satıcılar için bunun anlamı, zabıtaya verilecek rüşvetin yenilenmesi demektir.
+Bir satıcı, oyunun kuralını pek iyi anlayamamış, zabıta ile arasında ufak bir sorun çıkmış.
+Bizim aptal seyyar satıcı, sorunu çözmek için bildiği tek yöntemi, yumruklarını kullanmış.
+Evrak.
+Sadece evrak olmalıydı.
+
+============================================================
+BATCH 65/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Evrakları düzenle, görevli memura mukavemetten ve kayıt dışı ticaretten savcılığa sevk et, geç.
+Dayak yiyen zabıtalardan biri, yeni zabıta şeflerinden ve avukatın evinde karşılaştığımız zabıtalardan biri olmasaydı, sadece evrak olabilirdi.
+Unutulmuş hikayemi anlatmak için bir fırsat olarak gördüm.
+Birkaç kişilik dinleyici kitleme hikayeyi anlattım.
+Hikayenin sonunda, aklıma takıldı, zabıtaya şikayetçi olanın kim olduğunu sordum.
+Çıkmadan önce onlara tüm apartmanı dolaşmalarını söylemiştim, bunu yapıp yapmadıklarını öğrenmek istiyordum.
+Kişisel bir şey değildi, hiyerarşi meselesiydi.
+Zabıta kimsenin şikayetçi olmadığını söyledi.
+Koca apartmanda kimse ne kadının deli olduğundan, ne de evinin çöp ev olduğundan haberdarmış.
+Hatta, bekar bir kadın olarak, eve arkadaşları falan da gelmediği için kadından çok memnunmuş apartman.
+
+============================================================
+BATCH 66/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+O zaman kim şikayet etmiş, diye sordum, cevabı oda bilmiyordu.
+İlginçmiş deyip geçmem gerekiydi.
+Ancak bu sefer o kadar kolay olmadı.
+Kadını hakkında bildiğim çok az bilgi kırıntısı kafamın içinde dönmeye başladı.
+Evdeki o garip düzen, bir odada hiç eşya olmaması, bakışları, çıplaklığı...
+Sahi neye benziyordu gerçekten?
+Kafamın içinde vücudu hakkında tek bir detay bile kalmamıştı.
+Saçı neye benziyordu, kaşları?
+Uzun boylu muydu?
+Hiçbir şey kalmamış kafamda, sadece bana bakarken hissettiğim o çıplaklık hissi...
+
+============================================================
+BATCH 67/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Ve karışık görüntüler.
+Bir kişiye ait olamayacak kadar fazla ama yarım yamalak, birleşmeyen detay parçaları.
+Eve vardığımda, bu sefer her şey kapının dışında kalmadı.
+Kızım okulunda olan, ona göre çok ilginç bir şeyi anlatırken aslında ben onu dinlemiyordum.
+Karım komşunun çocuğunun yaramazlıklarından bahsederken de, televizyonda sevdiğimiz diziye bakanken de, gece yorganı kafama çekip uyuyor taklidi yaparken de aklımda sadece o kadın vardı.
+Bir anda, hem de onu gördükten yaklaşık bir yıl sonra kafamın içinde krallığını ilan etmiş gibiydi.
+Kimdi, neydi, orada oturmuş ne yapıyordu, evindeki o istiflenmiş eşyaların, çöplerin anlamı neydi?
+En önemlisi, bir yıl sonra neden kafama takmıştım?
+Sabah işe giderken, yolumun üzerinde olmamasına rağmen onun sokağından geçmeye başladım.
+Bir iki gün sonra akşam eve dönerken de aynısını yapıyordum.
+
+============================================================
+BATCH 68/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Her sabah, her akşam o binayı göz ucuyla süzdüm.
+Böyle devam ettim.
+Her gün iki kere o sokaktan geçmek dışında, hayatımda gözle görülür bir değişiklik yoktu.
+Ne karım, ne amirlerim benim bu garip davranışlarımın farkındaydılar.
+Benim ufak takıntım, ufak sırrım olmuştu.
+Kimsenin fark etmediği değişimler en tehlikeli olanlardır.
+Ben artık eski ben değilimdim.
+Kafamın içinde sanki bir misafir ağırlıyorumdum.
+İşe geliş gidişlerimde tüm vücudumun kontrolünü ele geçiren bir misafirdi.
+Bu süreler dışında, benim ben olmama izin veriyordu.
+
+============================================================
+BATCH 69/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Tüm bu saçmalıklara son vermek için bir doktora görünebilirimdim.
+Yapmam gereken buydu.
+Her sıradan insan gibi, baş edemediğim bir sorunum olduğun da, işin uzmanından yardım almalıydım.
+Almadım.
+Cevabın modern tıbbımız olduğuna inanmadım.
+Bana bir cevap gerekliydi.
+Dairesini bulmak, daha doğrusu hatırlamak işin kolay kısmıydı.
+Şimdi kapısını çalmak için bir bahaneye ihtiyacım vardı.
+Hakkınızda şikayet var diyebilirdim.
+Ne de olsa ben bir polistim, şikayetleri göz ardı edemezdim.
+
+============================================================
+BATCH 70/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Kafamın içine yerleşip beni rahatsız etmesini şikayet gerekçesi olarak gösteremezdim gerçi.
+Apartman kapısından zili çaldım, “kim o” diye sorulmadan otomatiğe bastı.
+İkinci kattaki dairesinin kapısının tokmağını vurduğumdaysa, kapının açık olduğunu fark ettim.
+Kafamı içeri uzatıp seslenecekken, evin daha önceden gördüğüm bu sıkışık ve karmakarışık hali dikkatimi yine kendisine çekti.
+Ben daha seslenemeden, o bana "içeri gelin memur bey" seslendi.
+"Daha önce karşılaştığımız odaya."
+Eşyalar arasında yolumu zor da olsa buldum.
+Bu sefer üzerinde tek parça bir gecelik vardı.
+En azından kısmen giyinik olduğu için ona daha dikkatli bakabilecektim.
+Esmer bir kadındı.
+
+============================================================
+BATCH 71/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Orta boylu, kısa koyu saçlı, kalın kaşlı ve uzun kirpikliydi.
+Gözleri koyu kahverengi, ağzı geniş, dudakları ince, burnu düzdü.
+Oldukça sıradan bir görüntüsü var.
+Benim gibi, babam gibi, dedem gibi, karım gibi.
+O önde, ben arkada eşyaların arasında oluşmuş labirentte ilerledik.
+O her zamanki gibi bu sıkışıklıkta hiçbir şeye çarpmadan ilerlerken, ben sürekli takılıyordum.
+Allah aşkına, bu ev kaç metrekare?
+Bana upuzun gelen bir süre sonra, sıradan bir evin sıradan oturma odasına vardık.
+Tek fark, televizyon olması gereken yerde, kocaman bir ayna olmasıydı.
+Kendisi divana oturdu ve bana karşında duran koltuğu gösterip oturmamı işaret etti.
+
+============================================================
+BATCH 72/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Sıradan insanların yapacağı şeyi yapmalıydım.
+Çözümsüz bir sorunla karşı karşıyaydım, yok sayıp hayatıma devam etmeliydim.
+İlk adımım, oradan gitmek olmalıydı.
+Yapmadım.
+Onun yerine deli olduğuna emin olduğum kadının ne demeye çalıştığını merak ettim.
+“Kim miyim?
+Sorduğun bu mu?
+Adım Aysel, 41 yaşımdayım, bildiğin gibi avukatım.
+Son dört yıldır dulum.
+Önceki evliliğimin bitme nedeni kocamın bana sadık kalmamasıydı.
+
+============================================================
+BATCH 73/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Ondan aldığım nafaka sayesinde çalışmaya ihtiyaç duymuyorum, bu yüzden işimi yapmıyorum.
+Çocuğum yok, olmuyor.
+Her yolu denememize rağmen hamile kalmayı başaramadım.
+Hayatımdan o kadar sıkıldım ki, sonunda onu yaşamayı bırakıp, başka hayatları izlemeye karar verdim.
+Evdeki eşyaların fazlalığının nedeni de bu.
+Anlamadın tabii.
+Şöyle, farkında olmasak da, her eşya üzerinde izler bırakıyoruz.
+O eşya kullanılırken, neler düşündüysek, neler hissettiysek eşyanın üzerinde bir yazı gibi kalıyor.
+Çoğu insan bu yazıları okuyabilir, ama çok azı okumayı ister.
+Hep görmezlikten gelinen, ezik sınıf arkadaşı gibidir bu yetenek.
+
+============================================================
+BATCH 74/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Onunla birlikte görülmek, bizi de onun gibi ezik yapar diye korkarız.
+İnsanlar böyle şeylere inanmazlar, inananlara ya da yeteneğe sahip olduğunu söyleyenlere deli gözüyle bakarlar.
+Bu yüzden ‘dışlanmak’tır özel yetenekler.
+İnsanlar beni dışlamadan, ben onları dışladım ve buraya yerleştim.
+Yeteneğimin üzerine gittim, kendimi zorladım.
+Bulduğum her nesne ile yeteneğimi biraz daha arttırdım.
+Okuduğum her nesne, bana farklı bir hayatı öğretti.
+Her biri benim için diğerinden daha özel hale geldi.
+Bu yüzden hiç birini atamadım.
+Onları biriktirmemin nedeni takıntılarım değil.
+
+============================================================
+BATCH 75/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Onları çok sevmem de değil.
+Sadece, benden başka kimsenin umurlarında olmayacakları için, bu yorgun eşyalara sahip çıktım.
+Hiçbiri benim değil, aslına bakarsan, onlar artık kimsenin değil.
+Neden çıplak olarak boş oda da oturduğum ise en kolay açıklanacak olan.
+Düşünürken kendi elbiselerimin ya da farklı eşyaların üzerine yazılar bırakmak istemiyorum.
+Bu yüzden boş bir oda da, çırılçıplak olarak düşünüyorum.
+Ne diyeceğimi bilemedim.
+Bir süre konuşmadan karşılıklı oturduk.
+Sanki beni değerlendirir gibi bakıyordu bana.
+Sonunda eliyle pat pat diye divana vurarak beni yanına davet etti.
+
+============================================================
+BATCH 76/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Evcil hayvanını çağırır gibi.
+Komutu alan beyin, bilinçten bağımsızca komutu yerine getirmek için harekete geçti.
+Yavaşça kalkıp yanına yürüdüm.
+Aslında daha çok süzülen bir kuş gibi hissediyordum.
+Sanki hayatım boyunca yaptığım hiçbir hareket bu kadar doğal değildi.
+Bahar gelince kar'ı delen bir kardelen gibi, sanki tüm amacım buymuş gibi hareket ediyordum.
+Az önce beni çağırmak için kullandığı elinin işaret parmağı ile karşımızda duran aynayı işaret etti.
+Ayna da ne onun, ne benim aksim vardı.
+Kafam karışıyordu.
+Odaklanamıyordum.
+
+============================================================
+BATCH 77/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Aynada, başka birilerinin aksi vardı.
+Önceleri belli belirsizdi.
+yavaşça netleştiler.
+Hem o, hem ben olan başka birileriydi.
+Ne olduğunu anlayamıyorumdum, ayna hileli olmalı diye düşündüm.
+Arkasına geçip orada kim var diye bakmak istedim.
+Bana engel olmadı.
+Yerimden kalkarken, bir önceki doğal duyguların tam tersini hissettim.
+Denize değil, dağa doğru giden bir karetta karetta yavrusu gibiydim.
+Ben kalkar kalkmaz, ayna normale döndü.
+
+============================================================
+BATCH 78/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Mideme kramplar girmeye başlamıştı.
+Kalktığım yere gerisin geriye yığıldım.
+Tüm vücudum ter içinde kalıyor.
+"Onlar" dedi.
+"Bizim eski yaşamlarımızdı.
+Birlikte olmak her zaman bizim kaderimiz oldu.
+Ne kadar hayat yaşarsak yaşayalım ve ne kadar ayrı düşersek düşelim, sonunda hep birbirimizi bulmak zorundayız.
+Ben senin kurbanınım, her hayatta öldürdüğün, tek aşkın."
+Hava buz gibiydi, üzerimde kalın kürkler vardı.
+Ağır bir tipi altında yol almaya çalışıyorduk.
+
+============================================================
+BATCH 79/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Yanımdakinin yüzünü göremiyorumdum, ama o olduğunu biliyorumdum.
+Bir mağaraya ulaşmaya çalışıyorduk.
+Yolda tökezledi.
+Yaralı mı?
+Evet yaralı, karnını tutarak yürüyordu.
+Git gide yavaşladı.
+O hız ile başarmamız imkansızdı.
+Yardım etmeye çalıştım, olmadı.
+Saldı kendisini.
+Yere düştü.
+
+============================================================
+BATCH 80/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Ben de mi yaralıydım?
+Saldırıya uğramışız.
+Taşıyamıyordum onu, bu soğukta ölüme bırakmaktan başka çarem yoktu.
+Onu taşımaya çalışsam ben de güçten düşer, yıkılırımdım.
+Tek mantıklı tercih vardı, temiz ve hızlı bir ölüm.
+Her dokunuşunda, her öpüşünde farklı hayatların sonuna gidiyorduk.
+Her hayatta onu öldürüyorumdum.
+Her hayatta, sadece yapılması gerektiğine inandığım, inandırıldığım davranışı yapıyorumdum.
+Bazen cellat oluyorumdum, bazen bir avcı, bazen sıradan bir marangoz, bazen bir imparator.
+Değişmeyen tek şey, onu öldürmemdi.
+
+============================================================
+BATCH 81/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Yüzlerce aşk, onlarca ihanet, onlarca nefreti tekrar yaşadık.
+Karım ile yaptığım çocuk çalışmalarına hiç benzemediğini beyan etmeme gerek yok.
+Tüm gün sürüyor, defalarca sevişiyoruz.
+Tüm hayatlarımızın anılarını tekrar tekrar yaşayarak.
+Hayır, onu öldürmek gibi bir isteğim yoktu.
+Karısını aldatan ilk erkek ben değildim.
+Belli ki bu tür imkansız olanı yaşayan ve bunun farkında olan da bir tek ben değildim.
+İnsan olmanın en güzel yanı, yeterince bahane ve kendini ikna ile her şeyin sıradan görülebilmesidir.
+Karımı boşamam gerekmez.
+Metresi, yasak aşkı olan ilk erkek ben olmam ya!
+
+============================================================
+BATCH 82/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Yalan.
+Benim çocuklarım var.
+Bu kadın kesinlikle delirmiş olmalıydı.
+Bu kadın bir büyücü.
+Evin bir yerlerinde bir tür uyuşturucu etkili tütsü yanıyor olmalıydı.
+İstifçi, psikiyatrlar istifçi olanlar takıntılı insanlardır derdi.
+Beni takıntı yapmış olmalıydı.
+Bir yerlerde görmüştü.
+Kafayı bana takmıştı.
+Bu kadın zırdeliydi.
+
+============================================================
+BATCH 83/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Karım asla beni aldatmadı.
+Çocuklar, onlar benim çocuklarımdı.
+Tüm hayatımın yalan olduğunu söylüyordu.
+Fantastik bir filmden, korku filmine geçiş yapmış gibiydim.
+Gerçek korku filmlerinde cinler, periler, vampiler, zombiler yoktur.
+Gerçek bir korku filmi, tüm hayatının yalan olduğunu öğrenen bir adamın biyografisidir.
+Korkuyorum.
+Korku insanı sadece heyecanlandırmıyor.
+Korkumun kaynağını inkar etmek istedim.
+Yattığım divandan kalkıp odada volta atmaya başladım.
+
+============================================================
+BATCH 84/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Ayağım kıyafetlerimin arasındaki sert bir cisme çarptı.
+Silahım.
+Ne olduğunu anlamadan silahımı elime alıp kafasına dayamıştım.
+Yalan söylediğini itiraf etmesini istedim.
+O ise gözlerini kapadı ve “söylediklerimin kelimesi kelimesine doğru olduğunu sen de biliyorsun” dedi.
+Bir gün için çok fazlaydı.
+Yüksek bir patlama sesi, sonrası mutlak sessizlikti.
+Kimse beni görmeden apartmandan fırlayıp eve koştum.
+Eğer herhangi biri beni gördüyse, cinayet masasının olayı çözmesi saatlerini bile almazdı.
+Eve vardığımda ruh gibiydim.
+
+============================================================
+BATCH 85/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Karım ne olduğunu sordu, cevap vermedim.
+Hemen duşa girdim.
+Neden bu kadar sarsıldım ki?
+Yüzlerce hayatta yüzlerce defa katil olmuştum.
+Her hayatta onu öldürmüştüm.
+Hayır, yalandı bunlar.
+Ama oldu, oldu işte, haklı çıktı, öldürdüm onu.
+Hayır.
+Anlamanın tek bir yolu vardı.
+Duştan çıkıp kızların odasına gittim.
+
+============================================================
+BATCH 86/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Güzel, ikisi de uyuyordu.
+Odadan çıktığımda karımı karşımda buldum.
+Ne olduğunu soran gözler ile bakıyordu.
+Onu salona çektim.
+Elimden geldiğince soğukkanlı davranmaya çalışıyordum.
+Karıma bugün bir şey öğrendiğimi söyledim.
+Çivit gibi mavi göğün sarı toprağa değen uçlarından güneşin ulvî dalgaları köyü kıpkızıl sarmıştı.
+Gökte hiç bulut yoktu.
+Hava sıcak ve ağırdı; kızıl loşluğun indiği dar, gübreli sokaklardan keskin bir ahır kokusu çıkıyor, evlere dönen inekler çıngıraklarını sallayarak kendi kapıları önünde duruyor, boynuzlarıyla duvara vuruyor, sonra sabûr bekliyorlardı.
+Bazan elinde bakraç, yazma başörtüsü arkasına atılmış örgülerini sallayarak bir kız duvarlardan açılan küçük bir kapıdan çıkıyor, bazan uzun sopasının bir ucunu arkasından kollarının altından geçirmiş bir çoban çocuk başı önünde bir türkü mırıldanarak dönüyordu.
+
+============================================================
+BATCH 87/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Avlulardaki saman yığınlarıyla, sazdan damlı, duvarlar arkasına sinen köy evlerinin kızıl loşluğundan yavaş yavaş gece karanlığına geçerken, keskin hututu eriyor, gayrımuayyen bir yığın, bir siyah kümeye inkılap ediyordu.
+Uzaktan çoban köpeklerinin kalın akislerle havlamalarına ince kuzu melemeleri, derin öküz böğürtüleri karışıyordu.
+Hepsinin üstünden köyün paytak, tahta bir minaresinden garip, kudretli fakat ahenksiz bir ses ezan okunuyordu.
+Herkesin meşgul olduğu bu saatte Cennet Kız sıvalı alçı duvardan açılan kapısından fırlıyor, sağa sola korkan gözlerle bakıyor, duvarların gölgesinde saklanarak, arkası iki büklüm, ürkek ve sinik köyün önünden geçen Sakarya'nın gür çağıltılı kıyısına gidiyor, suların beyaz köpüklü bir girdap yaptıkları noktaya eğilmiş salkım söğütlerin altına sığınıyor, dizlerini dikiyor, ellerini yanaklarına dayıyor, ağlar gibi, ulur gibi garip garip sesler çıkarıyordu.
+Gözlerinden yaş çıkmayan bir deli idi.
+İmansız gitmeye, ebediyen yanmaya mahkûm bir bedbahttı.
+Gündüzleri hemen hiç çıkmazdı.
+Akşamları onun ürkek gölgesine tesadüf edenler olursa "kelime-i şehadet" getirip kaçışırdı.
+Evinin önünden geçen çocuk, büyük adımlarını sıklaştırır, süratle uzaklaşırdı.
+Çok uzaktan görülürse köyün çocukları taş atar kaçarlardı.
+
+============================================================
+BATCH 88/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Bazan ihtiyar bacaklarının arasında bir tavan süpürgesi mezarlığa doğru koştuğu görülen ihtiyar Penbe Nine'si ona yiyecek getirmese, köyün onu ihata eden nefret ve korku hududu içinde köpek gibi açlıktan ölecekti.
+O köyde üç gün misafir oldum.
+Akşam ocak başlarında, gündüz harman yerinde bahsetmedikleri bu cadı kocakarı ile deli torunun korkusunu, ağırlığını bir kabus gibi köylülerin gönlünde sezdim.
+O kadar gayritabiî ve şeytanî bir korku ve nefret kordonu ile o iki mahlûku, insan temasına karşı karantinaya almışlardı ki fazla temas gösterene, onlardan bahs edene şüphe ile bakıyorlardı.
+Fakat ben her ne pahasına olursa olsun bu iki bedbahtın hikayesini öğrenmeye karar vermiştim.
+Kendi kendime mutlaka bunu yapacaktım.
+Gün ışığında pejmürde, ibtidaî, üstü sazlarla örtülü bir sıva ve taş yığını olan köy, akşam kızıltılarında, ayın gümüş parıltısında bir peri efsanesinin sahnesine dönüyordu.
+Misafir olduğum evde sıcaklığın ağır nefesinde bîtap olan kadınlar kapılarının önüne toplanmışlar, alçak seslerle konuşuyor, gülüşüyorlardı.
+Çömelmiş rengarenk çorap ören kadınlar, alçak duvarlara dizilmiş kabaklar, orada burada gübre yığınları yanında ayakta geviş getiren inekler, Afrikaî bir his veren, tepesi yuvarlak ot yığınları üstünde gümüş ışıklı gölgeleri uzaktan çağlayan Sakarya'nın füsunu içime doldu.
+Ev sahibinin evi gözden kaybolunca hemen Penbe Nine'nin evinin olduğu ıssız, dar sokağa saptım.
+
+============================================================
+BATCH 89/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Kabak dizili alçı duvarlar ortasında dar, kokulu sokak gümüş ışıkla yıkanıyordu.
+Küçük bir kapının arasında ihtiyar bir nine oturmuş, kuru dudaklarının arasında bir şeyler fısıldıyordu.
+Şalvarı, gömleği bin bir yama içinde, çıplak ayaklarını uzatmış, sırtını duvara dayamış, kuru yanaklarına kirli başörtüsünün altından kır saçları dökülmüş, insan elinden ziyade kuru ve cılız bir ağaç kütüğüne benzeyen elleriyle teşbih çekiyor, müşteki, meyus bir sesle mırıldandığı "Allah, Allah” bazan yükseliyor, isyana benzeyen bir ifade alıyordu.
+Hakikat bahçenin içinden bir tiyatro dekoru gibi görünen küçük evin içinden en garip sesler geliyordu.
+Ay terasa açılan pencereden bir ışık şelalesi gibi bu mütevazı karanlık odaya akıyordu.
+Boş ocağın sağında uzanan üzeri halı örtülü minderde elleri dizinde, yüzünün yarısı gümüş gibi beyaz ışıkta, yarısı gölge içinde oturuyordu.
+Rengi belli olmayan yıpranmış şalvarı, ötesi, berisi delik mintanın altında zavallı, zayıf bir genç kız vücudu beliriyordu, omuzlarından iki uzun örgü pusuya yatmış iki yılan gibi uzanmış, zayıf yüzü iki kocaman mavi gözünün koyulaşan, sabit korku rengiyle "Meduz” gibi idi.
+— Nine zavallı kıza ne oldu?
+Anlatsana...
+dedim.
+
+============================================================
+BATCH 90/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+O ihtiyar gözlerini Cennet'in sabit gözlerine acı bir istifhamla dikti.
+Mermer gibi, eski bir resim gibi donmuş duran yüz kımıldadı, başını salladı.
+O vakit ihtiyar anlattı.
+Fakat Sakarya ricatinden biraz evvel köye sekiz kişilik bir Kuvayı Milliye gelmiş.
+Reisleri Şerif Bey yavuz ve güzel bir yiğitmiş.
+Derhal o Cennet'e, Cennet de ona aşık olmuş.
+Köyden atları için arpa, kendileri için bedava yemek istiyorlar diye köylü Şerif Bey'e düşman olmuş, onun için Cennet Kız'ı Allah'ın emriyle istedi diye köylü Penbe Nine'ye de garez olmuşlar.
+Buraya gelince "ama Allah bilir Şerif Bey'in eli Cennet'in eline değmedi" dedi.
+Fakat bu Cennet'in gözlerinde öyle şimşekler, dudaklarında öyle tehlikeli bir homurtu hasıl etti ki, ihtiyar bana gözlerini kırparak: "Peki, peki unuttum, Cennet'i aldı, karı koca oldular."
+Nihayet Sakarya harbinin topları işitilmiş, şoseden karınca gibi, kum gibi asker geçerken görmüşler ve Şerif Bey harbe gidiyorum diye köyden uzaklaşmış!
+
+============================================================
+BATCH 91/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Üç gün sonra köyü Yunanlılar sarmışlar, karşıdaki yamaca karargah kurmuşlar.
+Kurt gibi köye saldırmışlar.
+Herkes dağa kaçmış, fakat Cennet yatakta hasta imiş, yakalamışlar, karargahlarına sürüklemişler.
+Yunan karargahında üç gün kalmış.
+Gavurlar gittikten sonra yarı deli, yarı hasta sürünerek kız köye gelmiş.
+Esasen Şerif Bey'in kahpesi diye köyde rahat huzur vermedikleri Cennet'i köy çocukları, delikanlıları taşla, tükürükle karşılamışlar.
+Halbuki aynı felakete uğrayan daha başka kadınlar da varmış, imamın yeğeni Fatma bile...
+Ne ise zavallı kız canını kurtarmış, fakat aylarca hezeyan içinde yaşamış.
+Felaket bununla bitmemiş.
+Üç ay sonra karnı büyümeğe başlamış.
+
+============================================================
+BATCH 92/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Penbe Nine yemin ediyor.
+Aynı felaketin köyde üç kızın başına daha geldiğini anlatıyor.
+Fakat onların çocuklarını ne yapıp yapıp köyün ihtiyar kadınları ilaçla düşürmüşler.
+Penbe Nine'nin komşularından köyde ebelik eden Hafize Hala bir gece evlerine gelmiş, Yunan'dan kalan bu yüzkarasını yok etmek için Cennet'in de çocuğunu düşürmeği teklif etmiş.
+Cennet ani bir isyanla çocuğun Şerif Bey'den olduğunu söylemiş, çocuğunu düşürtmek isteyenleri boğacağına yemin etmiş...
+Çocuk nihayet doğmuş.
+Oğlanmış.
+Böyle mehtaplı bir gecede komşular kapıyı çalmışlar.
+Penbe Nine'yi çağırmışlar, Yunan piçini ortadan kaldırmazsa evini yakacaklarını, Cennet'i parçalayacaklarını söylemişler.
+Yavruyu onların eline vermemek için küçük bir kilime sarmış, götürmüş Sakarya'nın salkım söğüt altında kaynayan girdaba atmış.
+
+============================================================
+BATCH 93/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+— Aman anam Şerif Bey'in çocuğu nerede?
+Şerif Bey'in çocuğu nerede?
+Cinnetin en korkunç hummasıyla Cennet, ay ışığının yıkadığı dar sokakta uluyarak, çırpınarak Sakarya'ya, çocuğunun mezarına gitti.
+ihtiyar, torununun arkasından kollarını sallayarak koştu.
+Ben insan kalbinin zayıf ve çapraşık muammalarının dünyada yığdığı ıztırap ve acıyla şaşkın, sersem, Hanife Nine'nin evine döndüm.
+Çiftliğin en yaramaz ve hareketli kuzusu Minnak bir gün yine yaramazlık peşindeymiş.
+Yaptıklarıyla artık herkesi kızdırır hale gelmiş.
+Ama yine de dur durak bilmiyormuş.
+Yine günlerden bir gün yaramazlık peşinde koşarken Minnak birden ayağını burkmuş.
+Bir anda bağırmış ve canı çok acımış.
+
+============================================================
+BATCH 94/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Hemen annesini çağırmış.
+Annesi yanına geldiğinde ayağının kırıldığını görmüş.
+İyileştirmek için onu ahıra götürmüş.
+Sahibi kuzuyu görünce çok üzülmüş.
+Onu veterinere götürmüş ve iyileştirmiş.
+Yaramazlık peşinde koşmaktan bıkmayan kuzu, ayağının kırılmasının ardından biraz olsun değişmiş.
+O kadar çok canı yanmış ki bir daha yaramazlık yapmayacakmış.
+Fakat bu çok uzun sürmemiş.
+Kısa süre sonra Minnak çiftlikte tekrar yaramazlıklar peşinde koşmaya başlamış.
+Kuzu ve arkadaşları eğlenceli bir gün geçirmek için bir gün büyük bir işe kalkışmış.
+
+============================================================
+BATCH 95/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Kuzu Minnak bütün arkadaşlarını ahırın dışına çıkmayı ikna etmiş.
+Aslında pek de ikna olmasalar da arkadaşlarının sözünü dinleyerek onun peşine takılmışlar.
+Ahırdan biraz uzaklaştıktan sonra bazı tehlikelerle yüzleşmişler.
+Etrafta köpekler varmış.
+Çok korkmuşlar ve eve geri dönmek istemişler.
+Fakat bir de ne görsünler bütün köpekler etrafı sarmış.
+Kısa süre içerisinde ahırdaki en büyük köpek gelip kuzuları kurtarmış.
+Eğer o olmasaydı köpekler kuzulara saldıracakmış.
+Hep birlikte eve geri dönmüşler.
+Dönüşlerinde her birinin ailesi kuzuları yanına çekip ne kadar yanlış yaptıklarını anlatmış.
+
+============================================================
+BATCH 96/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Zaten her biri yaptıkları yanlışın farkındaymış.
+Ama en yaramaz olan kuzu söz dinlemediği için arkadaşlarını da bu işe dahil etmiş.
+Ailesi onun için cezalandırma düşünmüş.
+Bütün ahırı temizlemesi gerektiğini söylemişler.
+Eğer yapmazsa bütün gün aç kalacakmış.
+Bu duruma asla katlanamayan Minnak kuzu kalkışmış temizliğe.
+Zorlu bir günün ardından tamamen enerjisi tükenmiş.
+Bu sefer gerçekten akıllanmış.
+Bir daha asla yaramazlık yapmayacakmış.
+Ailesine söz vermiş ve arkadaşlarına da artık yaramazlıklarına dahil etmeyecekmiş.
+
+============================================================
+BATCH 97/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Daha uslu ve aklı başında bir kuzu olacakmış.
+Kısa süre içerisinde gerçekten sözünü tutan kuzu tüm çiftlikte takdir edilmiş.
+Hatta herkesi etrafını düzenlemek için teşvik etmiş.
+Ayrıca arkadaşlarına aile sözünü dinlemelerini gerektiğinden bahsetmiş.
+Çünkü ailenin ne kadar önemli olduğunun farkına varmış.
+Eğer o gün köpekler kendisine saldırsaydı çok daha kötü şeyler olabilirdi.
+Bunu düşündükçe ailesinin sözünden çıkmayarak her zaman onları dinleyecekmiş.
+Uzak bir köyde, masalsı bir atmosferde yaşayan küçük bir kız çocuğu vardı.
+Adı Melisa'ydı.
+Melisa, meraklı ve öğrenmeye aç bir ruha sahipti.
+
+============================================================
+BATCH 98/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Günlerini kitaplarla geçirir, etrafındaki dünyayı keşfetmek için her fırsatı değerlendirirdi.
+Köy halkı onu "Meraklı Melisa" diye sevgiyle anardı.
+Bir gün, Melisa köyün yaşlı bilgesi olan Dede Ahmet ile karşılaştı.
+Dede Ahmet, köyün bilgeliği ve bilgi hazinesiydi.
+Melisa'nın meraklı gözleriyle bakıştı.
+Onun içinde yanan öğrenme aşkını gördü ve gülümseyerek ona yaklaştı.
+Birkaç gün boyunca Melisa, bilmeceyi çözmek için Dede Ahmet'in yanına gitmeye devam etti.
+Her seferinde, Dede Ahmet ona ipucu verdi, ancak cevabı söylemedi.
+Melisa çaresiz ve hüzünlüydü.
+Ama merakı onu asla bırakmıyordu.
+
+============================================================
+BATCH 99/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Nihayet bir gün, Melisa yine Dede Ahmet'in önündeydi ve bulmacayı çözmeye çalışıyordu.
+O anda, Melisa'nın gözleri parladı ve bir ışık hüzmesi içinde cevabı buldu.
+"Bilmeceyi bilene açılan kapı, bilgi ve öğrenme arzusudur," dedi sevinçle.
+Melisa'nın yüzünde gururlu bir tebessüm belirdi.
+O günden sonra, Dede Ahmet ile sık sık buluşmaya başladı ve onun bilgelik dolu sözlerini dinledi.
+Köyün tüm halkı, Melisa'nın bilgelik ve öğrenme sevgisiyle dolu bir kalbe sahip olduğunu gördü ve ona saygı duydu.
+Melisa, büyüdüğünde köyün bilgesi olmaya karar verdi.
+Etrafındaki insanlara bilgelik ve sevgiyle rehberlik edecekti.
+Onun kalbindeki bilmeceyi çözmüş olan bilgelik, ona bir kapı açmıştı ve o kapıdan içeri giren ışık, köyüne umut ve aydınlık getirecekti.
+Böylece, Melisa'nın masalı, bilgi ve öğrenme arzusunun bir kapı açtığı ve onu bilgelik yolunda ilerlettiği güzel bir öyküydü.
+
+============================================================
+BATCH 100/100
+============================================================
+Aşağıdaki Türkçe cümleleri CoNLL formatında chunking (sözdizimsel öbek) etiketlemesi yaparak döndür.
+
+Etiket seti:
+- B-NP  : İsim öbeği başlangıcı
+- I-NP  : İsim öbeği devamı
+- B-VP  : Eylem öbeği başlangıcı
+- I-VP  : Eylem öbeği devamı
+- B-ADVP: Zarf öbeği başlangıcı
+- I-ADVP: Zarf öbeği devamı
+- B-ADJP: Sıfat öbeği başlangıcı
+- I-ADJP: Sıfat öbeği devamı
+- O     : Noktalama veya öbek dışı
+
+Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
+ID	FORM	CHUNK
+Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
+SADECE CoNLL formatında çıktı ver, açıklama ekleme.
+
+Etiketlenecek cümleler:
+
+Onun masalı, diğerleri için de bir ilham kaynağı oldu ve bilginin gücünü ve insanın içindeki sınırsız potansiyeli anlatan eşsiz bir masal olarak hafızalarda kaldı.
+Bir varmış bir yokmuş evvel zaman içinde..
+Yoksul bir oduncu, ıssız bir ormanın kıyısındaki küçük bir kulübede karısı ve üç kızıyla birlikte oturuyormuş.
+Bir sabah yine işine giderken karısına demiş ki "Bugün öğle yemeğimi büyük kızla ormana gönder.
+Çünkü öğleye kadar işimi bitiremeyeceğim.
+Kız yolunu şaşırmasın diye yanıma bir torba darı alıp yollara serpeceğim."
+Güneş ormanın tepesine kadar yükselince, kız bir tas çorbayla yola çıkmış.
+Fakat ormanlarda, kırlarda uçuşan serçeler, çayır kuşları, ispinozlar, kara tavuklar, kanaryalar darı tanelerini çoktan toplayıp yemişlermiş.
+Bu yüzden kız yolu bulamamış.
+Gün batıncaya, gece oluncaya kadar sağ ve esen dolaşıp durmuş.
+

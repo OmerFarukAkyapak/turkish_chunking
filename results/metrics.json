@@ -1,0 +1,8 @@
+{
+  "accuracy": 0.7731829573934837,
+  "weighted_precision": 0.7694423619748927,
+  "weighted_recall": 0.7731829573934837,
+  "weighted_f1": 0.7684255163828198,
+  "train_sentence_count": 240,
+  "test_sentence_count": 60
+}
