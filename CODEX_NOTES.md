@@ -1,26 +1,42 @@
-# Codex için Yapılacaklar
+# Codex İçin Proje Notları
 
-1. Önce projeyi çalıştır:
+## Çalıştırma Sırası
 
 ```bash
 pip install -r requirements.txt
+python src/annotate_chunking.py
 python src/prepare_dataset.py
 python src/train_crf.py
 python src/cross_validate.py
 ```
 
-2. Çıkan metrikleri `report/report_draft.md` içine işle.
+## Güncel Veri ve Model Durumu
 
-3. `classification_report.txt` ve `confusion_matrix.png` sonuçlarını rapora ekle.
+- Proje konusu: Türkçe chunking.
+- Ana veri dosyası: `dataset/processed/chunking_annotated.conll`
+- CoNLL kolonları: `ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE`
+- `prepare_dataset.py`, `CHUNK-INNER` ve `CLAUSE` kolonlarını koruyarak `train.conll` ve `test.conll` üretir.
+- `train_crf.py`, `outer`, `inner` ve `clause` için ayrı CRF modelleri eğitir ve aynı pickle dosyasına kaydeder.
+- Ana confusion matrix `CHUNK-OUTER` için üretilir.
 
-4. Gerekirse `features.py` dosyasına yeni feature ekle:
-   - Türkçe ek bilgileri
-   - noktalama kontrolü
-   - kelime uzunluğu
-   - önceki/sonraki iki kelime
+## Sonuç Dosyaları
 
-5. Son teslim için klasörleri şu şekilde koru:
-   - `dataset/`
-   - `src/`
-   - `results/`
-   - `report/`
+- `results/metrics.json`
+- `results/cross_validation_results.json`
+- `results/classification_report.txt`
+- `results/classification_report_inner.txt`
+- `results/classification_report_clause.txt`
+- `results/confusion_matrix.png`
+- `results/chunking_crf_model.pkl`
+
+## Teslim İçin Korunacaklar
+
+- `assignment/`
+- `dataset/`
+- `src/`
+- `results/`
+- `report/`
+- `README.md`
+- `requirements.txt`
+
+Teslim zipine `.git/` ve `src/__pycache__/` gibi çalışma artıkları dahil edilmemeli.
