@@ -17,6 +17,29 @@ def flatten(nested):
     return [item for seq in nested for item in seq]
 
 
+def make_crf() -> sklearn_crfsuite.CRF:
+    return sklearn_crfsuite.CRF(
+        algorithm="lbfgs",
+        c1=0.1,
+        c2=0.1,
+        max_iterations=100,
+        all_possible_transitions=True,
+    )
+
+
+def score_column(X_train, y_train, X_test, y_test) -> dict:
+    crf = make_crf()
+    crf.fit(X_train, y_train)
+    y_pred = crf.predict(X_test)
+    labels = sorted(crf.classes_)
+    return {
+        "accuracy": accuracy_score(flatten(y_test), flatten(y_pred)),
+        "weighted_precision": crf_metrics.flat_precision_score(y_test, y_pred, average="weighted", labels=labels, zero_division=0),
+        "weighted_recall": crf_metrics.flat_recall_score(y_test, y_pred, average="weighted", labels=labels, zero_division=0),
+        "weighted_f1": crf_metrics.flat_f1_score(y_test, y_pred, average="weighted", labels=labels),
+    }
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", default="dataset/processed/chunking_annotated.conll")
@@ -30,34 +53,27 @@ def main() -> None:
 
     sentences = read_conll(args.input)
     X = [sent2features(s) for s in sentences]
-    y = [sent2labels(s) for s in sentences]
+    y_by_column = {
+        column: [sent2labels(s, column=column) for s in sentences]
+        for column in ["outer", "inner", "clause"]
+    }
 
     kf = KFold(n_splits=args.folds, shuffle=True, random_state=args.seed)
     fold_results = []
 
     for fold, (train_idx, test_idx) in enumerate(kf.split(X), start=1):
         X_train = [X[i] for i in train_idx]
-        y_train = [y[i] for i in train_idx]
         X_test = [X[i] for i in test_idx]
-        y_test = [y[i] for i in test_idx]
-
-        crf = sklearn_crfsuite.CRF(
-            algorithm="lbfgs",
-            c1=0.1,
-            c2=0.1,
-            max_iterations=100,
-            all_possible_transitions=True,
-        )
-        crf.fit(X_train, y_train)
-        y_pred = crf.predict(X_test)
-        labels = sorted(crf.classes_)
+        column_scores = {}
+        for column, labels_for_column in y_by_column.items():
+            y_train = [labels_for_column[i] for i in train_idx]
+            y_test = [labels_for_column[i] for i in test_idx]
+            column_scores[column] = score_column(X_train, y_train, X_test, y_test)
 
         result = {
             "fold": fold,
-            "accuracy": accuracy_score(flatten(y_test), flatten(y_pred)),
-            "weighted_precision": crf_metrics.flat_precision_score(y_test, y_pred, average="weighted", labels=labels, zero_division=0),
-            "weighted_recall": crf_metrics.flat_recall_score(y_test, y_pred, average="weighted", labels=labels, zero_division=0),
-            "weighted_f1": crf_metrics.flat_f1_score(y_test, y_pred, average="weighted", labels=labels),
+            **column_scores["outer"],
+            "columns": column_scores,
             "train_sentence_count": len(train_idx),
             "test_sentence_count": len(test_idx),
         }
@@ -68,7 +84,14 @@ def main() -> None:
         key: sum(r[key] for r in fold_results) / len(fold_results)
         for key in ["accuracy", "weighted_precision", "weighted_recall", "weighted_f1"]
     }
-    output = {"folds": fold_results, "average": avg}
+    column_avg = {
+        column: {
+            key: sum(r["columns"][column][key] for r in fold_results) / len(fold_results)
+            for key in ["accuracy", "weighted_precision", "weighted_recall", "weighted_f1"]
+        }
+        for column in ["outer", "inner", "clause"]
+    }
+    output = {"folds": fold_results, "average": avg, "columns_average": column_avg}
     (out / "cross_validation_results.json").write_text(json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8")
     print("Average:", avg)
 

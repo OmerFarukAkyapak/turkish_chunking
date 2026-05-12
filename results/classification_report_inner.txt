@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+     B-RELCL     0.6667    0.2963    0.4103        27
+     I-RELCL     0.6429    0.2466    0.3564        73
+           _     0.9705    0.9964    0.9833      2243
+
+    accuracy                         0.9650      2343
+   macro avg     0.7600    0.5131    0.5833      2343
+weighted avg     0.9568    0.9650    0.9571      2343

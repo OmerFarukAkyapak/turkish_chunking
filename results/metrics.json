@@ -1,8 +1,28 @@
 {
-  "accuracy": 0.7731829573934837,
-  "weighted_precision": 0.7694423619748927,
-  "weighted_recall": 0.7731829573934837,
-  "weighted_f1": 0.7684255163828198,
-  "train_sentence_count": 240,
-  "test_sentence_count": 60
+  "accuracy": 0.9334186939820742,
+  "weighted_precision": 0.9340148438698316,
+  "weighted_recall": 0.9334186939820742,
+  "weighted_f1": 0.9329554816643455,
+  "train_sentence_count": 800,
+  "test_sentence_count": 200,
+  "columns": {
+    "outer": {
+      "accuracy": 0.9334186939820742,
+      "weighted_precision": 0.9340148438698316,
+      "weighted_recall": 0.9334186939820742,
+      "weighted_f1": 0.9329554816643455
+    },
+    "inner": {
+      "accuracy": 0.9650021340162185,
+      "weighted_precision": 0.9567649055426786,
+      "weighted_recall": 0.9650021340162185,
+      "weighted_f1": 0.9571482137739409
+    },
+    "clause": {
+      "accuracy": 0.9218950064020487,
+      "weighted_precision": 0.9112411071346357,
+      "weighted_recall": 0.9218950064020487,
+      "weighted_f1": 0.906337330550322
+    }
+  }
 }

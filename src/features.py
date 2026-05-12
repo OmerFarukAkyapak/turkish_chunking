@@ -51,9 +51,10 @@ def sent2features(sent: Sentence) -> list[dict]:
     return [word2features(sent, i) for i in range(len(sent))]
 
 
-def sent2labels(sent: Sentence) -> list[str]:
-    return [label for _, label in sent]
+def sent2labels(sent: Sentence, column: str = "outer") -> list[str]:
+    column_index = {"outer": 1, "inner": 2, "clause": 3}[column]
+    return [token[column_index] for token in sent]
 
 
 def sent2tokens(sent: Sentence) -> list[str]:
-    return [word for word, _ in sent]
+    return [word for word, _, _, _ in sent]

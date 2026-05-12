@@ -12,7 +12,7 @@ Etiket seti:
 - O     : Noktalama veya öbek dışı
 
 Çıktı formatı (her kelime ayrı satırda, TAB ile ayrılmış):
-ID	FORM	CHUNK
+ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
 Cümleler arasına "# text = [cümle]" başlığı koy, sonra boş satır bırak.
 SADECE CoNLL formatında çıktı ver, açıklama ekleme.
 

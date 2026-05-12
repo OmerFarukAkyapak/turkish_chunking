@@ -1,13 +1,12 @@
-Sentence count: 300
-Token count: 4033
+Sentence count: 1000
+Token count: 11458
 
 Label distribution:
-B-ADJP	282
-B-ADVP	416
-B-NP	1116
-B-VP	715
-I-ADJP	48
-I-ADVP	97
-I-NP	461
-I-VP	101
-O	797
+B-ADJP	33
+B-ADVP	602
+B-NP	2757
+B-VP	1764
+I-ADVP	51
+I-NP	3792
+I-VP	296
+O	2163

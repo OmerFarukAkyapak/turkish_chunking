@@ -8,11 +8,14 @@ Bu proje, Türkçe cümlelerde sözdizimsel öbeklerin otomatik etiketlenmesi i�
 project/
 ├── dataset/
 │   ├── raw/
-│   │   ├── sentences_1000.txt
-│   │   └── sentences_1000_batches/
+│   │   └── sentences_1000.txt
 │   └── processed/
-│       └── chunking_annotated.conll
+│       ├── chunking_annotated.conll
+│       ├── train.conll
+│       ├── test.conll
+│       └── dataset_stats.txt
 ├── src/
+│   ├── annotate_chunking.py
 │   ├── data_utils.py
 │   ├── features.py
 │   ├── prepare_dataset.py
@@ -43,6 +46,20 @@ pip install -r requirements.txt
 
 ## 1. Dataset Hazırlama
 
+Ham 1000 cümleden chunking anotasyon dosyasını üretmek için:
+
+```bash
+python src/annotate_chunking.py
+```
+
+Bu komut şunu üretir:
+
+```txt
+dataset/processed/chunking_annotated.conll
+```
+
+Eğitim/test ayrımını üretmek için:
+
 ```bash
 python src/prepare_dataset.py
 ```
@@ -67,6 +84,8 @@ Bu komut şunları üretir:
 results/chunking_crf_model.pkl
 results/metrics.json
 results/classification_report.txt
+results/classification_report_inner.txt
+results/classification_report_clause.txt
 results/confusion_matrix.png
 ```
 

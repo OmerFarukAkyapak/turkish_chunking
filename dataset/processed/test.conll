@@ -1,917 +1,2942 @@
-# text = Onun yerinde ayakta duran yakışıklı mı yakışıklı , genç mi genç bir prens duruyormuş .
-1	Onun	B-NP
-2	yerinde	I-NP
-3	ayakta	B-ADVP
-4	duran	B-ADJP
-5	yakışıklı	B-ADJP
-6	mı	I-ADJP
-7	yakışıklı	I-ADJP
-8	,	O
-9	genç	B-ADJP
-10	mi	I-ADJP
-11	genç	I-ADJP
-12	bir	B-NP
-13	prens	I-NP
-14	duruyormuş	B-VP
-15	.	O
+# text = Sayısız nesnenin her biri el yapımı raflara özenle dizilmiş vaziyette duruyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sayısız	B-NP	_	O
+2	nesnenin	I-NP	_	O
+3	her	I-NP	_	O
+4	biri	I-NP	_	O
+5	el	I-NP	_	O
+6	yapımı	I-NP	_	O
+7	raflara	I-NP	_	O
+8	özenle	I-NP	_	O
+9	dizilmiş	B-VP	_	O
+10	vaziyette	B-NP	_	O
+11	duruyordu	B-VP	_	O
+12	.	O	_	O
 
-# text = ‘ Senin doğru söyleyip söylemediğini anlamak için , dün sizin evin önlerinde araştırma yaptım .
-1	‘	O
-2	Senin	B-NP
-3	doğru	B-ADJP
-4	söyleyip	B-VP
-5	söylemediğini	I-VP
-6	anlamak	B-VP
-7	için	O
-8	,	O
-9	dün	B-ADVP
-10	sizin	B-NP
-11	evin	I-NP
-12	önlerinde	I-NP
-13	araştırma	B-NP
-14	yaptım	B-VP
-15	.	O
+# text = Her biri benim için diğerinden daha özel hale geldi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Her	B-NP	_	O
+2	biri	I-NP	_	O
+3	benim	I-NP	_	O
+4	için	B-ADVP	_	O
+5	diğerinden	B-NP	_	O
+6	daha	B-ADVP	_	O
+7	özel	B-NP	_	O
+8	hale	I-NP	_	O
+9	geldi	B-VP	_	O
+10	.	O	_	O
 
-# text = Sonra üzerinde altın yaldızla ‘ sevgili kraliçem , her zaman emrinizdeyim . ’ yazan bir kitabı eline almış .
-1	Sonra	B-ADVP
-2	üzerinde	B-NP
-3	altın	B-NP
-4	yaldızla	I-NP
-5	‘	O
-6	sevgili	B-ADJP
-7	kraliçem	B-NP
-8	,	O
-9	her	B-ADVP
-10	zaman	I-ADVP
-11	emrinizdeyim	B-VP
-12	.	O
-13	’	O
-14	yazan	B-ADJP
-15	bir	B-NP
-16	kitabı	I-NP
-17	eline	I-NP
-18	almış	B-VP
-19	.	O
+# text = Onları çok sevmem de değil .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Onları	B-NP	_	O
+2	çok	B-ADVP	_	O
+3	sevmem	B-NP	_	O
+4	de	B-VP	_	O
+5	değil	I-VP	_	O
+6	.	O	_	O
 
-# text = Keloğlan balığın pullarını kazımış , karnını yarıp temizlemek istemiş .
-1	Keloğlan	B-NP
-2	balığın	B-NP
-3	pullarını	I-NP
-4	kazımış	B-VP
-5	,	O
-6	karnını	B-NP
-7	yarıp	B-VP
-8	temizlemek	I-VP
-9	istemiş	I-VP
-10	.	O
+# text = Ve karışık görüntüler .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ve	O	_	O
+2	karışık	B-NP	_	O
+3	görüntüler	I-NP	_	O
+4	.	O	_	O
 
-# text = Başımı arkama çevirdiğimde , bu sesin sahibi olan tuhaf görünüşlü adamı gördüm .
-1	Başımı	B-NP
-2	arkama	B-NP
-3	çevirdiğimde	B-VP
-4	,	O
-5	bu	B-NP
-6	sesin	I-NP
-7	sahibi	I-NP
-8	olan	B-ADJP
-9	tuhaf	B-ADJP
-10	görünüşlü	I-ADJP
-11	adamı	B-NP
-12	gördüm	B-VP
-13	.	O
+# text = ‘ Ah !
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	‘	O	_	O
+2	Ah	B-NP	_	O
+3	!	O	_	O
 
-# text = Ayhan'ın bu sorusuyla masadaki herkes üzerime dikkat kesilip ne söyleyeceğimi bekledi .
-1	Ayhan'ın	B-NP
-2	bu	B-NP
-3	sorusuyla	I-NP
-4	masadaki	B-ADJP
-5	herkes	B-NP
-6	üzerime	B-NP
-7	dikkat	B-NP
-8	kesilip	B-VP
-9	ne	B-NP
-10	söyleyeceğimi	B-VP
-11	bekledi	B-VP
-12	.	O
+# text = İşe geliş gidişlerimde tüm vücudumun kontrolünü ele geçiren bir misafirdi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	İşe	B-NP	_	O
+2	geliş	I-NP	_	O
+3	gidişlerimde	B-NP	_	O
+4	tüm	B-VP	_	O
+5	vücudumun	B-NP	_	O
+6	kontrolünü	I-NP	_	O
+7	ele	I-NP	_	O
+8	geçiren	I-NP	_	O
+9	bir	I-NP	_	O
+10	misafirdi	B-VP	_	O
+11	.	O	_	O
 
-# text = Hemen Canavar’ın yanına gitmiş ve kalbinin hala attığını görünce derin bir nefes almış .
-1	Hemen	B-ADVP
-2	Canavar’ın	B-NP
-3	yanına	I-NP
-4	gitmiş	B-VP
-5	ve	O
-6	kalbinin	B-NP
-7	hala	B-ADVP
-8	attığını	B-VP
-9	görünce	B-VP
-10	derin	B-ADJP
-11	bir	B-NP
-12	nefes	I-NP
-13	almış	B-VP
-14	.	O
+# text = Benimde otuzlarına gelmiş normal bir erkekten farkım yok .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Benimde	B-NP	_	O
+2	otuzlarına	I-NP	_	O
+3	gelmiş	B-VP	_	O
+4	normal	B-NP	_	O
+5	bir	I-NP	_	O
+6	erkekten	I-NP	_	O
+7	farkım	I-NP	_	O
+8	yok	I-NP	_	O
+9	.	O	_	O
 
-# text = Sabah neşe ile uyanmış ve yanı başında kendisi için bırakılan temiz kıyafetler bulmuş .
-1	Sabah	B-ADVP
-2	neşe	B-NP
-3	ile	I-NP
-4	uyanmış	B-VP
-5	ve	O
-6	yanı	B-NP
-7	başında	I-NP
-8	kendisi	B-NP
-9	için	O
-10	bırakılan	B-ADJP
-11	temiz	B-ADJP
-12	kıyafetler	B-NP
-13	bulmuş	B-VP
-14	.	O
+# text = Onlar da kendilerine çeki düzen verdiler .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Onlar	B-NP	_	O
+2	da	B-NP	_	O
+3	kendilerine	I-NP	_	O
+4	çeki	I-NP	_	O
+5	düzen	I-NP	_	O
+6	verdiler	I-NP	_	O
+7	.	O	_	O
 
-# text = Aç karnımızı doyururuz " diye düşünüyormuş .
-1	Aç	B-ADJP
-2	karnımızı	B-NP
-3	doyururuz	B-VP
-4	"	O
-5	diye	B-ADVP
-6	düşünüyormuş	B-VP
-7	.	O
+# text = Bazan elinde bakraç , yazma başörtüsü arkasına atılmış örgülerini sallayarak bir kız duvarlardan açılan küçük bir kapıdan çıkıyor , bazan uzun sopasının bir ucunu arkasından kollarının altından geçirmiş bir çoban çocuk başı önünde bir türkü mırıldanarak dönüyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bazan	B-NP	_	O
+2	elinde	B-NP	_	O
+3	bakraç	I-NP	_	O
+4	,	O	_	O
+5	yazma	B-NP	B-RELCL	B-RELCL
+6	başörtüsü	I-NP	I-RELCL	I-RELCL
+7	arkasına	I-NP	I-RELCL	I-RELCL
+8	atılmış	I-NP	I-RELCL	I-RELCL
+9	örgülerini	I-NP	I-RELCL	I-RELCL
+10	sallayarak	I-NP	I-RELCL	I-RELCL
+11	bir	I-NP	I-RELCL	I-RELCL
+12	kız	I-NP	I-RELCL	I-RELCL
+13	duvarlardan	I-NP	I-RELCL	I-RELCL
+14	açılan	I-NP	I-RELCL	I-RELCL
+15	küçük	I-NP	_	O
+16	bir	I-NP	_	O
+17	kapıdan	I-NP	_	O
+18	çıkıyor	B-VP	_	O
+19	,	O	_	O
+20	bazan	B-NP	_	O
+21	uzun	B-ADVP	_	O
+22	sopasının	B-NP	_	O
+23	bir	I-NP	_	O
+24	ucunu	I-NP	_	O
+25	arkasından	I-NP	_	O
+26	kollarının	I-NP	_	O
+27	altından	I-NP	_	O
+28	geçirmiş	B-VP	_	O
+29	bir	B-NP	_	O
+30	çoban	I-NP	_	O
+31	çocuk	I-NP	_	O
+32	başı	I-NP	_	O
+33	önünde	B-NP	_	O
+34	bir	I-NP	_	O
+35	türkü	I-NP	_	O
+36	mırıldanarak	B-VP	_	O
+37	dönüyordu	I-VP	_	O
+38	.	O	_	O
 
-# text = Canavar , Güzel’in gidebileceğini söylemiş fakat geri dönmezse de kederinden öleceğini de söylemeyi ihmal etmemiş .
-1	Canavar	B-NP
-2	,	O
-3	Güzel’in	B-NP
-4	gidebileceğini	B-VP
-5	söylemiş	B-VP
-6	fakat	O
-7	geri	B-ADVP
-8	dönmezse	B-VP
-9	de	B-ADVP
-10	kederinden	B-NP
-11	öleceğini	B-VP
-12	de	B-ADVP
-13	söylemeyi	B-VP
-14	ihmal	B-NP
-15	etmemiş	B-VP
-16	.	O
+# text = Canavar , babasının anlattığından daha korkunçmuş !
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Canavar	B-NP	_	O
+2	,	O	_	O
+3	babasının	B-NP	_	O
+4	anlattığından	I-NP	_	O
+5	daha	B-ADVP	_	O
+6	korkunçmuş	B-VP	_	O
+7	!	O	_	O
 
-# text = Siyah saçları özenle geriye taranıp kafasına briyantinle iyice yapıştırılmıştı .
-1	Siyah	B-ADJP
-2	saçları	B-NP
-3	özenle	B-ADVP
-4	geriye	B-ADVP
-5	taranıp	B-VP
-6	kafasına	B-NP
-7	briyantinle	B-NP
-8	iyice	B-ADVP
-9	yapıştırılmıştı	B-VP
-10	.	O
-
-# text = Bazıları öylesine akıl almaz değişikliklerdeydi ki , benzerine ancak bir iki eski kitapta rastlayabildim .
-1	Bazıları	B-NP
-2	öylesine	B-ADVP
-3	akıl	B-NP
-4	almaz	I-NP
-5	değişikliklerdeydi	B-VP
-6	ki	O
-7	,	O
-8	benzerine	B-NP
-9	ancak	B-ADVP
-10	bir	B-NP
-11	iki	I-NP
-12	eski	B-ADJP
-13	kitapta	B-NP
-14	rastlayabildim	B-VP
-15	.	O
-
-# text = Beni şaşırtmayarak yine en son gelen kişi olan Tufan soluk soluğa masamıza yaklaştı ve kendisine bir yer bulup oturduktan sonra , bizi yaklaşık yirmi dakika bekletmiş olduğu için hepimizden özür diledi .
-1	Beni	B-NP
-2	şaşırtmayarak	B-VP
-3	yine	B-ADVP
-4	en	B-ADVP
-5	son	B-ADJP
-6	gelen	B-ADJP
-7	kişi	B-NP
-8	olan	B-ADJP
-9	Tufan	B-NP
-10	soluk	B-ADVP
-11	soluğa	I-ADVP
-12	masamıza	B-NP
-13	yaklaştı	B-VP
-14	ve	O
-15	kendisine	B-NP
-16	bir	B-NP
-17	yer	I-NP
-18	bulup	B-VP
-19	oturduktan	I-VP
-20	sonra	I-VP
-21	,	O
-22	bizi	B-NP
-23	yaklaşık	B-ADVP
-24	yirmi	B-NP
-25	dakika	I-NP
-26	bekletmiş	B-VP
-27	olduğu	I-VP
-28	için	O
-29	hepimizden	B-NP
-30	özür	B-NP
-31	diledi	B-VP
-32	.	O
-
-# text = Hiç olmazsa kendini başkalarından üstün görme hastalığından kurtulursun . " Keloğlan bu sözlerle teselli bulmuş .
-1	Hiç	B-ADVP
-2	olmazsa	I-ADVP
-3	kendini	B-NP
-4	başkalarından	B-NP
-5	üstün	B-ADJP
-6	görme	B-VP
-7	hastalığından	B-NP
-8	kurtulursun	B-VP
-9	.	O
-10	"	O
-11	Keloğlan	B-NP
-12	bu	I-NP
-13	sözlerle	I-NP
-14	teselli	B-NP
-15	bulmuş	B-VP
-16	.	O
-
-# text = Bunun üzerinde bir kardeşi diğerine : - Beni dinle , Güzel’e bir oyun oynayalım ve o burada bir haftadan daha fazla kalsın .
-1	Bunun	B-NP
-2	üzerinde	I-NP
-3	bir	B-NP
-4	kardeşi	I-NP
-5	diğerine	B-NP
-6	:	O
-7	-	O
-8	Beni	B-NP
-9	dinle	B-VP
-10	,	O
-11	Güzel’e	B-NP
-12	bir	B-NP
-13	oyun	I-NP
-14	oynayalım	B-VP
-15	ve	O
-16	o	B-NP
-17	burada	B-ADVP
-18	bir	B-NP
-19	haftadan	I-NP
-20	daha	B-ADVP
-21	fazla	I-ADVP
-22	kalsın	B-VP
-23	.	O
-
-# text = Ayhan karışık ızgara , Vahdet ise sac kavurma istedi .
-1	Ayhan	B-NP
-2	karışık	B-ADJP
-3	ızgara	B-NP
-4	,	O
-5	Vahdet	B-NP
-6	ise	B-ADVP
-7	sac	B-NP
-8	kavurma	I-NP
-9	istedi	B-VP
-10	.	O
-
-# text = Arkadaşı bu teklifi kabul etmiş ama küçük bir işi olduğunu söyleyerek ondan kendisini beklemesini rica ederek parktan uzaklaşmış .
-1	Arkadaşı	B-NP
-2	bu	B-NP
-3	teklifi	I-NP
-4	kabul	B-VP
-5	etmiş	I-VP
-6	ama	O
-7	küçük	B-ADJP
-8	bir	B-NP
-9	işi	I-NP
-10	olduğunu	B-VP
-11	söyleyerek	B-VP
-12	ondan	B-NP
-13	kendisini	B-NP
-14	beklemesini	B-VP
-15	rica	B-NP
-16	ederek	B-VP
-17	parktan	B-NP
-18	uzaklaşmış	B-VP
-19	.	O
-
-# text = Babasının yanında ise rüyasında gördüğü iyi peri ile karşılaşmış .
-1	Babasının	B-NP
-2	yanında	I-NP
-3	ise	B-ADVP
-4	rüyasında	B-NP
-5	gördüğü	B-ADJP
-6	iyi	B-ADJP
-7	peri	B-NP
-8	ile	I-NP
-9	karşılaşmış	B-VP
-10	.	O
-
-# text = Kapıyı açıp içeri bakınca , odanın tam da kendi istediği gibi döşenmiş olduğunu görmüş .
-1	Kapıyı	B-NP
-2	açıp	B-VP
-3	içeri	B-ADVP
-4	bakınca	B-VP
-5	,	O
-6	odanın	B-NP
-7	tam	B-ADVP
-8	da	I-ADVP
-9	kendi	B-NP
-10	istediği	I-NP
-11	gibi	B-ADVP
-12	döşenmiş	B-VP
-13	olduğunu	I-VP
-14	görmüş	B-VP
-15	.	O
-
-# text = Güzel de gün geçtikçe , Canavar’a her gün biraz daha alıştığını düşünmüş .
-1	Güzel	B-NP
-2	de	B-ADVP
-3	gün	B-ADVP
-4	geçtikçe	I-ADVP
-5	,	O
-6	Canavar’a	B-NP
-7	her	B-ADVP
-8	gün	I-ADVP
-9	biraz	B-ADVP
-10	daha	I-ADVP
-11	alıştığını	B-VP
-12	düşünmüş	B-VP
-13	.	O
-
-# text = Yine büyük bir hasır sepet içinde çeşit çeşit örümcekleri besliyordu ki , bu örümcekler durmadan birbirlerini yiyorlardı .
-1	Yine	B-ADVP
-2	büyük	B-ADJP
-3	bir	B-NP
-4	hasır	I-NP
-5	sepet	I-NP
-6	içinde	B-ADVP
-7	çeşit	B-ADJP
-8	çeşit	I-ADJP
-9	örümcekleri	B-NP
-10	besliyordu	B-VP
-11	ki	O
-12	,	O
-13	bu	B-NP
-14	örümcekler	I-NP
-15	durmadan	B-ADVP
-16	birbirlerini	B-NP
-17	yiyorlardı	B-VP
-18	.	O
-
-# text = Birini koparmış ve ortalık korkutucu bir kükreme ile inlemiş .
-1	Birini	B-NP
-2	koparmış	B-VP
-3	ve	O
-4	ortalık	B-NP
-5	korkutucu	B-ADJP
-6	bir	B-NP
-7	kükreme	I-NP
-8	ile	I-NP
-9	inlemiş	B-VP
-10	.	O
-
-# text = Yolculuğumuz boyunca yanımda oturan bu Dilaver denen adam felsefi , ahlaki ve toplumsal konulara değindi ama nereye niçin gidiyor olduğumuzla ilgili tek bir kelime bile söylemedi .
-1	Yolculuğumuz	B-NP
-2	boyunca	I-NP
-3	yanımda	B-NP
-4	oturan	B-ADJP
-5	bu	B-NP
-6	Dilaver	I-NP
-7	denen	I-NP
-8	adam	I-NP
-9	felsefi	B-ADJP
-10	,	O
-11	ahlaki	B-ADJP
-12	ve	I-ADJP
-13	toplumsal	I-ADJP
-14	konulara	B-NP
-15	değindi	B-VP
-16	ama	O
-17	nereye	B-ADVP
-18	niçin	B-ADVP
-19	gidiyor	B-VP
-20	olduğumuzla	I-VP
-21	ilgili	B-ADJP
-22	tek	B-NP
-23	bir	I-NP
-24	kelime	I-NP
-25	bile	B-ADVP
-26	söylemedi	B-VP
-27	.	O
-
-# text = Aslında adam sıkıcı birisi sayılmazdı ama etrafına yaydığı o mide bulandırıcı duman kokusu onu katlanılmaz kılıyordu .
-1	Aslında	B-ADVP
-2	adam	B-NP
-3	sıkıcı	B-ADJP
-4	birisi	B-NP
-5	sayılmazdı	B-VP
-6	ama	O
-7	etrafına	B-NP
-8	yaydığı	B-ADJP
-9	o	B-NP
-10	mide	B-NP
-11	bulandırıcı	I-NP
-12	duman	I-NP
-13	kokusu	I-NP
-14	onu	B-NP
-15	katlanılmaz	B-ADJP
-16	kılıyordu	B-VP
-17	.	O
-
-# text = Çünkü bütün ışıklar yanıyor , şömineler yanıyor fakat kimsecikler pencerelerde görünmüyormuş .
-1	Çünkü	O
-2	bütün	B-NP
-3	ışıklar	I-NP
-4	yanıyor	B-VP
-5	,	O
-6	şömineler	B-NP
-7	yanıyor	B-VP
-8	fakat	O
-9	kimsecikler	B-NP
-10	pencerelerde	B-NP
-11	görünmüyormuş	B-VP
-12	.	O
-
-# text = Yaşlı kadın : - Üzülme yavrum , demiş .
-1	Yaşlı	B-ADJP
-2	kadın	B-NP
-3	:	O
-4	-	O
-5	Üzülme	B-VP
-6	yavrum	B-NP
-7	,	O
-8	demiş	B-VP
-9	.	O
-
-# text = Birbirleriyle konuşan o kalabalık arasında birisi akıl edip ambulansı aramış , ambulans çoktan yola çıkmıştı .
-1	Birbirleriyle	B-NP
-2	konuşan	B-ADJP
-3	o	B-NP
-4	kalabalık	I-NP
-5	arasında	I-NP
-6	birisi	B-NP
-7	akıl	B-NP
-8	edip	B-VP
-9	ambulansı	B-NP
-10	aramış	B-VP
-11	,	O
-12	ambulans	B-NP
-13	çoktan	B-ADVP
-14	yola	B-NP
-15	çıkmıştı	B-VP
-16	.	O
-
-# text = Hayatta paylaşmak , fedakarlık , saygı , sevgi gibi çok özel değerler vardır .
-1	Hayatta	B-ADVP
-2	paylaşmak	B-VP
-3	,	O
-4	fedakarlık	B-NP
-5	,	O
-6	saygı	B-NP
-7	,	O
-8	sevgi	B-NP
-9	gibi	O
-10	çok	B-ADVP
-11	özel	B-ADJP
-12	değerler	B-NP
-13	vardır	B-VP
-14	.	O
-
-# text = Canavar ; - Hayır , şato her zaman senin emrindedir .
-1	Canavar	B-NP
-2	;	O
-3	-	O
-4	Hayır	B-ADVP
-5	,	O
-6	şato	B-NP
-7	her	B-ADVP
-8	zaman	I-ADVP
-9	senin	B-NP
-10	emrindedir	B-VP
-11	.	O
-
-# text = Güneş altında yanmış gibi görünen teninin rengi sanki bronzdan çok mora yaklaşan bir tondaydı .
-1	Güneş	B-NP
-2	altında	I-NP
-3	yanmış	B-ADJP
-4	gibi	B-ADVP
-5	görünen	B-ADJP
-6	teninin	B-NP
-7	rengi	I-NP
-8	sanki	B-ADVP
-9	bronzdan	B-NP
-10	çok	B-ADVP
-11	mora	B-NP
-12	yaklaşan	B-ADJP
-13	bir	B-NP
-14	tondaydı	B-VP
-15	.	O
-
-# text = " Bu , sihirli bir tas galiba .
-1	"	O
-2	Bu	B-NP
-3	,	O
-4	sihirli	B-ADJP
-5	bir	B-NP
-6	tas	I-NP
-7	galiba	B-ADVP
-8	.	O
-
-# text = Artık her gece , saat 9 olduğunda Canavar , Güzel ile konuşmak için onun yanına gidermiş .
-1	Artık	B-ADVP
-2	her	B-ADVP
-3	gece	I-ADVP
-4	,	O
-5	saat	B-NP
-6	9	I-NP
-7	olduğunda	B-VP
-8	Canavar	B-NP
-9	,	O
-10	Güzel	B-NP
-11	ile	I-NP
-12	konuşmak	B-VP
-13	için	O
-14	onun	B-NP
-15	yanına	I-NP
-16	gidermiş	B-VP
-17	.	O
-
-# text = Gurur ve kibirle tasını suya daldırmış .
-1	Gurur	B-NP
-2	ve	I-NP
-3	kibirle	I-NP
-4	tasını	B-NP
-5	suya	B-NP
-6	daldırmış	B-VP
-7	.	O
-
-# text = Sonunda altınlarının çokluğu onu şımartmaya başlamış .
-1	Sonunda	B-ADVP
-2	altınlarının	B-NP
-3	çokluğu	I-NP
-4	onu	B-NP
-5	şımartmaya	B-VP
-6	başlamış	I-VP
-7	.	O
-
-# text = Bunun üzerinden çok fazla bir zaman geçmeden de Prens ve Canavar evlenmişler .
-1	Bunun	B-NP
-2	üzerinden	I-NP
-3	çok	B-ADVP
-4	fazla	I-ADVP
-5	bir	B-NP
-6	zaman	I-NP
-7	geçmeden	B-VP
-8	de	B-ADVP
-9	Prens	B-NP
-10	ve	I-NP
-11	Canavar	I-NP
-12	evlenmişler	B-VP
-13	.	O
-
-# text = Şimdi ölmeyi hak ettin ! , demiş .
-1	Şimdi	B-ADVP
-2	ölmeyi	B-VP
-3	hak	I-VP
-4	ettin	I-VP
-5	!	O
-6	,	O
-7	demiş	B-VP
-8	.	O
-
-# text = Öğleye doğru kocaman bir balık tutmuş .
-1	Öğleye	B-ADVP
-2	doğru	I-ADVP
-3	kocaman	B-ADJP
-4	bir	B-NP
-5	balık	I-NP
-6	tutmuş	B-VP
-7	.	O
-
-# text = Zenginlik günleri bitmiş ve küçük bir kasabaya , küçük bir eve yerleşmişler .
-1	Zenginlik	B-NP
-2	günleri	I-NP
-3	bitmiş	B-VP
-4	ve	O
-5	küçük	B-ADJP
-6	bir	B-NP
-7	kasabaya	I-NP
-8	,	O
-9	küçük	B-ADJP
-10	bir	B-NP
-11	eve	I-NP
-12	yerleşmişler	B-VP
-13	.	O
-
-# text = O günden sonra da Sihirli Tası bir daha hiç anmamış ...
-1	O	B-NP
-2	günden	I-NP
-3	sonra	B-ADVP
-4	da	B-ADVP
-5	Sihirli	B-ADJP
-6	Tası	B-NP
-7	bir	B-ADVP
-8	daha	I-ADVP
-9	hiç	I-ADVP
-10	anmamış	B-VP
-11	...	O
-
-# text = Onun hayvanlara karşı olan aşırı sevgisi ömrü , boyunca devam etti .
-1	Onun	B-NP
-2	hayvanlara	I-NP
-3	karşı	I-NP
-4	olan	I-NP
-5	aşırı	B-ADJP
-6	sevgisi	B-NP
-7	ömrü	B-NP
-8	,	O
-9	boyunca	B-ADVP
-10	devam	B-VP
-11	etti	I-VP
-12	.	O
-
-# text = Sonra bir gün , zavallı tüccar ; fırtınada kaybolan gemilerinden bir tanesinin limana yanaştığını öğrenmiş .
-1	Sonra	B-ADVP
-2	bir	I-ADVP
-3	gün	I-ADVP
-4	,	O
-5	zavallı	B-ADJP
-6	tüccar	B-NP
-7	;	O
-8	fırtınada	B-NP
-9	kaybolan	B-ADJP
-10	gemilerinden	B-NP
-11	bir	B-NP
-12	tanesinin	I-NP
-13	limana	B-NP
-14	yanaştığını	B-VP
-15	öğrenmiş	B-VP
-16	.	O
+# text = Benim çocuklarım var .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Benim	B-NP	_	O
+2	çocuklarım	B-VP	_	O
+3	var	B-NP	_	O
+4	.	O	_	O
 
 # text = İkimizde ayrı yönlerde , yolumuza devam ettik .
-1	İkimizde	B-NP
-2	ayrı	B-ADJP
-3	yönlerde	B-NP
-4	,	O
-5	yolumuza	B-NP
-6	devam	B-VP
-7	ettik	I-VP
-8	.	O
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	İkimizde	B-NP	_	O
+2	ayrı	I-NP	_	O
+3	yönlerde	B-NP	_	O
+4	,	O	_	O
+5	yolumuza	B-NP	_	O
+6	devam	B-VP	_	O
+7	ettik	I-VP	_	O
+8	.	O	_	O
 
-# text = Özür dilemeyi bilmeyen çocuk parka gitmiş arkadaşını beklemeye başlamış .
-1	Özür	B-NP
-2	dilemeyi	B-VP
-3	bilmeyen	B-ADJP
-4	çocuk	B-NP
-5	parka	B-NP
-6	gitmiş	B-VP
-7	arkadaşını	B-NP
-8	beklemeye	B-VP
-9	başlamış	I-VP
-10	.	O
+# text = Bir satıcı , oyunun kuralını pek iyi anlayamamış , zabıta ile arasında ufak bir sorun çıkmış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bir	B-NP	_	O
+2	satıcı	I-NP	_	O
+3	,	O	_	O
+4	oyunun	B-NP	_	O
+5	kuralını	I-NP	_	O
+6	pek	I-NP	_	O
+7	iyi	I-NP	_	O
+8	anlayamamış	B-VP	_	O
+9	,	O	_	O
+10	zabıta	B-NP	_	O
+11	ile	I-NP	_	O
+12	arasında	B-NP	_	O
+13	ufak	I-NP	_	O
+14	bir	I-NP	_	O
+15	sorun	I-NP	_	O
+16	çıkmış	B-VP	_	O
+17	.	O	_	O
 
-# text = Ama onu bu gece size açıklayacağım .
-1	Ama	O
-2	onu	B-NP
-3	bu	B-NP
-4	gece	I-NP
-5	size	B-NP
-6	açıklayacağım	B-VP
-7	.	O
+# text = Dede Ahmet , köyün bilgeliği ve bilgi hazinesiydi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Dede	B-VP	_	O
+2	Ahmet	B-NP	_	O
+3	,	O	_	O
+4	köyün	B-NP	_	O
+5	bilgeliği	I-NP	_	O
+6	ve	I-NP	_	O
+7	bilgi	I-NP	_	O
+8	hazinesiydi	B-VP	_	O
+9	.	O	_	O
 
-# text = Hunter o sıralarda yılan koleksiyonu yapmaya başlamıştı .
-1	Hunter	B-NP
-2	o	B-NP
-3	sıralarda	I-NP
-4	yılan	B-NP
-5	koleksiyonu	I-NP
-6	yapmaya	B-VP
-7	başlamıştı	I-VP
-8	.	O
+# text = Kısa süre sonra Minnak çiftlikte tekrar yaramazlıklar peşinde koşmaya başlamış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kısa	B-VP	_	O
+2	süre	B-NP	_	O
+3	sonra	B-ADVP	_	O
+4	Minnak	B-NP	_	O
+5	çiftlikte	B-NP	_	O
+6	tekrar	B-ADVP	_	O
+7	yaramazlıklar	B-NP	_	O
+8	peşinde	B-NP	_	O
+9	koşmaya	B-VP	_	O
+10	başlamış	I-VP	_	O
+11	.	O	_	O
+
+# text = Nihayet Sakarya harbinin topları işitilmiş , şoseden karınca gibi , kum gibi asker geçerken görmüşler ve Şerif Bey harbe gidiyorum diye köyden uzaklaşmış !
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Nihayet	B-ADVP	_	O
+2	Sakarya	B-NP	_	O
+3	harbinin	I-NP	_	O
+4	topları	I-NP	_	O
+5	işitilmiş	B-VP	_	O
+6	,	O	_	O
+7	şoseden	B-NP	_	O
+8	karınca	B-VP	_	O
+9	gibi	B-NP	_	O
+10	,	O	_	O
+11	kum	B-NP	_	O
+12	gibi	I-NP	_	O
+13	asker	I-NP	_	O
+14	geçerken	I-NP	_	O
+15	görmüşler	I-NP	_	O
+16	ve	I-NP	_	O
+17	Şerif	I-NP	_	O
+18	Bey	I-NP	_	O
+19	harbe	I-NP	_	O
+20	gidiyorum	I-NP	_	O
+21	diye	B-ADVP	_	O
+22	köyden	B-NP	_	O
+23	uzaklaşmış	B-VP	_	O
+24	!	O	_	O
+
+# text = Daha genç çocuk ’ diyor birbirlerine bakıyorlardı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Daha	B-ADVP	_	O
+2	genç	B-NP	_	O
+3	çocuk	I-NP	_	O
+4	’	O	_	O
+5	diyor	B-VP	_	O
+6	birbirlerine	B-NP	_	O
+7	bakıyorlardı	B-VP	_	O
+8	.	O	_	O
+
+# text = Hakikat bahçenin içinden bir tiyatro dekoru gibi görünen küçük evin içinden en garip sesler geliyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Hakikat	B-NP	_	O
+2	bahçenin	I-NP	_	O
+3	içinden	I-NP	_	O
+4	bir	I-NP	_	O
+5	tiyatro	I-NP	_	O
+6	dekoru	B-VP	_	O
+7	gibi	B-NP	_	O
+8	görünen	I-NP	_	O
+9	küçük	I-NP	_	O
+10	evin	I-NP	_	O
+11	içinden	I-NP	_	O
+12	en	I-NP	_	O
+13	garip	B-VP	_	O
+14	sesler	B-NP	_	O
+15	geliyordu	B-VP	_	O
+16	.	O	_	O
+
+# text = Önceleri belli belirsizdi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Önceleri	B-NP	_	O
+2	belli	I-NP	_	O
+3	belirsizdi	B-VP	_	O
+4	.	O	_	O
+
+# text = Okul senelerimi yeniden yaşatıyordu bana .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Okul	B-NP	_	O
+2	senelerimi	I-NP	_	O
+3	yeniden	I-NP	_	O
+4	yaşatıyordu	B-VP	_	O
+5	bana	B-NP	_	O
+6	.	O	_	O
+
+# text = Tam onu kaybettiğimi sandığımda , tekrar önümde belirdi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Tam	B-NP	_	O
+2	onu	I-NP	_	O
+3	kaybettiğimi	I-NP	_	O
+4	sandığımda	B-NP	_	O
+5	,	O	_	O
+6	tekrar	B-ADVP	_	O
+7	önümde	B-NP	_	O
+8	belirdi	B-VP	_	O
+9	.	O	_	O
+
+# text = Eve gitmeyi kafasına koymuş ve Canavar’a bu isteğini dile getirmiş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Eve	B-NP	_	B-COMPCL
+2	gitmeyi	B-VP	_	I-COMPCL
+3	kafasına	B-NP	_	O
+4	koymuş	B-VP	_	O
+5	ve	O	_	O
+6	Canavar’a	B-NP	_	O
+7	bu	I-NP	_	O
+8	isteğini	I-NP	_	O
+9	dile	I-NP	_	O
+10	getirmiş	B-VP	_	O
+11	.	O	_	O
+
+# text = Şaşkınlıktan koca ağzı bir karış açık şekilde öylece kalakalmış olan Kadir'in önüne , biraz sonra garson içi sac kavurmayla dolu tavayı koydu ve ancak bundan dolayı çıkan takırtı , Kadir’i tekrar ağzını kapatmasını akıl edebileceği kadar kendine getirdi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Şaşkınlıktan	B-NP	B-RELCL	B-RELCL
+2	koca	I-NP	I-RELCL	I-RELCL
+3	ağzı	I-NP	I-RELCL	I-RELCL
+4	bir	I-NP	I-RELCL	I-RELCL
+5	karış	I-NP	I-RELCL	I-RELCL
+6	açık	I-NP	I-RELCL	I-RELCL
+7	şekilde	I-NP	I-RELCL	I-RELCL
+8	öylece	I-NP	I-RELCL	I-RELCL
+9	kalakalmış	I-NP	I-RELCL	I-RELCL
+10	olan	I-NP	I-RELCL	I-RELCL
+11	Kadir'in	I-NP	_	O
+12	önüne	I-NP	_	O
+13	,	O	_	O
+14	biraz	B-NP	_	O
+15	sonra	B-ADVP	_	O
+16	garson	B-NP	_	O
+17	içi	I-NP	_	O
+18	sac	I-NP	_	O
+19	kavurmayla	I-NP	_	O
+20	dolu	I-NP	_	O
+21	tavayı	I-NP	_	O
+22	koydu	B-VP	_	O
+23	ve	O	_	O
+24	ancak	O	_	O
+25	bundan	B-NP	B-RELCL	B-RELCL
+26	dolayı	I-NP	I-RELCL	I-RELCL
+27	çıkan	I-NP	I-RELCL	I-RELCL
+28	takırtı	B-VP	_	O
+29	,	O	_	O
+30	Kadir’i	B-NP	B-RELCL	B-RELCL
+31	tekrar	I-NP	I-RELCL	B-RELCL
+32	ağzını	I-NP	I-RELCL	B-RELCL
+33	kapatmasını	I-NP	I-RELCL	B-RELCL
+34	akıl	I-NP	I-RELCL	I-RELCL
+35	edebileceği	I-NP	I-RELCL	I-RELCL
+36	kadar	B-ADVP	_	O
+37	kendine	B-NP	_	O
+38	getirdi	B-VP	_	O
+39	.	O	_	O
+
+# text = Sonunda , içerisinde hiçbir eşyanın olmadığı bir oda da , çırılçıplak vaziyette onu buldum .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sonunda	B-NP	_	O
+2	,	O	_	O
+3	içerisinde	B-NP	B-RELCL	B-RELCL
+4	hiçbir	I-NP	I-RELCL	I-RELCL
+5	eşyanın	I-NP	I-RELCL	I-RELCL
+6	olmadığı	I-NP	I-RELCL	I-RELCL
+7	bir	I-NP	_	O
+8	oda	B-NP	_	O
+9	da	O	_	O
+10	,	O	_	O
+11	çırılçıplak	B-NP	_	O
+12	vaziyette	B-NP	_	O
+13	onu	I-NP	_	O
+14	buldum	B-VP	_	O
+15	.	O	_	O
+
+# text = Güzel şatoda , babasını görünce çok şaşırmış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Güzel	B-NP	_	O
+2	şatoda	B-NP	_	O
+3	,	O	_	O
+4	babasını	B-NP	_	O
+5	görünce	B-VP	_	O
+6	çok	B-ADVP	_	O
+7	şaşırmış	B-VP	_	O
+8	.	O	_	O
+
+# text = Yani orada ona bakarken kendimi sanki tamamlanmış mükemmel bir yapbozun uyumsuz bir parçasına bakıyormuşum gibi hissettim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yani	B-NP	_	O
+2	orada	B-NP	_	O
+3	ona	I-NP	_	O
+4	bakarken	I-NP	_	O
+5	kendimi	I-NP	_	O
+6	sanki	I-NP	_	O
+7	tamamlanmış	B-VP	_	O
+8	mükemmel	B-NP	_	O
+9	bir	I-NP	_	O
+10	yapbozun	I-NP	_	O
+11	uyumsuz	I-NP	_	O
+12	bir	I-NP	_	O
+13	parçasına	I-NP	_	O
+14	bakıyormuşum	I-NP	_	O
+15	gibi	I-NP	_	O
+16	hissettim	B-VP	_	O
+17	.	O	_	O
+
+# text = Kış ayı olduğu için hava çok soğukmuş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kış	B-NP	B-RELCL	B-RELCL
+2	ayı	I-NP	I-RELCL	I-RELCL
+3	olduğu	I-NP	I-RELCL	I-RELCL
+4	için	B-ADVP	_	O
+5	hava	B-NP	_	O
+6	çok	B-ADVP	_	O
+7	soğukmuş	B-VP	_	O
+8	.	O	_	O
+
+# text = Melisa , büyüdüğünde köyün bilgesi olmaya karar verdi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Melisa	B-VP	_	O
+2	,	O	_	O
+3	büyüdüğünde	B-NP	_	O
+4	köyün	I-NP	_	O
+5	bilgesi	I-NP	_	O
+6	olmaya	B-VP	_	O
+7	karar	B-VP	_	O
+8	verdi	I-VP	_	O
+9	.	O	_	O
+
+# text = Herkes dağa kaçmış , fakat Cennet yatakta hasta imiş , yakalamışlar , karargahlarına sürüklemişler .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Herkes	B-NP	_	O
+2	dağa	I-NP	_	O
+3	kaçmış	B-VP	_	O
+4	,	O	_	O
+5	fakat	O	_	O
+6	Cennet	B-NP	_	O
+7	yatakta	B-NP	_	O
+8	hasta	B-NP	_	O
+9	imiş	B-VP	_	O
+10	,	O	_	O
+11	yakalamışlar	B-NP	_	O
+12	,	O	_	O
+13	karargahlarına	B-NP	_	O
+14	sürüklemişler	I-NP	_	O
+15	.	O	_	O
+
+# text = Eğer o olmasaydı köpekler kuzulara saldıracakmış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Eğer	B-NP	_	O
+2	o	I-NP	_	O
+3	olmasaydı	B-VP	_	O
+4	köpekler	B-NP	_	O
+5	kuzulara	I-NP	_	O
+6	saldıracakmış	B-VP	_	O
+7	.	O	_	O
+
+# text = - Sana bir şey soracağım , benim çok mu çirkin olduğumu düşünüyorsun ?
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Sana	I-NP	_	O
+3	bir	I-NP	_	O
+4	şey	I-NP	_	O
+5	soracağım	B-VP	_	O
+6	,	O	_	O
+7	benim	B-NP	_	O
+8	çok	B-ADVP	_	O
+9	mu	B-NP	_	O
+10	çirkin	I-NP	_	O
+11	olduğumu	B-VP	_	O
+12	düşünüyorsun	B-NP	_	O
+13	?	O	_	O
+
+# text = - Öyleyse baban yarın sabah buradan gidecek ve bir daha asla buraya gelmeyecek , demiş Canavar .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Öyleyse	B-VP	_	O
+3	baban	B-NP	_	O
+4	yarın	I-NP	_	O
+5	sabah	B-ADVP	_	O
+6	buradan	B-NP	_	O
+7	gidecek	B-VP	_	O
+8	ve	O	_	O
+9	bir	B-NP	_	O
+10	daha	B-ADVP	_	O
+11	asla	I-ADVP	_	O
+12	buraya	B-NP	_	O
+13	gelmeyecek	B-VP	_	O
+14	,	O	_	O
+15	demiş	B-VP	_	O
+16	Canavar	B-NP	_	O
+17	.	O	_	O
+
+# text = Sanki o gün çok beğeniyordum da .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sanki	B-NP	_	O
+2	o	I-NP	_	O
+3	gün	B-ADVP	_	O
+4	çok	I-ADVP	_	O
+5	beğeniyordum	B-VP	_	O
+6	da	O	_	O
+7	.	O	_	O
+
+# text = Semtimizin sıradanlığını bozan bir çöp evi boşaltmak isterken , ev sahibinin direnişi ile karşılaşmışlar .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Semtimizin	B-NP	_	B-COMPCL
+2	sıradanlığını	I-NP	_	I-COMPCL
+3	bozan	I-NP	_	I-COMPCL
+4	bir	I-NP	_	I-COMPCL
+5	çöp	I-NP	_	I-COMPCL
+6	evi	I-NP	_	I-COMPCL
+7	boşaltmak	B-VP	_	I-COMPCL
+8	isterken	B-NP	_	O
+9	,	O	_	O
+10	ev	B-NP	_	O
+11	sahibinin	I-NP	_	O
+12	direnişi	I-NP	_	O
+13	ile	I-NP	_	O
+14	karşılaşmışlar	I-NP	_	O
+15	.	O	_	O
+
+# text = diyerek konuşmamı böldü Vahdet bu esnada .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	diyerek	B-VP	_	O
+2	konuşmamı	B-NP	_	O
+3	böldü	B-VP	_	O
+4	Vahdet	B-NP	_	O
+5	bu	I-NP	_	O
+6	esnada	B-NP	_	O
+7	.	O	_	O
+
+# text = Kendimi çok kötü hissettim bu yüzden de ölmeye hazırlandım ’ demiş Canavar güçsüz bir sesle .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kendimi	B-NP	_	O
+2	çok	B-ADVP	_	O
+3	kötü	B-VP	_	O
+4	hissettim	I-VP	_	O
+5	bu	B-NP	_	O
+6	yüzden	I-NP	_	O
+7	de	B-VP	_	O
+8	ölmeye	I-VP	_	O
+9	hazırlandım	I-VP	_	O
+10	’	O	_	O
+11	demiş	B-VP	_	O
+12	Canavar	B-NP	_	O
+13	güçsüz	I-NP	_	O
+14	bir	I-NP	_	O
+15	sesle	I-NP	_	O
+16	.	O	_	O
+
+# text = Şimdi kapısını çalmak için bir bahaneye ihtiyacım vardı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Şimdi	B-VP	_	B-COMPCL
+2	kapısını	B-NP	_	I-COMPCL
+3	çalmak	B-VP	_	I-COMPCL
+4	için	B-ADVP	_	O
+5	bir	B-NP	_	O
+6	bahaneye	I-NP	_	O
+7	ihtiyacım	I-NP	_	O
+8	vardı	B-VP	_	O
+9	.	O	_	O
+
+# text = Mesainin geri kalanını her gün geçirdiğim gibi evrak işlerini yaparak geçirdim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Mesainin	B-NP	_	O
+2	geri	I-NP	_	O
+3	kalanını	I-NP	_	O
+4	her	I-NP	_	O
+5	gün	B-ADVP	_	O
+6	geçirdiğim	B-NP	_	O
+7	gibi	I-NP	_	O
+8	evrak	I-NP	_	O
+9	işlerini	I-NP	_	O
+10	yaparak	B-VP	_	O
+11	geçirdim	I-VP	_	O
+12	.	O	_	O
+
+# text = Kurt gibi köye saldırmışlar .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kurt	B-NP	_	O
+2	gibi	I-NP	_	O
+3	köye	I-NP	_	O
+4	saldırmışlar	I-NP	_	O
+5	.	O	_	O
+
+# text = Ama değil … Hele biri var ki , nasıl söyleyeyim , ayıpla karışık bir anlama sarılıp olduğundan , herkese anlatmaya bile sıkılırım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ama	O	_	O
+2	değil	B-VP	_	O
+3	…	B-NP	_	O
+4	Hele	I-NP	_	O
+5	biri	I-NP	_	O
+6	var	I-NP	_	O
+7	ki	O	_	O
+8	,	O	_	O
+9	nasıl	B-ADVP	_	O
+10	söyleyeyim	B-NP	_	O
+11	,	O	_	O
+12	ayıpla	B-NP	_	O
+13	karışık	I-NP	_	O
+14	bir	I-NP	_	O
+15	anlama	I-NP	_	O
+16	sarılıp	B-VP	_	O
+17	olduğundan	I-VP	_	O
+18	,	O	_	O
+19	herkese	B-VP	_	O
+20	anlatmaya	I-VP	_	O
+21	bile	B-NP	_	O
+22	sıkılırım	B-VP	_	O
+23	.	O	_	O
+
+# text = - Bir gül isterim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Bir	I-NP	_	O
+3	gül	B-VP	_	O
+4	isterim	I-VP	_	O
+5	.	O	_	O
+
+# text = - Sen ne istersin Güzel ? , demiş tüccar .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Sen	I-NP	_	O
+3	ne	I-NP	_	O
+4	istersin	I-NP	_	O
+5	Güzel	B-ADJP	_	O
+6	?	O	_	O
+7	,	O	_	O
+8	demiş	B-VP	_	O
+9	tüccar	B-NP	_	O
+10	.	O	_	O
+
+# text = Hay'dan gelen Hû'ya gider .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Hay'dan	B-NP	B-RELCL	B-RELCL
+2	gelen	I-NP	I-RELCL	I-RELCL
+3	Hû'ya	I-NP	_	O
+4	gider	I-NP	_	O
+5	.	O	_	O
+
+# text = Melisa'nın meraklı gözleriyle bakıştı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Melisa'nın	B-NP	_	O
+2	meraklı	I-NP	_	O
+3	gözleriyle	I-NP	_	O
+4	bakıştı	B-VP	_	O
+5	.	O	_	O
+
+# text = Ben sana ayna tuttum arkadaşım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ben	B-NP	_	O
+2	sana	I-NP	_	O
+3	ayna	I-NP	_	O
+4	tuttum	B-VP	_	O
+5	arkadaşım	B-NP	_	O
+6	.	O	_	O
+
+# text = Ondan kurtulmak isterken kontrolünü kaybetti .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ondan	B-NP	_	B-COMPCL
+2	kurtulmak	B-VP	_	I-COMPCL
+3	isterken	B-NP	_	O
+4	kontrolünü	I-NP	_	O
+5	kaybetti	B-VP	_	O
+6	.	O	_	O
+
+# text = Ben insan kalbinin zayıf ve çapraşık muammalarının dünyada yığdığı ıztırap ve acıyla şaşkın , sersem , Hanife Nine'nin evine döndüm .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ben	B-NP	_	O
+2	insan	I-NP	_	O
+3	kalbinin	I-NP	_	O
+4	zayıf	I-NP	_	O
+5	ve	I-NP	_	O
+6	çapraşık	B-NP	B-RELCL	B-RELCL
+7	muammalarının	I-NP	I-RELCL	I-RELCL
+8	dünyada	I-NP	I-RELCL	I-RELCL
+9	yığdığı	I-NP	I-RELCL	I-RELCL
+10	ıztırap	I-NP	_	O
+11	ve	I-NP	_	O
+12	acıyla	I-NP	_	O
+13	şaşkın	I-NP	_	O
+14	,	O	_	O
+15	sersem	B-NP	_	O
+16	,	O	_	O
+17	Hanife	B-NP	_	O
+18	Nine'nin	I-NP	_	O
+19	evine	I-NP	_	O
+20	döndüm	B-VP	_	O
+21	.	O	_	O
+
+# text = Karımı kendimce seviyorumdum , o da beni kendince seviyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Karımı	B-NP	_	O
+2	kendimce	B-ADVP	_	O
+3	seviyorumdum	B-VP	_	O
+4	,	O	_	O
+5	o	B-NP	_	O
+6	da	B-NP	_	O
+7	beni	I-NP	_	O
+8	kendince	B-VP	_	O
+9	seviyordu	I-VP	_	O
+10	.	O	_	O
+
+# text = İki aydır bağdasın , daha hangi üzümün ekşi , hangisinin tatlı olduğunu bilmiyorsun " diye çıkışır .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	İki	B-NP	_	O
+2	aydır	I-NP	_	O
+3	bağdasın	I-NP	_	O
+4	,	O	_	O
+5	daha	B-ADVP	_	O
+6	hangi	B-NP	_	O
+7	üzümün	I-NP	_	O
+8	ekşi	I-NP	_	O
+9	,	O	_	O
+10	hangisinin	B-NP	_	B-COMPCL
+11	tatlı	I-NP	_	I-COMPCL
+12	olduğunu	B-VP	_	I-COMPCL
+13	bilmiyorsun	B-NP	_	O
+14	"	O	_	O
+15	diye	B-ADVP	_	O
+16	çıkışır	B-NP	_	O
+17	.	O	_	O
+
+# text = Kimse beni görmeden apartmandan fırlayıp eve koştum .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kimse	B-VP	_	O
+2	beni	B-NP	_	O
+3	görmeden	I-NP	_	O
+4	apartmandan	I-NP	_	O
+5	fırlayıp	B-VP	_	O
+6	eve	B-NP	_	O
+7	koştum	B-VP	_	O
+8	.	O	_	O
+
+# text = Arkamdan " geri geleceksin " diye seslendi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Arkamdan	B-NP	_	O
+2	"	O	_	O
+3	geri	B-NP	_	O
+4	geleceksin	I-NP	_	O
+5	"	O	_	O
+6	diye	B-ADVP	_	O
+7	seslendi	B-VP	_	O
+8	.	O	_	O
+
+# text = Ev sahibinin evi gözden kaybolunca hemen Penbe Nine'nin evinin olduğu ıssız , dar sokağa saptım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ev	B-NP	B-RELCL	B-RELCL
+2	sahibinin	I-NP	I-RELCL	I-RELCL
+3	evi	I-NP	I-RELCL	I-RELCL
+4	gözden	I-NP	I-RELCL	I-RELCL
+5	kaybolunca	I-NP	I-RELCL	I-RELCL
+6	hemen	I-NP	I-RELCL	I-RELCL
+7	Penbe	I-NP	I-RELCL	I-RELCL
+8	Nine'nin	I-NP	I-RELCL	I-RELCL
+9	evinin	I-NP	I-RELCL	I-RELCL
+10	olduğu	I-NP	I-RELCL	I-RELCL
+11	ıssız	I-NP	_	O
+12	,	O	_	O
+13	dar	B-NP	_	O
+14	sokağa	I-NP	_	O
+15	saptım	B-VP	_	O
+16	.	O	_	O
+
+# text = Bu sorumum ardından herkesin suspus olup birbirine bakmasından anlaşıldığı kadarıyla masadaki herkes söz konusu parayı almak için can atıyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bu	B-NP	B-RELCL	B-RELCL
+2	sorumum	I-NP	I-RELCL	I-RELCL
+3	ardından	I-NP	I-RELCL	B-COMPCL
+4	herkesin	I-NP	I-RELCL	B-COMPCL
+5	suspus	I-NP	I-RELCL	B-COMPCL
+6	olup	I-NP	I-RELCL	B-COMPCL
+7	birbirine	I-NP	I-RELCL	B-COMPCL
+8	bakmasından	I-NP	I-RELCL	B-COMPCL
+9	anlaşıldığı	I-NP	I-RELCL	B-COMPCL
+10	kadarıyla	I-NP	_	I-COMPCL
+11	masadaki	I-NP	_	I-COMPCL
+12	herkes	I-NP	_	I-COMPCL
+13	söz	I-NP	_	I-COMPCL
+14	konusu	I-NP	_	I-COMPCL
+15	parayı	I-NP	_	I-COMPCL
+16	almak	B-VP	_	I-COMPCL
+17	için	B-ADVP	_	O
+18	can	B-NP	_	O
+19	atıyordu	B-VP	_	O
+20	.	O	_	O
+
+# text = Bu olay sadece bir anı olacaktı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bu	B-NP	_	O
+2	olay	B-VP	_	O
+3	sadece	B-ADVP	_	O
+4	bir	B-NP	_	O
+5	anı	I-NP	_	O
+6	olacaktı	B-VP	_	O
+7	.	O	_	O
+
+# text = Sevdiği ve istediği her şeyi alıyor , en güzel yemekleri yiyormuş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sevdiği	B-NP	B-RELCL	B-RELCL
+2	ve	I-NP	_	O
+3	istediği	B-NP	B-RELCL	B-RELCL
+4	her	I-NP	_	O
+5	şeyi	I-NP	_	O
+6	alıyor	B-VP	_	O
+7	,	O	_	O
+8	en	B-NP	_	O
+9	güzel	I-NP	_	O
+10	yemekleri	I-NP	_	O
+11	yiyormuş	B-VP	_	O
+12	.	O	_	O
+
+# text = Gözünü hırs bürüdü Keloğlan'ın " demeye başlamış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Gözünü	B-NP	_	O
+2	hırs	I-NP	_	O
+3	bürüdü	B-VP	_	O
+4	Keloğlan'ın	B-NP	_	O
+5	"	O	_	O
+6	demeye	B-VP	_	O
+7	başlamış	I-VP	_	O
+8	.	O	_	O
+
+# text = Beğendim desem , şimdiden bir sorunum olurdu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Beğendim	B-VP	_	O
+2	desem	I-VP	_	O
+3	,	O	_	O
+4	şimdiden	B-NP	_	O
+5	bir	I-NP	_	O
+6	sorunum	I-NP	_	O
+7	olurdu	B-VP	_	O
+8	.	O	_	O
+
+# text = Balığın karnı içinde kocaman bir tas durmuyor mu ?
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Balığın	B-NP	_	O
+2	karnı	I-NP	_	O
+3	içinde	B-NP	_	O
+4	kocaman	I-NP	_	O
+5	bir	I-NP	_	O
+6	tas	I-NP	_	O
+7	durmuyor	B-VP	_	O
+8	mu	B-NP	_	O
+9	?	O	_	O
+
+# text = Ayhan karışık ızgara , Vahdet ise sac kavurma istedi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ayhan	B-NP	_	O
+2	karışık	I-NP	_	O
+3	ızgara	I-NP	_	O
+4	,	O	_	O
+5	Vahdet	B-NP	_	O
+6	ise	B-VP	_	O
+7	sac	B-NP	_	O
+8	kavurma	I-NP	_	O
+9	istedi	B-VP	_	O
+10	.	O	_	O
+
+# text = Karım asla beni aldatmadı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Karım	B-VP	_	O
+2	asla	B-ADVP	_	O
+3	beni	B-NP	_	O
+4	aldatmadı	B-VP	_	O
+5	.	O	_	O
+
+# text = Ama şunu unutmamak lazım ki bunların hepsi karşılıklıdır .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ama	O	_	O
+2	şunu	B-NP	_	B-COMPCL
+3	unutmamak	B-VP	_	I-COMPCL
+4	lazım	B-NP	_	O
+5	ki	I-NP	_	O
+6	bunların	I-NP	_	O
+7	hepsi	I-NP	_	O
+8	karşılıklıdır	I-NP	_	O
+9	.	O	_	O
+
+# text = İnsan vücudu denen beşeri makineyi ölümün çeşitli oyunlarla akıl almaz yönlere sürükleyip bir oyuncak haline getirdiğini belirtti .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	İnsan	B-NP	_	B-COMPCL
+2	vücudu	B-VP	_	I-COMPCL
+3	denen	I-VP	_	I-COMPCL
+4	beşeri	B-NP	_	I-COMPCL
+5	makineyi	I-NP	_	I-COMPCL
+6	ölümün	I-NP	_	I-COMPCL
+7	çeşitli	I-NP	_	I-COMPCL
+8	oyunlarla	I-NP	_	I-COMPCL
+9	akıl	I-NP	_	I-COMPCL
+10	almaz	I-NP	_	I-COMPCL
+11	yönlere	I-NP	_	I-COMPCL
+12	sürükleyip	B-VP	_	I-COMPCL
+13	bir	B-NP	_	I-COMPCL
+14	oyuncak	I-NP	_	I-COMPCL
+15	haline	I-NP	_	I-COMPCL
+16	getirdiğini	B-VP	_	I-COMPCL
+17	belirtti	I-VP	_	O
+18	.	O	_	O
+
+# text = Çıplak olduğunun ya da benim orada olduğumun farkında değil gibiydi . .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Çıplak	B-NP	_	O
+2	olduğunun	B-VP	_	O
+3	ya	O	_	O
+4	da	O	_	O
+5	benim	B-NP	_	O
+6	orada	B-NP	_	O
+7	olduğumun	B-VP	_	O
+8	farkında	B-NP	_	O
+9	değil	B-VP	_	O
+10	gibiydi	I-VP	_	O
+11	.	O	_	O
+12	.	O	_	O
+
+# text = Daha sonra beraber şatoya gitmişler .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Daha	B-ADVP	_	O
+2	sonra	I-ADVP	_	O
+3	beraber	I-ADVP	_	O
+4	şatoya	B-NP	_	O
+5	gitmişler	I-NP	_	O
+6	.	O	_	O
+
+# text = Fazlasına ihtiyacımız yoktu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Fazlasına	B-NP	_	O
+2	ihtiyacımız	I-NP	_	O
+3	yoktu	B-VP	_	O
+4	.	O	_	O
+
+# text = İkinci kattaki dairesinin kapısının tokmağını vurduğumdaysa , kapının açık olduğunu fark ettim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	İkinci	B-NP	_	O
+2	kattaki	I-NP	_	O
+3	dairesinin	I-NP	_	O
+4	kapısının	I-NP	_	O
+5	tokmağını	I-NP	_	O
+6	vurduğumdaysa	B-VP	_	O
+7	,	O	_	O
+8	kapının	B-NP	_	B-COMPCL
+9	açık	I-NP	_	I-COMPCL
+10	olduğunu	B-VP	_	I-COMPCL
+11	fark	B-VP	_	O
+12	ettim	I-VP	_	O
+13	.	O	_	O
+
+# text = Eve vardığımda , bu sefer her şey kapının dışında kalmadı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Eve	B-NP	_	O
+2	vardığımda	B-NP	_	O
+3	,	O	_	O
+4	bu	B-NP	_	O
+5	sefer	I-NP	_	O
+6	her	I-NP	_	O
+7	şey	I-NP	_	O
+8	kapının	I-NP	_	O
+9	dışında	B-NP	_	O
+10	kalmadı	B-VP	_	O
+11	.	O	_	O
+
+# text = Gündüzleri hemen hiç çıkmazdı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Gündüzleri	B-NP	_	O
+2	hemen	B-ADVP	_	O
+3	hiç	B-NP	_	O
+4	çıkmazdı	B-VP	_	O
+5	.	O	_	O
+
+# text = Tabiî , bunlarda garip olan bir taraf yoktu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Tabiî	B-NP	_	O
+2	,	O	_	O
+3	bunlarda	B-NP	B-RELCL	B-RELCL
+4	garip	I-NP	I-RELCL	I-RELCL
+5	olan	I-NP	I-RELCL	I-RELCL
+6	bir	I-NP	_	O
+7	taraf	I-NP	_	O
+8	yoktu	B-VP	_	O
+9	.	O	_	O
+
+# text = Yanımdan geçerken onu durdurmak istedim , ama nasıl tutacağımı bilemediğimden yapamadım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yanımdan	B-NP	_	B-COMPCL
+2	geçerken	I-NP	_	I-COMPCL
+3	onu	I-NP	_	I-COMPCL
+4	durdurmak	B-VP	_	I-COMPCL
+5	istedim	I-VP	_	O
+6	,	O	_	O
+7	ama	O	_	O
+8	nasıl	B-ADVP	_	O
+9	tutacağımı	B-NP	_	O
+10	bilemediğimden	I-NP	_	O
+11	yapamadım	B-VP	_	O
+12	.	O	_	O
+
+# text = Tüccar içeri girip seslenmiş fakat sesine cevap veren kimse olmamış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Tüccar	B-NP	_	O
+2	içeri	I-NP	_	O
+3	girip	B-VP	_	O
+4	seslenmiş	I-VP	_	O
+5	fakat	O	_	O
+6	sesine	B-NP	_	O
+7	cevap	I-NP	_	O
+8	veren	I-NP	_	O
+9	kimse	B-VP	_	O
+10	olmamış	I-VP	_	O
+11	.	O	_	O
+
+# text = İş bulduktan sonra evlendim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	İş	B-NP	_	O
+2	bulduktan	I-NP	_	O
+3	sonra	B-ADVP	_	O
+4	evlendim	B-VP	_	O
+5	.	O	_	O
+
+# text = Eve döndüğümde artık ne evrak vardı , ne de çırılçıplak deli bir avukat .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Eve	B-NP	_	O
+2	döndüğümde	B-NP	_	O
+3	artık	B-ADVP	_	O
+4	ne	B-NP	_	O
+5	evrak	I-NP	_	O
+6	vardı	B-VP	_	O
+7	,	O	_	O
+8	ne	B-NP	_	O
+9	de	B-VP	_	O
+10	çırılçıplak	B-NP	_	O
+11	deli	B-VP	_	O
+12	bir	B-NP	_	O
+13	avukat	I-NP	_	O
+14	.	O	_	O
+
+# text = Sadece , benden başka kimsenin umurlarında olmayacakları için , bu yorgun eşyalara sahip çıktım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sadece	B-ADVP	_	O
+2	,	O	_	O
+3	benden	B-NP	_	O
+4	başka	I-NP	_	O
+5	kimsenin	I-NP	_	O
+6	umurlarında	B-NP	_	O
+7	olmayacakları	B-VP	_	O
+8	için	B-ADVP	_	O
+9	,	O	_	O
+10	bu	B-NP	_	O
+11	yorgun	I-NP	_	O
+12	eşyalara	I-NP	_	O
+13	sahip	B-VP	_	O
+14	çıktım	I-VP	_	O
+15	.	O	_	O
+
+# text = O da mecburen bir süre sonra evine dönmüş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	O	B-NP	_	O
+2	da	B-NP	_	O
+3	mecburen	I-NP	_	O
+4	bir	I-NP	_	O
+5	süre	I-NP	_	O
+6	sonra	B-ADVP	_	O
+7	evine	B-NP	_	O
+8	dönmüş	B-VP	_	O
+9	.	O	_	O
+
+# text = Arkadaşı bu teklifi kabul etmiş ama küçük bir işi olduğunu söyleyerek ondan kendisini beklemesini rica ederek parktan uzaklaşmış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Arkadaşı	B-NP	_	O
+2	bu	I-NP	_	O
+3	teklifi	I-NP	_	O
+4	kabul	I-NP	_	O
+5	etmiş	B-VP	_	O
+6	ama	O	_	O
+7	küçük	B-NP	_	B-COMPCL
+8	bir	I-NP	_	B-COMPCL
+9	işi	I-NP	_	B-COMPCL
+10	olduğunu	B-VP	_	B-COMPCL
+11	söyleyerek	I-VP	_	I-COMPCL
+12	ondan	B-NP	_	I-COMPCL
+13	kendisini	I-NP	_	I-COMPCL
+14	beklemesini	B-VP	_	I-COMPCL
+15	rica	B-ADVP	_	O
+16	ederek	B-VP	_	O
+17	parktan	B-NP	_	O
+18	uzaklaşmış	B-VP	_	O
+19	.	O	_	O
+
+# text = Ancak bu sefer o kadar kolay olmadı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ancak	O	_	O
+2	bu	B-NP	_	O
+3	sefer	I-NP	_	O
+4	o	I-NP	_	O
+5	kadar	B-ADVP	_	O
+6	kolay	B-NP	_	O
+7	olmadı	B-VP	_	O
+8	.	O	_	O
+
+# text = Yüzme bilmediği için hızla akan ırmakta nerdeyse boğulacakmış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yüzme	B-NP	B-RELCL	B-RELCL
+2	bilmediği	I-NP	I-RELCL	I-RELCL
+3	için	B-ADVP	_	O
+4	hızla	I-ADVP	_	O
+5	akan	B-NP	_	O
+6	ırmakta	B-NP	_	O
+7	nerdeyse	B-VP	_	O
+8	boğulacakmış	I-VP	_	O
+9	.	O	_	O
+
+# text = Asker kaçağı yakalanmış , evrak vardı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Asker	B-NP	_	O
+2	kaçağı	I-NP	_	O
+3	yakalanmış	B-VP	_	O
+4	,	O	_	O
+5	evrak	B-NP	_	O
+6	vardı	B-VP	_	O
+7	.	O	_	O
+
+# text = diyormuş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	diyormuş	B-VP	_	O
+2	.	O	_	O
+
+# text = Bu süreler dışında , benim ben olmama izin veriyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bu	B-NP	_	O
+2	süreler	I-NP	_	O
+3	dışında	B-NP	_	O
+4	,	O	_	O
+5	benim	B-NP	_	O
+6	ben	I-NP	_	O
+7	olmama	B-VP	_	O
+8	izin	B-NP	_	O
+9	veriyordu	B-VP	_	O
+10	.	O	_	O
+
+# text = Fare kapanlarımızı , tavşan kafeslerimizi oraya yerleştirirdik .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Fare	B-NP	_	O
+2	kapanlarımızı	I-NP	_	O
+3	,	O	_	O
+4	tavşan	B-NP	_	O
+5	kafeslerimizi	I-NP	_	O
+6	oraya	I-NP	_	O
+7	yerleştirirdik	I-NP	_	O
+8	.	O	_	O
+
+# text = Annesine ve Fatma’ya öyle kızmıştı ki , gözü hiçbir şey görmüyor , ne kadar hızla gittiğini göremiyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Annesine	B-NP	_	O
+2	ve	I-NP	_	O
+3	Fatma’ya	I-NP	_	O
+4	öyle	B-ADVP	_	O
+5	kızmıştı	B-VP	_	O
+6	ki	O	_	O
+7	,	O	_	O
+8	gözü	B-NP	_	O
+9	hiçbir	I-NP	_	O
+10	şey	I-NP	_	O
+11	görmüyor	B-VP	_	O
+12	,	O	_	O
+13	ne	B-NP	_	O
+14	kadar	B-ADVP	_	O
+15	hızla	I-ADVP	_	O
+16	gittiğini	B-NP	_	O
+17	göremiyordu	B-VP	_	O
+18	.	O	_	O
+
+# text = Bazı zamanlar sepetlerimiz çeşit çeşit hayvanlarla dolardı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bazı	B-NP	_	O
+2	zamanlar	I-NP	_	O
+3	sepetlerimiz	I-NP	_	O
+4	çeşit	I-NP	_	O
+5	çeşit	I-NP	_	O
+6	hayvanlarla	I-NP	_	O
+7	dolardı	B-VP	_	O
+8	.	O	_	O
+
+# text = Sakin bir sesle konuşurken mikrobiyoloji profesörümü hatırlıyordum …
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sakin	B-NP	_	O
+2	bir	I-NP	_	O
+3	sesle	I-NP	_	O
+4	konuşurken	I-NP	_	O
+5	mikrobiyoloji	I-NP	_	O
+6	profesörümü	I-NP	_	O
+7	hatırlıyordum	B-VP	_	O
+8	…	B-NP	_	O
+
+# text = Göz ucuyla onu takip ettiğimden sürekli bir şeylere çarpayazıyordum .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Göz	B-NP	_	O
+2	ucuyla	I-NP	_	O
+3	onu	I-NP	_	O
+4	takip	B-VP	_	O
+5	ettiğimden	I-VP	_	O
+6	sürekli	B-ADVP	_	O
+7	bir	B-NP	_	O
+8	şeylere	I-NP	_	O
+9	çarpayazıyordum	B-VP	_	O
+10	.	O	_	O
+
+# text = Bu yüzden kız yolu bulamamış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bu	B-NP	_	O
+2	yüzden	I-NP	_	O
+3	kız	I-NP	_	O
+4	yolu	I-NP	_	O
+5	bulamamış	B-VP	_	O
+6	.	O	_	O
+
+# text = Onun yerine deli olduğuna emin olduğum kadının ne demeye çalıştığını merak ettim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Onun	B-NP	_	O
+2	yerine	I-NP	_	O
+3	deli	B-VP	_	O
+4	olduğuna	I-VP	_	O
+5	emin	B-NP	_	O
+6	olduğum	B-VP	_	O
+7	kadının	B-NP	_	O
+8	ne	I-NP	_	O
+9	demeye	B-VP	_	O
+10	çalıştığını	B-NP	_	O
+11	merak	I-NP	_	O
+12	ettim	B-VP	_	O
+13	.	O	_	O
+
+# text = Aslında daha çok süzülen bir kuş gibi hissediyordum .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Aslında	B-NP	_	O
+2	daha	B-ADVP	_	O
+3	çok	I-ADVP	_	O
+4	süzülen	B-NP	_	O
+5	bir	I-NP	_	O
+6	kuş	I-NP	_	O
+7	gibi	I-NP	_	O
+8	hissediyordum	B-VP	_	O
+9	.	O	_	O
+
+# text = - Elbise ve mücevher isteriz , demişler .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Elbise	B-VP	_	O
+3	ve	O	_	O
+4	mücevher	B-NP	_	O
+5	isteriz	I-NP	_	O
+6	,	O	_	O
+7	demişler	B-VP	_	O
+8	.	O	_	O
+
+# text = ‘ Peki nerede açıklamayı düşünüyorsunuz ? ’
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	‘	O	_	O
+2	Peki	B-NP	_	O
+3	nerede	B-NP	_	B-COMPCL
+4	açıklamayı	B-VP	_	I-COMPCL
+5	düşünüyorsunuz	B-NP	_	O
+6	?	O	_	O
+7	’	O	_	O
+
+# text = Adamın biri geldi , sinirli bir şekilde aynı kızı sordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Adamın	B-NP	_	O
+2	biri	I-NP	_	O
+3	geldi	B-VP	_	O
+4	,	O	_	O
+5	sinirli	B-NP	_	O
+6	bir	I-NP	_	O
+7	şekilde	B-NP	_	O
+8	aynı	I-NP	_	O
+9	kızı	I-NP	_	O
+10	sordu	B-VP	_	O
+11	.	O	_	O
+
+# text = Bir düzen içinde olduklarını görüyordum , ancak düzeni anladığımı iddia edemem .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bir	B-NP	_	O
+2	düzen	I-NP	_	O
+3	içinde	B-NP	_	O
+4	olduklarını	B-VP	_	O
+5	görüyordum	I-VP	_	O
+6	,	O	_	O
+7	ancak	O	_	O
+8	düzeni	B-NP	_	O
+9	anladığımı	I-NP	_	O
+10	iddia	I-NP	_	O
+11	edemem	I-NP	_	O
+12	.	O	_	O
+
+# text = Beni şaşırtmayarak yine en son gelen kişi olan Tufan soluk soluğa masamıza yaklaştı ve kendisine bir yer bulup oturduktan sonra , bizi yaklaşık yirmi dakika bekletmiş olduğu için hepimizden özür diledi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Beni	B-NP	B-RELCL	B-RELCL
+2	şaşırtmayarak	I-NP	B-RELCL	B-RELCL
+3	yine	I-NP	B-RELCL	B-RELCL
+4	en	I-NP	B-RELCL	B-RELCL
+5	son	I-NP	B-RELCL	B-RELCL
+6	gelen	I-NP	B-RELCL	B-RELCL
+7	kişi	I-NP	I-RELCL	I-RELCL
+8	olan	I-NP	I-RELCL	I-RELCL
+9	Tufan	I-NP	_	O
+10	soluk	I-NP	_	O
+11	soluğa	I-NP	_	O
+12	masamıza	I-NP	_	O
+13	yaklaştı	B-VP	_	O
+14	ve	O	_	O
+15	kendisine	B-NP	_	O
+16	bir	I-NP	_	O
+17	yer	I-NP	_	O
+18	bulup	B-VP	_	O
+19	oturduktan	B-NP	_	O
+20	sonra	B-ADVP	_	O
+21	,	O	_	O
+22	bizi	B-NP	B-RELCL	B-RELCL
+23	yaklaşık	I-NP	I-RELCL	I-RELCL
+24	yirmi	I-NP	I-RELCL	I-RELCL
+25	dakika	I-NP	I-RELCL	I-RELCL
+26	bekletmiş	I-NP	I-RELCL	I-RELCL
+27	olduğu	I-NP	I-RELCL	I-RELCL
+28	için	B-ADVP	_	O
+29	hepimizden	B-NP	_	O
+30	özür	I-NP	_	O
+31	diledi	B-VP	_	O
+32	.	O	_	O
+
+# text = Yardım etmeye çalıştım , olmadı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yardım	B-VP	_	O
+2	etmeye	I-VP	_	O
+3	çalıştım	I-VP	_	O
+4	,	O	_	O
+5	olmadı	B-VP	_	O
+6	.	O	_	O
+
+# text = " Efendim , ekşisini tatlısını bilmiyorum ! "
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	"	O	_	O
+2	Efendim	B-VP	_	O
+3	,	O	_	O
+4	ekşisini	B-NP	_	O
+5	tatlısını	I-NP	_	O
+6	bilmiyorum	I-NP	_	O
+7	!	O	_	O
+8	"	O	_	O
+
+# text = Ne olduğunu anlayamıyorumdum , ayna hileli olmalı diye düşündüm .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ne	B-NP	_	B-COMPCL
+2	olduğunu	B-VP	_	I-COMPCL
+3	anlayamıyorumdum	I-VP	_	O
+4	,	O	_	O
+5	ayna	B-NP	_	O
+6	hileli	I-NP	_	O
+7	olmalı	B-VP	_	O
+8	diye	B-ADVP	_	O
+9	düşündüm	B-VP	_	O
+10	.	O	_	O
+
+# text = Zengin mi zengin olan tüccar , bir gün gemisinin şiddetli bir fırtına sonucu battığı haberini almış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Zengin	B-NP	B-RELCL	B-RELCL
+2	mi	I-NP	I-RELCL	I-RELCL
+3	zengin	I-NP	I-RELCL	I-RELCL
+4	olan	I-NP	I-RELCL	I-RELCL
+5	tüccar	I-NP	_	O
+6	,	O	_	O
+7	bir	B-NP	_	O
+8	gün	B-ADVP	_	O
+9	gemisinin	B-NP	_	O
+10	şiddetli	I-NP	_	O
+11	bir	I-NP	_	O
+12	fırtına	I-NP	_	O
+13	sonucu	I-NP	_	O
+14	battığı	I-NP	_	O
+15	haberini	I-NP	_	O
+16	almış	B-VP	_	O
+17	.	O	_	O
 
 # text = Senelerce Filadelfia’nın kenar mahallerinin birinde bir arada yaşadık .
-1	Senelerce	B-ADVP
-2	Filadelfia’nın	B-NP
-3	kenar	I-NP
-4	mahallerinin	I-NP
-5	birinde	I-NP
-6	bir	B-ADVP
-7	arada	I-ADVP
-8	yaşadık	B-VP
-9	.	O
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Senelerce	B-ADVP	_	O
+2	Filadelfia’nın	B-NP	_	O
+3	kenar	I-NP	_	O
+4	mahallerinin	I-NP	_	O
+5	birinde	B-NP	_	O
+6	bir	I-NP	_	O
+7	arada	B-NP	_	O
+8	yaşadık	I-NP	_	O
+9	.	O	_	O
 
-# text = Tepemde öylece dikilmiş duruyordu ve gerek görünüşüyle gerek davranışlarıyla sanki bulunduğu mekan ve zamana ait değilmiş gibi bir hali vardı .
-1	Tepemde	B-NP
-2	öylece	B-ADVP
-3	dikilmiş	B-VP
-4	duruyordu	I-VP
-5	ve	O
-6	gerek	O
-7	görünüşüyle	B-NP
-8	gerek	O
-9	davranışlarıyla	B-NP
-10	sanki	B-ADVP
-11	bulunduğu	B-ADJP
-12	mekan	B-NP
-13	ve	I-NP
-14	zamana	I-NP
-15	ait	B-ADJP
-16	değilmiş	B-VP
-17	gibi	B-ADVP
-18	bir	B-NP
-19	hali	I-NP
-20	vardı	B-VP
-21	.	O
+# text = Korkuyorum .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Korkuyorum	B-NP	_	O
+2	.	O	_	O
 
-# text = Dilek bile Üç Muz Rotası ismini duyduğunda , elindeki kaşığı düşürecek kadar dehşete kapılmıştı .
-1	Dilek	B-NP
-2	bile	B-ADVP
-3	Üç	B-NP
-4	Muz	I-NP
-5	Rotası	I-NP
-6	ismini	I-NP
-7	duyduğunda	B-VP
-8	,	O
-9	elindeki	B-ADJP
-10	kaşığı	B-NP
-11	düşürecek	B-VP
-12	kadar	O
-13	dehşete	B-NP
-14	kapılmıştı	B-VP
-15	.	O
+# text = Sorduğun bu mu ?
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sorduğun	B-NP	_	O
+2	bu	I-NP	_	O
+3	mu	I-NP	_	O
+4	?	O	_	O
 
-# text = Tüccar bu olanları normal bir şeye bağlayamamış ve : - Bu şato bana acıyan bir varlığa ait sanırım , keşke ona bir teşekkür edebilsem ! , diye düşünmüş .
-1	Tüccar	B-NP
-2	bu	B-NP
-3	olanları	I-NP
-4	normal	B-ADJP
-5	bir	B-NP
-6	şeye	I-NP
-7	bağlayamamış	B-VP
-8	ve	O
-9	:	O
-10	-	O
-11	Bu	B-NP
-12	şato	I-NP
-13	bana	B-NP
-14	acıyan	B-ADJP
-15	bir	B-NP
-16	varlığa	I-NP
-17	ait	B-ADJP
-18	sanırım	B-VP
-19	,	O
-20	keşke	B-ADVP
-21	ona	B-NP
-22	bir	B-NP
-23	teşekkür	I-NP
-24	edebilsem	B-VP
-25	!	O
-26	,	O
-27	diye	B-ADVP
-28	düşünmüş	B-VP
-29	.	O
+# text = - Beni dinle , Güzel’e bir oyun oynayalım ve o burada bir haftadan daha fazla kalsın .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Beni	I-NP	_	O
+3	dinle	B-VP	_	O
+4	,	O	_	O
+5	Güzel’e	B-NP	_	O
+6	bir	I-NP	_	O
+7	oyun	I-NP	_	O
+8	oynayalım	I-NP	_	O
+9	ve	I-NP	_	O
+10	o	I-NP	_	O
+11	burada	B-NP	_	O
+12	bir	I-NP	_	O
+13	haftadan	I-NP	_	O
+14	daha	B-ADVP	_	O
+15	fazla	B-NP	_	O
+16	kalsın	I-NP	_	O
+17	.	O	_	O
 
-# text = Sabah erken saatlerde uyanıp kahvaltı için restorana inmiştim .
-1	Sabah	B-ADVP
-2	erken	I-ADVP
-3	saatlerde	I-ADVP
-4	uyanıp	B-VP
-5	kahvaltı	B-NP
-6	için	O
-7	restorana	B-NP
-8	inmiştim	B-VP
-9	.	O
+# text = O kadar çok canı yanmış ki bir daha yaramazlık yapmayacakmış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	O	B-NP	_	O
+2	kadar	B-ADVP	_	O
+3	çok	I-ADVP	_	O
+4	canı	B-NP	_	O
+5	yanmış	B-VP	_	O
+6	ki	O	_	O
+7	bir	B-NP	_	O
+8	daha	B-ADVP	_	O
+9	yaramazlık	B-NP	_	O
+10	yapmayacakmış	B-VP	_	O
+11	.	O	_	O
 
-# text = Babası onu görünce çok sevinmiş ve kendisini daha iyi hissetmiş .
-1	Babası	B-NP
-2	onu	B-NP
-3	görünce	B-VP
-4	çok	B-ADVP
-5	sevinmiş	B-VP
-6	ve	O
-7	kendisini	B-NP
-8	daha	B-ADVP
-9	iyi	B-ADJP
-10	hissetmiş	B-VP
-11	.	O
+# text = O esnada Kadir “ Kendisi de bir kaz kafalı olduğu için olabilir mi ? ” diyerek araya girdi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	O	B-NP	_	O
+2	esnada	B-NP	_	O
+3	Kadir	I-NP	_	O
+4	“	O	_	O
+5	Kendisi	B-NP	_	O
+6	de	B-VP	_	O
+7	bir	B-NP	B-RELCL	B-RELCL
+8	kaz	I-NP	I-RELCL	I-RELCL
+9	kafalı	I-NP	I-RELCL	I-RELCL
+10	olduğu	I-NP	I-RELCL	I-RELCL
+11	için	B-ADVP	_	O
+12	olabilir	B-VP	_	O
+13	mi	B-NP	_	O
+14	?	O	_	O
+15	”	O	_	O
+16	diyerek	B-VP	_	O
+17	araya	B-NP	_	O
+18	girdi	B-VP	_	O
+19	.	O	_	O
 
-# text = Güzel , ‘ bu yaşama alışırım belki ’ diye düşünmüş ve etrafı keşfe çıkmış .
-1	Güzel	B-NP
-2	,	O
-3	‘	O
-4	bu	B-NP
-5	yaşama	I-NP
-6	alışırım	B-VP
-7	belki	B-ADVP
-8	’	O
-9	diye	B-ADVP
-10	düşünmüş	B-VP
-11	ve	O
-12	etrafı	B-NP
-13	keşfe	B-VP
-14	çıkmış	I-VP
-15	.	O
+# text = Seyyar satıcılar için bunun anlamı , zabıtaya verilecek rüşvetin yenilenmesi demektir .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Seyyar	B-NP	_	O
+2	satıcılar	I-NP	_	O
+3	için	B-ADVP	_	O
+4	bunun	B-NP	_	O
+5	anlamı	I-NP	_	O
+6	,	O	_	O
+7	zabıtaya	B-NP	_	B-COMPCL
+8	verilecek	B-VP	_	I-COMPCL
+9	rüşvetin	B-NP	_	I-COMPCL
+10	yenilenmesi	B-VP	_	I-COMPCL
+11	demektir	I-VP	_	O
+12	.	O	_	O
 
-# text = Ucunda bir tutam sakalın sarktığı çıkık çenesinin ve elmacık kemiklerinin keskin hatlar çizdiği uzun yüzünün ortasında duran kemerli kocaman burnu ona yırtıcı ve tehlikeli bir tabiat katıyordu .
-1	Ucunda	B-NP
-2	bir	B-NP
-3	tutam	I-NP
-4	sakalın	I-NP
-5	sarktığı	B-ADJP
-6	çıkık	B-ADJP
-7	çenesinin	B-NP
-8	ve	I-NP
-9	elmacık	B-NP
-10	kemiklerinin	I-NP
-11	keskin	B-ADJP
-12	hatlar	B-NP
-13	çizdiği	B-ADJP
-14	uzun	B-ADJP
-15	yüzünün	B-NP
-16	ortasında	I-NP
-17	duran	B-ADJP
-18	kemerli	B-ADJP
-19	kocaman	B-ADJP
-20	burnu	B-NP
-21	ona	B-NP
-22	yırtıcı	B-ADJP
-23	ve	I-ADJP
-24	tehlikeli	I-ADJP
-25	bir	B-NP
-26	tabiat	I-NP
-27	katıyordu	B-VP
-28	.	O
+# text = Hikayenin sonunda , aklıma takıldı , zabıtaya şikayetçi olanın kim olduğunu sordum .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Hikayenin	B-NP	_	O
+2	sonunda	B-NP	_	O
+3	,	O	_	O
+4	aklıma	B-NP	_	O
+5	takıldı	B-VP	_	O
+6	,	O	_	O
+7	zabıtaya	B-NP	_	B-COMPCL
+8	şikayetçi	I-NP	_	I-COMPCL
+9	olanın	B-VP	_	I-COMPCL
+10	kim	B-NP	_	I-COMPCL
+11	olduğunu	B-VP	_	I-COMPCL
+12	sordum	I-VP	_	O
+13	.	O	_	O
 
-# text = Bizi birbirimize bağlayan müşterek zevklerimiz ortadan kalkınca , arkadaşlığımızda bozuldu .
-1	Bizi	B-NP
-2	birbirimize	B-NP
-3	bağlayan	B-ADJP
-4	müşterek	B-ADJP
-5	zevklerimiz	B-NP
-6	ortadan	B-ADVP
-7	kalkınca	B-VP
-8	,	O
-9	arkadaşlığımızda	B-NP
-10	bozuldu	B-VP
-11	.	O
+# text = " Ben bir deli değilim ve bu ev bana ait .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	"	O	_	O
+2	Ben	B-NP	_	O
+3	bir	I-NP	_	O
+4	deli	B-VP	_	O
+5	değilim	I-VP	_	O
+6	ve	O	_	O
+7	bu	B-NP	_	O
+8	ev	I-NP	_	O
+9	bana	I-NP	_	O
+10	ait	I-NP	_	O
+11	.	O	_	O
 
-# text = İyi ilişkilerin olmasını istiyorsan emek harcamalısın , karşındaki kişiyi önemsemelisin .
-1	İyi	B-ADJP
-2	ilişkilerin	B-NP
-3	olmasını	B-VP
-4	istiyorsan	I-VP
-5	emek	B-NP
-6	harcamalısın	B-VP
-7	,	O
-8	karşındaki	B-ADJP
-9	kişiyi	B-NP
-10	önemsemelisin	B-VP
-11	.	O
+# text = Ailesine söz vermiş ve arkadaşlarına da artık yaramazlıklarına dahil etmeyecekmiş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ailesine	B-NP	_	O
+2	söz	I-NP	_	O
+3	vermiş	B-VP	_	O
+4	ve	O	_	O
+5	arkadaşlarına	B-NP	_	O
+6	da	O	_	O
+7	artık	B-ADVP	_	O
+8	yaramazlıklarına	B-NP	_	O
+9	dahil	I-NP	_	O
+10	etmeyecekmiş	B-VP	_	O
+11	.	O	_	O
 
-# text = Araba taklalar atıp ağaca çarparak durdu .
-1	Araba	B-NP
-2	taklalar	B-NP
-3	atıp	B-VP
-4	ağaca	B-NP
-5	çarparak	B-VP
-6	durdu	I-VP
-7	.	O
+# text = Bir de hep evlenme teklifi etmesi yok mu , ah ah !
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bir	B-NP	_	O
+2	de	B-VP	_	O
+3	hep	B-ADVP	_	B-COMPCL
+4	evlenme	B-NP	_	I-COMPCL
+5	teklifi	I-NP	_	I-COMPCL
+6	etmesi	B-VP	_	I-COMPCL
+7	yok	B-NP	_	O
+8	mu	I-NP	_	O
+9	,	O	_	O
+10	ah	B-NP	_	O
+11	ah	I-NP	_	O
+12	!	O	_	O
 
-# text = O yeter bana , demiş Güzel .
-1	O	B-NP
-2	yeter	B-VP
-3	bana	B-NP
-4	,	O
-5	demiş	B-VP
-6	Güzel	B-NP
-7	.	O
+# text = Böyle mehtaplı bir gecede komşular kapıyı çalmışlar .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Böyle	B-NP	_	O
+2	mehtaplı	I-NP	_	O
+3	bir	I-NP	_	O
+4	gecede	B-NP	_	O
+5	komşular	I-NP	_	O
+6	kapıyı	I-NP	_	O
+7	çalmışlar	I-NP	_	O
+8	.	O	_	O
 
-# text = Yiyip , içip yatan kız kardeşler , Güzel’e de kötü davranıyorlarmış .
-1	Yiyip	B-VP
-2	,	O
-3	içip	B-VP
-4	yatan	I-VP
-5	kız	B-NP
-6	kardeşler	I-NP
-7	,	O
-8	Güzel’e	B-NP
-9	de	B-ADVP
-10	kötü	B-ADVP
-11	davranıyorlarmış	B-VP
-12	.	O
+# text = Bağdaş kurmuş , yere bakarak oturan istifçi kadındı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bağdaş	B-NP	_	O
+2	kurmuş	B-VP	_	O
+3	,	O	_	O
+4	yere	B-NP	_	O
+5	bakarak	B-VP	_	O
+6	oturan	B-NP	_	O
+7	istifçi	I-NP	_	O
+8	kadındı	B-VP	_	O
+9	.	O	_	O
 
-# text = Saat 9 olmuş fakat Canavar gelmemiş .
-1	Saat	B-NP
-2	9	I-NP
-3	olmuş	B-VP
-4	fakat	O
-5	Canavar	B-NP
-6	gelmemiş	B-VP
-7	.	O
+# text = Fantastik bir filmden , korku filmine geçiş yapmış gibiydim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Fantastik	B-NP	_	O
+2	bir	I-NP	_	O
+3	filmden	I-NP	_	O
+4	,	O	_	O
+5	korku	B-NP	_	O
+6	filmine	I-NP	_	O
+7	geçiş	I-NP	_	O
+8	yapmış	B-VP	_	O
+9	gibiydim	I-VP	_	O
+10	.	O	_	O
+
+# text = Köyün tüm halkı , Melisa'nın bilgelik ve öğrenme sevgisiyle dolu bir kalbe sahip olduğunu gördü ve ona saygı duydu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Köyün	B-NP	_	O
+2	tüm	B-VP	_	O
+3	halkı	B-NP	_	O
+4	,	O	_	O
+5	Melisa'nın	B-NP	_	O
+6	bilgelik	I-NP	_	O
+7	ve	I-NP	_	O
+8	öğrenme	I-NP	_	B-COMPCL
+9	sevgisiyle	I-NP	_	I-COMPCL
+10	dolu	I-NP	_	I-COMPCL
+11	bir	I-NP	_	I-COMPCL
+12	kalbe	I-NP	_	I-COMPCL
+13	sahip	B-VP	_	I-COMPCL
+14	olduğunu	I-VP	_	I-COMPCL
+15	gördü	I-VP	_	O
+16	ve	O	_	O
+17	ona	B-NP	_	O
+18	saygı	B-VP	_	O
+19	duydu	I-VP	_	O
+20	.	O	_	O
+
+# text = Beni takıntı yapmış olmalıydı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Beni	B-NP	_	O
+2	takıntı	B-VP	_	O
+3	yapmış	I-VP	_	O
+4	olmalıydı	I-VP	_	O
+5	.	O	_	O
+
+# text = Tüccarın iki kızı kendilerinden başka bir şey görmezlermiş ve bu yüzden de çok bencillermiş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Tüccarın	B-NP	_	O
+2	iki	I-NP	_	O
+3	kızı	I-NP	_	O
+4	kendilerinden	I-NP	_	O
+5	başka	I-NP	_	O
+6	bir	I-NP	_	O
+7	şey	I-NP	_	O
+8	görmezlermiş	B-VP	_	O
+9	ve	O	_	O
+10	bu	B-NP	_	O
+11	yüzden	I-NP	_	O
+12	de	B-VP	_	O
+13	çok	B-ADVP	_	O
+14	bencillermiş	B-VP	_	O
+15	.	O	_	O
+
+# text = Başka bir üzüm getirmesi istenir .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Başka	B-NP	_	B-COMPCL
+2	bir	I-NP	_	I-COMPCL
+3	üzüm	I-NP	_	I-COMPCL
+4	getirmesi	B-VP	_	I-COMPCL
+5	istenir	B-NP	_	O
+6	.	O	_	O
+
+# text = Bu nedenle de Güzel’in karşısına ağlayarak çıkmışlar ve ondan ayrılmak istemediklerini , biraz daha kalmasını istediklerini söylemişler .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bu	B-NP	_	O
+2	nedenle	I-NP	_	O
+3	de	B-VP	_	O
+4	Güzel’in	B-NP	_	O
+5	karşısına	I-NP	_	O
+6	ağlayarak	B-VP	_	O
+7	çıkmışlar	B-NP	_	O
+8	ve	I-NP	_	O
+9	ondan	I-NP	_	B-COMPCL
+10	ayrılmak	B-VP	_	I-COMPCL
+11	istemediklerini	B-NP	_	O
+12	,	O	_	O
+13	biraz	B-NP	_	O
+14	daha	B-ADVP	_	B-COMPCL
+15	kalmasını	B-VP	_	I-COMPCL
+16	istediklerini	B-NP	_	O
+17	söylemişler	I-NP	_	O
+18	.	O	_	O
+
+# text = Melisa çaresiz ve hüzünlüydü .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Melisa	B-VP	_	O
+2	çaresiz	B-NP	_	O
+3	ve	O	_	O
+4	hüzünlüydü	B-VP	_	O
+5	.	O	_	O
+
+# text = Kadın sanki bizim dünyamızdan değil gibi davranıyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kadın	B-NP	_	O
+2	sanki	I-NP	_	O
+3	bizim	I-NP	_	O
+4	dünyamızdan	I-NP	_	O
+5	değil	B-VP	_	O
+6	gibi	B-NP	_	O
+7	davranıyordu	B-VP	_	O
+8	.	O	_	O
+
+# text = - Sen bugüne kadar yaptığın yanlışlardan dolayı hiç özür diledin mi ki şimdi özür bekliyorsun ?
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Sen	I-NP	_	O
+3	bugüne	I-NP	_	O
+4	kadar	B-ADVP	_	O
+5	yaptığın	B-NP	_	O
+6	yanlışlardan	I-NP	_	O
+7	dolayı	I-NP	_	O
+8	hiç	I-NP	_	O
+9	özür	I-NP	_	O
+10	diledin	I-NP	_	O
+11	mi	I-NP	_	O
+12	ki	O	_	O
+13	şimdi	B-VP	_	O
+14	özür	B-NP	_	O
+15	bekliyorsun	I-NP	_	O
+16	?	O	_	O
+
+# text = O vakit ihtiyar anlattı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	O	B-NP	_	O
+2	vakit	I-NP	_	O
+3	ihtiyar	I-NP	_	O
+4	anlattı	B-VP	_	O
+5	.	O	_	O
+
+# text = Bu güzel kızın namı ülkenin dört bir köşesine yayılır .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bu	B-NP	_	O
+2	güzel	I-NP	_	O
+3	kızın	I-NP	_	O
+4	namı	I-NP	_	O
+5	ülkenin	I-NP	_	O
+6	dört	I-NP	_	O
+7	bir	I-NP	_	O
+8	köşesine	I-NP	_	O
+9	yayılır	I-NP	_	O
+10	.	O	_	O
+
+# text = Yapmadım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yapmadım	B-VP	_	O
+2	.	O	_	O
+
+# text = “ Belki de tam olarak bu şekilde olmuştur . ” dedim ve sonra “ Ama size şu kadarını söyleyebilirim ki özellikle altı kişilik bir ekip oluşturma amacı gütmemiştim . ” diye ekledim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	“	O	_	O
+2	Belki	B-ADVP	_	O
+3	de	B-VP	_	O
+4	tam	B-NP	_	O
+5	olarak	B-VP	_	O
+6	bu	B-NP	_	O
+7	şekilde	B-NP	_	O
+8	olmuştur	B-VP	_	O
+9	.	O	_	O
+10	”	O	_	O
+11	dedim	B-VP	_	O
+12	ve	O	_	O
+13	sonra	B-ADVP	_	O
+14	“	O	_	O
+15	Ama	O	_	O
+16	size	B-NP	_	O
+17	şu	I-NP	_	O
+18	kadarını	I-NP	_	O
+19	söyleyebilirim	B-VP	_	O
+20	ki	O	_	O
+21	özellikle	B-NP	_	O
+22	altı	B-VP	_	O
+23	kişilik	B-NP	_	O
+24	bir	I-NP	_	O
+25	ekip	B-VP	_	O
+26	oluşturma	I-VP	_	O
+27	amacı	B-NP	_	O
+28	gütmemiştim	B-VP	_	O
+29	.	O	_	O
+30	”	O	_	O
+31	diye	B-ADVP	_	O
+32	ekledim	B-VP	_	O
+33	.	O	_	O
+
+# text = Siyah saçları özenle geriye taranıp kafasına briyantinle iyice yapıştırılmıştı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Siyah	B-NP	_	O
+2	saçları	I-NP	_	O
+3	özenle	I-NP	_	O
+4	geriye	I-NP	_	O
+5	taranıp	B-VP	_	O
+6	kafasına	B-NP	_	O
+7	briyantinle	I-NP	_	O
+8	iyice	B-ADVP	_	O
+9	yapıştırılmıştı	B-VP	_	O
+10	.	O	_	O
+
+# text = Dava ile uğraşmak istemezdim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Dava	B-NP	_	O
+2	ile	O	_	O
+3	uğraşmak	B-VP	_	B-COMPCL
+4	istemezdim	I-VP	_	O
+5	.	O	_	O
+
+# text = Bence , olması gerekende budur .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bence	B-ADVP	_	O
+2	,	O	_	O
+3	olması	B-VP	_	B-COMPCL
+4	gerekende	B-NP	_	O
+5	budur	I-NP	_	O
+6	.	O	_	O
+
+# text = Ola ki kızınız şüpheli bir şey yemiştir .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ola	B-VP	_	O
+2	ki	O	_	O
+3	kızınız	B-NP	_	O
+4	şüpheli	I-NP	_	O
+5	bir	I-NP	_	O
+6	şey	I-NP	_	O
+7	yemiştir	I-NP	_	O
+8	.	O	_	O
+
+# text = Akşamları onun ürkek gölgesine tesadüf edenler olursa " kelime - i şehadet " getirip kaçışırdı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Akşamları	B-NP	_	O
+2	onun	I-NP	_	O
+3	ürkek	I-NP	_	O
+4	gölgesine	I-NP	_	O
+5	tesadüf	I-NP	_	O
+6	edenler	I-NP	_	O
+7	olursa	B-VP	_	O
+8	"	O	_	O
+9	kelime	B-NP	_	O
+10	-	I-NP	_	O
+11	i	I-NP	_	O
+12	şehadet	I-NP	_	O
+13	"	O	_	O
+14	getirip	B-VP	_	O
+15	kaçışırdı	I-VP	_	O
+16	.	O	_	O
+
+# text = Yüzlerce aşk , onlarca ihanet , onlarca nefreti tekrar yaşadık .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yüzlerce	B-ADVP	_	O
+2	aşk	B-NP	_	O
+3	,	O	_	O
+4	onlarca	B-ADVP	_	O
+5	ihanet	B-NP	_	O
+6	,	O	_	O
+7	onlarca	B-ADVP	_	O
+8	nefreti	B-VP	_	O
+9	tekrar	B-ADVP	_	O
+10	yaşadık	B-NP	_	O
+11	.	O	_	O
+
+# text = Başka türlü katlanamazdı ki insan , sevgisiz bir evliliğe .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Başka	B-NP	_	O
+2	türlü	I-NP	_	O
+3	katlanamazdı	B-VP	_	O
+4	ki	O	_	O
+5	insan	B-NP	_	O
+6	,	O	_	O
+7	sevgisiz	B-NP	_	O
+8	bir	I-NP	_	O
+9	evliliğe	I-NP	_	O
+10	.	O	_	O
+
+# text = Duştan çıkıp kızların odasına gittim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Duştan	B-NP	_	O
+2	çıkıp	B-VP	_	O
+3	kızların	B-NP	_	O
+4	odasına	I-NP	_	O
+5	gittim	B-VP	_	O
+6	.	O	_	O
+
+# text = Hem sen , bizim evde başı örtülü biri çalışamaz diye tanıtmadın mı ? ’ dedi sinirle .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Hem	O	_	O
+2	sen	B-NP	_	O
+3	,	O	_	O
+4	bizim	B-NP	_	O
+5	evde	B-NP	_	O
+6	başı	I-NP	_	O
+7	örtülü	I-NP	_	O
+8	biri	I-NP	_	O
+9	çalışamaz	I-NP	_	O
+10	diye	B-ADVP	_	O
+11	tanıtmadın	B-NP	_	O
+12	mı	I-NP	_	O
+13	?	O	_	O
+14	’	O	_	O
+15	dedi	B-VP	_	O
+16	sinirle	B-NP	_	O
+17	.	O	_	O
+
+# text = Kız yolunu şaşırmasın diye yanıma bir torba darı alıp yollara serpeceğim . "
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kız	B-NP	_	O
+2	yolunu	I-NP	_	O
+3	şaşırmasın	I-NP	_	O
+4	diye	B-ADVP	_	O
+5	yanıma	B-NP	_	O
+6	bir	I-NP	_	O
+7	torba	I-NP	_	O
+8	darı	I-NP	_	O
+9	alıp	B-VP	_	O
+10	yollara	B-NP	_	O
+11	serpeceğim	B-VP	_	O
+12	.	O	_	O
+13	"	O	_	O
+
+# text = Zabıtaların neden pis pis güldüklerini o zaman anladım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Zabıtaların	B-NP	_	O
+2	neden	I-NP	_	O
+3	pis	I-NP	_	O
+4	pis	I-NP	_	O
+5	güldüklerini	I-NP	_	O
+6	o	I-NP	_	O
+7	zaman	B-ADVP	_	O
+8	anladım	B-VP	_	O
+9	.	O	_	O
+
+# text = Sakin bir sesle konuşurken mikrobiyoloji profesörümü hatırlıyordum … Okul senelerimi yeniden yaşatıyordu bana .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sakin	B-NP	_	O
+2	bir	I-NP	_	O
+3	sesle	I-NP	_	O
+4	konuşurken	I-NP	_	O
+5	mikrobiyoloji	I-NP	_	O
+6	profesörümü	I-NP	_	O
+7	hatırlıyordum	B-VP	_	O
+8	…	B-NP	_	O
+9	Okul	I-NP	_	O
+10	senelerimi	I-NP	_	O
+11	yeniden	I-NP	_	O
+12	yaşatıyordu	B-VP	_	O
+13	bana	B-NP	_	O
+14	.	O	_	O
+
+# text = Tüccar korkuyla , dizleri titreyerek diz çökmüş ve konuşmuş : - Kızlarımdan biri gül istemişti , ona götürmek istedim efendim , demiş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Tüccar	B-NP	_	O
+2	korkuyla	I-NP	_	O
+3	,	O	_	O
+4	dizleri	B-NP	_	O
+5	titreyerek	B-VP	_	O
+6	diz	B-NP	_	O
+7	çökmüş	B-VP	_	O
+8	ve	O	_	O
+9	konuşmuş	B-VP	_	O
+10	:	O	_	O
+11	-	B-NP	_	O
+12	Kızlarımdan	I-NP	_	O
+13	biri	I-NP	_	O
+14	gül	B-VP	_	O
+15	istemişti	I-VP	_	O
+16	,	O	_	O
+17	ona	B-NP	_	B-COMPCL
+18	götürmek	B-VP	_	I-COMPCL
+19	istedim	I-VP	_	O
+20	efendim	I-VP	_	O
+21	,	O	_	O
+22	demiş	B-VP	_	O
+23	.	O	_	O
+
+# text = Bunun üzerinden çok fazla bir zaman geçmeden de Prens ve Canavar evlenmişler .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bunun	B-NP	_	O
+2	üzerinden	I-NP	_	O
+3	çok	B-ADVP	_	O
+4	fazla	B-NP	_	O
+5	bir	I-NP	_	O
+6	zaman	B-ADVP	_	O
+7	geçmeden	B-NP	_	O
+8	de	B-VP	_	O
+9	Prens	B-NP	_	O
+10	ve	I-NP	_	O
+11	Canavar	I-NP	_	O
+12	evlenmişler	I-NP	_	O
+13	.	O	_	O
 
 # text = Gereksiz masraflara , lüzumsuz harcamalara girişmiş .
-1	Gereksiz	B-ADJP
-2	masraflara	B-NP
-3	,	O
-4	lüzumsuz	B-ADJP
-5	harcamalara	B-NP
-6	girişmiş	B-VP
-7	.	O
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Gereksiz	B-NP	_	O
+2	masraflara	I-NP	_	O
+3	,	O	_	O
+4	lüzumsuz	B-NP	_	O
+5	harcamalara	I-NP	_	O
+6	girişmiş	B-VP	_	O
+7	.	O	_	O
+
+# text = Garip olan şudur ki , Hunter bu devreden hiç çıkmadı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Garip	B-NP	B-RELCL	B-RELCL
+2	olan	I-NP	I-RELCL	I-RELCL
+3	şudur	I-NP	_	O
+4	ki	O	_	O
+5	,	O	_	O
+6	Hunter	B-NP	_	O
+7	bu	I-NP	_	O
+8	devreden	B-VP	_	O
+9	hiç	B-NP	_	O
+10	çıkmadı	B-VP	_	O
+11	.	O	_	O
+
+# text = Üstelik zenginlik seni iyice şımartmıştı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Üstelik	B-NP	_	O
+2	zenginlik	I-NP	_	O
+3	seni	I-NP	_	O
+4	iyice	B-ADVP	_	O
+5	şımartmıştı	B-VP	_	O
+6	.	O	_	O
+
+# text = Adamın tüm bu gizemli konuşmaları içimi ürpertmişti , ama içten içe merakımın kamçılandığını da hissetmiyor değildim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Adamın	B-NP	_	O
+2	tüm	B-VP	_	O
+3	bu	B-NP	_	O
+4	gizemli	I-NP	_	O
+5	konuşmaları	I-NP	_	O
+6	içimi	I-NP	_	O
+7	ürpertmişti	B-VP	_	O
+8	,	O	_	O
+9	ama	O	_	O
+10	içten	B-NP	_	O
+11	içe	B-ADVP	_	B-COMPCL
+12	merakımın	B-NP	_	I-COMPCL
+13	kamçılandığını	B-VP	_	I-COMPCL
+14	da	O	_	O
+15	hissetmiyor	B-VP	_	O
+16	değildim	I-VP	_	O
+17	.	O	_	O
+
+# text = Çocuğum yok , olmuyor .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Çocuğum	B-NP	_	O
+2	yok	I-NP	_	O
+3	,	O	_	O
+4	olmuyor	B-VP	_	O
+5	.	O	_	O
+
+# text = Birbirleriyle konuşan o kalabalık arasında birisi akıl edip ambulansı aramış , ambulans çoktan yola çıkmıştı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Birbirleriyle	B-NP	_	O
+2	konuşan	I-NP	_	O
+3	o	I-NP	_	O
+4	kalabalık	I-NP	_	O
+5	arasında	B-NP	_	O
+6	birisi	I-NP	_	O
+7	akıl	I-NP	_	O
+8	edip	B-VP	_	O
+9	ambulansı	B-NP	_	O
+10	aramış	B-VP	_	O
+11	,	O	_	O
+12	ambulans	B-NP	_	O
+13	çoktan	I-NP	_	O
+14	yola	I-NP	_	O
+15	çıkmıştı	B-VP	_	O
+16	.	O	_	O
+
+# text = Fakat Sakarya ricatinden biraz evvel köye sekiz kişilik bir Kuvayı Milliye gelmiş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Fakat	O	_	O
+2	Sakarya	B-NP	_	O
+3	ricatinden	I-NP	_	O
+4	biraz	I-NP	_	O
+5	evvel	B-ADVP	_	O
+6	köye	B-NP	_	O
+7	sekiz	I-NP	_	O
+8	kişilik	I-NP	_	O
+9	bir	I-NP	_	O
+10	Kuvayı	I-NP	_	O
+11	Milliye	I-NP	_	O
+12	gelmiş	B-VP	_	O
+13	.	O	_	O
+
+# text = Cennet ani bir isyanla çocuğun Şerif Bey'den olduğunu söylemiş , çocuğunu düşürtmek isteyenleri boğacağına yemin etmiş ...
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Cennet	B-NP	_	B-COMPCL
+2	ani	I-NP	_	I-COMPCL
+3	bir	I-NP	_	I-COMPCL
+4	isyanla	I-NP	_	I-COMPCL
+5	çocuğun	I-NP	_	I-COMPCL
+6	Şerif	I-NP	_	I-COMPCL
+7	Bey'den	I-NP	_	I-COMPCL
+8	olduğunu	B-VP	_	I-COMPCL
+9	söylemiş	I-VP	_	O
+10	,	O	_	O
+11	çocuğunu	B-NP	_	B-COMPCL
+12	düşürtmek	B-VP	_	B-COMPCL
+13	isteyenleri	B-NP	_	I-COMPCL
+14	boğacağına	I-NP	_	I-COMPCL
+15	yemin	I-NP	_	O
+16	etmiş	B-VP	_	O
+17	...	O	_	O
+
+# text = Yalan .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yalan	B-NP	_	O
+2	.	O	_	O
+
+# text = Sonra adam ne tepki vereceğimi gözlemlemeye çalışıyormuş gibi gözlerini gözlerime dikti ve kemikli , kocaman ellerini masanın üzerinde birbirine kavuşturup , uzun tırnaklarını birbirine vurarak beklemeye başladı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sonra	B-ADVP	_	O
+2	adam	B-NP	_	O
+3	ne	I-NP	_	O
+4	tepki	I-NP	_	O
+5	vereceğimi	I-NP	_	O
+6	gözlemlemeye	B-VP	_	O
+7	çalışıyormuş	I-VP	_	O
+8	gibi	B-NP	_	O
+9	gözlerini	I-NP	_	O
+10	gözlerime	I-NP	_	O
+11	dikti	B-VP	_	O
+12	ve	O	_	O
+13	kemikli	B-NP	_	O
+14	,	O	_	O
+15	kocaman	B-NP	_	O
+16	ellerini	I-NP	_	O
+17	masanın	I-NP	_	O
+18	üzerinde	B-NP	_	O
+19	birbirine	I-NP	_	O
+20	kavuşturup	B-VP	_	O
+21	,	O	_	O
+22	uzun	B-ADVP	_	O
+23	tırnaklarını	B-NP	_	O
+24	birbirine	I-NP	_	O
+25	vurarak	B-VP	_	O
+26	beklemeye	I-VP	_	O
+27	başladı	I-VP	_	O
+28	.	O	_	O
+
+# text = Tüm hayatımın yalan olduğunu söylüyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Tüm	B-VP	_	B-COMPCL
+2	hayatımın	B-NP	_	I-COMPCL
+3	yalan	I-NP	_	I-COMPCL
+4	olduğunu	B-VP	_	I-COMPCL
+5	söylüyordu	I-VP	_	O
+6	.	O	_	O
+
+# text = Çok garip .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Çok	B-ADVP	_	O
+2	garip	B-VP	_	O
+3	.	O	_	O
+
+# text = Birkaç kişilik dinleyici kitleme hikayeyi anlattım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Birkaç	B-NP	_	O
+2	kişilik	I-NP	_	O
+3	dinleyici	I-NP	_	O
+4	kitleme	I-NP	_	O
+5	hikayeyi	I-NP	_	O
+6	anlattım	B-VP	_	O
+7	.	O	_	O
+
+# text = İstersen ben şu anda bile gidebilirim !
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	İstersen	B-NP	_	O
+2	ben	I-NP	_	O
+3	şu	I-NP	_	O
+4	anda	B-NP	_	O
+5	bile	I-NP	_	O
+6	gidebilirim	B-VP	_	O
+7	!	O	_	O
+
+# text = Her seferinde , Dede Ahmet ona ipucu verdi , ancak cevabı söylemedi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Her	B-NP	_	O
+2	seferinde	B-NP	_	O
+3	,	O	_	O
+4	Dede	B-VP	_	O
+5	Ahmet	B-NP	_	O
+6	ona	I-NP	_	O
+7	ipucu	I-NP	_	O
+8	verdi	B-VP	_	O
+9	,	O	_	O
+10	ancak	O	_	O
+11	cevabı	B-NP	_	O
+12	söylemedi	B-VP	_	O
+13	.	O	_	O
+
+# text = Şehre geleli iki ay olmasına rağmen Mübarek , bahçeye baştan başa farklı bir görünüm kazandırır , ekinler ve meyveler olgunlaşmaya başlar , toprağa bolluk ve bereket gelir .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Şehre	B-NP	_	O
+2	geleli	I-NP	_	O
+3	iki	I-NP	_	O
+4	ay	I-NP	_	O
+5	olmasına	B-VP	_	O
+6	rağmen	B-NP	_	O
+7	Mübarek	I-NP	_	O
+8	,	O	_	O
+9	bahçeye	B-NP	_	O
+10	baştan	I-NP	_	O
+11	başa	I-NP	_	O
+12	farklı	I-NP	_	O
+13	bir	I-NP	_	O
+14	görünüm	I-NP	_	O
+15	kazandırır	I-NP	_	O
+16	,	O	_	O
+17	ekinler	B-NP	_	O
+18	ve	I-NP	_	O
+19	meyveler	I-NP	_	O
+20	olgunlaşmaya	B-VP	_	O
+21	başlar	B-NP	_	O
+22	,	O	_	O
+23	toprağa	B-NP	_	O
+24	bolluk	I-NP	_	O
+25	ve	I-NP	_	O
+26	bereket	I-NP	_	O
+27	gelir	I-NP	_	O
+28	.	O	_	O
+
+# text = Aslında pek de ikna olmasalar da arkadaşlarının sözünü dinleyerek onun peşine takılmışlar .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Aslında	B-NP	_	O
+2	pek	I-NP	_	O
+3	de	B-VP	_	O
+4	ikna	B-NP	_	O
+5	olmasalar	B-VP	_	O
+6	da	O	_	O
+7	arkadaşlarının	B-NP	_	O
+8	sözünü	I-NP	_	O
+9	dinleyerek	B-VP	_	O
+10	onun	B-NP	_	O
+11	peşine	I-NP	_	O
+12	takılmışlar	I-NP	_	O
+13	.	O	_	O
+
+# text = Babamla birlikte yaşıyoruz .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Babamla	B-NP	_	O
+2	birlikte	B-ADVP	_	O
+3	yaşıyoruz	B-NP	_	O
+4	.	O	_	O
+
+# text = Binbir güçlükle kenara çıkmış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Binbir	B-NP	_	O
+2	güçlükle	I-NP	_	O
+3	kenara	I-NP	_	O
+4	çıkmış	B-VP	_	O
+5	.	O	_	O
+
+# text = Bu sefer üzerinde tek parça bir gecelik vardı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Bu	B-NP	_	O
+2	sefer	I-NP	_	O
+3	üzerinde	B-NP	_	O
+4	tek	I-NP	_	O
+5	parça	B-ADVP	_	O
+6	bir	B-NP	_	O
+7	gecelik	I-NP	_	O
+8	vardı	B-VP	_	O
+9	.	O	_	O
+
+# text = Ama onu bu gece size açıklayacağım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ama	O	_	O
+2	onu	B-NP	_	O
+3	bu	I-NP	_	O
+4	gece	B-ADVP	_	O
+5	size	B-NP	_	O
+6	açıklayacağım	B-VP	_	O
+7	.	O	_	O
+
+# text = Ay terasa açılan pencereden bir ışık şelalesi gibi bu mütevazı karanlık odaya akıyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ay	B-NP	B-RELCL	B-RELCL
+2	terasa	I-NP	I-RELCL	I-RELCL
+3	açılan	I-NP	I-RELCL	I-RELCL
+4	pencereden	I-NP	_	O
+5	bir	I-NP	_	O
+6	ışık	I-NP	_	O
+7	şelalesi	I-NP	_	O
+8	gibi	I-NP	_	O
+9	bu	I-NP	_	O
+10	mütevazı	I-NP	_	O
+11	karanlık	I-NP	_	O
+12	odaya	I-NP	_	O
+13	akıyordu	B-VP	_	O
+14	.	O	_	O
+
+# text = Gerçekten hayatı falan olduğum yoktu tabii , Görücü usulü evlendik biz .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Gerçekten	B-NP	_	O
+2	hayatı	B-VP	_	O
+3	falan	B-NP	_	O
+4	olduğum	B-VP	_	O
+5	yoktu	I-VP	_	O
+6	tabii	B-NP	_	O
+7	,	O	_	O
+8	Görücü	B-NP	_	O
+9	usulü	I-NP	_	O
+10	evlendik	I-NP	_	O
+11	biz	I-NP	_	O
+12	.	O	_	O
+
+# text = Yerimden kalkarken , bir önceki doğal duyguların tam tersini hissettim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yerimden	B-NP	_	O
+2	kalkarken	I-NP	_	O
+3	,	O	_	O
+4	bir	B-NP	_	O
+5	önceki	I-NP	_	O
+6	doğal	I-NP	_	O
+7	duyguların	I-NP	_	O
+8	tam	I-NP	_	O
+9	tersini	I-NP	_	O
+10	hissettim	B-VP	_	O
+11	.	O	_	O
+
+# text = Hatta , bekar bir kadın olarak , eve arkadaşları falan da gelmediği için kadından çok memnunmuş apartman .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Hatta	B-NP	_	O
+2	,	O	_	O
+3	bekar	B-NP	_	O
+4	bir	I-NP	_	O
+5	kadın	I-NP	_	O
+6	olarak	B-VP	_	O
+7	,	O	_	O
+8	eve	B-NP	_	O
+9	arkadaşları	I-NP	_	O
+10	falan	I-NP	_	O
+11	da	B-NP	_	O
+12	gelmediği	B-NP	B-RELCL	B-RELCL
+13	için	B-ADVP	_	O
+14	kadından	B-NP	_	O
+15	çok	B-ADVP	_	O
+16	memnunmuş	B-VP	_	O
+17	apartman	B-NP	_	O
+18	.	O	_	O
+
+# text = O zaman kim şikayet etmiş , diye sordum , cevabı oda bilmiyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	O	B-NP	_	O
+2	zaman	B-ADVP	_	O
+3	kim	B-NP	_	O
+4	şikayet	I-NP	_	O
+5	etmiş	B-VP	_	O
+6	,	O	_	O
+7	diye	B-ADVP	_	O
+8	sordum	B-VP	_	O
+9	,	O	_	O
+10	cevabı	B-NP	_	O
+11	oda	B-NP	_	O
+12	bilmiyordu	B-VP	_	O
+13	.	O	_	O
+
+# text = İmansız gitmeye , ebediyen yanmaya mahkûm bir bedbahttı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	İmansız	B-NP	_	O
+2	gitmeye	B-VP	_	O
+3	,	O	_	O
+4	ebediyen	B-NP	_	O
+5	yanmaya	B-VP	_	O
+6	mahkûm	B-NP	_	O
+7	bir	I-NP	_	O
+8	bedbahttı	B-VP	_	O
+9	.	O	_	O
+
+# text = Sabah işe giderken , yolumun üzerinde olmamasına rağmen onun sokağından geçmeye başladım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sabah	B-ADVP	_	O
+2	işe	B-NP	_	O
+3	giderken	I-NP	_	O
+4	,	O	_	O
+5	yolumun	B-NP	_	O
+6	üzerinde	B-NP	_	O
+7	olmamasına	B-VP	_	O
+8	rağmen	B-NP	_	O
+9	onun	I-NP	_	O
+10	sokağından	I-NP	_	O
+11	geçmeye	B-VP	_	O
+12	başladım	I-VP	_	O
+13	.	O	_	O
+
+# text = Onun duygularına değer vermeli ve her şeyden önemlisi incittiğin kalbi onarmak için çaba göstermelisin .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Onun	B-NP	_	O
+2	duygularına	I-NP	_	O
+3	değer	B-VP	_	O
+4	vermeli	I-VP	_	O
+5	ve	O	_	O
+6	her	B-NP	_	B-COMPCL
+7	şeyden	I-NP	_	I-COMPCL
+8	önemlisi	I-NP	_	I-COMPCL
+9	incittiğin	I-NP	_	I-COMPCL
+10	kalbi	I-NP	_	I-COMPCL
+11	onarmak	B-VP	_	I-COMPCL
+12	için	B-ADVP	_	O
+13	çaba	B-NP	_	O
+14	göstermelisin	I-NP	_	O
+15	.	O	_	O
+
+# text = Ne de olsa ben bir polistim , şikayetleri göz ardı edemezdim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ne	B-NP	_	O
+2	de	B-VP	_	O
+3	olsa	I-VP	_	O
+4	ben	B-NP	_	O
+5	bir	I-NP	_	O
+6	polistim	B-VP	_	O
+7	,	O	_	O
+8	şikayetleri	B-NP	_	O
+9	göz	I-NP	_	O
+10	ardı	B-VP	_	O
+11	edemezdim	I-VP	_	O
+12	.	O	_	O
+
+# text = Hiç olmazsa kendini başkalarından üstün görme hastalığından kurtulursun . "
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Hiç	B-NP	_	O
+2	olmazsa	B-VP	_	O
+3	kendini	B-NP	_	O
+4	başkalarından	I-NP	_	O
+5	üstün	I-NP	_	O
+6	görme	I-NP	_	O
+7	hastalığından	I-NP	_	O
+8	kurtulursun	I-NP	_	O
+9	.	O	_	O
+10	"	O	_	O
+
+# text = Başına gelenleri anlatmış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Başına	B-NP	_	O
+2	gelenleri	I-NP	_	O
+3	anlatmış	B-VP	_	O
+4	.	O	_	O
+
+# text = Yerin yüzlerce metre altındaki o bunaltıcı mezarda bulunduğum sırada hissetmiş olduğum iç sıkıntısının etkisinden midir bilmem , o akşam terastaki masalardan birine oturmayı tercih ettim ve beklerken , izlediğim şehrin ışıklarının karmaşası karşında , aklımdaki gelecek planlarını belli bir düzene oturtmaya çalıştım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yerin	B-NP	_	O
+2	yüzlerce	B-ADVP	_	O
+3	metre	B-NP	_	O
+4	altındaki	I-NP	_	O
+5	o	I-NP	_	O
+6	bunaltıcı	I-NP	_	O
+7	mezarda	B-NP	_	O
+8	bulunduğum	I-NP	_	O
+9	sırada	B-NP	_	O
+10	hissetmiş	B-VP	_	O
+11	olduğum	I-VP	_	O
+12	iç	B-NP	_	O
+13	sıkıntısının	I-NP	_	O
+14	etkisinden	B-VP	_	O
+15	midir	B-NP	_	O
+16	bilmem	I-NP	_	O
+17	,	O	_	O
+18	o	B-NP	_	O
+19	akşam	B-ADVP	_	B-COMPCL
+20	terastaki	B-NP	_	I-COMPCL
+21	masalardan	I-NP	_	I-COMPCL
+22	birine	I-NP	_	I-COMPCL
+23	oturmayı	B-VP	_	I-COMPCL
+24	tercih	B-NP	_	O
+25	ettim	B-VP	_	O
+26	ve	O	_	O
+27	beklerken	B-NP	_	O
+28	,	O	_	O
+29	izlediğim	B-NP	_	O
+30	şehrin	I-NP	_	O
+31	ışıklarının	I-NP	_	O
+32	karmaşası	I-NP	_	O
+33	karşında	B-NP	_	O
+34	,	O	_	O
+35	aklımdaki	B-NP	_	O
+36	gelecek	B-VP	_	O
+37	planlarını	B-NP	_	O
+38	belli	I-NP	_	O
+39	bir	I-NP	_	O
+40	düzene	I-NP	_	O
+41	oturtmaya	B-VP	_	O
+42	çalıştım	I-VP	_	O
+43	.	O	_	O
+
+# text = Beni parmak ile göstermenize neden olacak tek bir özelliğim bile yok .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Beni	B-NP	_	B-COMPCL
+2	parmak	B-VP	_	I-COMPCL
+3	ile	O	_	O
+4	göstermenize	B-NP	_	O
+5	neden	I-NP	_	O
+6	olacak	B-VP	_	O
+7	tek	B-NP	_	O
+8	bir	I-NP	_	O
+9	özelliğim	I-NP	_	O
+10	bile	I-NP	_	O
+11	yok	I-NP	_	O
+12	.	O	_	O
+
+# text = Salonda da onun için hazırlanmış yine çok güzel bir kahvaltı varmış .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Salonda	B-NP	_	O
+2	da	B-NP	_	O
+3	onun	I-NP	_	O
+4	için	B-ADVP	_	O
+5	hazırlanmış	B-VP	_	O
+6	yine	B-ADVP	_	O
+7	çok	I-ADVP	_	O
+8	güzel	B-NP	_	O
+9	bir	I-NP	_	O
+10	kahvaltı	B-VP	_	O
+11	varmış	I-VP	_	O
+12	.	O	_	O
+
+# text = Böylece , Melisa'nın masalı , bilgi ve öğrenme arzusunun bir kapı açtığı ve onu bilgelik yolunda ilerlettiği güzel bir öyküydü .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Böylece	B-ADVP	_	O
+2	,	O	_	O
+3	Melisa'nın	B-NP	_	O
+4	masalı	I-NP	_	O
+5	,	O	_	O
+6	bilgi	B-NP	_	O
+7	ve	I-NP	_	O
+8	öğrenme	I-NP	_	O
+9	arzusunun	I-NP	_	O
+10	bir	I-NP	_	O
+11	kapı	I-NP	_	O
+12	açtığı	I-NP	_	O
+13	ve	I-NP	_	O
+14	onu	I-NP	_	O
+15	bilgelik	I-NP	_	O
+16	yolunda	B-NP	_	O
+17	ilerlettiği	I-NP	_	O
+18	güzel	I-NP	_	O
+19	bir	I-NP	_	O
+20	öyküydü	B-VP	_	O
+21	.	O	_	O
+
+# text = Gündüzleri sıradan evrak işleri yaparım , bazı geceler devriyeye çıkarım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Gündüzleri	B-NP	_	O
+2	sıradan	I-NP	_	O
+3	evrak	I-NP	_	O
+4	işleri	I-NP	_	O
+5	yaparım	B-VP	_	O
+6	,	O	_	O
+7	bazı	B-NP	_	O
+8	geceler	I-NP	_	O
+9	devriyeye	B-VP	_	O
+10	çıkarım	I-VP	_	O
+11	.	O	_	O
+
+# text = Kızarmış yüzünde sürekli değişip duran anlamsız ifadelerine , konuşmakta güçlük çekmesine ve bizlere boş boş bakan baygın gözlerine bakılacak olursa buraya gelebilmek için bir içki masasındaki heyecanlı bir sohbeti yarıda bırakmak zorunda kalmış olması kuvvetle muhtemeldi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kızarmış	B-VP	_	O
+2	yüzünde	B-NP	_	O
+3	sürekli	B-ADVP	_	O
+4	değişip	B-VP	_	O
+5	duran	B-NP	_	O
+6	anlamsız	I-NP	_	O
+7	ifadelerine	I-NP	_	O
+8	,	O	_	O
+9	konuşmakta	B-NP	_	O
+10	güçlük	I-NP	_	O
+11	çekmesine	I-NP	_	O
+12	ve	I-NP	_	O
+13	bizlere	B-NP	B-RELCL	B-COMPCL
+14	boş	I-NP	I-RELCL	B-COMPCL
+15	boş	I-NP	I-RELCL	B-COMPCL
+16	bakan	I-NP	I-RELCL	B-COMPCL
+17	baygın	I-NP	_	I-COMPCL
+18	gözlerine	I-NP	_	I-COMPCL
+19	bakılacak	B-VP	_	I-COMPCL
+20	olursa	I-VP	_	I-COMPCL
+21	buraya	B-NP	_	I-COMPCL
+22	gelebilmek	B-VP	_	I-COMPCL
+23	için	B-ADVP	_	B-COMPCL
+24	bir	B-NP	_	B-COMPCL
+25	içki	I-NP	_	B-COMPCL
+26	masasındaki	I-NP	_	B-COMPCL
+27	heyecanlı	I-NP	_	B-COMPCL
+28	bir	I-NP	_	B-COMPCL
+29	sohbeti	B-VP	_	B-COMPCL
+30	yarıda	B-NP	_	B-COMPCL
+31	bırakmak	B-VP	_	B-COMPCL
+32	zorunda	B-NP	_	I-COMPCL
+33	kalmış	B-VP	_	I-COMPCL
+34	olması	I-VP	_	I-COMPCL
+35	kuvvetle	B-NP	_	O
+36	muhtemeldi	B-VP	_	O
+37	.	O	_	O
+
+# text = Ayhan parmaklarını bir bulaşık telini andıran saçlarının içinde gezdirerek , dikkatini bana vermeye çalışıyordu ve bunu yaparken oldukça zorlanıyormuş gibi görünüyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ayhan	B-NP	_	O
+2	parmaklarını	I-NP	_	O
+3	bir	I-NP	_	O
+4	bulaşık	I-NP	_	O
+5	telini	I-NP	_	O
+6	andıran	I-NP	_	O
+7	saçlarının	I-NP	_	O
+8	içinde	B-NP	_	O
+9	gezdirerek	B-VP	_	O
+10	,	O	_	O
+11	dikkatini	B-NP	_	O
+12	bana	I-NP	_	O
+13	vermeye	B-VP	_	O
+14	çalışıyordu	I-VP	_	O
+15	ve	O	_	O
+16	bunu	B-NP	_	O
+17	yaparken	I-NP	_	O
+18	oldukça	B-VP	_	O
+19	zorlanıyormuş	I-VP	_	O
+20	gibi	B-NP	_	O
+21	görünüyordu	B-VP	_	O
+22	.	O	_	O
+
+# text = “ Neden yedi ya da beş değil de altı gün acaba ? ” diye kendi kendine mırıldandı Dilek .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	“	O	_	O
+2	Neden	B-NP	_	O
+3	yedi	B-VP	_	O
+4	ya	O	_	O
+5	da	O	_	O
+6	beş	B-NP	_	O
+7	değil	B-VP	_	O
+8	de	I-VP	_	O
+9	altı	I-VP	_	O
+10	gün	B-ADVP	_	O
+11	acaba	B-NP	_	O
+12	?	O	_	O
+13	”	O	_	O
+14	diye	B-ADVP	_	O
+15	kendi	B-VP	_	O
+16	kendine	B-NP	_	O
+17	mırıldandı	B-VP	_	O
+18	Dilek	B-NP	_	O
+19	.	O	_	O
+
+# text = Tüm gün sürüyor , defalarca sevişiyoruz .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Tüm	B-VP	_	O
+2	gün	B-ADVP	_	O
+3	sürüyor	B-VP	_	O
+4	,	O	_	O
+5	defalarca	B-VP	_	O
+6	sevişiyoruz	B-NP	_	O
+7	.	O	_	O
+
+# text = Kafamın içinde sanki bir misafir ağırlıyorumdum .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kafamın	B-NP	_	O
+2	içinde	B-NP	_	O
+3	sanki	I-NP	_	O
+4	bir	I-NP	_	O
+5	misafir	I-NP	_	O
+6	ağırlıyorumdum	B-VP	_	O
+7	.	O	_	O
+
+# text = Evliliğim bile kişisel bir durum olmadı benim için .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Evliliğim	B-NP	_	O
+2	bile	I-NP	_	O
+3	kişisel	I-NP	_	O
+4	bir	I-NP	_	O
+5	durum	B-VP	_	O
+6	olmadı	I-VP	_	O
+7	benim	B-NP	_	O
+8	için	B-ADVP	_	O
+9	.	O	_	O
+
+# text = Her sabah , her akşam o binayı göz ucuyla süzdüm .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Her	B-NP	_	O
+2	sabah	B-ADVP	_	O
+3	,	O	_	O
+4	her	B-NP	_	O
+5	akşam	B-ADVP	_	O
+6	o	B-NP	_	O
+7	binayı	I-NP	_	O
+8	göz	I-NP	_	O
+9	ucuyla	I-NP	_	O
+10	süzdüm	B-VP	_	O
+11	.	O	_	O
+
+# text = Kaba vücut hatlarının iriliği ile kendini nazik göstermeye gayret ettiği davranışları birbiriyle aleni bir tezat oluşturuyordu ; öyle ki o an yüzümdeki sahte gülümseme benim üzerimde ne kadar eğreti duruyorsa , bu adamın nezaketi de kendi üzerinde o kadar eğreti duruyordu .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kaba	B-NP	_	O
+2	vücut	I-NP	_	O
+3	hatlarının	I-NP	_	O
+4	iriliği	I-NP	_	O
+5	ile	I-NP	_	O
+6	kendini	I-NP	_	O
+7	nazik	I-NP	_	O
+8	göstermeye	B-VP	_	O
+9	gayret	B-NP	_	O
+10	ettiği	B-VP	_	O
+11	davranışları	B-NP	_	O
+12	birbiriyle	I-NP	_	O
+13	aleni	I-NP	_	O
+14	bir	I-NP	_	O
+15	tezat	I-NP	_	O
+16	oluşturuyordu	B-VP	_	O
+17	;	O	_	O
+18	öyle	B-ADVP	_	O
+19	ki	O	_	O
+20	o	B-NP	_	O
+21	an	I-NP	_	O
+22	yüzümdeki	I-NP	_	O
+23	sahte	B-NP	_	O
+24	gülümseme	I-NP	_	O
+25	benim	I-NP	_	O
+26	üzerimde	B-NP	_	O
+27	ne	I-NP	_	O
+28	kadar	B-ADVP	_	O
+29	eğreti	B-VP	_	O
+30	duruyorsa	I-VP	_	O
+31	,	O	_	O
+32	bu	B-NP	_	O
+33	adamın	I-NP	_	O
+34	nezaketi	B-VP	_	O
+35	de	I-VP	_	O
+36	kendi	I-VP	_	O
+37	üzerinde	B-NP	_	O
+38	o	I-NP	_	O
+39	kadar	B-ADVP	_	O
+40	eğreti	B-VP	_	O
+41	duruyordu	I-VP	_	O
+42	.	O	_	O
+
+# text = Evin içinde yolumu kaybetmeden istifçiyi aramaya çalışıyordum .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Evin	B-NP	_	O
+2	içinde	B-NP	_	O
+3	yolumu	I-NP	_	O
+4	kaybetmeden	I-NP	_	O
+5	istifçiyi	I-NP	_	O
+6	aramaya	B-VP	_	O
+7	çalışıyordum	I-VP	_	O
+8	.	O	_	O
+
+# text = Hayır , yalandı bunlar .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Hayır	B-NP	_	O
+2	,	O	_	O
+3	yalandı	B-VP	_	O
+4	bunlar	B-NP	_	O
+5	.	O	_	O
+
+# text = - Buraya kendi isteğinle geldin öyle değil mi ? , diye sormuş Güzel’e .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Buraya	I-NP	_	O
+3	kendi	B-VP	_	O
+4	isteğinle	B-NP	_	O
+5	geldin	I-NP	_	O
+6	öyle	B-ADVP	_	O
+7	değil	B-VP	_	O
+8	mi	B-NP	_	O
+9	?	O	_	O
+10	,	O	_	O
+11	diye	B-ADVP	_	O
+12	sormuş	B-VP	_	O
+13	Güzel’e	B-NP	_	O
+14	.	O	_	O
+
+# text = - Gittiğinde artık dönmeyeceğini düşündüm ve hiçbir şey yiyemedim , hiçbir şey içemedim .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Gittiğinde	B-NP	_	O
+3	artık	B-ADVP	_	O
+4	dönmeyeceğini	B-NP	_	O
+5	düşündüm	B-VP	_	O
+6	ve	O	_	O
+7	hiçbir	B-NP	_	O
+8	şey	I-NP	_	O
+9	yiyemedim	B-VP	_	O
+10	,	O	_	O
+11	hiçbir	B-NP	_	O
+12	şey	I-NP	_	O
+13	içemedim	B-VP	_	O
+14	.	O	_	O
+
+# text = derken , gerek konuşmasıyla gerek hal ve hareketleriyle , panik atak nöbeti geçiren birinden farksızdı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	derken	B-VP	_	O
+2	,	O	_	O
+3	gerek	B-VP	_	O
+4	konuşmasıyla	B-NP	_	O
+5	gerek	B-VP	_	O
+6	hal	B-NP	_	O
+7	ve	I-NP	_	O
+8	hareketleriyle	I-NP	_	O
+9	,	O	_	O
+10	panik	B-NP	_	O
+11	atak	I-NP	_	O
+12	nöbeti	B-VP	_	O
+13	geçiren	B-NP	_	O
+14	birinden	I-NP	_	O
+15	farksızdı	B-VP	_	O
+16	.	O	_	O
+
+# text = Ahırdan biraz uzaklaştıktan sonra bazı tehlikelerle yüzleşmişler .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ahırdan	B-NP	_	O
+2	biraz	I-NP	_	O
+3	uzaklaştıktan	I-NP	_	O
+4	sonra	B-ADVP	_	O
+5	bazı	B-NP	_	O
+6	tehlikelerle	I-NP	_	O
+7	yüzleşmişler	I-NP	_	O
+8	.	O	_	O
+
+# text = Sonunda eliyle pat pat diye divana vurarak beni yanına davet etti .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Sonunda	B-NP	_	O
+2	eliyle	I-NP	_	O
+3	pat	I-NP	_	O
+4	pat	I-NP	_	O
+5	diye	B-ADVP	_	O
+6	divana	B-NP	_	O
+7	vurarak	B-VP	_	O
+8	beni	B-NP	_	O
+9	yanına	I-NP	_	O
+10	davet	I-NP	_	O
+11	etti	B-VP	_	O
+12	.	O	_	O
+
+# text = Hep birlikte eve geri dönmüşler .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Hep	B-ADVP	_	O
+2	birlikte	I-ADVP	_	O
+3	eve	B-NP	_	O
+4	geri	I-NP	_	O
+5	dönmüşler	I-NP	_	O
+6	.	O	_	O
+
+# text = Yattığım divandan kalkıp odada volta atmaya başladım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yattığım	B-NP	_	O
+2	divandan	I-NP	_	O
+3	kalkıp	B-VP	_	O
+4	odada	B-NP	_	O
+5	volta	B-NP	_	O
+6	atmaya	B-VP	_	O
+7	başladım	I-VP	_	O
+8	.	O	_	O
+
+# text = Kafamın içinde vücudu hakkında tek bir detay bile kalmamıştı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Kafamın	B-NP	_	O
+2	içinde	B-NP	_	O
+3	vücudu	B-VP	_	O
+4	hakkında	B-NP	_	O
+5	tek	I-NP	_	O
+6	bir	I-NP	_	O
+7	detay	B-VP	_	O
+8	bile	B-NP	_	O
+9	kalmamıştı	B-VP	_	O
+10	.	O	_	O
+
+# text = Güzel ; - Canavar , ben seni seviyorum ve seninle evlenmek istiyorum !
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Güzel	B-ADJP	_	O
+2	;	O	_	O
+3	-	B-NP	_	O
+4	Canavar	I-NP	_	O
+5	,	O	_	O
+6	ben	B-NP	_	O
+7	seni	I-NP	_	O
+8	seviyorum	I-NP	_	O
+9	ve	I-NP	_	O
+10	seninle	I-NP	_	B-COMPCL
+11	evlenmek	B-VP	_	I-COMPCL
+12	istiyorum	B-NP	_	O
+13	!	O	_	O
+
+# text = Daha sonra Peri , elindeki sihirli değneği sallamış ve bir anda herkes , Prens’in şatosunda bulmuşlar kendilerini .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Daha	B-ADVP	_	O
+2	sonra	I-ADVP	_	O
+3	Peri	B-NP	_	O
+4	,	O	_	O
+5	elindeki	B-NP	_	O
+6	sihirli	I-NP	_	O
+7	değneği	B-VP	_	O
+8	sallamış	I-VP	_	O
+9	ve	O	_	O
+10	bir	B-NP	_	O
+11	anda	B-NP	_	O
+12	herkes	I-NP	_	O
+13	,	O	_	O
+14	Prens’in	B-NP	_	O
+15	şatosunda	B-NP	_	O
+16	bulmuşlar	I-NP	_	O
+17	kendilerini	I-NP	_	O
+18	.	O	_	O
+
+# text = ‘ Demek istediğim belli .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	‘	O	_	O
+2	Demek	B-VP	_	B-COMPCL
+3	istediğim	B-NP	_	O
+4	belli	I-NP	_	O
+5	.	O	_	O
+
+# text = - Bu şato bana acıyan bir varlığa ait sanırım , keşke ona bir teşekkür edebilsem ! , diye düşünmüş .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	-	B-NP	_	O
+2	Bu	I-NP	_	O
+3	şato	I-NP	_	O
+4	bana	I-NP	_	O
+5	acıyan	I-NP	_	O
+6	bir	I-NP	_	O
+7	varlığa	I-NP	_	O
+8	ait	I-NP	_	O
+9	sanırım	B-VP	_	O
+10	,	O	_	O
+11	keşke	B-NP	_	O
+12	ona	I-NP	_	O
+13	bir	I-NP	_	O
+14	teşekkür	I-NP	_	O
+15	edebilsem	I-NP	_	O
+16	!	O	_	O
+17	,	O	_	O
+18	diye	B-ADVP	_	O
+19	düşünmüş	B-VP	_	O
+20	.	O	_	O
+
+# text = Eğer sen benimle evlenmek istediğini dile getirmeseydin ben ömrümün sonuna kadar o bedende hapis kalacaktım .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Eğer	B-NP	_	B-COMPCL
+2	sen	I-NP	_	B-COMPCL
+3	benimle	I-NP	_	B-COMPCL
+4	evlenmek	B-VP	_	B-COMPCL
+5	istediğini	I-VP	_	I-COMPCL
+6	dile	B-NP	_	O
+7	getirmeseydin	I-NP	_	O
+8	ben	I-NP	_	O
+9	ömrümün	I-NP	_	O
+10	sonuna	I-NP	_	O
+11	kadar	B-ADVP	_	O
+12	o	B-NP	_	O
+13	bedende	B-NP	_	O
+14	hapis	I-NP	_	O
+15	kalacaktım	B-VP	_	O
+16	.	O	_	O
+
+# text = Ne kadının bakışları , ne de işini gayet iyi bilir gibi görünen bir avukat olması karımı onun çıplaklığı kadar ilgilendirmedi .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Ne	B-NP	_	O
+2	kadının	I-NP	_	O
+3	bakışları	I-NP	_	O
+4	,	O	_	O
+5	ne	B-NP	_	O
+6	de	B-VP	_	O
+7	işini	B-NP	_	B-COMPCL
+8	gayet	I-NP	_	I-COMPCL
+9	iyi	I-NP	_	I-COMPCL
+10	bilir	I-NP	_	I-COMPCL
+11	gibi	I-NP	_	I-COMPCL
+12	görünen	I-NP	_	I-COMPCL
+13	bir	I-NP	_	I-COMPCL
+14	avukat	I-NP	_	I-COMPCL
+15	olması	B-VP	_	I-COMPCL
+16	karımı	B-NP	_	O
+17	onun	I-NP	_	O
+18	çıplaklığı	I-NP	_	O
+19	kadar	B-ADVP	_	O
+20	ilgilendirmedi	B-VP	_	O
+21	.	O	_	O
+
+# text = Yine büyük bir hasır sepet içinde çeşit çeşit örümcekleri besliyordu ki , bu örümcekler durmadan birbirlerini yiyorlardı .
+# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE
+1	Yine	B-ADVP	_	O
+2	büyük	B-NP	_	O
+3	bir	I-NP	_	O
+4	hasır	I-NP	_	O
+5	sepet	I-NP	_	O
+6	içinde	B-NP	_	O
+7	çeşit	I-NP	_	O
+8	çeşit	I-NP	_	O
+9	örümcekleri	I-NP	_	O
+10	besliyordu	B-VP	_	O
+11	ki	O	_	O
+12	,	O	_	O
+13	bu	B-NP	_	O
+14	örümcekler	I-NP	_	O
+15	durmadan	I-NP	_	O
+16	birbirlerini	I-NP	_	O
+17	yiyorlardı	B-VP	_	O
+18	.	O	_	O

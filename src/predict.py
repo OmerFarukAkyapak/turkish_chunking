@@ -21,12 +21,21 @@ def main() -> None:
         model = pickle.load(f)
 
     tokens = simple_tokenize(args.text)
-    dummy_sent = [(tok, "O") for tok in tokens]
-    pred = model.predict_single(sent2features(dummy_sent))
+    dummy_sent = [(tok, "O", "_", "O") for tok in tokens]
+    features = sent2features(dummy_sent)
+    if isinstance(model, dict):
+        pred_outer = model["outer"].predict_single(features)
+        pred_inner = model["inner"].predict_single(features)
+        pred_clause = model["clause"].predict_single(features)
+    else:
+        pred_outer = model.predict_single(features)
+        pred_inner = ["_"] * len(tokens)
+        pred_clause = ["O"] * len(tokens)
 
     print(f"# text = {args.text}")
-    for i, (tok, label) in enumerate(zip(tokens, pred), start=1):
-        print(f"{i}\t{tok}\t{label}")
+    print("# columns = ID FORM CHUNK-OUTER CHUNK-INNER CLAUSE")
+    for i, (tok, outer, inner, clause) in enumerate(zip(tokens, pred_outer, pred_inner, pred_clause), start=1):
+        print(f"{i}\t{tok}\t{outer}\t{inner}\t{clause}")
 
 
 if __name__ == "__main__":
