@@ -47,6 +47,8 @@ Ana chunk etiketlerinin veri setindeki dağılımı aşağıdaki gibidir:
 
 İç içe öbek ve yan cümle bilgisi için ayrıca `CHUNK-INNER` ve `CLAUSE` kolonları kullanılmıştır. Bu kolonlarda göreli yan cümleler `RELCL`, tümleç yan cümleleri ise `COMPCL` etiketleriyle gösterilmiştir.
 
+![Veri seti etiket dağılımı](../results/dataset_distribution.png)
+
 ## 3. Benzer Çalışmalar
 
 Chunking ve genel olarak sequence labeling problemleri için literatürde Hidden Markov Model (HMM), Maximum Entropy Markov Model, Conditional Random Fields (CRF), destek vektör makineleri ve daha yeni çalışmalarda BiLSTM-CRF veya transformer tabanlı modeller kullanılmaktadır. Bu yöntemlerin ortak noktası, cümleyi token dizisi olarak ele alıp her token için bir etiket üretmeleridir. Chunking özelinde amaç, yalnızca tek tek token sınıflarını değil, aynı zamanda öbek sınırlarını da doğru yakalamaktır.
