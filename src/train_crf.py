@@ -10,7 +10,13 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, ConfusionMatrixDisplay
+from sklearn.metrics import (
+    accuracy_score,
+    classification_report,
+    confusion_matrix,
+    ConfusionMatrixDisplay,
+    precision_recall_fscore_support,
+)
 import sklearn_crfsuite
 from sklearn_crfsuite import metrics as crf_metrics
 
@@ -32,7 +38,32 @@ def make_crf() -> sklearn_crfsuite.CRF:
     )
 
 
-def train_column(X_train, train_sents, X_test, test_sents, column: str) -> tuple[sklearn_crfsuite.CRF, dict, str, list, list, list[str]]:
+def per_class_metrics(flat_true: list[str], flat_pred: list[str], labels: list[str]) -> list[dict]:
+    precision, recall, f1, support = precision_recall_fscore_support(
+        flat_true,
+        flat_pred,
+        labels=labels,
+        zero_division=0,
+    )
+    total = len(flat_true)
+    rows = []
+    for idx, label in enumerate(labels):
+        tp = sum(true == label and pred == label for true, pred in zip(flat_true, flat_pred))
+        tn = sum(true != label and pred != label for true, pred in zip(flat_true, flat_pred))
+        rows.append(
+            {
+                "label": label,
+                "precision": float(precision[idx]),
+                "recall": float(recall[idx]),
+                "f1": float(f1[idx]),
+                "accuracy": float((tp + tn) / total) if total else 0.0,
+                "support": int(support[idx]),
+            }
+        )
+    return rows
+
+
+def train_column(X_train, train_sents, X_test, test_sents, column: str) -> tuple[sklearn_crfsuite.CRF, dict, str, list, list, list[str], list[dict]]:
     y_train = [sent2labels(s, column=column) for s in train_sents]
     y_test = [sent2labels(s, column=column) for s in test_sents]
 
@@ -51,7 +82,27 @@ def train_column(X_train, train_sents, X_test, test_sents, column: str) -> tuple
         "weighted_f1": crf_metrics.flat_f1_score(y_test, y_pred, average="weighted", labels=labels),
     }
     report = classification_report(flat_true, flat_pred, labels=labels, digits=4, zero_division=0)
-    return crf, metrics, report, y_test, y_pred, labels
+    return crf, metrics, report, y_test, y_pred, labels, per_class_metrics(flat_true, flat_pred, labels)
+
+
+def save_confusion_matrix(y_test: list[list[str]], y_pred: list[list[str]], labels: list[str], output_path: Path, title: str) -> None:
+    flat_true = flatten(y_test)
+    flat_pred = flatten(y_pred)
+    cm = confusion_matrix(flat_true, flat_pred, labels=labels)
+    fig, ax = plt.subplots(figsize=(12, 10))
+    fig.patch.set_facecolor("white")
+    ax.set_facecolor("white")
+    white_to_green = LinearSegmentedColormap.from_list("white_to_green", ["#ffffff", "#005a32"])
+    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels)
+    disp.plot(ax=ax, cmap=white_to_green, xticks_rotation=45, values_format="d", colorbar=True)
+    for text in disp.text_.ravel():
+        text.set_color("black")
+    if disp.im_.colorbar:
+        disp.im_.colorbar.set_label("Token count")
+    ax.set_title(title)
+    fig.tight_layout()
+    fig.savefig(output_path, dpi=200)
+    plt.close(fig)
 
 
 def main() -> None:
@@ -75,15 +126,17 @@ def main() -> None:
     column_results = {}
     reports = {}
     predictions = {}
+    per_class_results = {}
 
     for column in ["outer", "inner", "clause"]:
-        crf, column_metrics, report, y_test, y_pred, labels = train_column(
+        crf, column_metrics, report, y_test, y_pred, labels, class_rows = train_column(
             X_train, train_sents, X_test, test_sents, column
         )
         models[column] = crf
         column_results[column] = column_metrics
         reports[column] = report
         predictions[column] = (y_test, y_pred, labels)
+        per_class_results[column] = class_rows
 
     metrics = {
         **column_results["outer"],
@@ -96,25 +149,26 @@ def main() -> None:
     (results_dir / "classification_report.txt").write_text(reports["outer"], encoding="utf-8")
     (results_dir / "classification_report_inner.txt").write_text(reports["inner"], encoding="utf-8")
     (results_dir / "classification_report_clause.txt").write_text(reports["clause"], encoding="utf-8")
+    (results_dir / "per_class_metrics.json").write_text(
+        json.dumps(
+            {
+                "columns": per_class_results,
+                "note": "Per-class accuracy is computed one-vs-rest as (TP + TN) / all test tokens.",
+            },
+            indent=2,
+            ensure_ascii=False,
+        ),
+        encoding="utf-8",
+    )
 
-    y_test, y_pred, labels = predictions["outer"]
-    flat_true = flatten(y_test)
-    flat_pred = flatten(y_pred)
-    cm = confusion_matrix(flat_true, flat_pred, labels=labels)
-    fig, ax = plt.subplots(figsize=(12, 10))
-    fig.patch.set_facecolor("white")
-    ax.set_facecolor("white")
-    white_to_green = LinearSegmentedColormap.from_list("white_to_green", ["#ffffff", "#005a32"])
-    disp = ConfusionMatrixDisplay(confusion_matrix=cm, display_labels=labels)
-    disp.plot(ax=ax, cmap=white_to_green, xticks_rotation=45, values_format="d", colorbar=True)
-    for text in disp.text_.ravel():
-        text.set_color("black")
-    if disp.im_.colorbar:
-        disp.im_.colorbar.set_label("Token count")
-    ax.set_title("Chunking Confusion Matrix (Counts)")
-    fig.tight_layout()
-    fig.savefig(results_dir / "confusion_matrix.png", dpi=200)
-    plt.close(fig)
+    confusion_outputs = {
+        "outer": ("confusion_matrix.png", "Outer Chunk Confusion Matrix (Counts)"),
+        "inner": ("confusion_matrix_inner.png", "Inner Chunk Confusion Matrix (Counts)"),
+        "clause": ("confusion_matrix_clause.png", "Clause Confusion Matrix (Counts)"),
+    }
+    for column, (filename, title) in confusion_outputs.items():
+        y_test, y_pred, labels = predictions[column]
+        save_confusion_matrix(y_test, y_pred, labels, results_dir / filename, title)
 
     with open(args.model_out, "wb") as f:
         pickle.dump(models, f)

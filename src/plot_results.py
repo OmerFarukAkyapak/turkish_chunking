@@ -15,30 +15,6 @@ METRIC_KEYS = ["accuracy", "weighted_precision", "weighted_recall", "weighted_f1
 METRIC_LABELS = ["Accuracy", "Precision", "Recall", "F1-score"]
 
 
-def parse_classification_report(path: Path) -> list[dict]:
-    rows = []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        parts = line.split()
-        if len(parts) != 5:
-            continue
-        label = parts[0]
-        if label in {"accuracy", "macro", "weighted"}:
-            continue
-        try:
-            rows.append(
-                {
-                    "label": label,
-                    "precision": float(parts[1]),
-                    "recall": float(parts[2]),
-                    "f1": float(parts[3]),
-                    "support": int(parts[4]),
-                }
-            )
-        except ValueError:
-            continue
-    return rows
-
-
 def style_axes(ax, title: str, ylabel: str = "Score") -> None:
     ax.set_title(title, fontsize=13, pad=12)
     ax.set_ylabel(ylabel)
@@ -49,22 +25,25 @@ def style_axes(ax, title: str, ylabel: str = "Score") -> None:
 
 
 def save_per_class_metrics(results_dir: Path) -> None:
-    rows = parse_classification_report(results_dir / "classification_report.txt")
+    data = json.loads((results_dir / "per_class_metrics.json").read_text(encoding="utf-8"))
+    rows = data["columns"]["outer"]
     labels = [row["label"] for row in rows]
     precision = [row["precision"] for row in rows]
     recall = [row["recall"] for row in rows]
     f1 = [row["f1"] for row in rows]
+    accuracy = [row["accuracy"] for row in rows]
 
     x = np.arange(len(labels))
-    width = 0.24
+    width = 0.2
 
     fig, ax = plt.subplots(figsize=(12, 6.5))
     fig.patch.set_facecolor("white")
-    ax.bar(x - width, precision, width, label="Precision", color="#2f6f9f")
-    ax.bar(x, recall, width, label="Recall", color="#d08c2f")
-    ax.bar(x + width, f1, width, label="F1-score", color="#4f8f5f")
+    ax.bar(x - 1.5 * width, precision, width, label="Precision", color="#2f6f9f")
+    ax.bar(x - 0.5 * width, recall, width, label="Recall", color="#d08c2f")
+    ax.bar(x + 0.5 * width, f1, width, label="F1-score", color="#4f8f5f")
+    ax.bar(x + 1.5 * width, accuracy, width, label="Accuracy", color="#8b5c9e")
 
-    style_axes(ax, "Per-Class Chunking Metrics")
+    style_axes(ax, "Per-Class Outer Chunk Metrics")
     ax.set_xticks(x)
     ax.set_xticklabels(labels, rotation=35, ha="right")
     ax.legend(loc="lower right", frameon=False)
